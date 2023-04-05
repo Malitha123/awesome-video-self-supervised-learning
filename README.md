@@ -47,8 +47,6 @@ Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ro
  Jinpeng Wang, Yuting Gao, Ke Li, Jianguo Hu, Xinyang Jiang, Xiaowei Guo, Rongrong Ji, Xing Sun<br>
 [[Paper]](https://arxiv.org/pdf/2009.05757.pdf)  [[Github]](https://github.com/FingerRec/DSM-decoupling-scene-motion)
 
-Wang, J., Jiao, J., Bao, L., He, S., Liu, W., & Liu, Y. H. . . .
-
 
  - **Self-supervised video representation learning by uncovering spatio-temporal statistics**  (2021) <br>
 *IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(7), 3791-3806* <br>
@@ -67,17 +65,17 @@ Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Wei Liu, Yun-hui Liu <br>
 Ting Yao, Yiheng Zhang, Zhaofan Qiu, Yingwei Pan, Tao Mei <br>
 [[Paper]](https://arxiv.org/pdf/2008.00975.pdf)  [[Github]](https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning) 
 
+  
+- **Enhancing self-supervised video representation learning via multi-level feature optimization** (2021) <br>
+*In Proceedings of the IEEE/CVF international conference on computer vision (pp. 7990-8001)* <br>
+Rui Qian, Yuxi Li, Huabin Liu, John See, Shuangrui Ding, Xian Liu, Dian Li, Weiyao Lin <br>
+[[Paper]](https://arxiv.org/pdf/2108.02183.pdf)  [[Github]](https://github.com/shvdiwnkozbw/Video-Representation-via-Multi-level-Optimization) 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
 
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+- **Rspnet: Relative speed perception for unsupervised video representation learning** (2021, May)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 2, pp. 1045-1053)* <br>
+ Peihao Chen, Deng Huang, Dongliang He, Xiang Long, Runhao Zeng, Shilei Wen, Mingkui Tan, Chuang Gan <br>
+[[Paper]](https://arxiv.org/pdf/2011.07949.pdf)  [[Github]](https://github.com/PeihaoChen/RSPNet) 
 
 
 
@@ -134,6 +132,24 @@ Pavel Tokmakov, Martial Hebert, Cordelia Schmid <br>
 [[Paper]](https://arxiv.org/pdf/2007.10730.pdf)  [[Github]](https://github.com/sjenni/temporal-ssl)
 
 
+- **Video playback rate perception for self-supervised spatio-temporal representation learning** (2020)  <br>
+*In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 6548-6557)* <br>
+  Yuan Yao, Chang Liu, Dezhao Luo, Yu Zhou, Qixiang Ye <br>
+[[Paper]](https://arxiv.org/pdf/2006.11476.pdf)  [[Github]](https://github.com/yuanyao366/PRP) 
+
+  
+- **Self-supervised co-training for video representation learning** (2020)  <br>
+*Advances in Neural Information Processing Systems, 33, 5679-5690* <br>
+Tengda Han, Weidi Xie, Andrew Zisserman <br>
+[[Paper]](https://www.robots.ox.ac.uk/~vgg/publications/2020/Han20b/han20b.pdf)  [[Github]](https://github.com/TengdaHan/CoCLR)
+
+
+- **Video cloze procedure for self-supervised spatio-temporal learning** (2020, April) <br>
+*In Proceedings of the AAAI conference on artificial intelligence (Vol. 34, No. 07, pp. 11701-11708)* <br>
+Dezhao Luo, Chang Liu, Yu Zhou, Dongbao Yang, Can Ma, Qixiang Ye, Weiping Wang <br>
+[[Paper]](https://arxiv.org/pdf/2001.00294.pdf)  [[Github]](https://github.com/BestJuly/VCP)
+
+
 - ****   <br>
 ** <br>
    <br>
@@ -143,7 +159,13 @@ Pavel Tokmakov, Martial Hebert, Cordelia Schmid <br>
 - ****   <br>
 ** <br>
    <br>
-[[Paper]]()  [[Github]]()
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
 
 
 - ****   <br>
@@ -165,6 +187,14 @@ Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Yunhui Liu, Wei Liu<br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), Seoul, Korea (South), 2019 pp. 1483-1492* <br>
 Tengda Han, Weidi Xie, Andrew Zisserman <br>
 [[Paper]](https://arxiv.org/pdf/1909.04656.pdf)  [[Github]](https://github.com/TengdaHan/DPC)
+
+
+- **Self-supervised spatiotemporal learning via video clip order prediction** (2019) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 10334-10343)* <br>
+Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
+[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.pdf)  
+[[Github]](https://github.com/xudejing/video-clip-order-prediction) 
+
 
 
 # 2018
