@@ -47,16 +47,42 @@ Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ro
  Jinpeng Wang, Yuting Gao, Ke Li, Jianguo Hu, Xinyang Jiang, Xiaowei Guo, Rongrong Ji, Xing Sun<br>
 [[Paper]](https://arxiv.org/pdf/2009.05757.pdf)  [[Github]](https://github.com/FingerRec/DSM-decoupling-scene-motion)
 
-<!--
+Wang, J., Jiao, J., Bao, L., He, S., Liu, W., & Liu, Y. H. . . .
 
- - ****   <br>
+
+ - **Self-supervised video representation learning by uncovering spatio-temporal statistics**  (2021) <br>
+*IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(7), 3791-3806* <br>
+Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Wei Liu, Yun-hui Liu <br>
+[[Paper]](https://arxiv.org/pdf/2008.13426.pdf)  [[Github]](https://github.com/laura-wang/video_repres_sts)
+
+
+- **Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning** (2022, June)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3300-3308)* <br>
+   Manlin Zhang, Jinpeng Wang, Andy J. Ma <br>
+[[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
+
+
+- **Seco: Exploring sequence supervision for unsupervised representation learning** (2021, May)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 12, pp. 10656-10664)* <br>
+Ting Yao, Yiheng Zhang, Zhaofan Qiu, Yingwei Pan, Tao Mei <br>
+[[Paper]](https://arxiv.org/pdf/2008.00975.pdf)  [[Github]](https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning) 
+
+
+- ****   <br>
 ** <br>
    <br>
-[[Paper]]()  [[Github]]()
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
 
 
 
--->
+
+
 
 # 2020
 
@@ -77,19 +103,54 @@ Ceyuan Yang, Yinghao Xu, Bo Dai, Bolei Zhou <br>
 Jinpeng Wang, Yiqi Lin, Andy J. Ma,Pong C. Yuen <br>
 [[Paper]](https://arxiv.org/pdf/2008.02129.pdf)  [[Github]](https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition)
 
-<!--
+   
+ - **Self-supervised learning by cross-modal audio-video clustering**  (2020) <br>
+*Advances in Neural Information Processing Systems, 33, 9758-9770* <br>
+Humam Alwassel, Dhruv Mahajan, Bruno Korbar ,Lorenzo Torresani, Bernard Ghanem, Du Tran  <br>
+[[Paper]](https://arxiv.org/pdf/1911.12667.pdf)  [[Github]](https://github.com/HumamAlwassel/XDC)
 
- - ****   <br>
+   
+ - **Self-supervised video representation learning by pace prediction** (2020)  <br>
+*In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020* <br>
+Jiangliu Wang, Jianbo Jiao, Yun-Hui Liu <br>
+[[Paper]](https://www.robots.ox.ac.uk/~vgg/publications/2020/Wang20/wang20.pdf)  [[Github]](https://github.com/laura-wang/video-pace)
+
+  
+ - **Unsupervised learning from video with deep neural embeddings** (2020) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9563-9572)* <br>
+  Chengxu Zhuang, Tianwei She, Alex Andonian, Max Sobol Mark, Daniel Yamins <br>
+[[Paper]](https://arxiv.org/pdf/1905.11954.pdf)  [[Github]](https://github.com/neuroailab/VIE)
+
+
+- **Unsupervised learning of video representations via dense trajectory clustering** (2020) <br>
+*In Computer Vision–ECCV 2020 Workshops: Glasgow, UK, August 23–28, 2020* <br>
+Pavel Tokmakov, Martial Hebert, Cordelia Schmid <br>
+[[Paper]](https://arxiv.org/pdf/2006.15731.pdf)  [[Github]](https://github.com/pvtokmakov/video_cluster)
+
+
+- **Video representation learning by recognizing temporal transformations** (2020)  <br>
+*In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020* <br>
+  Simon Jenni, Givi Meishvili, Paolo Favaro <br>
+[[Paper]](https://arxiv.org/pdf/2007.10730.pdf)  [[Github]](https://github.com/sjenni/temporal-ssl)
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
 ** <br>
    <br>
 [[Paper]]()  [[Github]]()
 
- - ****   <br>
+
+- ****   <br>
 ** <br>
    <br>
-[[Paper]]()  [[Github]]()
+[[Paper]]()  [[Github]]() 
 
--->
 
 # 2019
 
@@ -99,15 +160,12 @@ Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Yunhui Liu, Wei Liu<br>
 [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Self-Supervised_Spatio-Temporal_Representation_Learning_for_Videos_by_Predicting_Motion_and_CVPR_2019_paper.pdf)
 [[Github]](https://github.com/laura-wang/video_repres_mas)
 
-<!--
 
- - ****   <br>
-** <br>
-   <br>
-[[Paper]]()
-[[Github]]()
+ - **Video representation learning by dense predictive coding** (2019)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), Seoul, Korea (South), 2019 pp. 1483-1492* <br>
+Tengda Han, Weidi Xie, Andrew Zisserman <br>
+[[Paper]](https://arxiv.org/pdf/1909.04656.pdf)  [[Github]](https://github.com/TengdaHan/DPC)
 
--->
 
 # 2018
 
