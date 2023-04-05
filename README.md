@@ -22,6 +22,24 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 [[Paper]](https://arxiv.org/pdf/2203.15205.pdf) [[Github]](https://github.com/DAVEISHAN/SPAct)
 
 
+- **Self-supervised Video Representation Learning with Motion-Aware Masked Autoencoders** (2022) <br>
+*arXiv preprint arXiv:2210.04154* <br>
+ Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan <br>
+[[Paper]](https://arxiv.org/pdf/2210.04154v1.pdf)  [[Github]](https://github.com/happy-hsy/MotionMAE) 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
 # 2021
 
 - **Audio-visual instance discrimination with cross-modal agreement** (2021) <br>
@@ -75,7 +93,90 @@ Rui Qian, Yuxi Li, Huabin Liu, John See, Shuangrui Ding, Xian Liu, Dian Li, Weiy
 - **Rspnet: Relative speed perception for unsupervised video representation learning** (2021, May)  <br>
 *In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 2, pp. 1045-1053)* <br>
  Peihao Chen, Deng Huang, Dongliang He, Xiang Long, Runhao Zeng, Shilei Wen, Mingkui Tan, Chuang Gan <br>
-[[Paper]](https://arxiv.org/pdf/2011.07949.pdf)  [[Github]](https://github.com/PeihaoChen/RSPNet) 
+[[Paper]](https://arxiv.org/pdf/2011.07949.pdf)  [[Github]](https://github.com/PeihaoChen/RSPNet)
+
+  
+- **Videomoco: Contrastive video representation learning with temporally adversarial examples**  (2021) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11205-11214)* <br>
+ Tian Pan, Yibing Song, Tianyu Yang, Wenhao Jiang, Wei Liu <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_VideoMoCo_Contrastive_Video_Representation_Learning_With_Temporally_Adversarial_Examples_CVPR_2021_paper.pdf)  [[Github]](https://github.com/tinapan-pt/VideoMoCo) 
+
+
+- **On compositions of transformations in contrastive self-supervised learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9577-9587)* <br>
+ Mandela Patrick, Yuki M. Asano, Polina Kuznetsova, Ruth Fong, João F. Henriques, Geoffrey Zweig, Andrea Vedaldi <br>
+[[Paper]](https://arxiv.org/pdf/2003.04298.pdf)  [[Github]](https://github.com/facebookresearch/GDT) 
+
+
+- **Unsupervised visual representation learning by tracking patches in video** (2021)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2563-2572)* <br>
+- Guangting Wang, Yizhou Zhou, Chong Luo, Wenxuan Xie, Wenjun Zeng,  Zhiwei Xiong <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Unsupervised_Visual_Representation_Learning_by_Tracking_Patches_in_Video_CVPR_2021_paper.pdf) 
+[[Github]](https://github.com/microsoft/CtP) 
+
+
+- **A large-scale study on unsupervised spatiotemporal representation learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3299-3309)* <br>
+ Christoph Feichtenhofer, Haoqi Fan, Bo Xiong, Ross Girshick, Kaiming He <br>
+[[Paper]](https://arxiv.org/pdf/2104.14558.pdf)  [[Github]](https://github.com/facebookresearch/SlowFast)
+
+
+- **Cocon: Cooperative-contrastive learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3384-3393)* <br>
+Nishant Rai, Ehsan Adeli ,Kuan-Hui Lee, Adrien Gaidon, Juan Carlos Niebles <br>
+[[Paper]](https://arxiv.org/pdf/2104.14764.pdf)  [[Github]](http://github.com/nishantrai18/CoCon) 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
 
 
 
@@ -150,22 +251,22 @@ Dezhao Luo, Chang Liu, Yu Zhou, Dongbao Yang, Can Ma, Qixiang Ye, Weiping Wang <
 [[Paper]](https://arxiv.org/pdf/2001.00294.pdf)  [[Github]](https://github.com/BestJuly/VCP)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+- **End-to-end learning of visual representations from uncurated instructional videos** (2020)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9879-9889)* <br>
+ Antoine Miech, Jean-Baptiste Alayrac, Lucas Smaira,Ivan Laptev, Josef Sivic, Andrew Zisserman <br>
+[[Paper]](https://arxiv.org/pdf/1912.06430.pdf)  [[Github]](https://github.com/antoine77340/MIL-NCE_HowTo100M) 
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+- **Speednet: Learning the speediness in videos** (2020)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9922-9931)* <br>
+ Sagie Benaim, Ariel Ephrat, Oran Lang, Inbar Mosseri, William T. Freeman, Michael Rubinstein, Michal Irani, Tali Dekel <br>
+[[Paper]](https://arxiv.org/pdf/2004.06130.pdf)  [[Github]](http://speednet-cvpr20.github.io/) 
 
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+  
+- **Contrastive multiview coding** (2020)  <br>
+*In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XI 16 (pp. 776-794)* <br>
+ Yonglong Tian, Dilip Krishnan, Phillip Isola <br>
+[[Paper]](https://arxiv.org/pdf/1906.05849.pdf)  [[Github]](http://github.com/HobbitLong/CMC/) 
 
 
 - ****   <br>
@@ -193,7 +294,19 @@ Tengda Han, Weidi Xie, Andrew Zisserman <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 10334-10343)* <br>
 Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
 [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.pdf)  
-[[Github]](https://github.com/xudejing/video-clip-order-prediction) 
+[[Github]](https://github.com/xudejing/video-clip-order-prediction)
+
+  
+- **Video jigsaw: Unsupervised learning of spatiotemporal context for video action recognition** (2019, January) <br>
+*In 2019 IEEE Winter Conference on Applications of Computer Vision (WACV) (pp. 179-189)* <br>
+ Unaiza Ahsan, Rishi Madhok, Irfan Essa <br>
+[[Paper]](https://arxiv.org/pdf/1808.07507.pdf)
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
 
 
 
@@ -204,6 +317,30 @@ Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
 *Advances in Neural Information Processing Systems, 31* <br>
 Bruno Korbar, Du Tran, Lorenzo Torresani <br>
 [[Paper]](https://proceedings.neurips.cc/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf)
+
+
+- **Geometry guided convolutional neural networks for self-supervised video representation learning**   <br>
+*In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 5589-5597)* <br>
+ Chuang Gan, Boqing Gong, Kun Liu, Hao Su, Leonidas J. Guibas <br>
+[[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Gan_Geometry_Guided_Convolutional_CVPR_2018_paper.pdf)
+
+
+- **Self-supervised spatiotemporal feature learning via video rotation prediction** (2018)  <br>
+*arXiv preprint arXiv:1811.11387* <br>
+ Longlong Jing, Xiaodong Yang, Jinggen Liu, Yingli Tian <br>
+[[Paper]](https://arxiv.org/pdf/1811.11387.pdf)  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
 
  
 # 2017
