@@ -88,10 +88,22 @@ Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue W
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.pdf)  [[Github]](https://github.com/Mark12Ding/FAME)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Video: Masked Motion Modeling for Self-Supervised Video Representation Learning** (2022)  <br>
+*arXiv preprint arXiv:2210.06096* <br>
+Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br>
+[[Paper]](https://arxiv.org/pdf/2210.06096.pdf)
+
+
+- **Self-Supervised Video Representation Learning with Motion-Contrastive Perception** (2022, July)  <br>
+*In 2022 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1-6). IEEE* <br>
+Jinyu Liu, Ying Cheng, Yuejie Zhang, Rui-Wei Zhao, Rui Feng <br>
+[[Paper]](2204.04607.pdf (arxiv.org))
+
+
+- **Self-supervised video representation learning using improved instance-wise contrastive learning and deep clustering** (2022)  <br>
+*IEEE Transactions on Circuits and Systems for Video Technology, 32(10), 6741-6752* <br>
+Yisheng Zhu, Hui Shuai, Guangcan Liu, Senior Member, Qingshan Liu <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761901)
 
 
 - ****   <br>
@@ -100,19 +112,6 @@ Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue W
 [[Paper]]()  [[Github]]()
 
 
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
-
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
-
-
 - ****   <br>
 ** <br>
    <br>
@@ -122,10 +121,7 @@ Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue W
 
 
 
-
-
-
-
+  
 # 2021
 
 - **Audio-visual instance discrimination with cross-modal agreement** (2021) <br>
@@ -156,8 +152,6 @@ Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ro
 *IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(7), 3791-3806* <br>
 Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Wei Liu, Yun-hui Liu <br>
 [[Paper]](https://arxiv.org/pdf/2008.13426.pdf)  [[Github]](https://github.com/laura-wang/video_repres_sts)
-
-
 
 
 - **Seco: Exploring sequence supervision for unsupervised representation learning** (2021, May)  <br>
@@ -209,62 +203,96 @@ Nishant Rai, Ehsan Adeli ,Kuan-Hui Lee, Adrien Gaidon, Juan Carlos Niebles <br>
 [[Paper]](https://arxiv.org/pdf/2104.14764.pdf)  [[Github]](http://github.com/nishantrai18/CoCon) 
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Ascnet: Self-supervised video representation learning with appearance-speed consistency** (2021) <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8096-8105)* <br>
+Deng Huang, Wenhao Wu, Weiwen Hu, Xu Liu, Dongliang He, Zhihua Wu, Xiangmiao Wu, Mingkui Tan, Errui Ding <br>
+[[Paper]](https://arxiv.org/pdf/2106.02342.pdf)
+
+
+- **Self-supervised visual learning by variable playback speeds prediction of a video** (2021)  <br>
+*IEEE Access, 79562-79571* <br>
+Hyeon Cho, Taehoon Kim, Hyungjin Chang, Wonjun Hwang <br>
+[[Paper]](https://arxiv.org/pdf/2003.02692.pdf)  [[Github]](https://github.com/hyeon-jo/PSPNet) 
+
+
+- **Self-supervised video representation learning with meta-contrastive network** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8239-8249)* <br>
+Yuanze Lin, Xun Guo, Yan Lu <br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Self-Supervised_Video_Representation_Learning_With_Meta-Contrastive_Network_ICCV_2021_paper.pdf)
+
+ 
+- **Self-Supervised Video Representation Learning by Video Incoherence Detection** (2021)  <br>
+*arXiv preprint arXiv:2109.12493* <br>
+Haozhi Cao, Yuecong Xu, Jianfei Yang, Kezhi Mao, Lihua Xie, Jianxiong Yin, Simon See <br>
+[[Paper]](https://arxiv.org/pdf/2109.12493.pdf)
+
+
+- **Long short view feature decomposition via contrastive video representation learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9244-9253)* <br>
+Nadine Behrmann, Mohsen Fayyaz, Juergen Gall, Mehdi Noroozi <br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Behrmann_Long_Short_View_Feature_Decomposition_via_Contrastive_Video_Representation_Learning_ICCV_2021_paper.pdf)
+
+
+- **Time-equivariant contrastive video representation learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 9970-9980)* <br>
+Simon Jenni, Hailin Jin <br>
+[[Paper]](https://arxiv.org/pdf/2112.03624.pdf)
+
+
+- **Self-supervised video representation learning by context and motion decoupling** (2021)  <br>
+*Self-supervised video representation learning by context and motion decoupling* <br>
+Lianghua Huang, Yu Liu, Bin Wang, Pan Pan, Yinghui Xu, Rong Jin <br>
+[[Paper]](https://arxiv.org/pdf/2104.00862.pdf)
+
+
+- **Unsupervised video representation learning by bidirectional feature prediction** (2021)  <br>
+*Unsupervised video representation learning by bidirectional feature prediction* <br>
+Nadine Behrmann, Juergen Gall, Mehdi Noroozi <br>
+[[Paper]](https://arxiv.org/pdf/2011.06037.pdf)
+
+
+- **Self-supervised learning of compressed video representations** (2021) <br>
+*In International Conference on Learning Representation* <br>
+Youngjae Yu, Sangho Lee, Gunhee Kim, Yale Song<br>
+[[Paper]](https://openreview.net/pdf?id=jMPcEkJpdD)
 
 
 - ****   <br>
 ** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]() 
 
 
 - ****   <br>
 ** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]()
+
 
 - ****   <br>
 ** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]() 
 
 
 - ****   <br>
 ** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]()
-
 
 - ****   <br>
 ** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]() 
 
 
 - ****   <br>
 ** <br>
-   <br>
-[[Paper]]()  [[Github]]()
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
-
-
-- ****   <br>
-** <br>
-   <br>
+<br>
 [[Paper]]()  [[Github]]()
 
 
-
-
-
-
+  
 # 2020
 
  - **Self-supervised video representation learning using inter-intra contrastive framework** (2020, October)<br>
@@ -375,7 +403,7 @@ Tengda Han, Weidi Xie, Andrew Zisserman <br>
 - **Self-supervised spatiotemporal learning via video clip order prediction** (2019) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 10334-10343)* <br>
 Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
-[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.pdf)  
+[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.pdf)
 [[Github]](https://github.com/xudejing/video-clip-order-prediction)
 
   
@@ -383,9 +411,6 @@ Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
 *In 2019 IEEE Winter Conference on Applications of Computer Vision (WACV) (pp. 179-189)* <br>
  Unaiza Ahsan, Rishi Madhok, Irfan Essa <br>
 [[Paper]](https://arxiv.org/pdf/1808.07507.pdf)
-
-
-Kim, D., Cho, D., & Kweon, I. S. . . .
 
 
 - **Self-supervised video representation learning with space-time cubic puzzles** (2019, July)  <br>
@@ -416,17 +441,17 @@ Bruno Korbar, Du Tran, Lorenzo Torresani <br>
 [[Paper]](https://arxiv.org/pdf/1811.11387.pdf)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Audio-visual scene analysis with self-supervised multisensory features** (2018)  <br>
+*In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 631-648)* <br>
+Andrew Owens, Alexei A. Efros <br>
+[[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Andrew_Owens_Audio-Visual_Scene_Analysis_ECCV_2018_paper.pdf)
+[[Github]](https://github.com/andrewowens/multisensory)
 
 
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+- **Compressed video action recognition** (2018)  <br>
+*In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 6026-6035)* <br>
+ Chao-Yuan Wu, Manzil Zaheer, Hexiang Hu, R. Manmatha, Alexander J. Smola, Philipp Krahenb <br>
+[[Paper]](https://arxiv.org/pdf/1712.00636.pdf)
 
 
 - ****   <br>
@@ -441,6 +466,13 @@ Bruno Korbar, Du Tran, Lorenzo Torresani <br>
 *In Proceedings of the IEEE international conference on computer vision (pp. 667-676)* <br>
  Hsin-Ying Lee, Jia-Bin Huang, Maneesh Singh, Ming-Hsuan Yang <br>
 [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Unsupervised_Representation_Learning_ICCV_2017_paper.pdf)
+
+
+- **Self-supervised video representation learning with odd-one-out networks** (2017)  <br>
+*In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3636-3645)* <br>
+Basura Fernando, Hakan Bilen, Efstratios Gavves, Stephen Gould <br>
+[[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fernando_Self-Supervised_Video_Representation_CVPR_2017_paper.pdf)
+
 
 # 2016
 
