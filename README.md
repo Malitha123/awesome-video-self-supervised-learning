@@ -27,11 +27,67 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
  Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan <br>
 [[Paper]](https://arxiv.org/pdf/2210.04154v1.pdf)  [[Github]](https://github.com/happy-hsy/MotionMAE) 
 
+
 - **Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning** (2022, June)  <br>
 *In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3300-3308)* <br>
    Manlin Zhang, Jinpeng Wang, Andy J. Ma <br>
 [[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
 
+  
+- **Self-supervised video transformer** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2874-2884)* <br>
+Kanchana Ranasinghe, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan, Michael S. Ryoo<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.pdf)  [[Github]](https://git.io/J1juJ)
+
+
+- **Exploring relations in untrimmed videos for self-supervised learning** (2022) <br>
+*ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM),18(1s), 1-21* <br>
+Dezhao Luo, Bo Fang, Yu Zhou, Yucan Zhou, Dayan Wu, Weiping Wang <br>
+[[Paper]](https://arxiv.org/pdf/2008.02711)
+
+
+- **Mamico: Macro-to-micro semantic correspondence for self-supervised video representation learning** (2022, October)  <br>
+*In Proceedings of the 30th ACM International Conference on Multimedia (pp. 1348-1357)* <br>
+Bo Fang, Wenhao Wu, Chang Liu, Yu Zhou, Dongliang He, Weiping Wang <br>
+[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3503161.3547888)
+
+  
+- **Tcgl: Temporal contrastive graph for self-supervised video representation learning** (2022)  <br>
+*IEEE Transactions on Image Processing, 31, 1978-1993* <br>
+Yang Liu , Keze Wang , Lingbo Liu , Haoyuan Lan, and Liang Lin <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9713748)  [[Github]](https://github.com/YangLiu9208/TCGL)
+
+
+- **Cross-architecture self-supervised video representation learning** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 19270-19279)* <br>
+Sheng Guo, Zihua Xiong, Yujie Zhong, Limin Wang, Xiaobo Guo, Bing Han, Weilin Huang <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Cross-Architecture_Self-Supervised_Video_Representation_Learning_CVPR_2022_paper.pdf)
+
+  
+- **Contrastive spatio-temporal pretext learning for self-supervised video representation** (2022, June)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3380-3389)* <br>
+Yujia Zhang, Lai-Man Po, Xuyuan Xu, Mengyang Liu, Yexin Wang, Weifeng Ou, Yuzhi Zhao, Wing-Yin Yu <br>
+[[Paper]](https://arxiv.org/abs/2112.08913)  [[Github]](https://github.com/KT27-A/CSTP)
+
+
+- **Transrank: Self-supervised video representation learning via ranking-based transformation recognition** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3000-3010)* <br>
+Haodong Duan, Nanxuan Zhao, Kai Chen, Dahua Lin <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Duan_TransRank_Self-Supervised_Video_Representation_Learning_via_Ranking-Based_Transformation_Recognition_CVPR_2022_paper.pdf)  [[Github]](https://github.com/kennymckormick/TransRank)
+
+
+- **Learning from untrimmed videos: Self-supervised video representation learning with hierarchical consistency** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 13821-13831)* <br>
+Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Yi Xu, Xiang Wang, Mingqian Tang, Changxin Gao, Rong Jin,Nong Sang <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Qing_Learning_From_Untrimmed_Videos_Self-Supervised_Video_Representation_Learning_With_Hierarchical_CVPR_2022_paper.pdf)  [[Github]](https://hico-cvpr2022.github.io/)
+
+
+- **Motion-aware contrastive video representation learning via foreground-background merging** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9716-9726)* <br>
+Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue Wang, Hongkai Xiong <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.pdf)  [[Github]](https://github.com/Mark12Ding/FAME)
+
+
 - ****   <br>
 ** <br>
    <br>
@@ -42,6 +98,32 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 ** <br>
    <br>
 [[Paper]]()  [[Github]]()
+
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
+
+
+
+
+
+
 
 
 # 2021
@@ -269,10 +351,10 @@ Dezhao Luo, Chang Liu, Yu Zhou, Dongbao Yang, Can Ma, Qixiang Ye, Weiping Wang <
 [[Paper]](https://arxiv.org/pdf/1906.05849.pdf)  [[Github]](http://github.com/HobbitLong/CMC/) 
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+- **Self-supervised video representation learning by maximizing mutual information** (2020)  <br>
+*Signal processing: Image communication, 88, 115967* <br>
+Fei Xue, Hongbing Ji, Wenbo Zhang, Yi Cao<br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0923596520301417)
 
 
 # 2019
@@ -303,10 +385,13 @@ Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
 [[Paper]](https://arxiv.org/pdf/1808.07507.pdf)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
+Kim, D., Cho, D., & Kweon, I. S. . . .
+
+
+- **Self-supervised video representation learning with space-time cubic puzzles** (2019, July)  <br>
+*In Proceedings of the AAAI conference on artificial intelligence (Vol. 33, No. 01, pp. 8545-8552)* <br>
+Dahun Kim, Donghyeon Cho, In So Kweon <br>
+[[Paper]](https://arxiv.org/pdf/1811.09795v1.pdf)
 
 
 
@@ -328,7 +413,14 @@ Bruno Korbar, Du Tran, Lorenzo Torresani <br>
 - **Self-supervised spatiotemporal feature learning via video rotation prediction** (2018)  <br>
 *arXiv preprint arXiv:1811.11387* <br>
  Longlong Jing, Xiaodong Yang, Jinggen Liu, Yingli Tian <br>
-[[Paper]](https://arxiv.org/pdf/1811.11387.pdf)  [[Github]]() 
+[[Paper]](https://arxiv.org/pdf/1811.11387.pdf)
+
+
+- ****   <br>
+** <br>
+   <br>
+[[Paper]]()  [[Github]]()
+
 
 
 - ****   <br>
