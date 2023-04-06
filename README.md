@@ -27,6 +27,10 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
  Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan <br>
 [[Paper]](https://arxiv.org/pdf/2210.04154v1.pdf)  [[Github]](https://github.com/happy-hsy/MotionMAE) 
 
+- **Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning** (2022, June)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3300-3308)* <br>
+   Manlin Zhang, Jinpeng Wang, Andy J. Ma <br>
+[[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
 
 - ****   <br>
 ** <br>
@@ -72,10 +76,6 @@ Jiangliu Wang, Jianbo Jiao, Linchao Bao, Shengfeng He, Wei Liu, Yun-hui Liu <br>
 [[Paper]](https://arxiv.org/pdf/2008.13426.pdf)  [[Github]](https://github.com/laura-wang/video_repres_sts)
 
 
-- **Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning** (2022, June)  <br>
-*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3300-3308)* <br>
-   Manlin Zhang, Jinpeng Wang, Andy J. Ma <br>
-[[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
 
 
 - **Seco: Exploring sequence supervision for unsupervised representation learning** (2021, May)  <br>
