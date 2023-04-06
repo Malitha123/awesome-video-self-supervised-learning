@@ -97,13 +97,25 @@ Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br
 - **Self-Supervised Video Representation Learning with Motion-Contrastive Perception** (2022, July)  <br>
 *In 2022 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1-6). IEEE* <br>
 Jinyu Liu, Ying Cheng, Yuejie Zhang, Rui-Wei Zhao, Rui Feng <br>
-[[Paper]](2204.04607.pdf (arxiv.org))
+[[Paper]](https://arxiv.org/pdf/2204.04607.pdf)
 
 
 - **Self-supervised video representation learning using improved instance-wise contrastive learning and deep clustering** (2022)  <br>
 *IEEE Transactions on Circuits and Systems for Video Technology, 32(10), 6741-6752* <br>
 Yisheng Zhu, Hui Shuai, Guangcan Liu, Senior Member, Qingshan Liu <br>
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761901)
+
+
+- **Tclr: Temporal contrastive learning for video representation** (2022)  <br>
+*Computer Vision and Image Understanding, 219, 103406* <br>
+Ishan Dave, Rohit Gupta, Mamshad Nayeem Rizve, Mubarak Shah <br>
+[[Paper]](https://arxiv.org/pdf/2101.07974.pdf)  [[Github]](https://github.com/DAVEISHAN/TCLR)
+
+
+- **Self-supervised motion perception for spatiotemporal representation learning** (2022)  <br>
+*IEEE Transactions on Neural Networks and Learning Systems* <br>
+Chang Liu, Yuan Yao, Dezhao Luo, Yu Zhou, Qixiang Ye <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9745754)  [[Github]](https://github.com/yuanyao366/SMP)
 
 
 - ****   <br>
@@ -257,10 +269,43 @@ Youngjae Yu, Sangho Lee, Gunhee Kim, Yale Song<br>
 [[Paper]](https://openreview.net/pdf?id=jMPcEkJpdD)
 
 
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
+- **Spatiotemporal contrastive video representation learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 6964-6974)* <br>
+Rui Qian, Tianjian Meng, Boqing Gong, Ming-Hsuan Yang, Huisheng Wang, Serge Belongie, Yin Cui<br>
+[[Paper]](https://arxiv.org/pdf/2008.03800.pdf)  [[Github]](https://github.com/tensorflow/models/tree/master/official/) 
+
+
+- **Modist: Motion distillation for self-supervised video representation learning** (2021)  <br>
+*arXiv preprint arXiv:2106.09703, 1(2), 4* <br>
+Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
+[[Paper]](http://fanyix.cs.ucdavis.edu/project/modist/files/modist.pdf)
+
+
+- **Broaden your views for self-supervised video learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1255-1265)* <br>
+"Adria Recasens, Pauline Luc, Jean-Baptiste Alayrac, Luyu Wang, Ross Hemsley, Florian Strub, Corentin Tallec, Mateusz Malinowski, Viorica Patraucean, Florent Altche, Michal Valko, Jean-Bastien Grill, Aaron van den Oord, Andrew Zisserman <br>
+[[Paper]](https://arxiv.org/pdf/2103.16559.pdf)  [[Github]](http://github.com/deepmind/brave)
+
+
+- **Vi2clr: Video and image for visual contrastive learning of representation** (2021) <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1502-1512)* <br>
+Ali Diba, Vivek Sharma, Reza Safdari, Dariush Lotfi, M. Saquib Sarfraz,Rainer Stiefelhagen, Luc Van Gool,<br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Diba_Vi2CLR_Video_and_Image_for_Visual_Contrastive_Learning_of_Representation_ICCV_2021_paper.pdf)
+
+
+- **Contrast and order representations for video self-supervised learning** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 7939-7949)* <br>
+Kai Hu, Jie Shao, Yuan Liu, Bhiksha Raj, Marios Savvides, Zhiqiang Shen <br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Hu_Contrast_and_Order_Representations_for_Video_Self-Supervised_Learning_ICCV_2021_paper.pdf)
+
+
+- **Motion-augmented self-training for video recognition at smaller scale** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 10429-10438)* <br>
+Kirill Gavrilyuk, Mihir Jain, Ilia Karmanov, Cees G. M. Snoek <br>
+[[Paper]](https://arxiv.org/pdf/2105.01646.pdf)
+
+
+
 
 
 - ****   <br>
@@ -269,10 +314,12 @@ Youngjae Yu, Sangho Lee, Gunhee Kim, Yale Song<br>
 [[Paper]]()  [[Github]]()
 
 
+
 - ****   <br>
 ** <br>
 <br>
-[[Paper]]()  [[Github]]() 
+[[Paper]]()  [[Github]]()
+
 
 
 - ****   <br>
@@ -280,10 +327,6 @@ Youngjae Yu, Sangho Lee, Gunhee Kim, Yale Song<br>
 <br>
 [[Paper]]()  [[Github]]()
 
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
 
 
 - ****   <br>
@@ -385,6 +428,80 @@ Fei Xue, Hongbing Ji, Wenbo Zhang, Yi Cao<br>
 [[Paper]](https://www.sciencedirect.com/science/article/pii/S0923596520301417)
 
 
+- **Memory-augmented dense predictive coding for video representation learning**  (2020) <br>
+*In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020* <br>
+Tengda Han, Weidi Xie, Andrew Zisserman <br>
+[[Paper]](https://www.robots.ox.ac.uk/~vgg/publications/2020/Han20/han20.pdf)  [[Github]](https://github.com/TengdaHan/MemDPC) 
+
+
+- **Evolving losses for unsupervised video representation learning** (2020)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 133-142)* <br>
+AJ Piergiovanni, Anelia Angelova, Michael S. Ryoo <br>
+[[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Piergiovanni_Evolving_Losses_for_Unsupervised_Video_Representation_Learning_CVPR_2020_paper.pdf)
+
+
+- **Audiovisual slowfast networks for video recognition** (2020) <br>
+*arXiv preprint arXiv:2001.08740* <br>
+Fanyi Xiao, Yong Jae Lee, Kristen Grauman, Jitendra Malik, Christoph Feichtenhofer <br>
+[[Paper]](https://arxiv.org/pdf/2001.08740.pdf)  [[Github]](https://github.com/facebookresearch/SlowFast)
+
+
+- **Cycle-contrast for self-supervised video representation learning** (2020)  <br>
+*Advances in Neural Information Processing Systems, 33, 8089-8100* <br>
+Quan Kong, Wenpeng Wei, Ziwei Deng, Tomoaki Yoshinaga, Tomokazu Murakami<br>
+[[Paper]](https://arxiv.org/pdf/2010.14810.pdf)
+
+
+- **Can temporal information help with contrastive self-supervised learning?** (2020) <br>
+*arXiv preprint arXiv:2011.13046* <br>
+Yutong Bai, Haoqi Fan, Ishan Misra, Ganesh Venkatesh, Yongyi Lu <br>
+[[Paper]](https://arxiv.org/pdf/2011.13046.pdf)
+
+
+- **Self-supervised multimodal versatile networks** (2020) <br>
+*Advances in Neural Information Processing Systems, 33, 25-37* <br>
+Jean-Baptiste Alayrac, Adrià Recasens, Rosalia Schneider, Relja Arandjelovic, Jason Ramapuram, Jeffrey De Fauw, Lucas Smaira Sander Dieleman, Andrew Zisserman <br>
+[[Paper]](https://arxiv.org/pdf/2006.16228.pdf)
+
+
+- **Watching the world go by: Representation learning from unlabeled videos** (2020)  <br>
+*arXiv preprint arXiv:2003.07990* <br>
+Daniel Gordon, Kiana Ehsani, Dieter Fox, Ali Farhadi <br>
+[[Paper]](https://arxiv.org/pdf/2003.07990.pdf)
+
+
+
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
+
+
+
 # 2019
 
  - **Self-supervised spatio-temporal representation learning for videos by predicting motion and appearance statistics** (2019)  <br>
@@ -417,6 +534,46 @@ Dejing Xu, Jun Xiao, Zhou Zhao, Jian Shao, Di Xie, Yueting Zhuang <br>
 *In Proceedings of the AAAI conference on artificial intelligence (Vol. 33, No. 01, pp. 8545-8552)* <br>
 Dahun Kim, Donghyeon Cho, In So Kweon <br>
 [[Paper]](https://arxiv.org/pdf/1811.09795v1.pdf)
+
+
+- **Learning video representations using contrastive bidirectional transformer** (2019)  <br>
+*arXiv preprint arXiv:1906.05743* <br>
+Chen Sun, Fabien Baradel, Kevin Murphy, Cordelia Schmid <br>
+[[Paper]](https://arxiv.org/pdf/1906.05743.pdf)
+
+
+- **Dynamonet: Dynamic action and motion network** (2019)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 6192-6201)* <br>
+Ali Diba, Vivek Sharma, Luc Van Gool, Rainer Stiefelhagen<br>
+[[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Diba_DynamoNet_Dynamic_Action_and_Motion_Network_ICCV_2019_paper.pdf)
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]() 
+
+
+- ****   <br>
+** <br>
+<br>
+[[Paper]]()  [[Github]]()
 
 
 
@@ -454,10 +611,10 @@ Andrew Owens, Alexei A. Efros <br>
 [[Paper]](https://arxiv.org/pdf/1712.00636.pdf)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Improving spatiotemporal self-supervision by deep reinforcement learning** (2018)  <br>
+*In Proceedings of the European conference on computer vision (ECCV) (pp. 770-786)* <br>
+Uta Buchler, Biagio Brattoli, Bjorn Ommer <br>
+[[Paper]](https://arxiv.org/pdf/1807.11293.pdf)
 
  
 # 2017
