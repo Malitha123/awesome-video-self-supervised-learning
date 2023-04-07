@@ -5,13 +5,13 @@ This repository contains a collection of state-of-the-art self-supervised learni
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 ### Publication Years
-- [2022](#2022)
-- [2021](#2021)
-- [2020](#2020)
-- [2019](#2019)
-- [2018](#2018)
-- [2017](#2017)
-- [2016](#2016)
+- [2022 (29 Papers)](#2022)
+- [2021 (33 Papers)](#2021)
+- [2020 (23 Papers)](#2020)
+- [2019 (7 Papers)](#2019) 
+- [2018 (8 Papers)](#2018)
+- [2017 (2 Papers)](#2017)
+- [2016 (1 Paper)](#2016)
 
 # 2022
 
@@ -118,23 +118,81 @@ Chang Liu, Yuan Yao, Dezhao Luo, Yu Zhou, Qixiang Ye <br>
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9745754)  [[Github]](https://github.com/yuanyao366/SMP)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Self-supervised spatiotemporal representation learning by exploiting video continuity** (2022, June)  <br>
+*In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 2, pp. 1564-1573)* <br>
+Hanwen Liang, Niamul Quader, Zhixiang Chi, Lizhe Chen, Peng Dai, Juwei Lu, Yang Wang <br>
+[[Paper]](https://arxiv.org/pdf/2112.05883.pdf)
 
 
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]()
+- **Similarity Contrastive Estimation for Image and Video Soft Contrastive Self-Supervised Learning** (2022)  <br>
+*arXiv preprint arXiv:2212.11187* <br>
+Julien Denize, Jaonary Rabarisoa, Astrid Orcesi, Romain H´erault <br>
+[[Paper]](https://arxiv.org/pdf/2212.11187v1.pdf)  [[Github]]()
+
+
+- **Probabilistic representations for video contrastive learning** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 14711-14721)* <br>
+Jungin Park, Jiyoung Lee, Ig-Jae Kim, Kwanghoon Sohn <br>
+[[Paper]](https://arxiv.org/pdf/2204.03946.pdf)
+
+
+- **Contextualized spatio-temporal contrastive learning with self-supervision** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 13977-13986)* <br>
+Liangzhe Yuan, Rui Qian, Yin Cui, Boqing Gong,Florian Schroff,Ming-Hsuan Yang, Hartwig Adam, Ting Liu<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_Contextualized_Spatio-Temporal_Contrastive_Learning_With_Self-Supervision_CVPR_2022_paper.pdf)  [[Github]](https://github.com/tensorflow/models/tree/master/official/projects/const_cl)
+
+
+- **Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity** (2022)   <br>
+*arXiv preprint arXiv:2111.05329* <br>
+Pritam Sarkar, Ali Etemad <br>
+[[Paper]](https://arxiv.org/pdf/2111.05329v5.pdf)  [[Github]](https://pritamqu.github.io/CrissCross)
+
+
+- **Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training** (2022)  <br>
+*arXiv preprint arXiv:2203.12602* <br>
+Zhan Tong, Yibing Song, Jue Wang, Limin Wang <br>
+[[Paper]](https://arxiv.org/pdf/2203.12602.pdf)  [[Github]](https://github.com/MCG-NJU/VideoMAE)
+
+ 
+- **Efficient Video Representation Learning via Masked Video Modeling with Motion-centric Token Selection** (2022)  <br>
+*arXiv preprint arXiv:2211.10636* <br>
+Sunil Hwang, Jaehong Yoon, Youngwan Lee, Sung Ju Hwan <br>
+[[Paper]](https://arxiv.org/pdf/2211.10636v1.pdf)  [[Github]](https://github.com/sunilhoho/VideoMS)
+
+
+- **Self-supervised video representation learning with cross-stream prototypical contrasting** (2022)  <br>
+*In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 108-118)* <br>
+Martine Toering, Ioannis Gatopoulos, Maarten Stol, Vincent Tao Hu <br>
+[[Paper]](https://arxiv.org/pdf/2106.10137v3.pdf)  [[Github]](https://github.com/martinetoering/ViCC)
+
+
+- **Slic: Self-supervised learning with iterative clustering for human action videos** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16091-16101)* <br>
+Salar Hosseini Khorasgani, Yuxuan Chen, Florian Shkurti <br>
+[[Paper]](https://arxiv.org/pdf/2206.12534v1.pdf)
+
+
+- **GOCA: guided online cluster assignment for self-supervised video representation Learning** (2022, October) <br>
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Huseyin Coskun, Alireza Zareian, Joshua L. Moore, Federico Tombari, Chen Wang <br>
+[[Paper]](https://arxiv.org/pdf/2207.10158.pdf)  [[Github]](https://github.com/Seleucia/goca)
+
+
+- **TCVM: Temporal Contrasting Video Montage Framework for Self-supervised Video Representation Learning** (2022)  <br>
+*In Proceedings of the Asian Conference on Computer Vision (pp. 1539-1555)* <br>
+Fengrui Tian, Jiawei Fan, Xie Yu, Shaoyi Du, Meina Song, Yu Zhao <br>
+[[Paper]](https://openaccess.thecvf.com/content/ACCV2022/papers/Tian_TCVM_Temporal_Contrasting_Video_Montage_Framework_for_Self-supervised_Video_Representation_ACCV_2022_paper.pdf)
+
+
+- **Static and Dynamic Concepts for Self-supervised Video Representation Learning** (2022, November) <br>
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Rui Qian, Shuangrui Ding, Xian Liu, Dahua Lin <br>
+[[Paper]](https://arxiv.org/pdf/2207.12795.pdf)
 
 
 
-
-
-  
 # 2021
+
 
 - **Audio-visual instance discrimination with cross-modal agreement** (2021) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 12475-12486)* <br>
@@ -198,7 +256,7 @@ Rui Qian, Yuxi Li, Huabin Liu, John See, Shuangrui Ding, Xian Liu, Dian Li, Weiy
 
 - **Unsupervised visual representation learning by tracking patches in video** (2021)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2563-2572)* <br>
-- Guangting Wang, Yizhou Zhou, Chong Luo, Wenxuan Xie, Wenjun Zeng,  Zhiwei Xiong <br>
+Guangting Wang, Yizhou Zhou, Chong Luo, Wenxuan Xie, Wenjun Zeng,  Zhiwei Xiong <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Unsupervised_Visual_Representation_Learning_by_Tracking_Patches_in_Video_CVPR_2021_paper.pdf) 
 [[Github]](https://github.com/microsoft/CtP) 
 
@@ -283,7 +341,7 @@ Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
 
 - **Broaden your views for self-supervised video learning** (2021)  <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1255-1265)* <br>
-"Adria Recasens, Pauline Luc, Jean-Baptiste Alayrac, Luyu Wang, Ross Hemsley, Florian Strub, Corentin Tallec, Mateusz Malinowski, Viorica Patraucean, Florent Altche, Michal Valko, Jean-Bastien Grill, Aaron van den Oord, Andrew Zisserman <br>
+Adria Recasens, Pauline Luc, Jean-Baptiste Alayrac, Luyu Wang, Ross Hemsley, Florian Strub, Corentin Tallec, Mateusz Malinowski, Viorica Patraucean, Florent Altche, Michal Valko, Jean-Bastien Grill, Aaron van den Oord, Andrew Zisserman <br>
 [[Paper]](https://arxiv.org/pdf/2103.16559.pdf)  [[Github]](http://github.com/deepmind/brave)
 
 
@@ -305,34 +363,34 @@ Kirill Gavrilyuk, Mihir Jain, Ilia Karmanov, Cees G. M. Snoek <br>
 [[Paper]](https://arxiv.org/pdf/2105.01646.pdf)
 
 
+- **Composable augmentation encoding for video representation learning** (2021) <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8834-8844)* <br>
+Chen Sun, Arsha Nagrani, Yonglong Tian, Cordelia Schmid<br>
+[[Paper]](https://arxiv.org/pdf/2104.00616.pdf)
 
 
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
+- **Video contrastive learning with global context** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 3195-3204)* <br>
+Haofei Kuang, Yi Zhu, Zhi Zhang, Xinyu Li, Joseph Tighe,Soren Schwertfeger, Cyrill Stachniss, Mu Li <br>
+[[Paper]](https://arxiv.org/pdf/2108.02722.pdf)  [[Github]](https://github.com/amazon-science/video-contrastive-learning)
 
 
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
+- **Motion-focused contrastive learning of video representations** (2021)  <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 2105-2114)* <br>
+Rui Li, Yiheng Zhang, Zhaofan Qiu, Ting Yao, Dong Liu, and Tao Mei <br>
+[[Paper]](https://arxiv.org/pdf/2201.04029.pdf)  [[Github]](https://github.com/YihengZhang-CV/MCL-Motion-Focused-Contrastive-Learning)
 
 
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
+- **Back to the Future: Cycle Encoding Prediction for Self-supervised Video Representation Learning** (2021, November)  <br>
+*In The 32nd British Machine Vision Conference* <br>
+Xinyu Yang, Majid Mirmehdi,Tilo Burghardt <br>
+[[Paper]](https://arxiv.org/pdf/2010.07217.pdf)  [[Github]](https://github.com/youshyee/CEP) 
 
 
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
+- **Vatt: Transformers for multimodal self-supervised learning from raw video, audio and text** (2021)  <br>
+*Advances in Neural Information Processing Systems, 34, 24206-24221* <br>
+Hassan Akbari, Liangzhe Yuan, Rui Qian, Wei-Hong Chuang, Shih-Fu Chang, Yin Cui, Boqing Gong <br>
+[[Paper]](https://arxiv.org/pdf/2104.11178.pdf)  [[Github]](https://github.com/google-research/google-research/tree/master/vatt)
 
 
   
@@ -470,38 +528,13 @@ Daniel Gordon, Kiana Ehsani, Dieter Fox, Ali Farhadi <br>
 [[Paper]](https://arxiv.org/pdf/2003.07990.pdf)
 
 
+- **Pretext-contrastive learning: Toward good practices in self-supervised video representation leaning** (2020)  <br>
+*arXiv preprint arXiv:2010.15464* <br>
+Li Tao, Xueting Wang, Toshihiko Yamasaki <br>
+[[Paper]](https://arxiv.org/pdf/2010.15464v2.pdf)  [[Github]](https://github.com/BestJuly/Pretext-Contrastive-Learning)
 
-
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
-
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
-
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
-
-
+  
+  
 # 2019
 
  - **Self-supervised spatio-temporal representation learning for videos by predicting motion and appearance statistics** (2019)  <br>
@@ -548,35 +581,10 @@ Ali Diba, Vivek Sharma, Luc Van Gool, Rainer Stiefelhagen<br>
 [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Diba_DynamoNet_Dynamic_Action_and_Motion_Network_ICCV_2019_paper.pdf)
 
 
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
-
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]() 
-
-
-- ****   <br>
-** <br>
-<br>
-[[Paper]]()  [[Github]]()
 
 
 
+  
 # 2018
 
 
@@ -616,8 +624,21 @@ Andrew Owens, Alexei A. Efros <br>
 Uta Buchler, Biagio Brattoli, Bjorn Ommer <br>
 [[Paper]](https://arxiv.org/pdf/1807.11293.pdf)
 
+
+- **Cooperative learning of audio and video models from self-supervised synchronization** (2018) <br>
+*Advances in Neural Information Processing Systems, 31* <br>
+Bruno Korbar, Du Tran, Lorenzo Torresani <br>
+[[Paper]](https://proceedings.neurips.cc/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf)
+
+
+- **Learning and using the arrow of time** (2018)  <br>
+*In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 8052-8060)* <br>
+Donglai Wei, Joseph Lim, Andrew Zisserman, William T. Freeman <br>
+[[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wei_Learning_and_Using_CVPR_2018_paper.pdf)
+
  
 # 2017
+
 
  - **Unsupervised representation learning by sorting sequences** (2017)  <br>
 *In Proceedings of the IEEE international conference on computer vision (pp. 667-676)* <br>
@@ -637,12 +658,3 @@ Basura Fernando, Hakan Bilen, Efstratios Gavves, Stephen Gould <br>
 *In Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14 (pp. 527-544)* <br>
  Ishan Misra, C. Lawrence Zitnick, Martial Hebert<br>
 [[Paper]](https://arxiv.org/pdf/1603.08561.pdf)
-
-<!-- 
-
-- ****   <br>
-** <br>
-   <br>
-[[Paper]]()  [[Github]]() 
-
--->
