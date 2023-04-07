@@ -16,7 +16,7 @@ In this repository, we have gathered some of the most promising self-supervised 
 # 2022
 
 
- - **Spact: Self-supervised privacy preservation for action recognition** (2022)<br> 
+ - **SPAct: Self-supervised Privacy Preservation for Action Recognition** (2022)<br> 
    *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 20164-20173)* <br>
 Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 [[Paper]](https://arxiv.org/pdf/2203.15205.pdf) [[Github]](https://github.com/DAVEISHAN/SPAct)
@@ -34,31 +34,31 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 [[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
 
   
-- **Self-supervised video transformer** (2022)  <br>
+- **Self-supervised Video Transformer** (2022)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2874-2884)* <br>
 Kanchana Ranasinghe, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan, Michael S. Ryoo<br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.pdf)  [[Github]](https://git.io/J1juJ)
 
 
-- **Exploring relations in untrimmed videos for self-supervised learning** (2022) <br>
+- **Exploring Relations in Untrimmed Videos for Self-Supervised Learning** (2022) <br>
 *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM),18(1s), 1-21* <br>
 Dezhao Luo, Bo Fang, Yu Zhou, Yucan Zhou, Dayan Wu, Weiping Wang <br>
 [[Paper]](https://arxiv.org/pdf/2008.02711)
 
 
-- **Mamico: Macro-to-micro semantic correspondence for self-supervised video representation learning** (2022, October)  <br>
+- **MaMiCo: Macro-to-Micro Semantic Correspondence for Self-supervised Video Representation Learning** (2022, October)  <br>
 *In Proceedings of the 30th ACM International Conference on Multimedia (pp. 1348-1357)* <br>
 Bo Fang, Wenhao Wu, Chang Liu, Yu Zhou, Dongliang He, Weiping Wang <br>
 [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3503161.3547888)
 
   
-- **Tcgl: Temporal contrastive graph for self-supervised video representation learning** (2022)  <br>
+- **TCGL: Temporal Contrastive Graph for Self-Supervised Video Representation Learning** (2022)  <br>
 *IEEE Transactions on Image Processing, 31, 1978-1993* <br>
 Yang Liu , Keze Wang , Lingbo Liu , Haoyuan Lan, and Liang Lin <br>
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9713748)  [[Github]](https://github.com/YangLiu9208/TCGL)
 
 
-- **Cross-architecture self-supervised video representation learning** (2022)  <br>
+- **Cross-Architecture Self-supervised Video Representation Learning** (2022)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 19270-19279)* <br>
 Sheng Guo, Zihua Xiong, Yujie Zhong, Limin Wang, Xiaobo Guo, Bing Han, Weilin Huang <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Cross-Architecture_Self-Supervised_Video_Representation_Learning_CVPR_2022_paper.pdf)
