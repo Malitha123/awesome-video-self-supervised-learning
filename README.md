@@ -19,8 +19,8 @@ In this repository, we have gathered some of the most promising self-supervised 
 - [2016 (1 Paper)](#2016)
 
 <p float="left">
-  <img src="./media/paper_count.png" width="600" />
-  <img src="./media/venue.png" width="600" /> 
+  <img src="./media/paper_count.png" width="500" />
+  <img src="./media/venue.png" width="500" /> 
 </p>
 
 # 2023
