@@ -4,6 +4,10 @@ This repository contains a collection of state-of-the-art self-supervised learni
 
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
+
+**Let's collaborate and enrich this list together! Reach out to [me](https://malitha123.github.io/malitha/) or add a [pull request](https://github.com/Malitha123/awesome_video_self-supervised-learning/pulls) now!**
+
+
 ### Publication Years
 - [2022 (28 Papers)](#2022)
 - [2021 (34 Papers)](#2021)
