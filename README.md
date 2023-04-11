@@ -5,11 +5,11 @@ This repository contains a collection of state-of-the-art self-supervised learni
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 ### Publication Years
-- [2022 (29 Papers)](#2022)
-- [2021 (33 Papers)](#2021)
+- [2022 (28 Papers)](#2022)
+- [2021 (34 Papers)](#2021)
 - [2020 (23 Papers)](#2020)
 - [2019 (7 Papers)](#2019) 
-- [2018 (8 Papers)](#2018)
+- [2018 (7 Papers)](#2018)
 - [2017 (2 Papers)](#2017)
 - [2016 (1 Paper)](#2016)
 
@@ -145,12 +145,6 @@ Liangzhe Yuan, Rui Qian, Yin Cui, Boqing Gong,Florian Schroff,Ming-Hsuan Yang, H
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_Contextualized_Spatio-Temporal_Contrastive_Learning_With_Self-Supervision_CVPR_2022_paper.pdf)  [[Github]](https://github.com/tensorflow/models/tree/master/official/projects/const_cl)
 
 
-- **Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity** (2022)   <br>
-*arXiv preprint arXiv:2111.05329* <br>
-Pritam Sarkar, Ali Etemad <br>
-[[Paper]](https://arxiv.org/pdf/2111.05329v5.pdf)  [[Github]](https://pritamqu.github.io/CrissCross)
-
-
 - **Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training** (2022)  <br>
 *arXiv preprint arXiv:2203.12602* <br>
 Zhan Tong, Yibing Song, Jue Wang, Limin Wang <br>
@@ -197,18 +191,18 @@ Rui Qian, Shuangrui Ding, Xian Liu, Dahua Lin <br>
 # 2021
 
 
+- **Temporally coherent embeddings for self-supervised video representation learning** (2021, January) <br>
+*In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 8914-8921)* <br>
+Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ross, Peyman Moghadam <br>
+[[Paper]](https://arxiv.org/pdf/2004.02753.pdf) [[Github]](https://github.com/csiro-robotics/tce)
+
+
 - **Audio-visual instance discrimination with cross-modal agreement** (2021) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 12475-12486)* <br>
 Pedro Morgado, Nuno Vasconcelos, Ishan Misra <br>
 [[Paper]](https://arxiv.org/pdf/2004.12943.pdf) [[Github]](https://github.com/facebookresearch/AVID-CMA)
 
 
-- **Temporally coherent embeddings for self-supervised video representation learning** (2021, January) <br>
-*In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 8914-8921)* <br>
-Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ross, Peyman Moghadam <br>
-[[Paper]](https://arxiv.org/pdf/2004.02753.pdf) [[Github]](https://github.com/csiro-robotics/tce)
-
-  
  - **Removing the background by adding the background: Towards background robust self-supervised video representation learning** (2021)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11804-11813)* <br>
  Jinpeng Wang, Yuting Gao, Ke Li, Yiqi Lin, Andy J. Ma, Hao Cheng, Pai Peng, Feiyue Huang, Rongrong Ji, Xing Sun <br>
@@ -239,7 +233,7 @@ Rui Qian, Yuxi Li, Huabin Liu, John See, Shuangrui Ding, Xian Liu, Dian Li, Weiy
 [[Paper]](https://arxiv.org/pdf/2108.02183.pdf)  [[Github]](https://github.com/shvdiwnkozbw/Video-Representation-via-Multi-level-Optimization) 
 
 
-- **Rspnet: Relative speed perception for unsupervised video representation learning** (2021, May)  <br>
+- **RSPnet: Relative speed perception for unsupervised video representation learning** (2021, May)  <br>
 *In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 2, pp. 1045-1053)* <br>
  Peihao Chen, Deng Huang, Dongliang He, Xiang Long, Runhao Zeng, Shilei Wen, Mingkui Tan, Chuang Gan <br>
 [[Paper]](https://arxiv.org/pdf/2011.07949.pdf)  [[Github]](https://github.com/PeihaoChen/RSPNet)
@@ -276,7 +270,13 @@ Nishant Rai, Ehsan Adeli ,Kuan-Hui Lee, Adrien Gaidon, Juan Carlos Niebles <br>
 [[Paper]](https://arxiv.org/pdf/2104.14764.pdf)  [[Github]](http://github.com/nishantrai18/CoCon) 
 
 
-- **Ascnet: Self-supervised video representation learning with appearance-speed consistency** (2021) <br>
+- **VATT: Transformers for multimodal self-supervised learning from raw video, audio and text** (2021)  <br>
+*Advances in Neural Information Processing Systems, 34, 24206-24221* <br>
+Hassan Akbari, Liangzhe Yuan, Rui Qian, Wei-Hong Chuang, Shih-Fu Chang, Yin Cui, Boqing Gong <br>
+[[Paper]](https://arxiv.org/pdf/2104.11178.pdf)  [[Github]](https://github.com/google-research/google-research/tree/master/vatt)
+
+
+- **ASCNet: Self-supervised video representation learning with appearance-speed consistency** (2021) <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8096-8105)* <br>
 Deng Huang, Wenhao Wu, Weiwen Hu, Xu Liu, Dongliang He, Zhihua Wu, Xiangmiao Wu, Mingkui Tan, Errui Ding <br>
 [[Paper]](https://arxiv.org/pdf/2106.02342.pdf)
@@ -348,7 +348,7 @@ Adria Recasens, Pauline Luc, Jean-Baptiste Alayrac, Luyu Wang, Ross Hemsley, Flo
 [[Paper]](https://arxiv.org/pdf/2103.16559.pdf)  [[Github]](http://github.com/deepmind/brave)
 
 
-- **Vi2clr: Video and image for visual contrastive learning of representation** (2021) <br>
+- **Vi2CLR: Video and image for visual contrastive learning of representation** (2021) <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1502-1512)* <br>
 Ali Diba, Vivek Sharma, Reza Safdari, Dariush Lotfi, M. Saquib Sarfraz,Rainer Stiefelhagen, Luc Van Gool,<br>
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Diba_Vi2CLR_Video_and_Image_for_Visual_Contrastive_Learning_of_Representation_ICCV_2021_paper.pdf)
@@ -372,6 +372,13 @@ Chen Sun, Arsha Nagrani, Yonglong Tian, Cordelia Schmid<br>
 [[Paper]](https://arxiv.org/pdf/2104.00616.pdf)
 
 
+- **Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity** (2021)   <br>
+*arXiv preprint arXiv:2111.05329* <br>
+Pritam Sarkar, Ali Etemad <br>
+[[Paper]](https://arxiv.org/pdf/2111.05329v5.pdf)  [[Github]](https://pritamqu.github.io/CrissCross)
+
+
+
 - **Video contrastive learning with global context** (2021)  <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 3195-3204)* <br>
 Haofei Kuang, Yi Zhu, Zhi Zhang, Xinyu Li, Joseph Tighe,Soren Schwertfeger, Cyrill Stachniss, Mu Li <br>
@@ -390,10 +397,6 @@ Xinyu Yang, Majid Mirmehdi,Tilo Burghardt <br>
 [[Paper]](https://arxiv.org/pdf/2010.07217.pdf)  [[Github]](https://github.com/youshyee/CEP) 
 
 
-- **Vatt: Transformers for multimodal self-supervised learning from raw video, audio and text** (2021)  <br>
-*Advances in Neural Information Processing Systems, 34, 24206-24221* <br>
-Hassan Akbari, Liangzhe Yuan, Rui Qian, Wei-Hong Chuang, Shih-Fu Chang, Yin Cui, Boqing Gong <br>
-[[Paper]](https://arxiv.org/pdf/2104.11178.pdf)  [[Github]](https://github.com/google-research/google-research/tree/master/vatt)
 
 
   
@@ -591,12 +594,6 @@ Ali Diba, Vivek Sharma, Luc Van Gool, Rainer Stiefelhagen<br>
 # 2018
 
 
- - **Cooperative learning of audio and video models from self-supervised synchronization** (2018)  <br>
-*Advances in Neural Information Processing Systems, 31* <br>
-Bruno Korbar, Du Tran, Lorenzo Torresani <br>
-[[Paper]](https://proceedings.neurips.cc/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf)
-
-
 - **Geometry guided convolutional neural networks for self-supervised video representation learning**   <br>
 *In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 5589-5597)* <br>
  Chuang Gan, Boqing Gong, Kun Liu, Hao Su, Leonidas J. Guibas <br>
@@ -607,6 +604,14 @@ Bruno Korbar, Du Tran, Lorenzo Torresani <br>
 *arXiv preprint arXiv:1811.11387* <br>
  Longlong Jing, Xiaodong Yang, Jinggen Liu, Yingli Tian <br>
 [[Paper]](https://arxiv.org/pdf/1811.11387.pdf)
+
+
+
+- **Cooperative learning of audio and video models from self-supervised synchronization** (2018) <br>
+*Advances in Neural Information Processing Systems, 31* <br>
+Bruno Korbar, Du Tran, Lorenzo Torresani <br>
+[[Paper]](https://proceedings.neurips.cc/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf)
+
 
 
 - **Audio-visual scene analysis with self-supervised multisensory features** (2018)  <br>
@@ -627,11 +632,6 @@ Andrew Owens, Alexei A. Efros <br>
 Uta Buchler, Biagio Brattoli, Bjorn Ommer <br>
 [[Paper]](https://arxiv.org/pdf/1807.11293.pdf)
 
-
-- **Cooperative learning of audio and video models from self-supervised synchronization** (2018) <br>
-*Advances in Neural Information Processing Systems, 31* <br>
-Bruno Korbar, Du Tran, Lorenzo Torresani <br>
-[[Paper]](https://proceedings.neurips.cc/paper/2018/file/c4616f5a24a66668f11ca4fa80525dc4-Paper.pdf)
 
 
 - **Learning and using the arrow of time** (2018)  <br>
