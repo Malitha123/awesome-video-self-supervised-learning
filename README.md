@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 
-# <p align=center>`Self-Supervised Learning in Videos`</p>
+# <p align=center>`Awesome Self-Supervised Learning in Videos`</p>
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
