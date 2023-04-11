@@ -9,6 +9,7 @@ In this repository, we have gathered some of the most promising self-supervised 
 
 
 ### Publication Years
+- [2023 (7 Papers)](#2023)
 - [2022 (40 Papers)](#2022)
 - [2021 (34 Papers)](#2021)
 - [2020 (23 Papers)](#2020)
