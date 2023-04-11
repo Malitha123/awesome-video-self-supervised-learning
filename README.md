@@ -187,6 +187,78 @@ Rui Qian, Shuangrui Ding, Xian Liu, Dahua Lin <br>
 [[Paper]](https://arxiv.org/pdf/2207.12795.pdf)
 
 
+- **Audio-Visual Contrastive Learning for Self-Supervised Action Recognition** (2022) <br>
+*arXiv preprint arXiv:2204.13386* <br>
+Yang Liu, Ying Tan, Haoyuan Lan<br>
+[[Paper]](https://arxiv.org/pdf/2204.13386.pdf)
+
+
+- **SOS! Self-supervised Learning over Sets of Handled Objects in Egocentric Action Recognition** (2022, November) <br>
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Victor Escorcia, Ricardo Guerrero, Xiatian Zhu, Brais Martinez <br>
+[[Paper]](https://arxiv.org/pdf/2204.04796.pdf)
+
+
+- **Self-Supervised Video Representation Learning with Cascade Positive Retrieval** (2022) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 4070-4079)* <br>
+Cheng-En Wu, Farley Lai, Yu Hen Hu, Asim Kadav <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Wu_Self-Supervised_Video_Representation_Learning_With_Cascade_Positive_Retrieval_CVPRW_2022_paper.pdf)   [[Github]](https://github.com/necla-ml/CPR)
+
+
+- **Self-Supervised Learning of Audio Representations From Audio-Visual Data Using Spatial Alignment** (2022) <br>
+*IEEE Journal of Selected Topics in Signal Processing,16(6), 1467-1479* <br>
+Shanshan Wang, Archontis Politis, Annamaria Mesaros <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9790080)
+
+
+- **Hierarchically decoupled spatial-temporal contrast for self-supervised video representation learning** (2022) <br>
+*In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 3235-3245)* <br>
+ Zehua Zhang, David Crandall <br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Zhang_Hierarchically_Decoupled_Spatial-Temporal_Contrast_for_Self-Supervised_Video_Representation_Learning_WACV_2022_paper.pdf)
+
+
+- **Spatio-temporal self-supervision enhanced transformer networks for action recognition** (2022, July) <br>
+*In 2022 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1-6). IEEE* <br>
+Yongkang Zhang, Han Zhang, Guoming Wu, Jun Li <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/9859741)
+
+
+- **Inter-Intra Cross-Modality Self-Supervised Video Representation Learning by Contrastive Clustering** (2022) <br>
+*In 2022 26th International Conference on Pattern Recognition (ICPR) (pp. 4815-4821). IEEE* <br>
+Jiutong Wei. Guan Luo, Bing Li, Weiming Hu <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/9956697)
+
+
+- **Self-Supervised Scene-Debiasing for Video Representation Learning via Background Patching** (2022) <br>
+*IEEE Transactions on Multimedia* <br>
+Maregu Assefa, Wei Jiang, Kumie Gedamu, Getinet Yilma, Bulbula Kumeda, Melese Ayalew <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/9839482)
+
+
+- **SCVRL: Shuffled Contrastive Video Representation Learning** (2022) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 4132-4141)* <br>
+Michael Dorkenwald, Fanyi Xiao, Biagio Brattoli, Joseph Tighe, Davide Modolo <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.pdf)  [[Github]]()
+
+
+- **XKD: Cross-modal Knowledge Distillation with Domain Alignment for Video Representation Learning** (2022) <br>
+*arXiv preprint arXiv:2211.13929* <br>
+Pritam Sarkar, Ali Etemad <br>
+[[Paper]](https://arxiv.org/pdf/2211.13929.pdf)  [[Github]](https://github.com/pritamqu/XKD)
+
+
+- **InternVideo: General Video Foundation Models via Generative and Discriminative Learning** (2022) <br>
+*arXiv preprint arXiv:2212.03191* <br>
+Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zhang,Jilan Xu, Yi Liu, Zun Wang, Sen Xing, Guo Chen, Junting Pan, Jiashuo Yu,Yali Wang, Limin Wang, Yu Qiao <br>
+[[Paper]](https://arxiv.org/pdf/2212.03191.pdf)  [[Github]](https://github.com/OpenGVLab/InternVideo)
+
+
+- **Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning** (2022) <br>
+*arXiv preprint arXiv:2212.04500* <br>
+ Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Lu Yuan, Yu-Gang Jiang <br>
+[[Paper]](https://arxiv.org/pdf/2212.04500.pdf)  [[Github]](https://github.com/ruiwang2021/mvd)
+
+
 
 # 2021
 
