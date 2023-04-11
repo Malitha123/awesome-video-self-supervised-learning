@@ -35,7 +35,10 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [2017 (2 Papers)](#2017)
    - [2016 (1 Paper)](#2016)
 
-![](./media/paper_count.png)
+<p float="left">
+  <img src="./media/paper_count.png" width="500" />
+  <img src="./media/venue.png" width="500" /> 
+</p>
 
 <!--
  - **** (2023)<br> 
