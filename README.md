@@ -22,16 +22,19 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 [[Paper]](https://arxiv.org/pdf/2203.15205.pdf) [[Github]](https://github.com/DAVEISHAN/SPAct)
 
 
-- **Self-supervised Video Representation Learning with Motion-Aware Masked Autoencoders** (2022) <br>
-*arXiv preprint arXiv:2210.04154* <br>
- Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan <br>
-[[Paper]](https://arxiv.org/pdf/2210.04154v1.pdf)  [[Github]](https://github.com/happy-hsy/MotionMAE) 
-
 
 - **Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning** (2022, June)  <br>
 *In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 36, No. 3, pp. 3300-3308)* <br>
    Manlin Zhang, Jinpeng Wang, Andy J. Ma <br>
 [[Paper]](https://arxiv.org/pdf/2112.03803.pdf)  [[Github]](https://github.com/mettyz/SSVC) 
+
+
+
+- **Self-supervised Video Representation Learning with Motion-Aware Masked Autoencoders** (2022) <br>
+*arXiv preprint arXiv:2210.04154* <br>
+ Haosen Yang, Deng Huang, Bin Wen, Jiannan Wu, Hongxun Yao, Yi Jiang, Xiatian Zhu, Zehuan Yuan <br>
+[[Paper]](https://arxiv.org/pdf/2210.04154v1.pdf)  [[Github]](https://github.com/happy-hsy/MotionMAE) 
+
 
   
 - **Self-supervised Video Transformer** (2022)  <br>
@@ -88,7 +91,7 @@ Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue W
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.pdf)  [[Github]](https://github.com/Mark12Ding/FAME)
 
 
-- **Video: Masked Motion Modeling for Self-Supervised Video Representation Learning** (2022)  <br>
+- **M3Video: Masked Motion Modeling for Self-Supervised Video Representation Learning** (2022)  <br>
 *arXiv preprint arXiv:2210.06096* <br>
 Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br>
 [[Paper]](https://arxiv.org/pdf/2210.06096.pdf)
@@ -106,7 +109,7 @@ Yisheng Zhu, Hui Shuai, Guangcan Liu, Senior Member, Qingshan Liu <br>
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761901)
 
 
-- **Tclr: Temporal contrastive learning for video representation** (2022)  <br>
+- **TCLR: Temporal contrastive learning for video representation** (2022)  <br>
 *Computer Vision and Image Understanding, 219, 103406* <br>
 Ishan Dave, Rohit Gupta, Mamshad Nayeem Rizve, Mubarak Shah <br>
 [[Paper]](https://arxiv.org/pdf/2101.07974.pdf)  [[Github]](https://github.com/DAVEISHAN/TCLR)
@@ -166,7 +169,7 @@ Martine Toering, Ioannis Gatopoulos, Maarten Stol, Vincent Tao Hu <br>
 [[Paper]](https://arxiv.org/pdf/2106.10137v3.pdf)  [[Github]](https://github.com/martinetoering/ViCC)
 
 
-- **Slic: Self-supervised learning with iterative clustering for human action videos** (2022)  <br>
+- **SLIC: Self-supervised learning with iterative clustering for human action videos** (2022)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16091-16101)* <br>
 Salar Hosseini Khorasgani, Yuxuan Chen, Florian Shkurti <br>
 [[Paper]](https://arxiv.org/pdf/2206.12534v1.pdf)
