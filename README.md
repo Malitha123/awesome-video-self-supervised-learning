@@ -13,6 +13,10 @@ In this repository, we have gathered some of the most promising self-supervised 
 - [2017 (2 Papers)](#2017)
 - [2016 (1 Paper)](#2016)
 
+![](./media/paper_count.png)
+
+
+
 # 2022
 
 
