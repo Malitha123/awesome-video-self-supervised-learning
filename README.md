@@ -36,8 +36,8 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [2016 (1 Paper)](#2016)
 
 <p float="left">
-  <img src="./media/paper_count.png" width="500" />
-  <img src="./media/venue.png" width="500" /> 
+  <img src="./media/paper_count.png" width="400" />
+  <img src="./media/venue.png" width="400" /> 
 </p>
 
 <!--
