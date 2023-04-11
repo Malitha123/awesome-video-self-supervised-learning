@@ -1,11 +1,14 @@
 # <p align=center>`Self-Supervised Learning in Videos`</p>
 
-This repository contains a collection of state-of-the-art self-supervised learning approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
+This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
+
+**Let's collaborate and enrich this list together! Reach out to [me](https://malitha123.github.io/malitha/) or add a [pull request](https://github.com/Malitha123/awesome_video_self-supervised-learning/pulls) now!**
+
+
 ### Publication Years
-- [2023 (7 Papers)](#2023)
 - [2022 (40 Papers)](#2022)
 - [2021 (34 Papers)](#2021)
 - [2020 (23 Papers)](#2020)
@@ -14,58 +17,8 @@ In this repository, we have gathered some of the most promising self-supervised 
 - [2017 (2 Papers)](#2017)
 - [2016 (1 Paper)](#2016)
 
-# 2023
+![](./media/paper_count.png)
 
-
- - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
-*IEEE Transactions on Multimedia* <br>
-Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang <br>
-[[Paper]](https://arxiv.org/pdf/2207.11660.pdf) [[Github]](https://github.com/alibaba-mmai-research/Masked-Action-Recognition)
-
-
- - **Temporal Transformer Networks with Self-Supervision for Action Recognition** (2023)<br> 
-*IEEE Internet of Things Journal* <br>
-Yongkang Zhang, Jun Li, Guoming Wu, Han Zhang, Zhiping Shi, Member, IEEE, Zhaoxun Liu, Zizhang Wu <br>
-[[Paper]](https://arxiv.org/pdf/2112.07338.pdf)
-
-
- - **CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition** (2023)<br> 
-*arXiv preprint arXiv:2301.06018* <br>
-Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng <br>
-[[Paper]](https://arxiv.org/pdf/2301.06018.pdf)
-
-
- - **Enhancing Motion Visual Cues for Self-Supervised Video Representation Learning** (2023)<br> 
-*Engineering Applications of Artificial Intelligence, 123, 106203* <br>
-Mu Nie, Zhibin Quan, Weiping Ding, Wankou Yang <br>
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623003871)
-
-
- - **Learning Representational Invariances for Data-Efficient Action Recognition** (2023)<br> 
-*Computer Vision and Image Understanding, 227, 103597* <br>
-Yuliang Zou, Jinwoo Choi, Qitong Wang, Jia-Bin Huang <br>
-[[Paper]](https://arxiv.org/pdf/2103.16565.pdf) [[Github]](https://github.com/vt-vl-lab/video-data-aug)
-
-
- - **SOR-TC: Self-attentive octave ResNet with temporal consistency for compressed video action recognition** (2023)<br> 
-*Neurocomputing, 533, 191-205* <br>
-Junsan Zhang, Xiaomin Wang, Yao Wan, Leiquan Wang, Jian Wang, Philip S. Yu<br>
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231223001959)
-
-
- - **VicTR: Video-conditioned Text Representations for Activity Recognition** (2023)<br> 
-*arXiv preprint arXiv:2304.02560* <br>
-Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
-[[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
-
-<!--
-
- - **** (2023)<br> 
-** <br>
-<br>
-[[Paper]]() [[Github]]()
-
--->
 
 
 # 2022
