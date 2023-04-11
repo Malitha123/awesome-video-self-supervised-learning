@@ -1,3 +1,7 @@
+[![Last Updated](https://img.shields.io/github/last-commit/Malitha123/awesome_video_self-supervised-learning?color=blue&label=Last%20Updated)](https://github.com/Malitha123/awesome_video_self-supervised-learning/commits/main) 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+
 # <p align=center>`Self-Supervised Learning in Videos`</p>
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
@@ -5,23 +9,62 @@ This repository contains a collection of state-of-the-art self-supervised learni
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 
-**Let's collaborate and enrich this list together! Reach out to [me](https://malitha123.github.io/malitha/) or add a [pull request](https://github.com/Malitha123/awesome_video_self-supervised-learning/pulls) now!**
+**Let's collaborate and enrich this list together! Reach out to [me](https://malitha123.github.io/malitha/) or submit a [pull request](https://github.com/Malitha123/awesome_video_self-supervised-learning/pulls). Your contributions are highly appreciated.**
+
+<!--
+
+ Benchmark - https://arxiv.org/pdf/2203.14221.pdf
+Page - https://bpiyush.github.io/SEVERE-website/
+Code - https://github.com/fmthoker/SEVERE-BENCHMARK
 
 
-### Publication Years
-- [2023 (7 Papers)](#2023)
-- [2022 (40 Papers)](#2022)
-- [2021 (34 Papers)](#2021)
-- [2020 (23 Papers)](#2020)
-- [2019 (7 Papers)](#2019) 
-- [2018 (7 Papers)](#2018)
-- [2017 (2 Papers)](#2017)
-- [2016 (1 Paper)](#2016)
+Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
+
+-->
+
+### Contents
+- [Surveys](#Surveys)
+- [Benchmarking](#Benchmarking)
+- [Representation Learning](#Representation-Learning)
+   - [2023 (7 Papers)](#2023)
+   - [2022 (40 Papers)](#2022)
+   - [2021 (34 Papers)](#2021)
+   - [2020 (23 Papers)](#2020)
+   - [2019 (7 Papers)](#2019) 
+   - [2018 (7 Papers)](#2018)
+   - [2017 (2 Papers)](#2017)
+   - [2016 (1 Paper)](#2016)
 
 ![](./media/paper_count.png)
 
-# 2023
+<!--
+ - **** (2023)<br> 
+** <br>
+<br>
+[[Paper]]() [[Github]]()
+-->
 
+# Surveys
+
+ - **Self-Supervised Learning for Videos: A Survey** (2022)<br> 
+*ACM Computing Surveys* <br>
+Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
+[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3577925) [[Github]]()
+
+
+
+
+# Benchmarking
+
+
+ - **How Severe Is Benchmark-Sensitivity in Video Self-supervised Learning?** (2022, October) <br> 
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
+[[Paper]](https://arxiv.org/pdf/2203.14221.pdf) [[Github]](https://github.com/fmthoker/SEVERE-BENCHMARK) [[Page]](https://bpiyush.github.io/SEVERE-website/)
+
+# Representation Learning
+
+# 2023
 
  - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
 *IEEE Transactions on Multimedia* <br>
@@ -63,17 +106,6 @@ Junsan Zhang, Xiaomin Wang, Yao Wan, Leiquan Wang, Jian Wang, Philip S. Yu<br>
 *arXiv preprint arXiv:2304.02560* <br>
 Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
 [[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
-
-<!--
-
- - **** (2023)<br> 
-** <br>
-<br>
-[[Paper]]() [[Github]]()
-
--->
-
-
 
 
 # 2022
