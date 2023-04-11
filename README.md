@@ -5,13 +5,68 @@ This repository contains a collection of state-of-the-art self-supervised learni
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 ### Publication Years
-- [2022 (28 Papers)](#2022)
+- [2023 (7 Papers)](#2023)
+- [2022 (40 Papers)](#2022)
 - [2021 (34 Papers)](#2021)
 - [2020 (23 Papers)](#2020)
 - [2019 (7 Papers)](#2019) 
 - [2018 (7 Papers)](#2018)
 - [2017 (2 Papers)](#2017)
 - [2016 (1 Paper)](#2016)
+
+# 2023
+
+
+ - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
+*IEEE Transactions on Multimedia* <br>
+Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang <br>
+[[Paper]](https://arxiv.org/pdf/2207.11660.pdf) [[Github]](https://github.com/alibaba-mmai-research/Masked-Action-Recognition)
+
+
+ - **Temporal Transformer Networks with Self-Supervision for Action Recognition** (2023)<br> 
+*IEEE Internet of Things Journal* <br>
+Yongkang Zhang, Jun Li, Guoming Wu, Han Zhang, Zhiping Shi, Member, IEEE, Zhaoxun Liu, Zizhang Wu <br>
+[[Paper]](https://arxiv.org/pdf/2112.07338.pdf)
+
+
+ - **CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition** (2023)<br> 
+*arXiv preprint arXiv:2301.06018* <br>
+Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng <br>
+[[Paper]](https://arxiv.org/pdf/2301.06018.pdf)
+
+
+ - **Enhancing Motion Visual Cues for Self-Supervised Video Representation Learning** (2023)<br> 
+*Engineering Applications of Artificial Intelligence, 123, 106203* <br>
+Mu Nie, Zhibin Quan, Weiping Ding, Wankou Yang <br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623003871)
+
+
+ - **Learning Representational Invariances for Data-Efficient Action Recognition** (2023)<br> 
+*Computer Vision and Image Understanding, 227, 103597* <br>
+Yuliang Zou, Jinwoo Choi, Qitong Wang, Jia-Bin Huang <br>
+[[Paper]](https://arxiv.org/pdf/2103.16565.pdf) [[Github]](https://github.com/vt-vl-lab/video-data-aug)
+
+
+ - **SOR-TC: Self-attentive octave ResNet with temporal consistency for compressed video action recognition** (2023)<br> 
+*Neurocomputing, 533, 191-205* <br>
+Junsan Zhang, Xiaomin Wang, Yao Wan, Leiquan Wang, Jian Wang, Philip S. Yu<br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231223001959)
+
+
+ - **VicTR: Video-conditioned Text Representations for Activity Recognition** (2023)<br> 
+*arXiv preprint arXiv:2304.02560* <br>
+Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
+[[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
+
+<!--
+
+ - **** (2023)<br> 
+** <br>
+<br>
+[[Paper]]() [[Github]]()
+
+-->
+
 
 # 2022
 
@@ -385,13 +440,13 @@ Simon Jenni, Hailin Jin <br>
 
 
 - **Self-supervised video representation learning by context and motion decoupling** (2021)  <br>
-*Self-supervised video representation learning by context and motion decoupling* <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 13886-13895)* <br>
 Lianghua Huang, Yu Liu, Bin Wang, Pan Pan, Yinghui Xu, Rong Jin <br>
 [[Paper]](https://arxiv.org/pdf/2104.00862.pdf)
 
 
 - **Unsupervised video representation learning by bidirectional feature prediction** (2021)  <br>
-*Unsupervised video representation learning by bidirectional feature prediction* <br>
+*In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 1670-1679)* <br>
 Nadine Behrmann, Juergen Gall, Mehdi Noroozi <br>
 [[Paper]](https://arxiv.org/pdf/2011.06037.pdf)
 
