@@ -19,6 +19,60 @@ In this repository, we have gathered some of the most promising self-supervised 
 
 ![](./media/paper_count.png)
 
+# 2023
+
+
+ - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
+*IEEE Transactions on Multimedia* <br>
+Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang <br>
+[[Paper]](https://arxiv.org/pdf/2207.11660.pdf) [[Github]](https://github.com/alibaba-mmai-research/Masked-Action-Recognition)
+
+
+ - **Temporal Transformer Networks with Self-Supervision for Action Recognition** (2023)<br> 
+*IEEE Internet of Things Journal* <br>
+Yongkang Zhang, Jun Li, Guoming Wu, Han Zhang, Zhiping Shi, Member, IEEE, Zhaoxun Liu, Zizhang Wu <br>
+[[Paper]](https://arxiv.org/pdf/2112.07338.pdf)
+
+
+ - **CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition** (2023)<br> 
+*arXiv preprint arXiv:2301.06018* <br>
+Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Feng <br>
+[[Paper]](https://arxiv.org/pdf/2301.06018.pdf)
+
+
+ - **Enhancing Motion Visual Cues for Self-Supervised Video Representation Learning** (2023)<br> 
+*Engineering Applications of Artificial Intelligence, 123, 106203* <br>
+Mu Nie, Zhibin Quan, Weiping Ding, Wankou Yang <br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623003871)
+
+
+ - **Learning Representational Invariances for Data-Efficient Action Recognition** (2023)<br> 
+*Computer Vision and Image Understanding, 227, 103597* <br>
+Yuliang Zou, Jinwoo Choi, Qitong Wang, Jia-Bin Huang <br>
+[[Paper]](https://arxiv.org/pdf/2103.16565.pdf) [[Github]](https://github.com/vt-vl-lab/video-data-aug)
+
+
+ - **SOR-TC: Self-attentive octave ResNet with temporal consistency for compressed video action recognition** (2023)<br> 
+*Neurocomputing, 533, 191-205* <br>
+Junsan Zhang, Xiaomin Wang, Yao Wan, Leiquan Wang, Jian Wang, Philip S. Yu<br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231223001959)
+
+
+ - **VicTR: Video-conditioned Text Representations for Activity Recognition** (2023)<br> 
+*arXiv preprint arXiv:2304.02560* <br>
+Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
+[[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
+
+<!--
+
+ - **** (2023)<br> 
+** <br>
+<br>
+[[Paper]]() [[Github]]()
+
+-->
+
+
 
 
 # 2022
