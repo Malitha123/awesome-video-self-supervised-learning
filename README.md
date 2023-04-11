@@ -52,7 +52,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
  - **Self-Supervised Learning for Videos: A Survey** (2022)<br> 
 *ACM Computing Surveys* <br>
 Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
-[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3577925) [[Github]]()
+[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3577925)
 
 
 
