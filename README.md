@@ -26,14 +26,14 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
-   - [2023 (7 Papers)](#2023)
-   - [2022 (40 Papers)](#2022)
-   - [2021 (34 Papers)](#2021)
-   - [2020 (23 Papers)](#2020)
-   - [2019 (7 Papers)](#2019) 
-   - [2018 (7 Papers)](#2018)
-   - [2017 (2 Papers)](#2017)
-   - [2016 (1 Paper)](#2016)
+   - [2023](#2023)
+   - [2022](#2022)
+   - [2021](#2021)
+   - [2020](#2020)
+   - [2019](#2019) 
+   - [2018](#2018)
+   - [2017](#2017)
+   - [2016](#2016)
 
 <p float="left">
   <img src="./media/paper_count.png" width="400" />
