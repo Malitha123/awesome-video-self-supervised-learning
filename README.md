@@ -54,7 +54,8 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 [[Paper]]() [[Github]]()
 -->
 
-# Surveys
+#  Surveys
+
 
  - **Self-Supervised Learning for Videos: A Survey** (2022)<br> 
 *ACM Computing Surveys* <br>
@@ -74,7 +75,7 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # Representation Learning
 
-# 2023
+# *2023*
 
  - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
 *IEEE Transactions on Multimedia* <br>
@@ -118,7 +119,7 @@ Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
 [[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
 
 
-# 2022
+# *2022*
 
 
  - **SPAct: Self-supervised Privacy Preservation for Action Recognition** (2022)<br> 
@@ -365,7 +366,7 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 
 
 
-# 2021
+# *2021*
 
 
 - **Temporally coherent embeddings for self-supervised video representation learning** (2021, January) <br>
@@ -577,7 +578,7 @@ Xinyu Yang, Majid Mirmehdi,Tilo Burghardt <br>
 
 
   
-# 2020
+# *2020*
 
  - **Self-supervised video representation learning using inter-intra contrastive framework** (2020, October)<br>
 *In Proceedings of the 28th ACM International Conference on Multimedia (pp. 2193-2201)* <br>
@@ -718,7 +719,7 @@ Li Tao, Xueting Wang, Toshihiko Yamasaki <br>
 
   
   
-# 2019
+# *2019*
 
  - **Self-supervised spatio-temporal representation learning for videos by predicting motion and appearance statistics** (2019)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 4006-4015)* <br>
@@ -768,7 +769,7 @@ Ali Diba, Vivek Sharma, Luc Van Gool, Rainer Stiefelhagen<br>
 
 
   
-# 2018
+# *2018*
 
 
 - **Geometry guided convolutional neural networks for self-supervised video representation learning**   <br>
@@ -817,7 +818,7 @@ Donglai Wei, Joseph Lim, Andrew Zisserman, William T. Freeman <br>
 [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wei_Learning_and_Using_CVPR_2018_paper.pdf)
 
  
-# 2017
+# *2017*
 
 
  - **Unsupervised representation learning by sorting sequences** (2017)  <br>
@@ -832,7 +833,7 @@ Basura Fernando, Hakan Bilen, Efstratios Gavves, Stephen Gould <br>
 [[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fernando_Self-Supervised_Video_Representation_CVPR_2017_paper.pdf)
 
 
-# 2016
+# *2016*
 
  - **Shuffle and learn: unsupervised learning using temporal order verification** (2016)  <br>
 *In Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14 (pp. 527-544)* <br>
@@ -847,7 +848,7 @@ Basura Fernando, Hakan Bilen, Efstratios Gavves, Stephen Gould <br>
 
 # Pretext Task
 
-### spatial-temporal learning
+## *Spatial-temporal learning*
 
 - **Self-supervised spatiotemporal learning via video clip order prediction** (2019) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 10334-10343)* <br>
@@ -889,7 +890,7 @@ Dahun Kim, Donghyeon Cho, In So Kweon <br>
 [[Paper]](https://arxiv.org/pdf/1811.09795v1.pdf)
 
 
-### Fine-graind Feature Learning
+## *Fine-graind Feature Learning*
 
 
 - **Geometry guided convolutional neural networks for self-supervised video representation learning**   <br>
@@ -904,7 +905,7 @@ Hanwen Liang, Niamul Quader, Zhixiang Chi, Lizhe Chen, Peng Dai, Juwei Lu, Yang 
 [[Paper]](https://arxiv.org/pdf/2112.05883.pdf)
 
 
-### Temporal resolution and long-short-term characteristics
+## *Temporal resolution and long-short-term characteristics*
 
 - **Video playback rate perception for self-supervised spatio-temporal representation learning** (2020)  <br>
 *In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 6548-6557)* <br>
@@ -917,7 +918,7 @@ Hanwen Liang, Niamul Quader, Zhixiang Chi, Lizhe Chen, Peng Dai, Juwei Lu, Yang 
 Chang Liu, Yuan Yao, Dezhao Luo, Yu Zhou, Qixiang Ye <br>
 [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9745754)  [[Github]](https://github.com/yuanyao366/SMP)
 
-### Processing Video Frames
+## *Processing Video Frames*
 
 - **Self-supervised learning of compressed video representations** (2021) <br>
 *In International Conference on Learning Representation* <br>
@@ -930,7 +931,7 @@ Dezhao Luo, Bo Fang, Yu Zhou, Yucan Zhou, Dayan Wu, Weiping Wang <br>
 [[Paper]](https://arxiv.org/pdf/2008.02711)
 
 
-### Speed and Motion
+## *Speed and Motion*
 
 - **Video representation learning by recognizing temporal transformations** (2020)  <br>
 *In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020* <br>
@@ -963,7 +964,7 @@ Jiangliu Wang, Jianbo Jiao, Yun-Hui Liu <br>
 [[Paper]](https://www.robots.ox.ac.uk/~vgg/publications/2020/Wang20/wang20.pdf)  [[Github]](https://github.com/laura-wang/video-pace)
 
 
-### Need of Domain Knowledge
+## *Need of Domain Knowledge*
 
 - **Video cloze procedure for self-supervised spatio-temporal learning** (2020, April) <br>
 *In Proceedings of the AAAI conference on artificial intelligence (Vol. 34, No. 07, pp. 11701-11708)* <br>
@@ -971,7 +972,7 @@ Dezhao Luo, Chang Liu, Yu Zhou, Dongbao Yang, Can Ma, Qixiang Ye, Weiping Wang <
 [[Paper]](https://arxiv.org/pdf/2001.00294.pdf)  [[Github]](https://github.com/BestJuly/VCP)
 
 
-### Supervison and Transformation 
+## *Supervison and Transformation*
 
 - **Transrank: Self-supervised video representation learning via ranking-based transformation recognition** (2022)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3000-3010)* <br>
@@ -984,7 +985,7 @@ Haodong Duan, Nanxuan Zhao, Kai Chen, Dahua Lin <br>
 Uta Buchler, Biagio Brattoli, Bjorn Ommer <br>
 [[Paper]](https://arxiv.org/pdf/1807.11293.pdf)
 
-### Novel Pretext Tasks
+## *Novel Pretext Tasks*
 
 - **Self-supervised video representation learning with odd-one-out networks** (2017)  <br>
 *In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3636-3645)* <br>
@@ -1011,7 +1012,7 @@ Donglai Wei, Joseph Lim, Andrew Zisserman, William T. Freeman <br>
 
  
 
-### Incorporating human visual system
+## *Incorporating human visual system*
 
 
 - **Unsupervised visual representation learning by tracking patches in video** (2021)  <br>
@@ -1022,7 +1023,7 @@ Guangting Wang, Yizhou Zhou, Chong Luo, Wenxuan Xie, Wenjun Zeng,  Zhiwei Xiong 
 
 
 
-### Dependence on labelled training data
+## *Dependence on labelled training data*
 
 - **Self-supervised spatiotemporal feature learning via video rotation prediction** (2018)  <br>
 *arXiv preprint arXiv:1811.11387* <br>
@@ -1032,7 +1033,7 @@ Guangting Wang, Yizhou Zhou, Chong Luo, Wenxuan Xie, Wenjun Zeng,  Zhiwei Xiong 
 
 # Contrastive Learning
 
-### Temporal Modelling and Semantic Dependencies
+## *Temporal Modelling and Semantic Dependencies*
 
 
 - **Enhancing self-supervised video representation learning via multi-level feature optimization** (2021) <br>
@@ -1077,7 +1078,7 @@ Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Yi Xu, Xiang Wang, Mingqian Tang, Changx
 
 
 
-### Background Bias
+## *Background Bias*
 
 
  - **Enhancing unsupervised video representation learning by decoupling the scene and the motion** (2021, May)  <br>
@@ -1115,7 +1116,7 @@ Fengrui Tian, Jiawei Fan, Xie Yu, Shaoyi Du, Meina Song, Yu Zhao <br>
 
 
 
-### Temporal Coherence
+## *Temporal Coherence*
 
 
 
@@ -1133,7 +1134,7 @@ Fei Xue, Hongbing Ji, Wenbo Zhang, Yi Cao<br>
 
 
 
-### Drawbacks in Contrastive Learning Techniques
+## *Drawbacks in Contrastive Learning Techniques*
 
 
 - **Self-supervised video representation learning using improved instance-wise contrastive learning and deep clustering** (2022)  <br>
@@ -1207,7 +1208,7 @@ Jungin Park, Jiyoung Lee, Ig-Jae Kim, Kwanghoon Sohn <br>
 [[Paper]](https://arxiv.org/pdf/2204.03946.pdf)
 
 
-### Preserving Privacy
+## *Preserving Privacy*
 
 
 
@@ -1219,7 +1220,7 @@ Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah <br>
 
 
 
-### Use of trimmed data
+## *Use of trimmed data*
 
 - **Learning from untrimmed videos: Self-supervised video representation learning with hierarchical consistency** (2022)  <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 13821-13831)* <br>
@@ -1229,7 +1230,7 @@ Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Yi Xu, Xiang Wang, Mingqian Tang, Changx
 
 
 
-### Utilizing spatial and temporal cues
+## *Utilizing spatial and temporal cues*
 
 
 - **Spatiotemporal contrastive video representation learning** (2021)  <br>
@@ -1284,7 +1285,7 @@ Bo Fang, Wenhao Wu, Chang Liu, Yu Zhou, Dongliang He, Weiping Wang <br>
 [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3503161.3547888)
 
   
-### Holistic and local representations
+## *Holistic and local representations*
 
 
 - **Contextualized spatio-temporal contrastive learning with self-supervision** (2022)  <br>
@@ -1295,7 +1296,7 @@ Liangzhe Yuan, Rui Qian, Yin Cui, Boqing Gong,Florian Schroff,Ming-Hsuan Yang, H
 
 
 
-### Learning view-invariant sensory representations
+## *Learning view-invariant sensory representations*
 
   
 - **Contrastive multiview coding** (2020)  <br>
@@ -1306,7 +1307,7 @@ Liangzhe Yuan, Rui Qian, Yin Cui, Boqing Gong,Florian Schroff,Ming-Hsuan Yang, H
 
 
 
-### Using realistic data augmentation techniques
+## *Using realistic data augmentation techniques*
 
 
 
@@ -1316,7 +1317,7 @@ Daniel Gordon, Kiana Ehsani, Dieter Fox, Ali Farhadi <br>
 [[Paper]](https://arxiv.org/pdf/2003.07990.pdf)
 
 
-### applying deep unsupervised embeddings
+## *Applying deep unsupervised embeddings*
 
   
  - **Unsupervised learning from video with deep neural embeddings** (2020) <br>
@@ -1326,7 +1327,7 @@ Daniel Gordon, Kiana Ehsani, Dieter Fox, Ali Farhadi <br>
 
 
 
-### Learning from Frames and Videos: 
+## *Learning from Frames and Videos* 
 
 - **Vi2CLR: Video and image for visual contrastive learning of representation** (2021) <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 1502-1512)* <br>
@@ -1341,8 +1342,7 @@ Quan Kong, Wenpeng Wei, Ziwei Deng, Tomoaki Yoshinaga, Tomokazu Murakami<br>
 [[Paper]](https://arxiv.org/pdf/2010.14810.pdf)
 
 
-
-### Utilizing motion information
+## *Utilizing motion information*
 
 
 - **Unsupervised learning of video representations via dense trajectory clustering** (2020) <br>
@@ -1373,7 +1373,7 @@ Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
 [[Paper]](http://fanyix.cs.ucdavis.edu/project/modist/files/modist.pdf)
 
 
-### Creating a universal objective for different frameworks
+## *Creating a universal objective for different frameworks*
 
 
 - **A large-scale study on unsupervised spatiotemporal representation learning** (2021)  <br>
@@ -1383,7 +1383,7 @@ Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
 
 # Generative
 
-### Enhancing dynamic temporal information
+## *Enhancing dynamic temporal information*
 
 
 
@@ -1398,17 +1398,16 @@ Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
 Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br>
 [[Paper]](https://arxiv.org/pdf/2210.06096.pdf)
 
-### Improving the efficiency of masking strategies
 
+## *Improving the efficiency of masking strategies*
 
- 
 - **Efficient Video Representation Learning via Masked Video Modeling with Motion-centric Token Selection** (2022)  <br>
 *arXiv preprint arXiv:2211.10636* <br>
 Sunil Hwang, Jaehong Yoon, Youngwan Lee, Sung Ju Hwan <br>
 [[Paper]](https://arxiv.org/pdf/2211.10636v1.pdf)  [[Github]](https://github.com/sunilhoho/VideoMS)
 
 
-### Predicting the indeterministic future
+## *Predicting the indeterministic future*
 
 
 - **Memory-augmented dense predictive coding for video representation learning**  (2020) <br>
@@ -1418,7 +1417,7 @@ Tengda Han, Weidi Xie, Andrew Zisserman <br>
 
 
 
-### Unifying past and future predictions
+## *Unifying past and future predictions*
 
 
 - **Unsupervised video representation learning by bidirectional feature prediction** (2021)  <br>
@@ -1428,7 +1427,7 @@ Nadine Behrmann, Juergen Gall, Mehdi Noroozi <br>
 
 
 
-### Effective use of motion cues
+## *Effective use of motion cues*
 
 
 - **Dynamonet: Dynamic action and motion network** (2019)  <br>
@@ -1439,7 +1438,7 @@ Ali Diba, Vivek Sharma, Luc Van Gool, Rainer Stiefelhagen<br>
 
 
 
-### Enhancing learning of spatiotemporal embeddings
+## *Enhancing learning of spatiotemporal embeddings*
 
  - **Video representation learning by dense predictive coding** (2019)  <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops (ICCVW), Seoul, Korea (South), 2019 pp. 1483-1492* <br>
@@ -1448,7 +1447,7 @@ Tengda Han, Weidi Xie, Andrew Zisserman <br>
 
 
 
-### Utilizing MoCo (Momentum Contrast) for videos
+## *Utilizing MoCo (Momentum Contrast) for videos*
   
 - **Videomoco: Contrastive video representation learning with temporally adversarial examples**  (2021) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11205-11214)* <br>
@@ -1456,8 +1455,7 @@ Tengda Han, Weidi Xie, Andrew Zisserman <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_VideoMoCo_Contrastive_Video_Representation_Learning_With_Temporally_Adversarial_Examples_CVPR_2021_paper.pdf)  [[Github]](https://github.com/tinapan-pt/VideoMoCo) 
 
 
-
-### The lack of large-scale video datasets
+## *The lack of large-scale video datasets*
 
 
 - **Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training** (2022)  <br>
@@ -1469,7 +1467,7 @@ Zhan Tong, Yibing Song, Jue Wang, Limin Wang <br>
 
 # Cross-Modal
 
-### Representations learning from Audio and Video
+## *Representations learning from Audio and Video*
 
 
 
@@ -1531,7 +1529,7 @@ Pritam Sarkar, Ali Etemad <br>
 
 
 
-### Misalignment between Audio and Video
+## *Misalignment between Audio and Video*
 
 
 
@@ -1549,7 +1547,7 @@ Pritam Sarkar, Ali Etemad <br>
 
 
 
-### Representations learning from Video and Text
+## *Representations learning from Video and Text*
 
 
 
@@ -1561,7 +1559,7 @@ Chen Sun, Fabien Baradel, Kevin Murphy, Cordelia Schmid <br>
 
 
 
-### Representations learning from Audio, Video and Text
+## *Representations learning from Audio, Video and Text*
 
 
 - **On compositions of transformations in contrastive self-supervised learning** (2021)  <br>
