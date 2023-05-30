@@ -1208,6 +1208,17 @@ Jungin Park, Jiyoung Lee, Ig-Jae Kim, Kwanghoon Sohn <br>
 [[Paper]](https://arxiv.org/pdf/2204.03946.pdf)
 
 
+- **ASCNet: Self-supervised video representation learning with appearance-speed consistency** (2021) <br>
+*In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8096-8105)* <br>
+Deng Huang, Wenhao Wu, Weiwen Hu, Xu Liu, Dongliang He, Zhihua Wu, Xiangmiao Wu, Mingkui Tan, Errui Ding <br>
+[[Paper]](https://arxiv.org/pdf/2106.02342.pdf)
+
+- **Self-supervised Video Transformer** (2022)  <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2874-2884)* <br>
+Kanchana Ranasinghe, Muzammal Naseer, Salman Khan, Fahad Shahbaz Khan, Michael S. Ryoo<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.pdf)  [[Github]](https://git.io/J1juJ)
+
+
 ## *Preserving Privacy*
 
 
@@ -1380,6 +1391,16 @@ Fanyi Xiao, Joseph Tighe, Davide Modolo <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3299-3309)* <br>
  Christoph Feichtenhofer, Haoqi Fan, Bo Xiong, Ross Girshick, Kaiming He <br>
 [[Paper]](https://arxiv.org/pdf/2104.14558.pdf)  [[Github]](https://github.com/facebookresearch/SlowFast)
+
+
+## *Using Visual Tempo*
+
+ - **Video representation learning with visual tempo consistency** (2020) <br>
+*arXiv preprint arXiv:2006.15489* <br>
+Ceyuan Yang, Yinghao Xu, Bo Dai, Bolei Zhou <br>
+[[Paper]](https://arxiv.org/pdf/2006.15489.pdf)  [[Github]](https://github.com/decisionforce/VTHCL)
+
+
 
 # Generative
 
