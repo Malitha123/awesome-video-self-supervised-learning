@@ -41,11 +41,12 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [Cross-Modal](#Cross-Modal)
    
 <p float="left">
-  <img src="./media/venue.png"  /> 
+  <img src="./media/merge.jpg"  /> 
 </p>
 
+
 <p float="left">
-  <img src="./media/category_dist.png"  /> 
+  <img src="./media/miro_board.jpg"  /> 
 </p>
 <!--
  - **** (2023)<br> 
