@@ -120,6 +120,11 @@ Kumara Kahatapitiya, Anurag Arnab, Arsha Nagrani, Michael S. Ryoo <br>
 [[Paper]](https://arxiv.org/pdf/2304.02560.pdf)
 
 
+- **Masked Motion Encoding for Self-Supervised Video Representation Learning** (2023)  <br>
+*arXiv preprint arXiv:2210.06096* <br>
+Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br>
+[[Paper]](https://arxiv.org/pdf/2210.06096.pdf) [[Github]](https://github.com/XinyuSun/MME)
+
 # *2022*
 
 
@@ -198,10 +203,6 @@ Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue W
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.pdf)  [[Github]](https://github.com/Mark12Ding/FAME)
 
 
-- **M3Video: Masked Motion Modeling for Self-Supervised Video Representation Learning** (2022)  <br>
-*arXiv preprint arXiv:2210.06096* <br>
-Xinyu Sun, Peihao Chen, Liangwei Chen, Thomas H. Li, Mingkui Tan, Chuang Gan <br>
-[[Paper]](https://arxiv.org/pdf/2210.06096.pdf)
 
 
 - **Self-Supervised Video Representation Learning with Motion-Contrastive Perception** (2022, July)  <br>
@@ -253,7 +254,7 @@ Liangzhe Yuan, Rui Qian, Yin Cui, Boqing Gong,Florian Schroff,Ming-Hsuan Yang, H
 
 
 - **Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training** (2022)  <br>
-*arXiv preprint arXiv:2203.12602* <br>
+*In Advances in Neural Information Processing Systems, 2022* <br>
 Zhan Tong, Yibing Song, Jue Wang, Limin Wang <br>
 [[Paper]](https://arxiv.org/pdf/2203.12602.pdf)  [[Github]](https://github.com/MCG-NJU/VideoMAE)
 
