@@ -41,7 +41,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [Cross-Modal](#Cross-Modal)
    
 <p float="left">
-  <img src="./media/merge.jpg"  /> 
+  <img src="./media/venue.jpg"  /> 
 </p>
 
 
@@ -206,25 +206,30 @@ David Fan, Deyu Yang, Xinyu Li, Vimal Bhat, and Rohith MV<br>
 Fida Mohammad Thoker, Hazel Doughty, and Cees Snoek<br>
 [[Paper]](https://arxiv.org/pdf/2303.11003.pdf)
 
+
 - **Multi-scale Compositional Constraints for Representation Learning on Videos** (2023)<br> 
 *In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* <br>
 Georgios Paraskevopoulos, Chandrashekhar Lavania, Lovish Chum, and Shiva Sundaram<br>
 [[Paper]](https://www.amazon.science/publications/multi-scale-compositional-constraints-for-representation-learning-on-videos)
+
 
 - **Flavr: Flow-agnostic Video Representations for Fast Frame Interpolation** (2023)<br> 
 *In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision* <br>
 Tarun Kalluri, Deepak Pathak, Manmohan Chandraker, and Du Tran<br>
 [[Paper]](https://openaccess.thecvf.com/content/WACV2023/papers/Kalluri_FLAVR_Flow-Agnostic_Video_Representations_for_Fast_Frame_Interpolation_WACV_2023_paper.pdf)
 
+
 - **HomE: Homography-Equivariant Video Representation Learning** (2023)<br> 
 *Preprint on arXiv* <br>
 Anirudh Sriram, Adrien Gaidon, Jiajun Wu, Juan Carlos Niebles, Li Fei-Fei, and Ehsan Adeli<br>
 [[Paper]](https://arxiv.org/pdf/2306.01623.pdf) [[GitHub]](https://github.com/anirudhs123/HomE)
 
+
 - **ViewCLR: Learning Self-supervised Video Representation for Unseen Viewpoints** (2023)<br> 
 *In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision* <br>
 Srijan Das and Michael S Ryoo<br>
 [[Paper]](https://openaccess.thecvf.com/content/WACV2023/papers/Das_ViewCLR_Learning_Self-Supervised_Video_Representation_for_Unseen_Viewpoints_WACV_2023_paper.pdf)
+
 
 - **Videomae v2: Scaling Video Masked Autoencoders with Dual Masking** (2023)<br> 
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* <br>
@@ -542,7 +547,7 @@ Rui Qian, Yeqing Li, Liangzhe Yuan, Boqing Gong, Ting Liu, Matthew Brown, Serge 
 
 
  - **LAVA: Language Audio Vision Alignment for Data-Efficient Video Pre-Training** (2022)<br> 
-*ICML 2022* <br>
+*First Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward at ICML 2022* <br>
 Sumanth Gurram , Andy Fang , David Chan , John Canny  <br>
 [[Paper]](https://arxiv.org/pdf/2207.08024.pdf) 
 
@@ -1053,7 +1058,6 @@ Donglai Wei, Joseph Lim, Andrew Zisserman, William T. Freeman <br>
 
  
 # *2017*
-
 
  - **Unsupervised representation learning by sorting sequences** (2017)  <br>
 *In Proceedings of the IEEE international conference on computer vision (pp. 667-676)* <br>
