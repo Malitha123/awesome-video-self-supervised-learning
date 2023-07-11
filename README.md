@@ -346,7 +346,7 @@ Maregu Assefa, Wei Jiang, Kumie Gedamu, Getinet Yilma, Bulbula Kumeda, Melese Ay
 - **SCVRL: Shuffled Contrastive Video Representation Learning** (2022) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 4132-4141)* <br>
 Michael Dorkenwald, Fanyi Xiao, Biagio Brattoli, Joseph Tighe, Davide Modolo <br>
-[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.pdf)  [[Github]]()
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.pdf)  
 
 
 - **XKD: Cross-modal Knowledge Distillation with Domain Alignment for Video Representation Learning** (2022) <br>
@@ -361,10 +361,262 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 [[Paper]](https://arxiv.org/pdf/2212.03191.pdf)  [[Github]](https://github.com/OpenGVLab/InternVideo)
 
 
-- **Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning** (2022) <br>
-*arXiv preprint arXiv:2212.04500* <br>
+# *2023*
+
+
+ - **Spatiotemporal consistency enhancement self-supervised representation learning for action recognition** (2023)<br> 
+*Signal, Image and Video Processing* <br>
+Shuai Bi, Zhengping Hu, Mengyao Zhao, Shufang Li & Zhe Sun  <br>
+[[Paper]](https://link.springer.com/article/10.1007/s11760-022-02357-2#Tab4)
+
+
+ - **Self-Supervised Video-Based Action Recognition With Disturbances** (2023)<br> 
+*IEEE Transactions on Image Processing.* <br>
+Wei Lin, Xinghao Ding, Yue Huang, Huanqiang Zeng  <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10109672)
+
+
+- **Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning** (2023) <br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 6312-6322)* <br>
  Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Lu Yuan, Yu-Gang Jiang <br>
 [[Paper]](https://arxiv.org/pdf/2212.04500.pdf)  [[Github]](https://github.com/ruiwang2021/mvd)
+
+
+- **Enhancing motion visual cues for self-supervised video representation learning** (2023)<br>
+*In Engineering Applications of Artificial Intelligence, Volume 123, Pages 106203*<br>
+Mu Nie, Zhibin Quan, Weiping Ding, and Wankou Yang<br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623003871)
+
+- **Continuous frame motion sensitive self-supervised collaborative network for video representation learning** (2023)<br>
+*In Advanced Engineering Informatics, Volume 56, Pages 101941*<br>
+Shuai Bi, Zhengping Hu, Mengyao Zhao, Hehao Zhang, Jirui Di, and Zhe Sun<br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S1474034623000691)
+
+- **Self-supervised pretext task collaborative multi-view contrastive learning for video action recognition** (2023)<br>
+*In Signal, Image and Video Processing, Pages 1--8*<br>
+Shuai Bi, Zhengping Hu, Mengyao Zhao, Hehao Zhang, Jirui Di, and Zhe Sun<br>
+[[Paper]](https://link.springer.com/article/10.1007/s11760-023-02605-z)
+
+
+- **Self-Supervised Learning from Untrimmed Videos via Hierarchical Consistency** (2023)<br> 
+*In IEEE Transactions on Pattern Analysis and Machine Intelligence* <br>
+Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Yi Xu, Xiang Wang, Changxin Gao, Rong Jin, and Nong Sang<br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10119224) 
+
+- **Self-Supervised Video Representation Learning by Video Incoherence Detection** (2023)<br> 
+*In IEEE Transactions on Cybernetics* <br>
+Haozhi Cao, Yuecong Xu, Kezhi Mao, Lihua Xie, Jianxiong Yin, Simon See, Qianwen Xu, and Jianfei Yang<br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10106103)
+
+- **Temporal Transformer Networks with Self-supervision for Action Recognition** (2023)<br> 
+*In IEEE Internet of Things Journal* <br>
+Yongkang Zhang, Jun Li, Na Jiang, Guoming Wu, Han Zhang, and Zhiping Shi<br>
+[[Paper]](https://arxiv.org/pdf/2112.07338.pdf)
+
+- **Audio-Visual Contrastive Learning with Temporal Self-Supervision** (2023)<br> 
+*Preprint on arXiv* <br>
+Simon Jenni, Alexander Black, and John Collomosse<br>
+[[Paper]](https://arxiv.org/pdf/2302.07702.pdf)
+
+
+- **Video Test-Time Adaptation for Action Recognition** (2023)<br> 
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* <br>
+Wei Lin, Muhammad Jehanzeb Mirza, Mateusz Kozinski, Horst Possegger, Hilde Kuehne, and Horst Bischof<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Video_Test-Time_Adaptation_for_Action_Recognition_CVPR_2023_paper.pdf) [[GitHub]](https://github.com/wlin-at/ViTTA)
+
+<!-- - **Self-Supervised Representation Learning from Temporal Ordering of Automated Driving Sequences** (2023)<br> 
+*Preprint on arXiv* <br>
+Christopher Lang, Alexander Braun, Lars Schillingmann, Karsten Haug, and Abhinav Valada<br>
+[[Paper]](https://arxiv.org/pdf/2302.09043.pdf) -->
+
+- **Uncovering the Hidden Dynamics of Video Self-supervised Learning under Distribution Shifts** (2023)<br> 
+*Preprint on arXiv* <br>
+Pritam Sarkar, Ahmad Beirami, and Ali Etemad<br>
+[[Paper]](https://arxiv.org/pdf/2306.02014.pdf)
+
+- **Self-Supervised Video Representation Learning via Latent Time Navigation** (2023)<br> 
+*Preprint on arXiv* <br>
+Di Yang, Yaohui Wang, Quan Kong, Antitza Dantcheva, Lorenzo Garattoni, Gianpiero Francesca, and Francois Bremond<br>
+[[Paper]](https://arxiv.org/pdf/2305.06437.pdf)
+
+- **Temporal Contrastive Learning with Curriculum** (2023)<br> 
+*In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* <br>
+Shuvendu Roy and Ali Etemad<br>
+[[Paper]](https://arxiv.org/pdf/2209.00760.pdf)
+
+- **Nearest-Neighbor Inter-Intra Contrastive Learning from Unlabeled Videos** (2023)<br> 
+*Preprint on arXiv* <br>
+David Fan, Deyu Yang, Xinyu Li, Vimal Bhat, and Rohith MV<br>
+[[Paper]](https://arxiv.org/pdf/2303.07317.pdf)
+
+- **Tubelet-Contrastive Self-Supervision for Video-Efficient Generalization** (2023)<br> 
+*Preprint on arXiv* <br>
+Fida Mohammad Thoker, Hazel Doughty, and Cees Snoek<br>
+[[Paper]](https://arxiv.org/pdf/2303.11003.pdf)
+
+- **Multi-scale Compositional Constraints for Representation Learning on Videos** (2023)<br> 
+*In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)* <br>
+Georgios Paraskevopoulos, Chandrashekhar Lavania, Lovish Chum, and Shiva Sundaram<br>
+[[Paper]](https://www.amazon.science/publications/multi-scale-compositional-constraints-for-representation-learning-on-videos)
+
+- **Flavr: Flow-agnostic Video Representations for Fast Frame Interpolation** (2023)<br> 
+*In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision* <br>
+Tarun Kalluri, Deepak Pathak, Manmohan Chandraker, and Du Tran<br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2023/papers/Kalluri_FLAVR_Flow-Agnostic_Video_Representations_for_Fast_Frame_Interpolation_WACV_2023_paper.pdf)
+
+- **HomE: Homography-Equivariant Video Representation Learning** (2023)<br> 
+*Preprint on arXiv* <br>
+Anirudh Sriram, Adrien Gaidon, Jiajun Wu, Juan Carlos Niebles, Li Fei-Fei, and Ehsan Adeli<br>
+[[Paper]](https://arxiv.org/pdf/2306.01623.pdf) [[GitHub]](https://github.com/anirudhs123/HomE)
+
+- **ViewCLR: Learning Self-supervised Video Representation for Unseen Viewpoints** (2023)<br> 
+*In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision* <br>
+Srijan Das and Michael S Ryoo<br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2023/papers/Das_ViewCLR_Learning_Self-Supervised_Video_Representation_for_Unseen_Viewpoints_WACV_2023_paper.pdf)
+
+- **Videomae v2: Scaling Video Masked Autoencoders with Dual Masking** (2023)<br> 
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* <br>
+Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, and Yu Qiao<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VideoMAE_V2_Scaling_Video_Masked_Autoencoders_With_Dual_Masking_CVPR_2023_paper.pdf)
+
+- **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
+*In IEEE Transactions on Multimedia* <br>
+Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv
+[[Paper]](https://arxiv.org/pdf/2207.11660.pdf)
+
+
+# *2022*
+
+
+ - **Video Motion Perception for Self-supervised Representation Learning** (2022)<br> 
+*31st International Conference on Artificial Neural Networks, Bristol, UK, September 6–9, 2022* <br>
+Wei Li, Dezhao Luo, Bo Fang, Xiaoni Li, Yu Zhou,  Weiping Wang <br>
+[[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-15937-4_43.pdf?pdf=inline%20link) 
+
+ - **An improved inter-intra contrastive learning framework on self-supervised video representation** (2022)<br> 
+*IEEE Transactions on Circuits and Systems for Video Technology* <br>
+Li Tao, Xueting Wang, Toshihiko Yamasaki <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9674754) 
+
+ - **Auxiliary Learning for Self-Supervised Video Representation via Similarity-based Knowledge Distillation** (2022)<br> 
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* <br>
+Amirhossein Dadashzadeh, Alan Whone, Majid Mirmehdi <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Dadashzadeh_Auxiliary_Learning_for_Self-Supervised_Video_Representation_via_Similarity-Based_Knowledge_Distillation_CVPRW_2022_paper.pdf) [[Github]](https://github.com/Plrbear/auxSKD)
+
+
+ - **LgNet: A local-global network for action recognition and beyond** (2022)<br> 
+*IEEE Transactions on Multimedia* <br>
+Jiaqi Zhou, Zehua Fu, Qiuyu Huang, Qingjie Liu, Yunhong Wang <br>
+[[Paper]](https://ieeexplore.ieee.org/document/9817623)
+
+
+ - **Motion Sensitive Contrastive Learning for Self-supervised Video Representation** (2022)<br> 
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Jingcheng Ni, Nan Zhou, Jie Qin, Qian Wu, Junqi Liu, Boxun Li, Di Huang<br>
+[[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19833-5_27.pdf?pdf=inline%20link)
+
+
+ - **Unsupervised Video-based Action Recognition With Imagining Motion And Perceiving Appearance** (2022)<br> 
+*IEEE Transactions on Circuits and Systems for Video Technology* <br>
+Wei Lin , Xiaoyu Liu , Yihong Zhuang , Xinghao Ding , Xiaotong Tu , Yue Huang , Huanqiang Zeng<br>
+[[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19833-5_27.pdf?pdf=inline%20link)
+
+
+ - **Unsupervised Learning of Spatio-Temporal Representation with Multi-Task Learning for Video Retrieval** (2022)<br> 
+*In 2022 National Conference on Communications* <br>
+Vidit Kumar <br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9806811)
+
+
+ - **Federated Self-supervised Learning for Video Understanding** (2022)<br> 
+*In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
+Yasar Abbas Ur Rehman, Yan Gao, Jiajun Shen, Pedro Porto Buarque de Gusmão , Nicholas Lane <br>
+[[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19821-2_29) [[Github]](https://github.com/yasar-rehman/FEDVSSL)
+
+
+ - **Contrastive predictive coding with transformer for video representation learning** (2022)<br> 
+*Neurocomputing* <br>
+Yue Liu, Junqi Ma, Yufei Xie, Xuefeng Yang, Xingzhen Tao, Lin Peng, Wei Gao <br>
+[[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19821-2_29) [[Github]](https://github.com/yliu1229/CPCTR)
+
+
+ - **Video representation learning by identifying spatio-temporal transformation** (2022)<br> 
+*Applied Intelligence* <br>
+Sheng Geng, Shimin Zhao , Hu Liu <br>
+[[Paper]](https://link.springer.com/article/10.1007/s10489-021-02790-9#Abs1)
+
+ - **On temporal granularity in self-supervised video representation learning** (2022)<br> 
+*In 33rd British Machine Vision Conference 2022, BMVC 2022* <br>
+Rui Qian, Yeqing Li, Liangzhe Yuan, Boqing Gong, Ting Liu, Matthew Brown, Serge Belongie, Ming-Hsuan Yang, Hartwig Adam, and Yin Cui <br>
+[[Paper]](https://bmvc2022.mpi-inf.mpg.de/541/) [[Github]](https://github.com/tensorflow/models/tree/master/official/)
+
+
+ - **LAVA: Language Audio Vision Alignment for Data-Efficient Video Pre-Training** (2022)<br> 
+*ICML 2022* <br>
+Sumanth Gurram , Andy Fang , David Chan , John Canny  <br>
+[[Paper]](https://arxiv.org/pdf/2207.08024.pdf) 
+
+
+ - **It Takes Two: Masked Appearance-Motion Modeling for Self-supervised Video Transformer Pre-training** (2022)<br> 
+*arXiv preprint arXiv:2210.05234.* <br>
+Yuxin Song, Min Yang, Wenhao Wu, Dongliang He, Fu Li, Jingdong Wang <br>
+[[Paper]](https://arxiv.org/pdf/2210.05234.pdf) 
+
+
+ - **MAC: Mask-Augmentation for Motion-Aware Video Representation Learning** (2022)<br> 
+*In 33rd British Machine Vision Conference 2022, BMVC 2022* <br>
+Arif Akar, Ufuk Umut Senturk, and Nazli Ikizler-Cinbis. <br>
+[[Paper]](https://bmvc2022.mpi-inf.mpg.de/5/) [[Github]](https://github.com/ufukpage/MAC_SSL)
+
+
+ - **Temporal-Invariant Video Representation Learning with Dynamic Temporal Resolutions.** (2022)<br> 
+*IEEE International Conference on Advanced Video and Signal Based Surveillance* <br>
+Seong-Yun Jeong, Ho-Joong Kim, Myeong-Seok Oh, Gun-Hee Lee, Seong-Whan Lee<br>
+[[Paper]](https://ieeexplore.ieee.org/document/9959310) 
+
+
+ - **Frequency Selective Augmentation for Video Representation Learning** (2022)<br> 
+*arXiv preprint arXiv:2204.03865* <br>
+Jinhyung Kim, Taeoh Kim, Minho Shim, Dongyoon Han, Dongyoon Wee, Junmo Kim<br>
+[[Paper]](https://arxiv.org/pdf/2204.03865.pdf) 
+
+
+ - **Dual Contrastive Learning for Spatio-temporal Representation** (2022)<br> 
+*In ACM International Conference on Multimedia* <br>
+Shuangrui Ding,, Rui Qian, and Hongkai Xiongo<br>
+[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3503161.3547783) 
+
+
+- **Consistent Intra-video Contrastive Learning with Asynchronous Long-term Memory Bank** (2022)<br> 
+*In IEEE Transactions on Circuits and Systems for Video Technology* <br>
+Zelin Chen, Kun-Yu Lin, Wei-Shi Zheng<br>
+[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9893855) 
+
+
+- **Controllable Augmentations for Video Representation Learning** (2022)<br>
+arXiv preprint arXiv:2203.16632<br>
+Rui Qian, Weiyao Lin, John See, and Dian Li<br>
+[[Paper]](https://arxiv.org/pdf/2203.16632.pdf)
+
+
+- **MoQuad: Motion-focused Quadruple Construction for Video Contrastive Learning** (2022)<br>
+arXiv preprint arXiv:2212.10870<br>
+Yuan Liu, Jiacheng Chen, Hao Wu<br>
+[[Paper]](https://arxiv.org/abs/2212.10870)
+
+
+- **On Negative Sampling for Audio-Visual Contrastive Learning from Movies** (2022)<br>
+arXiv preprint arXiv:2205.00073<br>
+Mahdi M. Kalayeh, Shervin Ardeshir, Lingyi Liu, Nagendra Kamath, Ashok Chandrashekar<br>
+[[Paper]](https://arxiv.org/pdf/2205.00073.pdf)
+
+
+- **Frame-wise Action Representations for Long Videos via Sequence Contrastive Learning** (2022)<br>
+*In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 13801-13810)*<br>
+Minghao Chen, Fangyun Wei, Chong Li, Deng Cai<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Frame-Wise_Action_Representations_for_Long_Videos_via_Sequence_Contrastive_Learning_CVPR_2022_paper.pdf) [[Github]](https://github.com/minghchen/CARL_code)
+
+
 
 
 
@@ -845,7 +1097,7 @@ Basura Fernando, Hakan Bilen, Efstratios Gavves, Stephen Gould <br>
 
 
 
-
+<!-- 
 # Challenges
 
 # Pretext Task
@@ -1493,8 +1745,6 @@ Zhan Tong, Yibing Song, Jue Wang, Limin Wang <br>
 ## *Representations learning from Audio and Video*
 
 
-
-
 - **Audio-visual instance discrimination with cross-modal agreement** (2021) <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 12475-12486)* <br>
 Pedro Morgado, Nuno Vasconcelos, Ishan Misra <br>
@@ -1601,4 +1851,4 @@ Jean-Baptiste Alayrac, Adrià Recasens, Rosalia Schneider, Relja Arandjelovic, J
 - **VATT: Transformers for multimodal self-supervised learning from raw video, audio and text** (2021)  <br>
 *Advances in Neural Information Processing Systems, 34, 24206-24221* <br>
 Hassan Akbari, Liangzhe Yuan, Rui Qian, Wei-Hong Chuang, Shih-Fu Chang, Yin Cui, Boqing Gong <br>
-[[Paper]](https://arxiv.org/pdf/2104.11178.pdf)  [[Github]](https://github.com/google-research/google-research/tree/master/vatt)
+[[Paper]](https://arxiv.org/pdf/2104.11178.pdf)  [[Github]](https://github.com/google-research/google-research/tree/master/vatt) -->
