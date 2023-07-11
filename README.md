@@ -96,12 +96,6 @@ Cheng-Ze Lu, Xiaojie Jin, Zhicheng Huang, Qibin Hou, Ming-Ming Cheng, Jiashi Fen
 [[Paper]](https://arxiv.org/pdf/2301.06018.pdf)
 
 
- - **Enhancing Motion Visual Cues for Self-Supervised Video Representation Learning** (2023)<br> 
-*Engineering Applications of Artificial Intelligence, 123, 106203* <br>
-Mu Nie, Zhibin Quan, Weiping Ding, Wankou Yang <br>
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197623003871)
-
-
  - **Learning Representational Invariances for Data-Efficient Action Recognition** (2023)<br> 
 *Computer Vision and Image Understanding, 227, 103597* <br>
 Yuliang Zou, Jinwoo Choi, Qitong Wang, Jia-Bin Huang <br>
@@ -170,10 +164,6 @@ Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Yi Xu, Xiang Wang, Changxin Gao, Rong Ji
 Haozhi Cao, Yuecong Xu, Kezhi Mao, Lihua Xie, Jianxiong Yin, Simon See, Qianwen Xu, and Jianfei Yang<br>
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10106103)
 
-- **Temporal Transformer Networks with Self-supervision for Action Recognition** (2023)<br> 
-*In IEEE Internet of Things Journal* <br>
-Yongkang Zhang, Jun Li, Na Jiang, Guoming Wu, Han Zhang, and Zhiping Shi<br>
-[[Paper]](https://arxiv.org/pdf/2112.07338.pdf)
 
 - **Audio-Visual Contrastive Learning with Temporal Self-Supervision** (2023)<br> 
 *Preprint on arXiv* <br>
@@ -241,11 +231,11 @@ Srijan Das and Michael S Ryoo<br>
 Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, and Yu Qiao<br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VideoMAE_V2_Scaling_Video_Masked_Autoencoders_With_Dual_Masking_CVPR_2023_paper.pdf)
 
-- **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
-*In IEEE Transactions on Multimedia* <br>
-Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv
-[[Paper]](https://arxiv.org/pdf/2207.11660.pdf)
 
+- **Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity** (2023)   <br>
+*Proceedings of the AAAI Conference on Artificial Intelligence* <br>
+Pritam Sarkar, Ali Etemad <br>
+[[Paper]](https://arxiv.org/pdf/2111.05329v5.pdf)  [[Github]](https://pritamqu.github.io/CrissCross)
 
 
 
@@ -519,7 +509,7 @@ Jingcheng Ni, Nan Zhou, Jie Qin, Qian Wu, Junqi Liu, Boxun Li, Di Huang<br>
  - **Unsupervised Video-based Action Recognition With Imagining Motion And Perceiving Appearance** (2022)<br> 
 *IEEE Transactions on Circuits and Systems for Video Technology* <br>
 Wei Lin , Xiaoyu Liu , Yihong Zhuang , Xinghao Ding , Xiaotong Tu , Yue Huang , Huanqiang Zeng<br>
-[[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19833-5_27.pdf?pdf=inline%20link)
+[[Paper]](https://ieeexplore.ieee.org/document/9944692)
 
 
  - **Unsupervised Learning of Spatio-Temporal Representation with Multi-Task Learning for Video Retrieval** (2022)<br> 
@@ -617,10 +607,7 @@ Minghao Chen, Fangyun Wei, Chong Li, Deng Cai<br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Frame-Wise_Action_Representations_for_Long_Videos_via_Sequence_Contrastive_Learning_CVPR_2022_paper.pdf) [[Github]](https://github.com/minghchen/CARL_code)
 
 
-
-
 # *2021*
-
 
 - **Temporally coherent embeddings for self-supervised video representation learning** (2021, January) <br>
 *In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 8914-8921)* <br>
@@ -801,12 +788,6 @@ Kirill Gavrilyuk, Mihir Jain, Ilia Karmanov, Cees G. M. Snoek <br>
 *In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8834-8844)* <br>
 Chen Sun, Arsha Nagrani, Yonglong Tian, Cordelia Schmid<br>
 [[Paper]](https://arxiv.org/pdf/2104.00616.pdf)
-
-
-- **Self-Supervised Audio-Visual Representation Learning with Relaxed Cross-Modal Synchronicity** (2021)   <br>
-*arXiv preprint arXiv:2111.05329* <br>
-Pritam Sarkar, Ali Etemad <br>
-[[Paper]](https://arxiv.org/pdf/2111.05329v5.pdf)  [[Github]](https://pritamqu.github.io/CrissCross)
 
 
 
