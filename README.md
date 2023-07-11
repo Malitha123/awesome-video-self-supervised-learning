@@ -65,14 +65,19 @@ Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
 
 
 
-
 # Benchmarking
+
+ - **Benchmarking self-supervised video representation learning** (2023) <br> 
+*arXiv preprint arXiv:2306.06010* <br>
+Akash Kumar, Ashlesha Kumar, Vibhav Vineet, Yogesh Singh Rawat <br>
+[[Paper]](https://arxiv.org/pdf/2306.06010.pdf) [[Page]](https://thecodeeagle.github.io/webb/)
 
 
  - **How Severe Is Benchmark-Sensitivity in Video Self-supervised Learning?** (2022, October) <br> 
 *In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
 Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 [[Paper]](https://arxiv.org/pdf/2203.14221.pdf) [[Github]](https://github.com/fmthoker/SEVERE-BENCHMARK) [[Page]](https://bpiyush.github.io/SEVERE-website/)
+
 
 # Representation Learning
 
