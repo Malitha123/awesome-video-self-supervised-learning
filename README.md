@@ -34,12 +34,12 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [2018](#2018)
    - [2017](#2017)
    - [2016](#2016)
-- [Challenges](#Challenges)
+<!-- - [Challenges](#Challenges)
    - [Pretext-task](#pretext-task)
    - [Contrastive-learning](#contrastive-learning)
    - [Generative](#generative)
    - [Cross-Modal](#Cross-Modal)
-   
+    -->
 <p float="left">
   <img src="./media/venue.png"  /> 
 </p>
