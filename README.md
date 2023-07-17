@@ -41,7 +41,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [Cross-Modal](#Cross-Modal)
     -->
 <p float="left">
-  <img src="./media/venue.png"  /> 
+  <img src="./media/new_graph.png"  /> 
 </p>
 
 
