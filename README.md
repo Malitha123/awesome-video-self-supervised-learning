@@ -45,9 +45,12 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 </p>
 
 
+
+<!--
 <p float="left">
   <img src="./media/miro_board.jpg"  /> 
 </p>
+  -->
 <!--
  - **** (2023)<br> 
 ** <br>
