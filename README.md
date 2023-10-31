@@ -76,6 +76,13 @@ Akash Kumar, Ashlesha Kumar, Vibhav Vineet, Yogesh Singh Rawat <br>
 [[Paper]](https://arxiv.org/pdf/2306.06010.pdf) [[Page]](https://thecodeeagle.github.io/webb/)
 
 
+- **A Large-scale Study of Spatiotemporal Representation Learning with a New Benchmark on Action Recognition** (2023)  <br>
+*arXiv preprint arXiv:2303.13505* <br>
+Deng, A., Yang, T., & Chen, C. <br>
+[[Paper]](https://arxiv.org/pdf/2303.13505.pdf)  
+
+
+
  - **How Severe Is Benchmark-Sensitivity in Video Self-supervised Learning?** (2022, October) <br> 
 *In Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022* <br>
 Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
@@ -279,12 +286,6 @@ Li, R., Zhou, S., & Liu, D. <br>
 *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 6316-6326)* <br>
 Zhao, N., Jiao, J., Xie, W., & Lin, D. <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/WFM/papers/Zhao_Cali-NCE_Boosting_Cross-Modal_Video_Representation_Learning_With_Calibrated_Alignment_CVPRW_2023_paper.pdf)  
-
-
-- **A Large-scale Study of Spatiotemporal Representation Learning with a New Benchmark on Action Recognition** (2023)  <br>
-*arXiv preprint arXiv:2303.13505* <br>
-Deng, A., Yang, T., & Chen, C. <br>
-[[Paper]](https://arxiv.org/pdf/2303.13505.pdf)  
 
 
  
