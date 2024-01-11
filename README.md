@@ -26,6 +26,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
+   - [2024](#2024)
    - [2023](#2023)
    - [2022](#2022)
    - [2021](#2021)
@@ -90,6 +91,15 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 
 # Representation Learning
+
+# *2024*
+
+ - **GLOCAL: A self-supervised learning framework for global and local motion estimation** (2024)<br> 
+*Pattern Recognition Letters* <br>
+Yihao Zheng , Kunming Luo , Shuaicheng Liu , Zun Li , Ye Xiang , Lifang Wu , Bing Zeng , Chang Wen Chen  <br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S016786552300377X?via%3Dihub) 
+
+
 
 # *2023*
 
