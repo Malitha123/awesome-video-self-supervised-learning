@@ -103,6 +103,38 @@ Yihao Zheng , Kunming Luo , Shuaicheng Liu , Zun Li , Ye Xiang , Lifang Wu , Bin
 
 # *2023*
 
+
+- **Self-supervised Video Representation Learning via Capturing Semantic Changes Indicated by Saccades** (2023)<br>
+*IEEE Transactions on Circuits and Systems for Video Technology* <br>
+Qiuxia Lai, Ailing Zeng, Ye Wang, Lihong Cao, Yu Li, Qiang Xu Senior Member, IEEE <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10168973)
+
+- **Attentive spatial-temporal contrastive learning for self-supervised video representation** (2023)<br>
+*Image and Vision Computing Journal* <br>
+Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
+
+
+- **Attentive spatial-temporal contrastive learning for self-supervised video representation** (2023)<br>
+*Image and Vision Computing Journal* <br>
+Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
+
+- **Cross-modal Manifold Cutmix for Self-supervised Video Representation Learning** (2023)<br>
+*18th International Conference on Machine Vision and Applications (MVA) 2023* <br>
+Srijan Das; Michael Ryoo <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10216260)
+
+- **CHAIN: Exploring Global-Local Spatio-Temporal Information for Improved Self-Supervised Video Hashing** (2023)<br>
+*Proceedings of the 31st ACM International Conference on Multimedia* <br>
+Rukai Wei, Yu Liu, Jingkuan Song, Heng Cui, Yanzhao Xie, Ke Zhou <br>
+[[Paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3613440)
+
+- **Data-Efficient Masked Video Modeling for Self-supervised Action Recognition** (2023)<br> 
+*Proceedings of the 31st ACM International Conference on Multimedia* <br>
+Qiankun Li, Xiaolong Huang, Zhifan Wan, Lanqing Hu, Shuzhe Wu, Jie Zhang, Shiguang Shan, Zengfu Wang( <br>
+[[Paper]](https://dl.acm.org/doi/10.1145/3581783.3612496)
+
  - **MAR: Masked Autoencoders for Efficient Action Recognition** (2023)<br> 
 *IEEE Transactions on Multimedia* <br>
 Zhiwu Qing, Shiwei Zhang, Ziyuan Huang, Xiang Wang, Yuehuan Wang, Yiliang Lv, Changxin Gao, Nong Sang <br>
