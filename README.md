@@ -94,6 +94,13 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **No More Shortcuts: Realizing the Potential of Temporal Self-Supervision** (2023)<br>
+*AAAI Conference on Artificial Intelligence, Main Technical Track (AAAI) , 2024* <br>
+Ishan Rajendrakumar Dave, Simon Jenni, Mubarak Shah. <br>
+[[Paper]](https://arxiv.org/pdf/2312.13008.pdf)  [[Project Page]](https://daveishan.github.io/nms-webpage/)
+
+
+
  - **GLOCAL: A self-supervised learning framework for global and local motion estimation** (2024)<br> 
 *Pattern Recognition Letters* <br>
 Yihao Zheng , Kunming Luo , Shuaicheng Liu , Zun Li , Ye Xiang , Lifang Wu , Bing Zeng , Chang Wen Chen  <br>
@@ -103,10 +110,17 @@ Yihao Zheng , Kunming Luo , Shuaicheng Liu , Zun Li , Ye Xiang , Lifang Wu , Bin
 
 # *2023*
 
+- **TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition** (2023)<br>
+*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023* <br>
+Ishan Rajendrakumar Dave, Mamshad Nayeem Rizve, Chen Chen, Mubarak Shah <br>
+[[Paper]](https://arxiv.org/pdf/2303.16268.pdf)  [[Github]](https://github.com/DAVEISHAN/TimeBalance)  [[Project Page]](https://daveishan.github.io/timebalance_webpage/)
+
+
+
 
 - **Self-supervised Video Representation Learning via Capturing Semantic Changes Indicated by Saccades** (2023)<br>
 *IEEE Transactions on Circuits and Systems for Video Technology* <br>
-Qiuxia Lai, Ailing Zeng, Ye Wang, Lihong Cao, Yu Li, Qiang Xu Senior Member, IEEE <br>
+Qiuxia Lai, Ailing Zeng, Ye Wang, Lihong Cao, Yu Li, Qiang Xu, IEEE <br>
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10168973)
 
 - **Attentive spatial-temporal contrastive learning for self-supervised video representation** (2023)<br>
