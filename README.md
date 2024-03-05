@@ -41,9 +41,9 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
    - [Generative](#generative)
    - [Cross-Modal](#Cross-Modal)
     -->
-<p float="left">
+<!--<p float="left">
   <img src="./media/new_graph.png"  /> 
-</p>
+</p>  -->
 
 
 
