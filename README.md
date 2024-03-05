@@ -95,19 +95,19 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 # *2024*
 
 
-- **Collaboratively Self-supervised Video Representation Learning for Action Recognition* (2024)<br>
+- **Collaboratively Self-supervised Video Representation Learning for Action Recognition** (2024)<br>
 *arxiv* <br>
 Jie Zhang, Zhifan Wan, Lanqing Hu, Stephen Lin, Shuzhe Wu, Shiguang Shan <br>
 [[Paper]](https://arxiv.org/abs/2401.07584) 
 
 
 
-- **Language-based Action Concept Spaces Improve Video Self-Supervised Learning* (2024)<br>
+- **Language-based Action Concept Spaces Improve Video Self-Supervised Learning** (2024)<br>
 *Advances in Neural Information Processing Systems 36 (2024)* <br>
 Kanchana Ranasinghe, Michael S Ryoo<br>
-[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/ed67dff7cb96e7e86c4d91c0d5db49bb-Paper-Conference.pdf)  [[Project Page]](https://pritamsarkar.com/OOD-VSSL/)
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/ed67dff7cb96e7e86c4d91c0d5db49bb-Paper-Conference.pdf) 
 
-- **Uncovering the Hidden Dynamics of Video Self-supervised Learning under Distribution Shifts* (2024)<br>
+- **Uncovering the Hidden Dynamics of Video Self-supervised Learning under Distribution Shifts** (2024)<br>
 *Advances in Neural Information Processing Systems 36 (2024)* <br>
 Pritam Sarkar, Ahmad Beirami, Ali Etemad <br>
 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/a86d17b6cd70366d56ab48d2a05a4df1-Paper-Conference.pdf)  [[Project Page]](https://pritamsarkar.com/OOD-VSSL/)
