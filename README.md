@@ -94,7 +94,30 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
-- **No More Shortcuts: Realizing the Potential of Temporal Self-Supervision** (2023)<br>
+
+- **Collaboratively Self-supervised Video Representation Learning for Action Recognition* (2024)<br>
+*arxiv* <br>
+Jie Zhang, Zhifan Wan, Lanqing Hu, Stephen Lin, Shuzhe Wu, Shiguang Shan <br>
+[[Paper]](https://arxiv.org/abs/2401.07584) 
+
+
+
+- **Language-based Action Concept Spaces Improve Video Self-Supervised Learning* (2024)<br>
+*Advances in Neural Information Processing Systems 36 (2024)* <br>
+Kanchana Ranasinghe, Michael S Ryoo<br>
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/ed67dff7cb96e7e86c4d91c0d5db49bb-Paper-Conference.pdf)  [[Project Page]](https://pritamsarkar.com/OOD-VSSL/)
+
+- **Uncovering the Hidden Dynamics of Video Self-supervised Learning under Distribution Shifts* (2024)<br>
+*Advances in Neural Information Processing Systems 36 (2024)* <br>
+Pritam Sarkar, Ahmad Beirami, Ali Etemad <br>
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/a86d17b6cd70366d56ab48d2a05a4df1-Paper-Conference.pdf)  [[Project Page]](https://pritamsarkar.com/OOD-VSSL/)
+
+- **Self-supervised video pretraining yields robust and more human-aligned visual representation** (2024)<br>
+*Advances in Neural Information Processing Systems 36 (2024)* <br>
+Nikhil Parthasarathy, S. M. Ali Eslami, João Carreira, Olivier J. Hénaff. <br>
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/cf57022dff0929796f85ac99d7cefa86-Paper-Conference.pdf)  
+
+- **No More Shortcuts: Realizing the Potential of Temporal Self-Supervision** (2024)<br>
 *AAAI Conference on Artificial Intelligence, Main Technical Track (AAAI) , 2024* <br>
 Ishan Rajendrakumar Dave, Simon Jenni, Mubarak Shah. <br>
 [[Paper]](https://arxiv.org/pdf/2312.13008.pdf)  [[Project Page]](https://daveishan.github.io/nms-webpage/)
