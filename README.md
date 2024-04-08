@@ -997,6 +997,13 @@ Zolfaghari, M., Zhu, Y., Gehler, P., & Brox, T. <br>
  
 # *2020*
 
+
+
+ - **Self-supervised motion representation via scattering local motion cues** (2020, October)<br>
+*Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020* <br>
+Yuan Tian, Zhaohui Che, Wenbo Bao, Guangtao Zhai, Zhiyong Gao1 <br>
+[[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590069.pdf) 
+
  - **Self-supervised video representation learning using inter-intra contrastive framework** (2020, October)<br>
 *In Proceedings of the 28th ACM International Conference on Multimedia (pp. 2193-2201)* <br>
 Li Tao, Xueting Wang, Toshihiko Yamasaki <br>
