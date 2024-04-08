@@ -769,6 +769,13 @@ Shi, B., Hsu, W. N., Lakhotia, K., & Mohamed, A. <br>
 
 # *2021*
 
+
+
+- **Watching too much television is good: Self-supervised audio-visual representation learning from movies and tv shows** (2021) <br>
+*arXiv preprint arXiv:2106.08513* <br>
+Mahdi M. Kalayeh, Nagendra Kamath, Lingyi Liu <br>
+[[Paper]](https://arxiv.org/pdf/2106.08513.pdf) 
+
 - **Temporally coherent embeddings for self-supervised video representation learning** (2021, January) <br>
 *In 2020 25th International Conference on Pattern Recognition (ICPR) (pp. 8914-8921)* <br>
 Joshua Knights, Ben Harwood, Daniel Ward, Anthony Vanderkop, Olivia Mackenzie-Ross, Peyman Moghadam <br>
