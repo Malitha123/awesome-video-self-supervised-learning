@@ -12,7 +12,7 @@ In this repository, we have gathered some of the most promising self-supervised 
 **Let's collaborate and enrich this list together! Reach out to [me](https://malitha123.github.io/malitha/) or submit a [pull request](https://github.com/Malitha123/awesome_video_self-supervised-learning/pulls). Your contributions are highly appreciated.**
 
 <div align="center">
-    <img src="./media/We_Want_You.png" alt="alt text" width="100" height="100">
+    <img src="./media/We_Want_You.png" alt="alt text" width="300" height="300">
 </div>
 
 
