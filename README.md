@@ -281,10 +281,6 @@ Wei Lin, Muhammad Jehanzeb Mirza, Mateusz Kozinski, Horst Possegger, Hilde Kuehn
 Christopher Lang, Alexander Braun, Lars Schillingmann, Karsten Haug, and Abhinav Valada<br>
 [[Paper]](https://arxiv.org/pdf/2302.09043.pdf) -->
 
-- **Uncovering the Hidden Dynamics of Video Self-supervised Learning under Distribution Shifts** (2023)<br> 
-*Preprint on arXiv* <br>
-Pritam Sarkar, Ahmad Beirami, and Ali Etemad<br>
-[[Paper]](https://arxiv.org/pdf/2306.02014.pdf)
 
 - **Self-Supervised Video Representation Learning via Latent Time Navigation** (2023)<br> 
 *Preprint on arXiv* <br>
