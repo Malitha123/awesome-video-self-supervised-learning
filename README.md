@@ -100,6 +100,21 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **Clustering-based multi-featured self-supervised learning for human activities and video retrieval** (2024)<br>
+*Applied Intelligence - Springer* <br>
+Muhammad Hafeez Javed, Zeng Yu, Taha M. Rajeh, Fahad Rafique & Tianrui Li <br>
+[[Paper]](https://link.springer.com/article/10.1007/s10489-024-05460-8#Sec18) 
+
+- **Positive and negative sampling strategies for self-supervised learning on audio-video data** (2024)<br>
+*arxiv* <br>
+Shanshan Wang, Soumya Tripathy, Toni Heittola, Annamaria Mesaros <br>
+[[Paper]](https://arxiv.org/abs/2402.02899) 
+
+- **Self-supervised learning of video representations from a child's perspective** (2024)<br>
+*arxiv* <br>
+Emin Orhan, Wentao Wang, Alex N. Wang, Mengye Ren, Brenden M. Lake <br>
+[[Paper]](https://arxiv.org/abs/2402.00300) 
+
 
 - **Collaboratively Self-supervised Video Representation Learning for Action Recognition** (2024)<br>
 *arxiv* <br>
