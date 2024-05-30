@@ -100,6 +100,12 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **BIMM: Brain Inspired Masked Modeling for Video Representation Learningl** (2024)<br>
+*arxiv* <br>
+Zhifan Wan, Jie Zhang, Changzhen Li, Shiguang Shan <br>
+[[Paper]](https://arxiv.org/abs/2405.12757)
+
+
 - **Clustering-based multi-featured self-supervised learning for human activities and video retrieval** (2024)<br>
 *Applied Intelligence - Springer* <br>
 Muhammad Hafeez Javed, Zeng Yu, Taha M. Rajeh, Fahad Rafique & Tianrui Li <br>
