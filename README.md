@@ -100,7 +100,13 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
-- **BIMM: Brain Inspired Masked Modeling for Video Representation Learningl** (2024)<br>
+
+- **What When and Where? Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions** (2024)<br>
+*Computer Vision and Pattern Recognition (CVPR), 2024* <br>
+Brian Chen, Nina Shvetsova, Andrew Rouditchenko, Daniel Kondermann, Samuel Thomas, Shih-Fu Chang, Rogerio Feris, James Glass, Hilde Kuehne <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_What_When_and_Where_Self-Supervised_Spatio-Temporal_Grounding_in_Untrimmed_Multi-Action_CVPR_2024_paper.pdf)
+
+- **BIMM: Brain Inspired Masked Modeling for Video Representation Learning** (2024)<br>
 *arxiv* <br>
 Zhifan Wan, Jie Zhang, Changzhen Li, Shiguang Shan <br>
 [[Paper]](https://arxiv.org/abs/2405.12757)
@@ -1020,6 +1026,11 @@ Zolfaghari, M., Zhu, Y., Gehler, P., & Brox, T. <br>
  
 # *2020*
 
+
+ - **Self-Supervised Learning to Detect Key Frames in Videos** (2020, October)<br>
+*MDPI-Sensors* <br>
+Xiang Yan,Syed Zulqarnain Gilani,Mingtao Feng ,Liang Zhang,Hanlin Qin and Ajmal Mian <br>
+[[Paper]](https://www.mdpi.com/1424-8220/20/23/6941)
 
 
  - **Self-supervised motion representation via scattering local motion cues** (2020, October)<br>
