@@ -100,6 +100,11 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **Motion-guided spatiotemporal multitask feature discrimination for self-supervised video representation learning** (2024)<br>
+*Pattern Recognition (Elsevier)* <br>
+Shuai Bi, Zhengping Hu, Hehao Zhang, Jirui Di, Zhe Sun <br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320324004643)
+
 
 - **What When and Where? Self-Supervised Spatio-Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions** (2024)<br>
 *Computer Vision and Pattern Recognition (CVPR), 2024* <br>
