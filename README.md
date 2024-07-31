@@ -100,6 +100,18 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **Self-supervised object-centric learning for videos** (2024)<br>
+*Advances in Neural Information Processing Systems (Neurips) 2024* <br>
+Görkay Aydemir, Weidi Xie, Fatma Guney <br>
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/67b0e7c7c2a5780aeefe3b79caac106e-Paper-Conference.pdf)
+
+- **CycleCL: Self-supervised Learning for Periodic Videos** (2024)<br>
+*IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
+Matteo Destro, Michael Gygli <br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Destro_CycleCL_Self-Supervised_Learning_for_Periodic_Videos_WACV_2024_paper.html)
+
+
+
 - **Motion-guided spatiotemporal multitask feature discrimination for self-supervised video representation learning** (2024)<br>
 *Pattern Recognition (Elsevier)* <br>
 Shuai Bi, Zhengping Hu, Hehao Zhang, Jirui Di, Zhe Sun <br>
