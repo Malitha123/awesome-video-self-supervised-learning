@@ -4,7 +4,8 @@
 
 # <p align=center>`Awesome Self-Supervised Learning in Videos`</p>
 
-This repository is orignating from our survey paper "Unifying Video Self-Supervised Learning across Families of Tasks: A Survey" and authors (Ishan Dave, Malitha Gunawardhana, Limalka Sadith , Honglu Zhou , Liel David , Daniel Harari , Mubarak Shah , Muhammad Hairs Khan)  will continue to update this over time
+This repository is originating from our survey paper "**[Unifying Video Self-Supervised Learning across Families of Tasks: A Survey](https://www.preprints.org/manuscript/202408.0133/v1)**" and authors (**[Ishan Dave*](https://daveishan.github.io/)**, **[Malitha Gunawardhana*](https://malitha123.github.io/malitha/)**, **[Limalka Sadith](https://www.linkedin.com/in/limalka-sadith/1000/)**, **[Honglu Zhou](https://sites.google.com/view/hongluzhou/)**, **[Liel David](https://www.linkedin.com/in/liel-david-0bb41244/)**, **[Daniel Harari](https://scholar.google.com/citations?hl=en&user=xwdcDjUAAAAJ)**, **[Mubarak Shah](https://scholar.google.com/citations?user=p8gsO3gAAAAJ&hl=en)**, **[Muhammad Haris Khan](https://m-haris-khan.com/)**) will continue to update this over time.
+
 > **Abstract:** *Video self-supervised learning (VideoSSL) offers significant potential for reducing annotation costs and enhancing a wide range of downstream tasks in video understanding. The ultimate goal of VideoSSL is to achieve human-level video intelligence across a spectrum of tasks, from low-level tasks such as pixel temporal correspondence to high-level complex spatio-temporal tasks like action recognition. However, most existing VideoSSL methods focus on isolated aspects of this spectrum and fail to integrate different levels of task complexity. Our study presents the first comprehensive survey that connects all families of VideoSSL methods. We provide a detailed review of the full spectrum of VideoSSL, from low to high levels, by conceptually linking their self-supervised learning objectives and including a comprehensive categorization. Our extensive evaluation highlights the strengths and limitations of each SSL objective across various downstream task families. We also detail the challenges in current VideoSSL research such as data curation, interpretability, deployment, and privacy concerns, an area that previous surveys have not thoroughly explored. In addressing these challenges, we recognize the strengths of existing methods in addressing these challenges and outline future directions for research.*
 <div align="center">
     <img src="./media/video_ssl_families.png" alt="alt text" width="800" height="500">
@@ -13,6 +14,18 @@ This repository is orignating from our survey paper "Unifying Video Self-Supervi
 
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
+
+If you find our work useful. Please consider giving a star :star: and a citation.
+```bibtex
+@article{dave2024unifying,
+  title={Unifying Video Self-Supervised Learning across Families of Tasks: A Survey},
+  author={Dave, Ishan and Gunawardhana, Malitha and Sadith, Limalka and Zhou, Honglu and David, Liel and Harari, Daniel and Shah, Mubarak and Khan, Muhammad Haris},
+  year={2024},
+  publisher={Preprints}
+}
+
+```
+
 
 We identify three major families of videoSSL methods: (a) Methods that focus on high-level semantic tasks which require complex spatio-temporal understanding, such as action recognition, video retrieval, and video attribute classification. (b) Methods that concentrate on low-level video dynamics, primarily learning good temporal correspondences between video segments. Tasks in this category include video object segmentation and pose tracking. (c) Objectives that aim to learn the action-class agnostic internal structure of an action, which falls between high-level semantic understanding and low-level correspondence. These methods focus on identifying frame-level key events and action phases, useful for fine-grained action understanding and temporal alignment of videos.
 
