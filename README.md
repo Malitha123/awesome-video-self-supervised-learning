@@ -93,7 +93,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 
  - **Unifying Video Self-Supervised Learning across Families of Tasks: A Survey** (2024)<br> 
 *Preprint* <br>
-Ishan Dave * , Malitha Gunawardhana * , Limalka Sadith , Honglu Zhou , Liel David , Daniel Harari , Mubarak Shah , Muhammad Hairs Khan <br>
+Ishan Dave*, Malitha Gunawardhana*, Limalka Sadith, Honglu Zhou, Liel David, Daniel Harari, Mubarak Shah, Muhammad Hairs Khan <br>
 [[Paper]](https://www.preprints.org/manuscript/202408.0133/v1)
 
 
