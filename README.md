@@ -1,5 +1,6 @@
 [![Last Updated](https://img.shields.io/github/last-commit/Malitha123/awesome_video_self-supervised-learning?color=blue&label=Last%20Updated)](https://github.com/Malitha123/awesome_video_self-supervised-learning/commits/main) 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Our Paper](https://img.shields.io/badge/Our_Paper-blue)](https://www.preprints.org/manuscript/202408.0133/v1)
 
 
 # <p align=center>`Awesome Self-Supervised Learning in Videos`</p>
@@ -26,9 +27,9 @@ If you find our work useful. Please consider giving a star :star: and a citation
 
 ```
 
-
+<!--
 We identify three major families of videoSSL methods: (a) Methods that focus on high-level semantic tasks which require complex spatio-temporal understanding, such as action recognition, video retrieval, and video attribute classification. (b) Methods that concentrate on low-level video dynamics, primarily learning good temporal correspondences between video segments. Tasks in this category include video object segmentation and pose tracking. (c) Objectives that aim to learn the action-class agnostic internal structure of an action, which falls between high-level semantic understanding and low-level correspondence. These methods focus on identifying frame-level key events and action phases, useful for fine-grained action understanding and temporal alignment of videos.
-
+-->
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 
