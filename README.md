@@ -67,10 +67,9 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 
 #  Surveys
 
- - **Unifying Video Self-Supervised Learning across Families of Tasks: A Survey** (2022)<br> 
+ - **Unifying Video Self-Supervised Learning across Families of Tasks: A Survey** (2024)<br> 
 *Preprint* <br>
 Ishan Dave * , Malitha Gunawardhana * , Limalka Sadith , Honglu Zhou , Liel David , Daniel Harari , Mubarak Shah , Muhammad Hairs Khan <br>
-* Equal Contribution
 [[Paper]](https://www.preprints.org/manuscript/202408.0133/v1)
 
 
@@ -85,7 +84,7 @@ Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
 
 
 
- - **How Effective are Self-Supervised Models for Contact Identification in Videos** (2023) <br> 
+ - **How Effective are Self-Supervised Models for Contact Identification in Videos** (2024) <br> 
 *arXiv preprint* <br>
 Malitha Gunawardhana, Limalka Sadith, Liel David, Daniel Harari, Muhammad Haris Khan <br>
 [[Paper]](https://arxiv.org/abs/2408.00498)
