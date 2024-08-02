@@ -4,15 +4,17 @@
 
 # <p align=center>`Awesome Self-Supervised Learning in Videos`</p>
 
+This repository is orignating from our survey paper "Unifying Video Self-Supervised Learning across Families of Tasks: A Survey" and authors (Ishan Dave, Malitha Gunawardhana, Limalka Sadith , Honglu Zhou , Liel David , Daniel Harari , Mubarak Shah , Muhammad Hairs Khan)  will continue to update this over time
+> **Abstract:** *Video self-supervised learning (VideoSSL) offers significant potential for reducing annotation costs and enhancing a wide range of downstream tasks in video understanding. The ultimate goal of VideoSSL is to achieve human-level video intelligence across a spectrum of tasks, from low-level tasks such as pixel temporal correspondence to high-level complex spatio-temporal tasks like action recognition. However, most existing VideoSSL methods focus on isolated aspects of this spectrum and fail to integrate different levels of task complexity. Our study presents the first comprehensive survey that connects all families of VideoSSL methods. We provide a detailed review of the full spectrum of VideoSSL, from low to high levels, by conceptually linking their self-supervised learning objectives and including a comprehensive categorization. Our extensive evaluation highlights the strengths and limitations of each SSL objective across various downstream task families. We also detail the challenges in current VideoSSL research such as data curation, interpretability, deployment, and privacy concerns, an area that previous surveys have not thoroughly explored. In addressing these challenges, we recognize the strengths of existing methods in addressing these challenges and outline future directions for research.*
+<div align="center">
+    <img src="./media/video_ssl_families.png" alt="alt text" width="800" height="500">
+    <p>Overview of the three major families of video self-supervised learning methods. <a href="https://www.preprints.org/manuscript/202408.0133/v1">Dave and Gunawardhana et al. (2024)</a></p>
+</div>
+
+
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
 We identify three major families of videoSSL methods: (a) Methods that focus on high-level semantic tasks which require complex spatio-temporal understanding, such as action recognition, video retrieval, and video attribute classification. (b) Methods that concentrate on low-level video dynamics, primarily learning good temporal correspondences between video segments. Tasks in this category include video object segmentation and pose tracking. (c) Objectives that aim to learn the action-class agnostic internal structure of an action, which falls between high-level semantic understanding and low-level correspondence. These methods focus on identifying frame-level key events and action phases, useful for fine-grained action understanding and temporal alignment of videos.
-
-<div align="center">
-    <img src="./media/video_ssl_families.png" alt="alt text" width="800" height="500">
-    <p>Overview of the three major families of video self-supervised learning methods. (Dave and Gunawardhana et al. (2024))</p>
-</div>
-
 
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
