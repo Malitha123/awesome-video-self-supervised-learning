@@ -111,7 +111,7 @@ Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
  - **How Effective are Self-Supervised Models for Contact Identification in Videos** (2024) <br> 
 *arXiv preprint* <br>
 Malitha Gunawardhana, Limalka Sadith, Liel David, Daniel Harari, Muhammad Haris Khan <br>
-[[Paper]](https://arxiv.org/abs/2408.00498)
+[[Paper]](https://arxiv.org/abs/2408.00498) [[Code]](https://github.com/Malitha123/Model_Eval/tree/main)
 
  - **Benchmarking self-supervised video representation learning** (2023) <br> 
 *arXiv preprint arXiv:2306.06010* <br>
