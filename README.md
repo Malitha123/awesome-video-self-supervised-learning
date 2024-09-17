@@ -14,7 +14,7 @@ This repository is originating from our survey paper "**[Unifying Video Self-Sup
 </div>
 
 
-This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabelled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
+This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabeled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
 If you find our work useful. Please consider giving a star :star: and a citation.
 ```bibtex
@@ -135,6 +135,12 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 # Representation Learning
 
 # *2024*
+
+- **Self-Supervised Learning via Multi-Transformation Classification for Action Recognition** (2024)<br>
+*2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)* <br>
+Duc-Quang Vu; Ngan Le; Jia-Ching Wang <br>
+[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/67b0e7c7c2a5780aeefe3b79caac106e-Paper-Conference.pdf)
+
 
 - **Self-supervised object-centric learning for videos** (2024)<br>
 *Advances in Neural Information Processing Systems (Neurips) 2024* <br>
