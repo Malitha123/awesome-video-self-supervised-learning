@@ -16,6 +16,11 @@ This repository is originating from our survey paper "**[Unifying Video Self-Sup
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabeled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
+## Acknowledgments
+This research was supported by the joint grant P007 from [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)  and the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/). The authors would like to express their sincere gratitude for this generous support, which made the study possible.
+
+## Citing
+
 If you find our work useful. Please consider giving a star :star: and a citation.
 ```bibtex
 @article{dave2024unifying,
@@ -30,6 +35,8 @@ If you find our work useful. Please consider giving a star :star: and a citation
 <!--
 We identify three major families of videoSSL methods: (a) Methods that focus on high-level semantic tasks which require complex spatio-temporal understanding, such as action recognition, video retrieval, and video attribute classification. (b) Methods that concentrate on low-level video dynamics, primarily learning good temporal correspondences between video segments. Tasks in this category include video object segmentation and pose tracking. (c) Objectives that aim to learn the action-class agnostic internal structure of an action, which falls between high-level semantic understanding and low-level correspondence. These methods focus on identifying frame-level key events and action phases, useful for fine-grained action understanding and temporal alignment of videos.
 -->
+
+
 In this repository, we have gathered some of the most promising self-supervised learning approaches for video analysis and organized them based on their publication year. Whether you are new to self-supervised learning in videos or an experienced researcher in the field, we hope that this repository will serve as a valuable resource for exploring the latest advances in this exciting area of research.
 
 
