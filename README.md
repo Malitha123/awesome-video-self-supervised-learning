@@ -141,7 +141,34 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # Representation Learning
 
+
+
 # *2024*
+
+
+
+- **ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations** (2024)<br>
+*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024* <br>
+Yuanhang Zhang, Shuang Yang, Shiguang Shan, Xilin Chen; <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)
+
+
+- **Self-supervised Learning of Semantic Correspondence Using Web Videos** (2024)<br>
+*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
+Donghyeon Kwon, Minsu Cho, Suha Kwak; <br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Kwon_Self-Supervised_Learning_of_Semantic_Correspondence_Using_Web_Videos_WACV_2024_paper.html)
+
+- **Video Compression and Action Recognition in Self-supervised Learning** (2024)<br>
+*2024 Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC)* <br>
+Zongbo Hao; Conghui Hao; Kecheng He <br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/10695541)
+
+
+- **CycleCL: Self-supervised Learning for Periodic Videos** (2024)<br>
+*IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
+Matteo Destro, Michael Gygl <br>
+[[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Destro_CycleCL_Self-Supervised_Learning_for_Periodic_Videos_WACV_2024_paper.html)
+
 
 - **Self-Supervised Learning via Multi-Transformation Classification for Action Recognition** (2024)<br>
 *2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)* <br>
