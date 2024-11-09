@@ -145,6 +145,10 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **Repeat and learn: Self-supervised visual representations learning by Repeated Scene Localization** (2024)<br>
+*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024* <br>
+Yuanhang Zhang, Shuang Yang, Shiguang Shan, Xilin Chen; <br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320324005557)[[Code]](https://github.com/Hussein-A-Hassan/RSL-Pretext)
 
 
 - **ES3: Evolving Self-Supervised Learning of Robust Audio-Visual Speech Representations** (2024)<br>
