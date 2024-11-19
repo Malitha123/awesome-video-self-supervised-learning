@@ -145,6 +145,19 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2024*
 
+- **ViC-MAE: Self-supervised Representation Learning from Images and Video with Contrastive Masked Autoencoders** (2024)<br>
+*European Conference on Computer Vision (ECCV), 2024* <br>
+Jefferson Hernandez, Ruben Villegas, Vicente Ordonez; <br>
+[[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00629.pdf)[[Code]](https://github.com/jeffhernandez1995/ViC-MAE)
+
+
+- **Learning to Predict Activity Progress by Self-Supervised Video Alignment** (2024)<br>
+*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024* <br>
+Gerard Donahue, Ehsan Elhamifar; <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Donahue_Learning_to_Predict_Activity_Progress_by_Self-Supervised_Video_Alignment_CVPR_2024_paper.html)[[Code]](https://github.com/gerardDonahue/GTCC_CVPR2024)
+
+
+
 - **Repeat and learn: Self-supervised visual representations learning by Repeated Scene Localization** (2024)<br>
 *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024* <br>
 Yuanhang Zhang, Shuang Yang, Shiguang Shan, Xilin Chen; <br>
@@ -262,6 +275,14 @@ Yihao Zheng , Kunming Luo , Shuaicheng Liu , Zun Li , Ye Xiang , Lifang Wu , Bin
 
 
 # *2023*
+
+
+- **OmniMAE: Single Model Masked Pretraining on Images and Videos** (2023)<br>
+*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023* <br>
+Rohit Girdhar, Alaaeldin El-Nouby, Mannat Singh,Kalyan Vasudev Alwala, Armand Joulin , Ishan Misra <br>
+[[Paper]](https://arxiv.org/pdf/2206.08356)  [[Github]](https://github.com/facebookresearch/omnivore) 
+
+
 
 - **TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition** (2023)<br>
 *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023* <br>
