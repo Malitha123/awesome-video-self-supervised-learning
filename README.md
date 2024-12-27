@@ -321,12 +321,6 @@ Qiuxia Lai, Ailing Zeng, Ye Wang, Lihong Cao, Yu Li, Qiang Xu, IEEE <br>
 Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
 
-
-- **Attentive spatial-temporal contrastive learning for self-supervised video representation** (2023)<br>
-*Image and Vision Computing Journal* <br>
-Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
-
 - **Cross-modal Manifold Cutmix for Self-supervised Video Representation Learning** (2023)<br>
 *18th International Conference on Machine Vision and Applications (MVA) 2023* <br>
 Srijan Das; Michael Ryoo <br>
