@@ -321,11 +321,10 @@ Qiuxia Lai, Ailing Zeng, Ye Wang, Lihong Cao, Yu Li, Qiang Xu, IEEE <br>
 Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
 
-
-- **Attentive spatial-temporal contrastive learning for self-supervised video representation** (2023)<br>
-*Image and Vision Computing Journal* <br>
-Xingming Yang, Sixuan Xiong, Kewei Wu, Dongfeng Shan, Zhao Xie <br>
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0262885623001397#preview-section-snippets)
+- **MGMAE: Motion Guided Masking for Video Masked Autoencoding** (2023)<br>
+*In Proceedings of the IEEE/CVF international conference on computer vision (pp. 13447-13458)* <br>
+Bingkun Huang, Zhiyu Zhao, Guozhen Zhang, Yu Qiao, Limin Wang <br>
+[[Paper]](https://arxiv.org/pdf/2308.10794) [[Github]](https://github.com/MCG-NJU/MGMAE)
 
 - **Cross-modal Manifold Cutmix for Self-supervised Video Representation Learning** (2023)<br>
 *18th International Conference on Machine Vision and Applications (MVA) 2023* <br>
