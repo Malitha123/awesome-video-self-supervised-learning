@@ -143,16 +143,6 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 # Representation Learning
 
 # *2025*
-@article{akar2025mitigating,
-  title={},
-  author={Akar, Arif and Senturk, Ufuk Umut and Ikizler-Cinbis, Nazli},
-  journal={},
-  volume={19},
-  number={1},
-  pages={1--9},
-  year={2025},
-  publisher={Springer}
-}
 
 - *Mitigating background bias in self-supervised video representation learning** (2025)<br>
 *Signal, Image and Video Processing* <br>
