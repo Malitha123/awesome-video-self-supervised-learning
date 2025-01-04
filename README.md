@@ -63,6 +63,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
+   - [2025](#2025)
    - [2024](#2024)
    - [2023](#2023)
    - [2022](#2022)
@@ -141,13 +142,29 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # Representation Learning
 
+# *2025*
+@article{akar2025mitigating,
+  title={},
+  author={Akar, Arif and Senturk, Ufuk Umut and Ikizler-Cinbis, Nazli},
+  journal={},
+  volume={19},
+  number={1},
+  pages={1--9},
+  year={2025},
+  publisher={Springer}
+}
+
+- *Mitigating background bias in self-supervised video representation learning** (2025)<br>
+*Signal, Image and Video Processing* <br>
+Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis ; <br>
+[[Paper]](https://link.springer.com/article/10.1007/s11760-024-03644-w)
 
 
 # *2024*
 
 
 - *ST2ST: Self-Supervised Test-time Adaptation for Video Action Recognition** (2024)<br>
-*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops4* <br>
+*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops* <br>
 Masud An-Nur Islam Fahim, Mohammed Innat, Jani Boutellier; <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/MAT/papers/Fahim_ST2ST_Self-Supervised_Test-time_Adaptation_for_Video_Action_Recognition_CVPRW_2024_paper.pdf)
 
