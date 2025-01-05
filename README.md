@@ -144,22 +144,29 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
-- *Mitigating background bias in self-supervised video representation learning** (2025)<br>
+- **Mitigating background bias in self-supervised video representation learning** (2025)<br>
 *Signal, Image and Video Processing* <br>
-Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis ; <br>
+Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis <br>
 [[Paper]](https://link.springer.com/article/10.1007/s11760-024-03644-w)
+
+
 
 
 # *2024*
 
+- **SIGMA: Sinkhorn-Guided Masked Video Modeling** (2024)<br>
+*ECCV 2024* <br>
+Mohammadreza Salehi, Michael Dorkenwald, Fida Mohammad Thoker, Efstratios Gavves, Cees G. M. Snoek & Yuki M. Asano  <br>
+[[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-72691-0_17)[[Code]](https://quva-lab.github.io/SIGMA)
 
-- *ST2ST: Self-Supervised Test-time Adaptation for Video Action Recognition** (2024)<br>
+
+- **ST2ST: Self-Supervised Test-time Adaptation for Video Action Recognition** (2024)<br>
 *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops* <br>
 Masud An-Nur Islam Fahim, Mohammed Innat, Jani Boutellier; <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024W/MAT/papers/Fahim_ST2ST_Self-Supervised_Test-time_Adaptation_for_Video_Action_Recognition_CVPRW_2024_paper.pdf)
 
 
-- *Self-supervised learning of video representations from a child's perspective** (2024)<br>
+- **Self-supervised learning of video representations from a child's perspective** (2024)<br>
 *CogSci 2024* <br>
 A. Emin Orhan, Wentao Wang, Alex N. Wang, Mengye Ren, Brenden M. Lake; <br>
 [[Paper]](https://arxiv.org/abs/2402.00300)[[Code]](https://github.com/eminorhan/video-models)
@@ -257,11 +264,6 @@ Muhammad Hafeez Javed, Zeng Yu, Taha M. Rajeh, Fahad Rafique & Tianrui Li <br>
 *arxiv* <br>
 Shanshan Wang, Soumya Tripathy, Toni Heittola, Annamaria Mesaros <br>
 [[Paper]](https://arxiv.org/abs/2402.02899) 
-
-- **Self-supervised learning of video representations from a child's perspective** (2024)<br>
-*arxiv* <br>
-Emin Orhan, Wentao Wang, Alex N. Wang, Mengye Ren, Brenden M. Lake <br>
-[[Paper]](https://arxiv.org/abs/2402.00300) 
 
 
 - **Collaboratively Self-supervised Video Representation Learning for Action Recognition** (2024)<br>
