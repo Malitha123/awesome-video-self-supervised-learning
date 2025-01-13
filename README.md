@@ -144,6 +144,12 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **Motion-driven Adaptive Frame Selection Strategy for Video Action Recognition** (2024)<br>
+*Research Square* <br>
+Hao Ding, Chen Guo, Jing Sun, Xiaoping Jiang, Hongling Shi, Jianjin Li  <br>
+[[Paper]](https://www.researchsquare.com/article/rs-5495634/v1)
+
+
 - **Mitigating background bias in self-supervised video representation learning** (2025)<br>
 *Signal, Image and Video Processing* <br>
 Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis <br>
@@ -153,6 +159,13 @@ Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis <br>
 
 
 # *2024*
+
+- **Towards Latent Masked Image Modeling for Self-supervised Visual Representation Learning** (2024)<br>
+*ECCV 2024* <br>
+Yibing Wei, Abhinav Gupta & Pedro Morgado  <br>
+[[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-72933-1_1)[[Code]](https://github.com/yibingwei-1/LatentMIM)
+
+
 
 - **SIGMA: Sinkhorn-Guided Masked Video Modeling** (2024)<br>
 *ECCV 2024* <br>
