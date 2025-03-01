@@ -144,6 +144,12 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **CrossVideoMAE: Self-Supervised Image-Video Representation Learning with Masked Autoencoders** (2024)<br>
+*Arxiv* <br>
+ Shihab Aaqil Ahamed∗, Malitha Gunawardhana∗, Liel David, Michael Sidorov, Daniel Harari, Muhammad Haris Khan  <br>
+[[Paper]](https://arxiv.org/pdf/2502.07811)
+
+
 - **Motion-driven Adaptive Frame Selection Strategy for Video Action Recognition** (2024)<br>
 *Research Square* <br>
 Hao Ding, Chen Guo, Jing Sun, Xiaoping Jiang, Hongling Shi, Jianjin Li  <br>
