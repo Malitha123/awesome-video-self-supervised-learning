@@ -116,6 +116,12 @@ Madeline C. Schiappa, Yogesh S. Rawat, And Mubarak Shah <br>
 
 
 
+ - **SEVERE++: Evaluating Benchmark Sensitivity in Generalization of Video Representation Learning** (2024) <br> 
+*arXiv preprint* <br>
+Fida Mohammad Thoker, Letian Jiang, Chen Zhao, Piyush Bagad, Hazel Doughty, Bernard Ghanem, Cees G. M. Snoek <br>
+[[Paper]](https://arxiv.org/abs/2504.05706) [[Code]](https://github.com/fmthoker/SEVERE-BENCHMARK-plus-plus)
+
+
  - **How Effective are Self-Supervised Models for Contact Identification in Videos** (2024) <br> 
 *arXiv preprint* <br>
 Malitha Gunawardhana, Limalka Sadith, Liel David, Daniel Harari, Muhammad Haris Khan <br>
@@ -143,6 +149,12 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 # Representation Learning
 
 # *2025*
+
+- **Progressive self-supervised spatio-temporal feature learning based on video sequence saliency** (2024)<br>
+*International Conference on Video and Image Processing* <br>
+Jinlong Kang, Tao Xu, Boting Qu, Xiang Wang, Xiaoli Lian, Jing Guo, Yuan Gao <br>
+[[Paper]](https://doi.org/10.1117/12.3059113)
+
 
 - **CrossVideoMAE: Self-Supervised Image-Video Representation Learning with Masked Autoencoders** (2024)<br>
 *Arxiv* <br>
