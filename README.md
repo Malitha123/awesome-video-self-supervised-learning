@@ -150,19 +150,57 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
-- **Progressive self-supervised spatio-temporal feature learning based on video sequence saliency** (2024)<br>
+- **Learning from Streaming Video with Orthogonal Gradients** (2025)<br>
+*Arxiv* <br>
+ Tengda Han⋄, Dilara Gokay, Joseph Heyward, Chuhan Zhang, Daniel Zoran, Viorica Patraucean, Joao Carreira, Dima Damen, Andrew Zisserman<br>
+[[Paper]](https://arxiv.org/pdf/2504.01961)
+
+
+- **Intuitive physics understanding emerges from self-supervised pretraining on natural videos** (2025)<br>
+*Arxiv* <br>
+Quentin Garrido, Nicolas Ballas, Mahmoud Assran, Adrien Bardes, Laurent Najman, Michael Rabbat, Emmanuel Dupoux, Yann LeCun<br>
+[[Paper]](https://arxiv.org/abs/2502.11831) 
+
+
+
+- **ST-HViT: spatial-temporal hierarchical vision transformer for action recognition** (2025)<br>
+*Pattern Analysis and Applications* <br>
+Limin Xia, Weiye Fu<br>
+[[Paper]](https://link.springer.com/article/10.1007/s10044-024-01407-4#citeas) 
+
+
+
+- **Advancing video self-supervised learning via image foundation models** (2025)<br>
+*Pattern Recognition Letters* <br>
+Jingwei Wu, Zhewei Huang, Chang Liu <br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0167865525001072) [[Code]](https://github.com/JingwWu/advise-video-ssl)
+
+
+- **SMILE: Infusing Spatial and Motion Semantics in Masked Video Learning** (2025)<br>
+*Arxiv* <br>
+Fida Mohammad Thoker, Letian Jiang, Chen Zhao†, Bernard Ghanem <br>
+[[Paper]](https://arxiv.org/pdf/2504.00527) [[Code]](https://github.com/fmthoker/SMILE)
+
+
+- **A Large-Scale Analysis on Contextual Self-Supervised Video Representation Learning** (2025)<br>
+*Arxiv* <br>
+Akash Kumar, Ashlesha Kumar, Vibhav Vineet, Yogesh S Rawat <br>
+[[Paper]](https://arxiv.org/abs/2504.06153)
+
+
+- **Progressive self-supervised spatio-temporal feature learning based on video sequence saliency** (2025)<br>
 *International Conference on Video and Image Processing* <br>
 Jinlong Kang, Tao Xu, Boting Qu, Xiang Wang, Xiaoli Lian, Jing Guo, Yuan Gao <br>
 [[Paper]](https://doi.org/10.1117/12.3059113)
 
 
-- **CrossVideoMAE: Self-Supervised Image-Video Representation Learning with Masked Autoencoders** (2024)<br>
+- **CrossVideoMAE: Self-Supervised Image-Video Representation Learning with Masked Autoencoders** (2025)<br>
 *Arxiv* <br>
  Shihab Aaqil Ahamed∗, Malitha Gunawardhana∗, Liel David, Michael Sidorov, Daniel Harari, Muhammad Haris Khan  <br>
 [[Paper]](https://arxiv.org/pdf/2502.07811)
 
 
-- **Motion-driven Adaptive Frame Selection Strategy for Video Action Recognition** (2024)<br>
+- **Motion-driven Adaptive Frame Selection Strategy for Video Action Recognition** (2025)<br>
 *Research Square* <br>
 Hao Ding, Chen Guo, Jing Sun, Xiaoping Jiang, Hongling Shi, Jianjin Li  <br>
 [[Paper]](https://www.researchsquare.com/article/rs-5495634/v1)
