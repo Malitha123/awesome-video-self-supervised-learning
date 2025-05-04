@@ -150,6 +150,18 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **Efficient Self-Supervised Video Hashing with Selective State Spaces** (2025)<br>
+*AAAI (2025)* <br>
+Jinpeng Wang, Niu Lian, Jun Li, Yuting Wang, Yan Feng, Bin Chen, Yongbing Zhang, Shu-Tao Xia1 <br>
+[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32835)
+
+
+- **Exemplar-free class incremental action recognition based on self-supervised learning** (2025)<br>
+*Image and Vision Computing (2025)* <br>
+Chunyu Hou, Yonghong Hou, Jinyin Jiang, Gunel Abdullayeva <br>
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0262885625001325)
+
+
 - **Learning from Streaming Video with Orthogonal Gradients** (2025)<br>
 *Arxiv* <br>
  Tengda Han⋄, Dilara Gokay, Joseph Heyward, Chuhan Zhang, Daniel Zoran, Viorica Patraucean, Joao Carreira, Dima Damen, Andrew Zisserman<br>
