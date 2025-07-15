@@ -150,6 +150,31 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **When the Future Becomes the Past: Taming Temporal Correspondence for Self-supervised Video Representation Learning** (2025)<br>
+*Arxiv (2025)* <br>
+Yang Liu, Qianqian Xu, Peisong Wen, Siran Dai, Qingming Huang;<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_When_the_Future_Becomes_the_Past_Taming_Temporal_Correspondence_for_CVPR_2025_paper.html)
+
+
+
+- **Self-Supervised Learning of Motion Concepts by Optimizing Counterfactuals** (2025)<br>
+*Arxiv (2025)* <br>
+Stefan Stojanov, David Wendt, Seungwoo Kim, Rahul Venkatesh, Kevin Feigelis, Jiajun Wu, Daniel LK Yamins<br>
+[[Paper]](https://arxiv.org/abs/2503.19953)
+
+
+- **Label Ranker: Self-aware Preference for Classification Label Position in Visual Masked Self-supervised Pre-trained Model** (2025)<br>
+*ICMR (2025)* <br>
+Peihao Xiang, Ou Bai<br>
+[[Paper]](https://dl.acm.org/doi/abs/10.1145/3731715.3733369)
+
+
+- **AutoSSVH: Exploring Automated Frame Sampling for Efficient Self-Supervised Video Hashing** (2025)<br>
+*CVPR (2025)* <br>
+Niu Lian, Jun Li, Jinpeng Wang, Ruisheng Luo, Yaowei Wang, Shu-Tao Xia, Bin Chen<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Lian_AutoSSVH_Exploring_Automated_Frame_Sampling_for_Efficient_Self-Supervised_Video_Hashing_CVPR_2025_paper.html) [[Code]](https://github.com/EliSpectre/CVPR25-AutoSSVH)
+
+
 - **Efficient Self-Supervised Video Hashing with Selective State Spaces** (2025)<br>
 *AAAI (2025)* <br>
 Jinpeng Wang, Niu Lian, Jun Li, Yuting Wang, Yan Feng, Bin Chen, Yongbing Zhang, Shu-Tao Xia1 <br>
