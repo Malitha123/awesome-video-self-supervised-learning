@@ -150,8 +150,41 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **Feature Hallucination for Self-supervised Action Recognition** (2025)<br>
+*Arxiv(2025)* <br>
+Lei Wang, Piotr Koniusz; ;<br>
+[[Paper]](https://arxiv.org/abs/2506.20342)
+
+
+- **ViDROP: Video Dense Representation through Spatio-Temporal Sparsity** (2025)<br>
+*CVPR(2025)* <br>
+Sepehr Sameni, Simon Jenni, Paolo Favaro; ;<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2025W/eLVM/html/Sameni_ViDROP_Video_Dense_Representation_through_Spatio-Temporal_Sparsity_CVPRW_2025_paper.html)
+
+
+
+- **SF2T: Self-supervised Fragment Finetuning of Video-LLMs for Fine-Grained Understanding** (2025)<br>
+*CVPR(2025)* <br>
+Yangliu Hu, Zikai Song, Na Feng, Yawei Luo, Junqing Yu, Yi-Ping Phoebe Chen, Wei Yang; ;<br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_SF2T_Self-supervised_Fragment_Finetuning_of_Video-LLMs_for_Fine-Grained_Understanding_CVPR_2025_paper.html)
+
+
+
+- **V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning** (2025)<br>
+*Arxiv(2025)* <br>
+Mido Assran, Adrien Bardes, David Fan, Quentin Garrido, Russell Howes, Mojtaba, Komeili, Matthew Muckley, Ammar Rizvi, Claire Roberts, Koustuv Sinha, Artem Zholus, Sergio Arnaud, Abha Gejji, Ada Martin, Francois Robert Hogan, Daniel Dugas, Piotr Bojanowski, Vasil Khalidov, Patrick Labatut, Francisco Massa, Marc Szafraniec, Kapil Krishnakumar, Yong Li, Xiaodong Ma, Sarath Chandar, Franziska Meier, Yann LeCun, Michael Rabbat, Nicolas Ballas ;<br>
+[[Paper]](https://arxiv.org/abs/2506.09985)
+
+
+- **Dual Perspectives on Non-Contrastive Self-Supervised Learning** (2025)<br>
+*Arxiv(2025)* <br>
+Jean Ponce, Martial Hebert, Basile Terver ;<br>
+[[Paper]](https://arxiv.org/pdf/2507.01028)
+
+
+
 - **When the Future Becomes the Past: Taming Temporal Correspondence for Self-supervised Video Representation Learning** (2025)<br>
-*Arxiv (2025)* <br>
+*CVPR (2025)* <br>
 Yang Liu, Qianqian Xu, Peisong Wen, Siran Dai, Qingming Huang;<br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_When_the_Future_Becomes_the_Past_Taming_Temporal_Correspondence_for_CVPR_2025_paper.html)
 
