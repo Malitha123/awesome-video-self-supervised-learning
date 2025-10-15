@@ -150,6 +150,18 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+- **Kdhiera: boosting self-supervised masked video modeling via hierarchical knowledge distillation** (2025)<br>
+*Cluster Computing* <br>
+Yunlong Wang, Hong Liang, Mingwen Shao & Qian Zhang;<br>
+[[Paper]](https://link.springer.com/article/10.1007/s10586-025-05262-8)
+
+
+- **Self-supervised video representation learning based on foreground and temporal information.** (2025)<br>
+*In Fourth International Conference on Electronics Technology and Artificial Intelligence (ETAI 2025)* <br>
+Zhongliang Zhou, Jiayong Fang ;<br>
+[[Paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13692/136923T/Self-supervised-video-representation-learning-based-on-foreground-and-temporal/10.1117/12.3068403.short)
+
+
 - **Feature Hallucination for Self-supervised Action Recognition** (2025)<br>
 *Arxiv(2025)* <br>
 Lei Wang, Piotr Koniusz; ;<br>
