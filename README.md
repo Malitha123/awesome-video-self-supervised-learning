@@ -297,6 +297,30 @@ Arif Akar, Ufuk Umut Senturk & Nazli Ikizler-Cinbis <br>
 
 
 # *2024*
+- **Self-Supervised Video Representation Learning in a Heuristic Decoupled Perspective** (2024)<br>
+*Arxiv* <br>
+Zeen Song, Jingyao Wang, Jianqi Zhang, Changwen Zheng, Wenwen Qiang <br>
+[[Paper]](https://arxiv.org/abs/2407.14069)
+
+
+- **ARVideo: Autoregressive Pretraining for Self-Supervised Video Representation Learning** (2024)<br>
+*Arxiv* <br>
+Sucheng Ren, Hongru Zhu, Chen Wei, Yijiang Li, Alan Yuille, Cihang Xie <br>
+[[Paper]](https://arxiv.org/abs/2405.15160)
+
+
+- **VideoMAC: Video Masked Autoencoders Meet ConvNets** (2024)<br>
+*CVPR 2024* <br>
+Gensheng Pei, Tao Chen, Xiruo Jiang, Huafeng Liu, Zeren Sun, Yazhou Yao <br>
+[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Pei_VideoMAC_Video_Masked_Autoencoders_Meet_ConvNets_CVPR_2024_paper.html)
+
+
+- **Self-supervised Video Object Segmentation with Distillation Learning of Deformable Attention** (2024)<br>
+*Arxiv* <br>
+Quang-Trung Truong,Duc Thanh Nguyen, Binh-Son Hua, Sai-Kit Yeung  <br>
+[[Paper]](https://arxiv.org/pdf/2401.13937)
+
+
 
 - **Towards Latent Masked Image Modeling for Self-supervised Visual Representation Learning** (2024)<br>
 *ECCV 2024* <br>
