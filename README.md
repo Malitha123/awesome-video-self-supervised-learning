@@ -346,7 +346,7 @@ Masud An-Nur Islam Fahim, Mohammed Innat, Jani Boutellier; <br>
 A. Emin Orhan, Wentao Wang, Alex N. Wang, Mengye Ren, Brenden M. Lake; <br>
 [[Paper]](https://arxiv.org/abs/2402.00300)[[Code]](https://github.com/eminorhan/video-models)
 
-- *Learning Video Representations without Natural Videos** (2024)<br>
+- **Learning Video Representations without Natural Videos** (2024)<br>
 *Arxiv* <br>
 Xueyang Yu, Xinlei Chen, Yossi Gandelsman; <br>
 [[Paper]](https://arxiv.org/abs/2410.24213)
@@ -377,7 +377,6 @@ Yuanhang Zhang, Shuang Yang, Shiguang Shan, Xilin Chen; <br>
 Yuanhang Zhang, Shuang Yang, Shiguang Shan, Xilin Chen; <br>
 [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ES3_Evolving_Self-Supervised_Learning_of_Robust_Audio-Visual_Speech_Representations_CVPR_2024_paper.html)
 
-
 - **Self-supervised Learning of Semantic Correspondence Using Web Videos** (2024)<br>
 *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
 Donghyeon Kwon, Minsu Cho, Suha Kwak; <br>
@@ -388,12 +387,10 @@ Donghyeon Kwon, Minsu Cho, Suha Kwak; <br>
 Zongbo Hao; Conghui Hao; Kecheng He <br>
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10695541)
 
-
 - **CycleCL: Self-supervised Learning for Periodic Videos** (2024)<br>
 *IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
 Matteo Destro, Michael Gygl <br>
 [[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Destro_CycleCL_Self-Supervised_Learning_for_Periodic_Videos_WACV_2024_paper.html)
-
 
 - **Self-Supervised Learning via Multi-Transformation Classification for Action Recognition** (2024)<br>
 *2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)* <br>
@@ -405,12 +402,6 @@ Duc-Quang Vu; Ngan Le; Jia-Ching Wang <br>
 *Advances in Neural Information Processing Systems (Neurips) 2024* <br>
 Görkay Aydemir, Weidi Xie, Fatma Guney <br>
 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/67b0e7c7c2a5780aeefe3b79caac106e-Paper-Conference.pdf)
-
-- **CycleCL: Self-supervised Learning for Periodic Videos** (2024)<br>
-*IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024* <br>
-Matteo Destro, Michael Gygli <br>
-[[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Destro_CycleCL_Self-Supervised_Learning_for_Periodic_Videos_WACV_2024_paper.html)
-
 
 
 - **Motion-guided spatiotemporal multitask feature discrimination for self-supervised video representation learning** (2024)<br>
