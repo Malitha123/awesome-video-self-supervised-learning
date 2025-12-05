@@ -150,6 +150,28 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2025*
 
+
+- **OSKAR: Omnimodal Self-supervised Knowledge Abstraction and Representation** (2025)<br>
+*Neurips 2025* <br>
+Mohamed O Abdelfattah, Kaouther Messaoud, Alexandre Alahi;<br>
+[[Paper]](https://openreview.net/pdf?id=LWuhOoHpo5)
+
+
+
+- **MME: Video Representation Learning as World Model for Understanding and Planning** (2025)<br>
+*techrxiv* <br>
+Xinyu Sun, Changhao Li, Chen Jian, Chuang Gan, Peihao Chen, and Mingkui Tan;<br>
+[[Paper]](https://www.techrxiv.org/doi/full/10.36227/techrxiv.175624509.93122186)
+
+
+
+- **Hashtag2Action: Data Engineering and Self-Supervised Pre-Training for Action Recognition in Short-Form Videos** (2025)<br>
+*International Conference on Computer Vision (ICCV) Workshops, 2025* <br>
+Yang Qian, Ali Kargarandehkordi, Yinan Sun, Parnian Azizian, Onur Cezmi Mutlu, Saimourya Surabhi, Zain Jabbar, Dennis Wall, Peter Washington, Huaijin Chen;<br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/SVU/papers/Qian_Hashtag2Action_Data_Engineering_and_Self-Supervised_Pre-Training_for_Action_Recognition_in_ICCVW_2025_paper.pdf)
+
+
+
 - **Kdhiera: boosting self-supervised masked video modeling via hierarchical knowledge distillation** (2025)<br>
 *Cluster Computing* <br>
 Yunlong Wang, Hong Liang, Mingwen Shao & Qian Zhang;<br>
