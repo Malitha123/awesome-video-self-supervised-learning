@@ -148,7 +148,37 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # Representation Learning
 
+# *2026*
+
+- **Depth-Wise Representation Development Under Blockwise Self-Supervised Learning for Video Vision Transformers** (2026)<br>
+*Arxiv 2026* <br>
+Jonas Römer, Timo Dickscheid;<br>
+[[Paper]](https://arxiv.org/abs/2601.09040)
+
+- **Beyond reconstruction: Enhancing masked autoencoders with contrastive learning for video representation learning** (2026)<br>
+*Engineering Applications of Artificial Intelligence 2026* <br>
+Yawei Feng, Lijun Guo, Guitao Yu, Rong Zhang, Jiangbo Qian, Chong Wang, Shangce Gao ;<br>
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0952197626005646)
+
+
 # *2025*
+
+- **Entropy-Guided Masked Autoencoding for Self-Supervised Human Action Recognition Using Video Swin Transformer** (2025)<br>
+*2025 IEEE International Conference on Advances in Computing Research On Science Engineering and Technology (ACROSET)* <br>
+Kollu Praveen Kumar; Guduri Baby Harshitha; Koti Vijay; Angothu Sravika<br>
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/11281001)
+
+
+- **Privacy Preservation Using Superimposed 3D-Models for Self-Supervised Training in Action Recognition** (2025)<br>
+*IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, 2025* <br>
+Asfandyar Azhar, Nidhish Shah, Shaurjya Mandal, Yongjie Jessica Zhang;<br>
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025W/SafeMM-AI/papers/Mandal_Privacy_Preservation_Using_Superimposed_3D-Models_for_Self-Supervised_Training_in_Action_ICCVW_2025_paper.pdf)
+
+
+- **Learning Complementary Knowledge via Trusted Multi-view Space Decomposition for Self-Supervised Contrastive Learning** (2025)<br>
+*Machine Leanring Journal 2025* <br>
+Jiangmeng Li, Yunze Zhao, Yifan Jin, Changwen Zheng & Wenwen Qiang;<br>
+[[Paper]](https://link.springer.com/article/10.1007/s10994-025-06927-6)
 
 
 - **OSKAR: Omnimodal Self-supervised Knowledge Abstraction and Representation** (2025)<br>
