@@ -154,7 +154,7 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 - **Self-Supervised Learning of Structured Dynamics from Videos** (2026)<br>
 *arXiv preprint* <br>
 Lukas Knobel, Andrew Zisserman, Yuki M. Asano<br>
-[[Paper]](https://arxiv.org/abs/2607.21576)
+[[Paper]](https://arxiv.org/abs/2607.21576) [[Project Page]](https://lukasknobel.github.io/projects/StructuredDynamics/) [[Code]](https://github.com/lukasknobel/StructuredDynamics)
 
 - **Depth-Wise Representation Development Under Blockwise Self-Supervised Learning for Video Vision Transformers** (2026)<br>
 *Arxiv 2026* <br>
