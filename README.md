@@ -63,6 +63,7 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
+   - [2026](#2026)
    - [2025](#2025)
    - [2024](#2024)
    - [2023](#2023)
@@ -149,6 +150,11 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 # Representation Learning
 
 # *2026*
+
+- **Self-Supervised Learning of Structured Dynamics from Videos** (2026)<br>
+*arXiv preprint* <br>
+Lukas Knobel, Andrew Zisserman, Yuki M. Asano<br>
+[[Paper]](https://arxiv.org/abs/2607.21576)
 
 - **Depth-Wise Representation Development Under Blockwise Self-Supervised Learning for Video Vision Transformers** (2026)<br>
 *Arxiv 2026* <br>
