@@ -1,0 +1,95 @@
+name: Weekly VideoSSL curation agent
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+      timezone: "Pacific/Auckland"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  copilot-requests: write
+
+concurrency:
+  group: weekly-videossl-curation
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      GH_TOKEN: ${{ github.token }}
+      COPILOT_MODEL: ${{ vars.COPILOT_MODEL }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Skip if a curation PR is already awaiting review
+        id: pending
+        shell: bash
+        run: |
+          count=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("bot/weekly-videossl-"))] | length')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" -gt 0 ]; then
+            echo "A weekly curation PR is already open. Skipping this run until it is reviewed."
+          fi
+
+      - name: Set up Python
+        if: steps.pending.outputs.count == '0'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js for Copilot CLI
+        if: steps.pending.outputs.count == '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install curator dependencies and Copilot CLI
+        if: steps.pending.outputs.count == '0'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          npm install -g @github/copilot
+
+      - name: Search, verify, update and rebuild
+        if: steps.pending.outputs.count == '0'
+        run: python scripts/curate_weekly.py
+
+      - name: Validate generated catalog and site
+        if: steps.pending.outputs.count == '0'
+        run: python scripts/check_catalog.py
+
+      - name: Create review pull request
+        if: steps.pending.outputs.count == '0'
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md index.html data/papers.json repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/; then
+            echo "No verified additions, no pull request needed."
+            exit 0
+          fi
+
+          branch="bot/weekly-videossl-$(date +%Y-%m-%d)"
+          git config user.name "videossl-curation-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add README.md index.html data/papers.json repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/
+          git commit -m "chore: weekly VideoSSL curation"
+          git push --set-upstream origin "$branch"
+
+          body_file=".weekly_pr_body.md"
+          if [ ! -f "$body_file" ]; then
+            printf '%s\n' '# Weekly VideoSSL curation' '' 'Automated candidate review. Please verify the proposed additions before merging.' > "$body_file"
+          fi
+
+          gh pr create \
+            --base "${{ github.event.repository.default_branch }}" \
+            --head "$branch" \
+            --title "Weekly VideoSSL paper update $(date +%Y-%m-%d)" \
+            --body-file "$body_file"

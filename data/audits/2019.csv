@@ -1,0 +1,10 @@
+Title,Method,Method family,Pretraining datasets,Evaluation datasets,Year,Venue,Publication status,DOI,Verified as of
+Self-supervised spatio-temporal representation learning for videos by predicting motion and appearance statistics,Motion and Appearance Statistics (MAS),Pretext / Predictive,UCF101; Kinetics-400,UCF101; HMDB51; ASLAN; YUPENN,2019,CVPR 2019,peer_reviewed,10.1109/CVPR.2019.00413,2026-08-11
+Video representation learning by dense predictive coding,Dense Predictive Coding (DPC),Pretext / Predictive,Kinetics-400,UCF101; HMDB51,2019,ICCV Workshops 2019,peer_reviewed,,2026-08-11
+Self-supervised spatiotemporal learning via video clip order prediction,Video Clip Order Prediction (VCOP),Pretext / Predictive,UCF101,UCF101; HMDB51,2019,CVPR 2019,peer_reviewed,,2026-08-11
+Video Jigsaw: Unsupervised Learning of Spatiotemporal Context for Video Action Recognition,Video Jigsaw,Pretext / Predictive,Kinetics-400; UCF101,UCF101; HMDB51,2019,WACV 2019,peer_reviewed,10.1109/WACV.2019.00025,2026-08-11
+Self-supervised video representation learning with space-time cubic puzzles,Space-Time Cubic Puzzles,Pretext / Predictive,Kinetics-400,UCF101; HMDB51,2019,AAAI 2019,peer_reviewed,10.1609/aaai.v33i01.33018545,2026-08-11
+Learning Video Representations Using Contrastive Bidirectional Transformer,Contrastive Bidirectional Transformer (CBT),Multimodal / Video-Language,Kinetics-600; HowTo100M,UCF101; HMDB51; ActivityNet; Breakfast; 50Salads; YouCook2; COIN,2019,arXiv / Preprint,preprint,,2026-08-11
+DynamoNet: Dynamic Action and Motion Network,DynamoNet,Other / Hybrid,Kinetics-400; UCF101; HMDB51,Kinetics-400; UCF101; HMDB51,2019,ICCV 2019,peer_reviewed,,2026-08-11
+Temporal Cycle-Consistency Learning,Temporal Cycle-Consistency Learning (TCC),Contrastive,Pouring; Penn Action; ImageNet-1K,Pouring; Penn Action,2019,CVPR 2019,peer_reviewed,,2026-08-11
+VideoBERT: A Joint Model for Video and Language Representation Learning,VideoBERT,Multimodal / Video-Language,YouTube Cooking-312K; Kinetics-400; BooksCorpus; English Wikipedia,YouCook2,2019,ICCV 2019,peer_reviewed,,2026-08-11

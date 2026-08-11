@@ -1,0 +1,1056 @@
+{
+  "schema_version": 1,
+  "year": 2026,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 17,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "progressive mask distillation for self supervised video representation",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "CVPR 2026",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Progressive Mask Distillation (PMD)",
+        "method_family": "Generative / Masked",
+        "method_description": "Progressive masked video modeling with increasing mask ratios, progressive student distillation, difficulty-aware region enhancement, and cross-layer feature alignment.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "ImageNet-1K",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Something-Something V2, Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "The student and video teacher are pretrained on Kinetics-400; the image teacher is pretrained on ImageNet-1K. The four named downstream datasets are evaluated by fine-tuning.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Progressive_Mask_Distillation_for_Self-supervised_Video_Representation_CVPR_2026_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Progressive_Mask_Distillation_for_Self-supervised_Video_Representation_CVPR_2026_paper.html",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Progressive_Mask_Distillation_for_Self-supervised_Video_Representation_CVPR_2026_paper.pdf"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "Final venue confirmed in the official CVPR 2026 proceedings."
+      }
+    },
+    {
+      "normalized_title": "trackmae video representation learning via track mask and predict",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "CVPR 2026",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "TrackMAE",
+        "method_family": "Generative / Masked",
+        "method_description": "Motion-aware masked video modeling that reconstructs tracked point trajectories alongside pixel or feature targets and uses motion-aware tube masking.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGYM",
+          "UCF101",
+          "UCFRep",
+          "Charades"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGYM",
+          "UCF101",
+          "UCFRep",
+          "Charades"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGYM",
+          "UCF101",
+          "UCFRep",
+          "Charades"
+        ],
+        "benchmark_suites": [
+          "SEVERE"
+        ],
+        "benchmark_text": "Kinetics-400, HMDB51, Something-Something V2, FineGYM, UCF101, UCFRep, Charades; SEVERE suite",
+        "dataset_notes": "The main encoder is pretrained on Kinetics-400. SEVERE contributes eight evaluation settings drawn from Something-Something V2, FineGYM, UCF101, UCFRep, and Charades.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Vandeghen_TrackMAE_Video_Representation_Learning_via_Track_Mask_and_Predict_CVPR_2026_paper.html",
+        "code_url": "https://github.com/rvandeghen/TrackMAE",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2603.27268",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Vandeghen_TrackMAE_Video_Representation_Learning_via_Track_Mask_and_Predict_CVPR_2026_paper.html",
+          "https://arxiv.org/abs/2603.27268",
+          "https://github.com/rvandeghen/TrackMAE"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "The arXiv version is superseded as the catalog link by the official CVPR 2026 proceedings version."
+      }
+    },
+    {
+      "normalized_title": "v jepa 2 1 unlocking dense features in video self supervised learning",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "V-JEPA 2.1",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Dense masked latent feature prediction with weighted context prediction, deep self-supervision, modality-specific tokenizers, and large-scale image-video pretraining.",
+        "pretraining_datasets": [
+          "VisionMix-163M",
+          "Something-Something V2",
+          "Kinetics",
+          "HowTo100M",
+          "YT-1B",
+          "LVD-142M"
+        ],
+        "evaluation_datasets": [
+          "Ego4D STA v2",
+          "EPIC-KITCHENS-100",
+          "NYUv2",
+          "KITTI",
+          "ADE20K",
+          "PASCAL VOC12",
+          "Cityscapes",
+          "DAVIS 2017",
+          "YouTube-VOS",
+          "Something-Something V2",
+          "Kinetics-400",
+          "Diving48",
+          "ImageNet-1K",
+          "Perception Test",
+          "Minimal Video Pairs",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench",
+          "RECON",
+          "TartanDrive",
+          "SCAND",
+          "SACSoN"
+        ],
+        "datasets": [
+          "VisionMix-163M",
+          "Something-Something V2",
+          "Kinetics",
+          "HowTo100M",
+          "YT-1B",
+          "LVD-142M",
+          "DROID",
+          "PerceptionLM",
+          "Ego4D STA v2",
+          "EPIC-KITCHENS-100",
+          "NYUv2",
+          "KITTI",
+          "ADE20K",
+          "PASCAL VOC12",
+          "Cityscapes",
+          "DAVIS 2017",
+          "YouTube-VOS",
+          "Kinetics-400",
+          "Diving48",
+          "ImageNet-1K",
+          "Perception Test",
+          "Minimal Video Pairs",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench",
+          "RECON",
+          "TartanDrive",
+          "SCAND",
+          "SACSoN"
+        ],
+        "benchmarks": [
+          "Ego4D STA v2",
+          "EPIC-KITCHENS-100",
+          "NYUv2",
+          "KITTI",
+          "ADE20K",
+          "PASCAL VOC12",
+          "Cityscapes",
+          "DAVIS 2017",
+          "YouTube-VOS",
+          "Something-Something V2",
+          "Kinetics-400",
+          "Diving48",
+          "ImageNet-1K",
+          "Perception Test",
+          "Minimal Video Pairs",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench",
+          "RECON",
+          "TartanDrive",
+          "SCAND",
+          "SACSoN"
+        ],
+        "benchmark_text": "Dense vision, forecasting, action recognition, VideoQA, manipulation, and navigation benchmarks; see structured dataset fields",
+        "dataset_notes": "VisionMix-163M combines Something-Something V2, Kinetics, HowTo100M, YT-1B, and LVD-142M. DROID and PerceptionLM are used in downstream alignment or world-model training rather than the foundation pretraining mixture.",
+        "paper_url": "https://arxiv.org/abs/2603.14482",
+        "code_url": "https://github.com/facebookresearch/vjepa2",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2603.14482",
+        "published_date": "2026-03",
+        "verification_urls": [
+          "https://arxiv.org/abs/2603.14482",
+          "https://github.com/facebookresearch/vjepa2"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "No official conference or journal publication was found as of the verification date; retained as a preprint."
+      }
+    },
+    {
+      "normalized_title": "from static to dynamic exploring self supervised image to video representation transfer learning",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "CVPR 2026",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Co-Settle",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Consistency-Separability Trade-off Transfer Learning with a frozen image encoder, lightweight projection, temporal cycle consistency, and a semantic separability constraint.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "VIP",
+          "DAVIS 2017",
+          "JHMDB",
+          "Breakfast",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "Chiral Something-Something V2",
+          "BADJA",
+          "TAP-DAVIS",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "ImageNet-1K",
+          "WIT-400M",
+          "LAION-400M",
+          "VIP",
+          "DAVIS 2017",
+          "JHMDB",
+          "Breakfast",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "Chiral Something-Something V2",
+          "BADJA",
+          "TAP-DAVIS"
+        ],
+        "benchmarks": [
+          "VIP",
+          "DAVIS 2017",
+          "JHMDB",
+          "Breakfast",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "Chiral Something-Something V2",
+          "BADJA",
+          "TAP-DAVIS",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "VIP, DAVIS 2017, JHMDB, Breakfast, UCF101, HMDB51, Something-Something V2, Chiral Something-Something V2, BADJA, TAP-DAVIS, Kinetics-400",
+        "dataset_notes": "Co-Settle is trained for five epochs on Kinetics-400. ImageNet-1K, WIT-400M, and LAION-400M are sources for the evaluated frozen image backbones. The original catalog's UCF101 and HMDB51-only annotation was incomplete.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Static_to_Dynamic_Exploring_Self-supervised_Image-to-Video_Representation_Transfer_Learning_CVPR_2026_paper.html",
+        "code_url": "https://github.com/yafeng19/Co-Settle",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2603.26597",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Static_to_Dynamic_Exploring_Self-supervised_Image-to-Video_Representation_Transfer_Learning_CVPR_2026_paper.html",
+          "https://arxiv.org/abs/2603.26597",
+          "https://github.com/yafeng19/Co-Settle"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "The arXiv version is superseded as the catalog link by the official CVPR 2026 proceedings version."
+      }
+    },
+    {
+      "normalized_title": "the time machine on the power of motion for efficient perception",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "TIME (Temporally Informed Motion Embedding)",
+        "method_family": "Generative / Masked",
+        "method_description": "A masked autoencoder over sparse point trajectories that reconstructs masked motion tracks and learns entirely from synthetic rigid-body simulations.",
+        "pretraining_datasets": [
+          "Kubric MOVi-B"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "CLEVRER",
+          "Diving48",
+          "Ego-Exo4D"
+        ],
+        "datasets": [
+          "Kubric MOVi-B",
+          "Something-Something V2",
+          "CLEVRER",
+          "Diving48",
+          "Ego-Exo4D"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "CLEVRER",
+          "Diving48",
+          "Ego-Exo4D"
+        ],
+        "benchmark_text": "Something-Something V2, CLEVRER, Diving48, Ego-Exo4D",
+        "dataset_notes": "The main model is pretrained on 250,000 Kubric MOVi-B synthetic videos. A second-stage Something-Something V2 trajectory pretraining experiment is an ablation, not the default model.",
+        "paper_url": "https://arxiv.org/abs/2605.23045",
+        "code_url": "",
+        "project_url": "https://time-model.github.io/",
+        "doi": "",
+        "arxiv_id": "2605.23045",
+        "published_date": "2026-05",
+        "verification_urls": [
+          "https://arxiv.org/abs/2605.23045",
+          "https://time-model.github.io/"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "No official conference or journal publication was found as of the verification date; retained as a preprint."
+      }
+    },
+    {
+      "normalized_title": "traction action recognition with sparse trajectories",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "TrAction",
+        "method_family": "Generative / Masked",
+        "method_description": "A compact 2.5D point-trajectory transformer with self-supervised masked-trajectory autoencoding before action-recognition fine-tuning.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "EPIC-KITCHENS-100",
+          "Invariant Action Recognition Dataset",
+          "Chirality in Action"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "EPIC-KITCHENS-100",
+          "Invariant Action Recognition Dataset",
+          "Chirality in Action"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "EPIC-KITCHENS-100",
+          "Invariant Action Recognition Dataset",
+          "Chirality in Action"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, EPIC-KITCHENS-100, Invariant Action Recognition Dataset, Chirality in Action",
+        "dataset_notes": "UCF101 and HMDB51 are discussed only as appearance-dominated examples and are not counted as evaluated datasets.",
+        "paper_url": "https://arxiv.org/abs/2606.03490",
+        "code_url": "https://github.com/ecker-lab/TrAction",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2606.03490",
+        "published_date": "2026-06",
+        "verification_urls": [
+          "https://arxiv.org/abs/2606.03490",
+          "https://github.com/ecker-lab/TrAction"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "A conference-like search result had no matching official proceedings record or arXiv acceptance comment, so the venue remains preprint."
+      }
+    },
+    {
+      "normalized_title": "onevision encoder codec aligned sparsity as a foundational principle for multimodal intelligence",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "OneVision-Encoder (OV-Encoder)",
+        "method_family": "Contrastive",
+        "method_description": "Codec-aligned sparse patchification with shared 3D RoPE and self-supervised multi-label cluster discrimination over image and video concepts.",
+        "pretraining_datasets": [
+          "LAION-400M",
+          "COYO-700M",
+          "OBELICS",
+          "Zero250M",
+          "ImageNet-21K",
+          "HowTo100M",
+          "Panda-70M",
+          "Kinetics-710",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "Diving48",
+          "Perception Test",
+          "Charades-Ego",
+          "EPIC-KITCHENS-100",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "datasets": [
+          "LAION-400M",
+          "COYO-700M",
+          "OBELICS",
+          "Zero250M",
+          "ImageNet-21K",
+          "HowTo100M",
+          "Panda-70M",
+          "Kinetics-710",
+          "Something-Something V2",
+          "Diving48",
+          "Perception Test",
+          "Charades-Ego",
+          "EPIC-KITCHENS-100",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "Diving48",
+          "Perception Test",
+          "Charades-Ego",
+          "EPIC-KITCHENS-100",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmark_text": "Something-Something V2, Diving48, Perception Test, Charades-Ego, EPIC-KITCHENS-100, Kinetics-400, HMDB51",
+        "dataset_notes": "The dataset list covers the full pretraining corpus and the paper's seven attentive-probing video representation benchmarks. General multimodal LMM benchmark tables are outside this VideoSSL catalog field.",
+        "paper_url": "https://arxiv.org/abs/2602.08683",
+        "code_url": "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2602.08683",
+        "published_date": "2026-02",
+        "verification_urls": [
+          "https://arxiv.org/abs/2602.08683",
+          "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder",
+          "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder/blob/main/docs/data_card.md"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "No official conference or journal publication was found as of the verification date; retained as a preprint. The full arXiv author list replaces the abbreviated repository entry."
+      }
+    },
+    {
+      "normalized_title": "factorized latent dynamics for video jepa an empirical study of auxiliary objectives",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "FWM-HW-LD",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A Video-JEPA auxiliary objective that factorizes appearance and dynamics subspaces and applies hard-region weighting to JEPA prediction and latent-dynamics errors.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Something-Something V2",
+          "ImageNet-100"
+        ],
+        "evaluation_datasets": [
+          "Diving48",
+          "Something-Something V2",
+          "ImageNet-100"
+        ],
+        "datasets": [
+          "UCF101",
+          "Something-Something V2",
+          "ImageNet-100",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "Diving48",
+          "Something-Something V2",
+          "ImageNet-100"
+        ],
+        "benchmark_text": "Diving48, Something-Something V2, ImageNet-100; UCF101 is also used for single-dataset pretraining",
+        "dataset_notes": "The paper compares a UCF101-only pretraining regime with a mixed UCF101, Something-Something V2, and ImageNet-100 regime. Frozen evaluation uses Diving48, Something-Something V2, and ImageNet-100.",
+        "paper_url": "https://arxiv.org/abs/2605.17165",
+        "code_url": "https://github.com/santoshpremi/Factorized-Latent-Dynamics-for-Video-JEPA-An-Empirical-Study-of-Auxiliary-Objectives",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2605.17165",
+        "published_date": "2026-05",
+        "verification_urls": [
+          "https://arxiv.org/abs/2605.17165",
+          "https://github.com/santoshpremi/Factorized-Latent-Dynamics-for-Video-JEPA-An-Empirical-Study-of-Auxiliary-Objectives"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "No official conference or journal publication was found as of the verification date; retained as a preprint."
+      }
+    },
+    {
+      "normalized_title": "self supervised learning of structured dynamics from videos",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "Structured Dynamics Model (SDM)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Future-feature prediction over a frozen image encoder that separates dominant primary motion from residual dynamics, with weak synthetic scene-level supervision.",
+        "pretraining_datasets": [
+          "Kubric",
+          "Something-Something V2",
+          "DL3DV"
+        ],
+        "evaluation_datasets": [
+          "Kubric",
+          "DL3DV",
+          "CameraBench",
+          "DAVIS 2017",
+          "YouTube-VOS",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kubric",
+          "Something-Something V2",
+          "DL3DV",
+          "CameraBench",
+          "DAVIS 2017",
+          "YouTube-VOS"
+        ],
+        "benchmarks": [
+          "Kubric",
+          "DL3DV",
+          "CameraBench",
+          "DAVIS 2017",
+          "YouTube-VOS",
+          "Something-Something V2"
+        ],
+        "benchmark_suites": [
+          "ProbeMotion"
+        ],
+        "benchmark_text": "Kubric, DL3DV, CameraBench, DAVIS 2017, YouTube-VOS, Something-Something V2; ProbeMotion suite",
+        "dataset_notes": "ProbeMotion uses controlled Kubric and DL3DV probes, CameraBench, static-camera subsets of DAVIS 2017 and YouTube-VOS, and the SSv2-110k subset.",
+        "paper_url": "https://arxiv.org/abs/2607.21576",
+        "code_url": "https://github.com/lukasknobel/StructuredDynamics",
+        "project_url": "https://lukasknobel.github.io/projects/StructuredDynamics/",
+        "doi": "",
+        "arxiv_id": "2607.21576",
+        "published_date": "2026-07",
+        "verification_urls": [
+          "https://arxiv.org/abs/2607.21576",
+          "https://lukasknobel.github.io/projects/StructuredDynamics/",
+          "https://github.com/lukasknobel/StructuredDynamics"
+        ],
+        "venue_evidence": "arxiv_record_labels_preprint",
+        "audit_notes": "The arXiv record explicitly describes this version as a preprint; no official conference or journal publication was found as of the verification date."
+      }
+    },
+    {
+      "normalized_title": "depth wise representation development under blockwise self supervised learning for video vision transformers",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "Blockwise SSL VideoMAE (BWSSL)",
+        "method_family": "Generative / Masked",
+        "method_description": "Gradient-isolated Video Vision Transformer blocks, each trained with a local VideoMAE masked-reconstruction loss, compared with end-to-end learning.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "Synthetic drifting-grating probes"
+        ],
+        "datasets": [
+          "UCF101",
+          "Synthetic drifting-grating probes"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "Synthetic drifting-grating probes"
+        ],
+        "benchmark_text": "UCF101, synthetic single- and double-drifting-grating probes",
+        "dataset_notes": "UCF101 is used for pretraining and downstream probing. Synthetic drifting-grating clips are generated by the study and are not a named external dataset.",
+        "paper_url": "https://arxiv.org/abs/2601.09040",
+        "code_url": "https://github.com/JosRor/BWSSL-for-Video-ViTs",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2601.09040",
+        "published_date": "2026-01",
+        "verification_urls": [
+          "https://arxiv.org/abs/2601.09040",
+          "https://github.com/JosRor/BWSSL-for-Video-ViTs"
+        ],
+        "venue_evidence": "arxiv_record_no_conference_comment",
+        "audit_notes": "No official conference or journal publication was found as of the verification date; retained as a preprint. The stray trailing semicolon in the author display was removed."
+      }
+    },
+    {
+      "normalized_title": "beyond reconstruction enhancing masked autoencoders with contrastive learning for video representation learning",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "Engineering Applications of Artificial Intelligence, volume 171, article 114283 (2026)",
+        "venue_normalized": "Engineering Applications of Artificial Intelligence",
+        "publication_status": "peer_reviewed",
+        "method": "Beyond Reconstruction (BR)",
+        "method_family": "Other / Hybrid",
+        "method_description": "A dual-track heterogeneous framework that assigns contrastive learning and masked video modeling to different ViT layers and adds motion-aware progressive masking.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2; the publisher abstract also reports video object segmentation",
+        "dataset_notes": "Accessible implementation metadata explicitly names Kinetics-400 and Something-Something V2. The publisher abstract also reports video object segmentation but does not expose the segmentation dataset name, so no dataset was guessed.",
+        "paper_url": "https://doi.org/10.1016/j.engappai.2026.114283",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1016/j.engappai.2026.114283",
+        "arxiv_id": "",
+        "published_date": "2026-05-01",
+        "verification_urls": [
+          "https://doi.org/10.1016/j.engappai.2026.114283",
+          "https://www.sciencedirect.com/science/article/pii/S0952197626005646",
+          "https://u-toyama.elsevierpure.com/en/publications/beyond-reconstruction-enhancing-masked-autoencoders-with-contrast/"
+        ],
+        "venue_evidence": "publisher_doi_and_institutional_metadata",
+        "audit_notes": "The final peer-reviewed journal record is confirmed as Engineering Applications of Artificial Intelligence, volume 171, article 114283, published 2026-05-01. The DOI and full bibliographic record were added."
+      }
+    },
+    {
+      "normalized_title": "structured noise masked modeling for video audio and beyond",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "ECCV 2026",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "Structured-Noise Masked Modeling",
+        "method_family": "Generative / Masked",
+        "method_description": "Masked modeling with optimized structured noise patterns, including Green3D masks for video and blue-noise masks for audio, to improve information coverage.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "AudioSet-2M",
+          "VGGSound"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "DAVIS",
+          "YouTube-VOS",
+          "AudioSet-20K",
+          "AudioSet-2M",
+          "ESC-50",
+          "VGGSound"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "AudioSet-2M",
+          "VGGSound",
+          "DAVIS",
+          "YouTube-VOS",
+          "AudioSet-20K",
+          "ESC-50"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "DAVIS",
+          "YouTube-VOS",
+          "AudioSet-20K",
+          "AudioSet-2M",
+          "ESC-50",
+          "VGGSound"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, DAVIS, YouTube-VOS, AudioSet-20K, AudioSet-2M, ESC-50, VGGSound",
+        "dataset_notes": "",
+        "paper_url": "https://carloshinojosa.me/publication/conf-eccv2026-structured-noise/",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2503.16311",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://carloshinojosa.me/publication/conf-eccv2026-structured-noise/",
+          "https://arxiv.org/abs/2503.16311"
+        ],
+        "venue_evidence": "official_author_publication_record",
+        "audit_notes": "Originally listed as a 2025 arXiv preprint; the author publication record confirms ECCV 2026 oral acceptance."
+      }
+    },
+    {
+      "normalized_title": "rethinking jepa compute efficient video ssl with frozen teachers",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "ICLR 2026",
+        "venue_normalized": "ICLR",
+        "publication_status": "peer_reviewed",
+        "method": "SALT",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Static-teacher asymmetric latent training predicts frozen teacher representations with an efficient student and avoids a momentum-updated target encoder.",
+        "pretraining_datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "Panda-70M",
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "COIN",
+          "Jester",
+          "Diving48",
+          "ImageNet-1K",
+          "IntPhys",
+          "GRASP",
+          "InfLevel"
+        ],
+        "datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "Panda-70M",
+          "ImageNet-1K",
+          "Kinetics-400",
+          "COIN",
+          "Jester",
+          "Diving48",
+          "IntPhys",
+          "GRASP",
+          "InfLevel"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "COIN",
+          "Jester",
+          "Diving48",
+          "ImageNet-1K",
+          "IntPhys",
+          "GRASP",
+          "InfLevel"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, COIN, Jester, Diving48, ImageNet-1K, IntPhys, GRASP, InfLevel",
+        "dataset_notes": "The V-3.6M mixture combines Kinetics-710, Something-Something V2, and a 2.8M-video Panda-70M subset; ImageNet-1K is used in image ablations.",
+        "paper_url": "https://openreview.net/forum?id=3cB9243E9i",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2509.24317",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openreview.net/forum?id=3cB9243E9i",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/e6d1d6195f6f3e32a930643e0ef46332-Paper-Conference.pdf",
+          "https://arxiv.org/abs/2509.24317"
+        ],
+        "venue_evidence": "official_iclr_proceedings",
+        "audit_notes": "Originally listed as a 2025 arXiv preprint; the final publication is ICLR 2026."
+      }
+    },
+    {
+      "normalized_title": "recurrent video masked autoencoders",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "CVPR 2026",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Recurrent Video Masked Autoencoder (RVM)",
+        "method_family": "Generative / Masked",
+        "method_description": "A recurrent masked autoencoder processes long videos through repeated latent-state updates and reconstructs masked content over time.",
+        "pretraining_datasets": [
+          "HowTo100M",
+          "Kinetics-700",
+          "Something-Something V2",
+          "YouTube-BoundingBoxes",
+          "YouTube-8M"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "Kinetics-700",
+          "Waymo Open",
+          "Perception Test",
+          "ScanNet",
+          "DAVIS 2017",
+          "JHMDB",
+          "VIP"
+        ],
+        "datasets": [
+          "HowTo100M",
+          "Kinetics-700",
+          "Something-Something V2",
+          "YouTube-BoundingBoxes",
+          "YouTube-8M",
+          "Waymo Open",
+          "Perception Test",
+          "ScanNet",
+          "DAVIS 2017",
+          "JHMDB",
+          "VIP"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "Kinetics-700",
+          "Waymo Open",
+          "Perception Test",
+          "ScanNet",
+          "DAVIS 2017",
+          "JHMDB",
+          "VIP"
+        ],
+        "benchmark_text": "Something-Something V2, Kinetics-700, Waymo Open, Perception Test, ScanNet, DAVIS 2017, JHMDB, VIP",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zoran_Recurrent_Video_Masked_Autoencoders_CVPR_2026_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2512.13684",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Zoran_Recurrent_Video_Masked_Autoencoders_CVPR_2026_paper.html",
+          "https://arxiv.org/abs/2512.13684"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "Originally listed as a 2025 arXiv preprint; the official CVF proceedings confirm CVPR 2026."
+      }
+    },
+    {
+      "normalized_title": "dual perspectives on non contrastive self supervised learning",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "ICLR 2026",
+        "venue_normalized": "ICLR",
+        "publication_status": "peer_reviewed",
+        "method": "Dual-Perspective Non-Contrastive SSL Analysis",
+        "method_family": "Contrastive",
+        "method_description": "A theoretical and empirical study links stop-gradient and exponential-moving-average teacher dynamics through complementary optimization perspectives.",
+        "pretraining_datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "Synthetic linear data"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Synthetic linear data"
+        ],
+        "datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "Synthetic linear data",
+          "Kinetics-400"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Synthetic linear data"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, Synthetic linear data",
+        "dataset_notes": "",
+        "paper_url": "https://openreview.net/forum?id=f5MC1G6XhB",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2507.01028",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://openreview.net/forum?id=f5MC1G6XhB",
+          "https://arxiv.org/abs/2507.01028"
+        ],
+        "venue_evidence": "official_iclr_openreview_record",
+        "audit_notes": "Originally listed as a 2025 arXiv preprint; the official OpenReview record confirms publication at ICLR 2026."
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning in a heuristic decoupled perspective",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "International Journal of Computer Vision 2026",
+        "venue_normalized": "International Journal of Computer Vision",
+        "publication_status": "peer_reviewed",
+        "method": "BOD-VCL",
+        "method_family": "Contrastive",
+        "method_description": "Bi-level optimization and Koopman eigen-decomposition decouple static and dynamic semantics during video contrastive learning.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGym",
+          "AVA",
+          "Diving48",
+          "Static-Dynamic UCF101"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGym",
+          "AVA",
+          "Diving48",
+          "Static-Dynamic UCF101"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "FineGym",
+          "AVA",
+          "Diving48",
+          "Static-Dynamic UCF101"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, Something-Something V2, FineGym, AVA, Diving48, Static-Dynamic UCF101",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/article/10.1007/s11263-026-02785-4",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s11263-026-02785-4",
+        "arxiv_id": "2407.14069",
+        "published_date": "2026-02-26",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s11263-026-02785-4",
+          "https://doi.org/10.1007/s11263-026-02785-4",
+          "https://arxiv.org/abs/2407.14069"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": "The 2024 arXiv record was promoted to the 2026 IJCV version of record."
+      }
+    },
+    {
+      "normalized_title": "bimm brain inspired masked modeling for video representation learning",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology 2026",
+        "venue_normalized": "IEEE TCSVT",
+        "publication_status": "peer_reviewed",
+        "method": "BIMM",
+        "method_family": "Generative / Masked",
+        "method_description": "Brain-inspired ventral image MAE and dorsal video masked modeling pathways share selected parameters and learn progressive multi-block targets.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2",
+          "COCO",
+          "ADE20K"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2",
+          "COCO",
+          "ADE20K"
+        ],
+        "benchmarks": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2",
+          "COCO",
+          "ADE20K"
+        ],
+        "benchmark_text": "ImageNet-1K, Kinetics-400, Something-Something V2, UCF101, HMDB51, AVA v2.2, COCO, ADE20K",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/11481118/",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/TCSVT.2026.3683701",
+        "arxiv_id": "2405.12757",
+        "published_date": "2026",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/11481118/",
+          "https://doi.org/10.1109/TCSVT.2026.3683701",
+          "https://arxiv.org/abs/2405.12757"
+        ],
+        "venue_evidence": "official_ieee_version_of_record",
+        "audit_notes": "The 2024 arXiv paper was promoted to the 2026 IEEE TCSVT version of record."
+      }
+    }
+  ]
+}

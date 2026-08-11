@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "year": 2019,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 9,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "self supervised spatio temporal representation learning for videos by predicting motion and appearance statistics",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "CVPR 2019",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Motion and Appearance Statistics (MAS)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A C3D encoder regresses local and global motion-boundary locations, directions, and spatiotemporal color statistics.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ASLAN",
+          "YUPENN"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "ASLAN",
+          "YUPENN"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ASLAN",
+          "YUPENN"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ASLAN, YUPENN",
+        "dataset_notes": "UCF101 is the default self-supervised pretraining set; the paper also reports a Kinetics-400 pretraining variant.",
+        "paper_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Self-Supervised_Spatio-Temporal_Representation_Learning_for_Videos_by_Predicting_Motion_and_CVPR_2019_paper.html",
+        "code_url": "https://github.com/laura-wang/video_repres_mas",
+        "project_url": "",
+        "doi": "10.1109/CVPR.2019.00413",
+        "arxiv_id": "1904.03597",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Self-Supervised_Spatio-Temporal_Representation_Learning_for_Videos_by_Predicting_Motion_and_CVPR_2019_paper.html",
+          "https://doi.org/10.1109/CVPR.2019.00413",
+          "https://arxiv.org/abs/1904.03597"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "video representation learning by dense predictive coding",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "ICCV Workshops 2019",
+        "venue_normalized": "ICCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Dense Predictive Coding (DPC)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A recurrent context model predicts dense latent feature maps for future spatiotemporal blocks using contrastive predictive coding.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content_ICCVW_2019/html/HVU/Han_Video_Representation_Learning_by_Dense_Predictive_Coding_ICCVW_2019_paper.html",
+        "code_url": "https://github.com/TengdaHan/DPC",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1909.04656",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ICCVW_2019/html/HVU/Han_Video_Representation_Learning_by_Dense_Predictive_Coding_ICCVW_2019_paper.html",
+          "https://arxiv.org/abs/1909.04656"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "self supervised spatiotemporal learning via video clip order prediction",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "CVPR 2019",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Video Clip Order Prediction (VCOP)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A siamese 3D ConvNet encodes clips and predicts the permutation of their pairwise-concatenated features.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.html",
+        "code_url": "https://github.com/xudejing/video-clip-order-prediction",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_CVPR_2019/html/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "video jigsaw unsupervised learning of spatiotemporal context for video action recognition",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "WACV 2019",
+        "venue_normalized": "WACV",
+        "publication_status": "peer_reviewed",
+        "method": "Video Jigsaw",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Spatial patches sampled across several frames are permuted, and a shared CNN predicts the spatiotemporal jigsaw arrangement.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "The main transferable model is pretrained on Kinetics-400; UCF101 is also used in pretraining ablations.",
+        "paper_url": "https://doi.org/10.1109/WACV.2019.00025",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/WACV.2019.00025",
+        "arxiv_id": "1808.07507",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://doi.org/10.1109/WACV.2019.00025",
+          "https://arxiv.org/abs/1808.07507"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Video jigsaw: Unsupervised learning of spatiotemporal context for video action recognition"
+        ]
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning with space time cubic puzzles",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "AAAI 2019",
+        "venue_normalized": "AAAI",
+        "publication_status": "peer_reviewed",
+        "method": "Space-Time Cubic Puzzles",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A four-tower 3D ResNet rearranges permuted spatial or temporal video cubes while jittering and channel replication block trivial cues.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/4873",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1609/aaai.v33i01.33018545",
+        "arxiv_id": "1811.09795",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/4873",
+          "https://doi.org/10.1609/aaai.v33i01.33018545",
+          "https://arxiv.org/abs/1811.09795"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "learning video representations using contrastive bidirectional transformer",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "Contrastive Bidirectional Transformer (CBT)",
+        "method_family": "Multimodal / Video-Language",
+        "method_description": "A bidirectional Transformer replaces masked-token softmax with noise-contrastive estimation and optionally aligns video with ASR text.",
+        "pretraining_datasets": [
+          "Kinetics-600",
+          "HowTo100M"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ActivityNet",
+          "Breakfast",
+          "50Salads",
+          "YouCook2",
+          "COIN"
+        ],
+        "datasets": [
+          "Kinetics-600",
+          "HowTo100M",
+          "UCF101",
+          "HMDB51",
+          "ActivityNet",
+          "Breakfast",
+          "50Salads",
+          "YouCook2",
+          "COIN"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ActivityNet",
+          "Breakfast",
+          "50Salads",
+          "YouCook2",
+          "COIN"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ActivityNet, Breakfast, 50Salads, YouCook2, COIN",
+        "dataset_notes": "Kinetics-600 supports short-term visual pretraining; HowTo100M and its ASR support long-term and cross-modal pretraining. The temporal branch also uses a supervised Kinetics S3D feature extractor and a frozen text BERT checkpoint.",
+        "paper_url": "https://arxiv.org/abs/1906.05743",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1906.05743",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://arxiv.org/abs/1906.05743"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "previous_titles": [
+          "Learning video representations using contrastive bidirectional transformer"
+        ]
+      }
+    },
+    {
+      "normalized_title": "dynamonet dynamic action and motion network",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "ICCV 2019",
+        "venue_normalized": "ICCV",
+        "publication_status": "peer_reviewed",
+        "method": "DynamoNet",
+        "method_family": "Other / Hybrid",
+        "method_description": "Dynamic motion filters predict short-term future frames while a shared 3D CNN jointly learns action classification.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "The future-prediction branch is self-supervised, but the joint action-classification branch uses labels; training and evaluation are reported dataset-wise.",
+        "paper_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Diba_DynamoNet_Dynamic_Action_and_Motion_Network_ICCV_2019_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1904.11407",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ICCV_2019/html/Diba_DynamoNet_Dynamic_Action_and_Motion_Network_ICCV_2019_paper.html",
+          "https://arxiv.org/abs/1904.11407"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Dynamonet: Dynamic action and motion network"
+        ]
+      }
+    },
+    {
+      "normalized_title": "temporal cycle consistency learning",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "CVPR 2019",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal Cycle-Consistency Learning (TCC)",
+        "method_family": "Contrastive",
+        "method_description": "Soft nearest-neighbor cycle-back classification or regression aligns frames across different videos of the same process.",
+        "pretraining_datasets": [
+          "Pouring",
+          "Penn Action",
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "Pouring",
+          "Penn Action"
+        ],
+        "datasets": [
+          "Pouring",
+          "Penn Action",
+          "ImageNet-1K"
+        ],
+        "benchmarks": [
+          "Pouring",
+          "Penn Action"
+        ],
+        "benchmark_text": "Pouring, Penn Action",
+        "dataset_notes": "The paper reports both training from scratch and self-supervised fine-tuning from an ImageNet-1K supervised ResNet-50 initialization.",
+        "paper_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Dwibedi_Temporal_Cycle-Consistency_Learning_CVPR_2019_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1904.07846",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_CVPR_2019/html/Dwibedi_Temporal_Cycle-Consistency_Learning_CVPR_2019_paper.html",
+          "https://arxiv.org/abs/1904.07846"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Temporal cycle-consistency learning"
+        ]
+      }
+    },
+    {
+      "normalized_title": "videobert a joint model for video and language representation learning",
+      "updates": {
+        "year": 2019,
+        "date_label": "2019",
+        "venue": "ICCV 2019",
+        "venue_normalized": "ICCV",
+        "publication_status": "peer_reviewed",
+        "method": "VideoBERT",
+        "method_family": "Multimodal / Video-Language",
+        "method_description": "BERT jointly models masked sequences of vector-quantized visual tokens and ASR word tokens with a visual-language alignment objective.",
+        "pretraining_datasets": [
+          "YouTube Cooking-312K",
+          "Kinetics-400",
+          "BooksCorpus",
+          "English Wikipedia"
+        ],
+        "evaluation_datasets": [
+          "YouCook2"
+        ],
+        "datasets": [
+          "YouTube Cooking-312K",
+          "Kinetics-400",
+          "BooksCorpus",
+          "English Wikipedia",
+          "YouCook2"
+        ],
+        "benchmarks": [
+          "YouCook2"
+        ],
+        "benchmark_text": "YouCook2",
+        "dataset_notes": "The 312K-video cooking corpus is a private YouTube collection. Kinetics-400 initializes S3D; BooksCorpus and English Wikipedia initialize the released BERT-Large text checkpoint.",
+        "paper_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Sun_VideoBERT_A_Joint_Model_for_Video_and_Language_Representation_Learning_ICCV_2019_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1904.01766",
+        "published_date": "2019",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ICCV_2019/html/Sun_VideoBERT_A_Joint_Model_for_Video_and_Language_Representation_Learning_ICCV_2019_paper.html",
+          "https://arxiv.org/abs/1904.01766"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Videobert: A joint model for video and language representation learning"
+        ]
+      }
+    }
+  ]
+}

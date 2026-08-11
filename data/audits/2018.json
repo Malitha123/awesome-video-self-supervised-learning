@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "year": 2018,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 7,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "geometry guided convolutional neural networks for self supervised video representation learning",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "CVPR 2018",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Geometry-Guided CNN",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A progressive geometry curriculum first predicts optical flow from synthetic image pairs and then predicts stereo disparity from real 3D movies while distillation preserves the learned motion representation.",
+        "pretraining_datasets": [
+          "FlyingChairs",
+          "Web 3D Movies"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "FlyingChairs",
+          "Web 3D Movies",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "Web 3D Movies denotes the authors' private collection of approximately 80 stereoscopic films and 40,000 frame pairs.",
+        "paper_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Gan_Geometry_Guided_Convolutional_CVPR_2018_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR.2018.00586",
+        "arxiv_id": "",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_cvpr_2018/html/Gan_Geometry_Guided_Convolutional_CVPR_2018_paper.html",
+          "https://doi.org/10.1109/CVPR.2018.00586"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Geometry guided convolutional neural networks for self-supervised video representation learning"
+        ]
+      }
+    },
+    {
+      "normalized_title": "self supervised spatiotemporal feature learning via video rotation prediction",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "3DRotNet / Video Rotation Prediction",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A 3D ConvNet predicts one of four in-plane rotations applied consistently to every frame of a clip, encouraging joint spatial and temporal understanding.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://arxiv.org/abs/1811.11387",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1811.11387",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://arxiv.org/abs/1811.11387"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "previous_titles": [
+          "Self-supervised spatiotemporal feature learning via video rotation prediction"
+        ]
+      }
+    },
+    {
+      "normalized_title": "cooperative learning of audio and video models from self supervised synchronization",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "NeurIPS 2018",
+        "venue_normalized": "NeurIPS",
+        "publication_status": "peer_reviewed",
+        "method": "Audio-Visual Temporal Synchronization (AVTS)",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "Two-stream audio and video encoders learn temporal synchronization with a contrastive objective and a curriculum that progresses from easy to hard negative pairs.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "AudioSet",
+          "SoundNet Dataset"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "AudioSet",
+          "UCF101",
+          "HMDB51",
+          "ESC-50",
+          "DCASE2014"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "AudioSet",
+          "SoundNet Dataset",
+          "UCF101",
+          "HMDB51",
+          "ESC-50",
+          "DCASE2014"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "AudioSet",
+          "UCF101",
+          "HMDB51",
+          "ESC-50",
+          "DCASE2014"
+        ],
+        "benchmark_text": "Kinetics-400, AudioSet, UCF101, HMDB51, ESC-50, DCASE2014",
+        "dataset_notes": "The paper trains separate AVTS models on Kinetics-400, AudioSet, and the SoundNet collection; downstream experiments cover both visual and audio recognition.",
+        "paper_url": "https://proceedings.neurips.cc/paper/2018/hash/c4616f5a24a66668f11ca4fa80525dc4-Abstract.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1807.00230",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://proceedings.neurips.cc/paper/2018/hash/c4616f5a24a66668f11ca4fa80525dc4-Abstract.html",
+          "https://arxiv.org/abs/1807.00230"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Cooperative learning of audio and video models from self-supervised synchronization"
+        ]
+      }
+    },
+    {
+      "normalized_title": "audio visual scene analysis with self supervised multisensory features",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "ECCV 2018",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "Multisensory Temporal Alignment",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "A fused 3D visual and raw-waveform audio network predicts whether sound and video are temporally aligned, producing features used for localization, action recognition, and source separation.",
+        "pretraining_datasets": [
+          "AudioSet-750K",
+          "VoxCeleb",
+          "VoxCeleb2"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "Kinetics-Sounds",
+          "VoxCeleb",
+          "GRID"
+        ],
+        "datasets": [
+          "AudioSet-750K",
+          "VoxCeleb",
+          "VoxCeleb2",
+          "UCF101",
+          "Kinetics-Sounds",
+          "GRID"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "Kinetics-Sounds",
+          "VoxCeleb",
+          "GRID"
+        ],
+        "benchmark_text": "UCF101, Kinetics-Sounds, VoxCeleb, GRID",
+        "dataset_notes": "The core multisensory representation is learned from about 750,000 AudioSet videos. VoxCeleb and VoxCeleb2 are used for task-specific source-separation training and GRID for transfer evaluation.",
+        "paper_url": "https://openaccess.thecvf.com/content_ECCV_2018/html/Andrew_Owens_Audio-Visual_Scene_Analysis_ECCV_2018_paper.html",
+        "code_url": "https://github.com/andrewowens/multisensory",
+        "project_url": "",
+        "doi": "10.1007/978-3-030-01231-1_39",
+        "arxiv_id": "1804.03641",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ECCV_2018/html/Andrew_Owens_Audio-Visual_Scene_Analysis_ECCV_2018_paper.html",
+          "https://doi.org/10.1007/978-3-030-01231-1_39",
+          "https://arxiv.org/abs/1804.03641"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Audio-visual scene analysis with self-supervised multisensory features"
+        ]
+      }
+    },
+    {
+      "normalized_title": "compressed video action recognition",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "CVPR 2018",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Compressed Video Action Recognition (CoViAR)",
+        "method_family": "Other / Hybrid",
+        "method_description": "Separate CNN streams process I-frames, motion vectors, and residuals directly from compressed video, and recurrent aggregation combines their predictions over time.",
+        "pretraining_datasets": [
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Charades"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "UCF101",
+          "HMDB51",
+          "Charades"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Charades"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Charades",
+        "dataset_notes": "This is a supervised action-recognition paper rather than a self-supervised pretraining method. Its component CNNs use supervised ImageNet-1K initialization.",
+        "paper_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Compressed_Video_Action_CVPR_2018_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "1712.00636",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_cvpr_2018/html/Wu_Compressed_Video_Action_CVPR_2018_paper.html",
+          "https://arxiv.org/abs/1712.00636"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Compressed video action recognition"
+        ]
+      }
+    },
+    {
+      "normalized_title": "improving spatiotemporal self supervision by deep reinforcement learning",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "ECCV 2018",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "Reinforcement-Learned Spatiotemporal Permutations",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A REINFORCE policy adaptively samples useful spatial and temporal ordering permutations while a shared network learns to solve both tasks.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ImageNet-1K",
+          "PASCAL VOC 2007",
+          "PASCAL VOC 2012"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "UCF101",
+          "HMDB51",
+          "PASCAL VOC 2007",
+          "PASCAL VOC 2012"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ImageNet-1K",
+          "PASCAL VOC 2007",
+          "PASCAL VOC 2012"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ImageNet-1K, PASCAL VOC 2007, PASCAL VOC 2012",
+        "dataset_notes": "ImageNet-1K supplies images for the spatial ordering task, while UCF101 supplies video frames for the temporal ordering task.",
+        "paper_url": "https://openaccess.thecvf.com/content_ECCV_2018/html/Uta_Buchler_Improving_Spatiotemporal_Self-Supervision_ECCV_2018_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-030-01267-0_47",
+        "arxiv_id": "1807.11293",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ECCV_2018/html/Uta_Buchler_Improving_Spatiotemporal_Self-Supervision_ECCV_2018_paper.html",
+          "https://doi.org/10.1007/978-3-030-01267-0_47",
+          "https://arxiv.org/abs/1807.11293"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Improving spatiotemporal self-supervision by deep reinforcement learning"
+        ]
+      }
+    },
+    {
+      "normalized_title": "learning and using the arrow of time",
+      "updates": {
+        "year": 2018,
+        "date_label": "2018",
+        "venue": "CVPR 2018",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal Class Activation Map Network (T-CAM) / Arrow of Time",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A long-range forward-versus-reversed video classifier learns temporal features, with class activation maps and preprocessing used to localize evidence and suppress codec, camera, and editing shortcuts.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Flickr-AoT",
+          "Kinetics-AoT"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Flickr-AoT",
+          "Kinetics-AoT",
+          "TA180",
+          "ReverseFilm"
+        ],
+        "datasets": [
+          "UCF101",
+          "Flickr-AoT",
+          "Kinetics-AoT",
+          "HMDB51",
+          "TA180",
+          "ReverseFilm"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Flickr-AoT",
+          "Kinetics-AoT",
+          "TA180",
+          "ReverseFilm"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Flickr-AoT, Kinetics-AoT, TA180, ReverseFilm",
+        "dataset_notes": "Flickr-AoT and Kinetics-AoT are constructed for arrow-of-time training and testing; TA180 and ReverseFilm are targeted temporal-asymmetry evaluation sets.",
+        "paper_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wei_Learning_and_Using_CVPR_2018_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR.2018.00840",
+        "arxiv_id": "",
+        "published_date": "2018",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_cvpr_2018/html/Wei_Learning_and_Using_CVPR_2018_paper.html",
+          "https://doi.org/10.1109/CVPR.2018.00840"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Learning and using the arrow of time"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+name: Deploy VideoSSL website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "README.md"
+      - "data/**"
+      - "media/**"
+      - "scripts/build_site.py"
+      - "scripts/repo_tools.py"
+      - "robots.txt"
+      - "sitemap.xml"
+      - "site.webmanifest"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install site build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc
+
+      - name: Rebuild the static site from the catalog
+        run: python scripts/build_site.py
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html robots.txt sitemap.xml site.webmanifest _site/
+          cp -R media _site/media
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

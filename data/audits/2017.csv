@@ -1,0 +1,3 @@
+Title,Method,Method family,Pretraining datasets,Evaluation datasets,Year,Venue,Publication status,DOI,Verified as of
+Unsupervised Representation Learning by Sorting Sequences,Order Prediction Network (OPN),Pretext / Predictive,UCF101; HMDB51,UCF101; HMDB51; PASCAL VOC 2007,2017,ICCV 2017,peer_reviewed,10.1109/ICCV.2017.79,2026-08-11
+Self-Supervised Video Representation Learning With Odd-One-Out Networks,Odd-One-Out Network (O3N),Pretext / Predictive,UCF101; HMDB51,UCF101; HMDB51,2017,CVPR 2017,peer_reviewed,10.1109/CVPR.2017.607,2026-08-11

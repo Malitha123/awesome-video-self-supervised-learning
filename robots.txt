@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://malitha123.github.io/awesome-video-self-supervised-learning/sitemap.xml

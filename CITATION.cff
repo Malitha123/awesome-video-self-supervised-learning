@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "Awesome Video Self-Supervised Learning"
+message: "If you use this curated research collection, please cite the associated survey."
+type: dataset
+authors:
+  - family-names: Dave
+    given-names: Ishan
+  - family-names: Gunawardhana
+    given-names: Malitha
+  - family-names: Sadith
+    given-names: Limalka
+  - family-names: Zhou
+    given-names: Honglu
+  - family-names: David
+    given-names: Liel
+  - family-names: Harari
+    given-names: Daniel
+  - family-names: Shah
+    given-names: Mubarak
+  - family-names: Khan
+    given-names: Muhammad Haris
+repository-code: "https://github.com/Malitha123/awesome-video-self-supervised-learning"
+url: "https://malitha123.github.io/awesome-video-self-supervised-learning/"
+preferred-citation:
+  type: article
+  title: "Unifying Video Self-Supervised Learning across Families of Tasks: A Survey"
+  authors:
+    - family-names: Dave
+      given-names: Ishan
+    - family-names: Gunawardhana
+      given-names: Malitha
+    - family-names: Sadith
+      given-names: Limalka
+    - family-names: Zhou
+      given-names: Honglu
+    - family-names: David
+      given-names: Liel
+    - family-names: Harari
+      given-names: Daniel
+    - family-names: Shah
+      given-names: Mubarak
+    - family-names: Khan
+      given-names: Muhammad Haris
+  year: 2024

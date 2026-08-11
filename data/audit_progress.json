@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "catalog_file": "data/papers.json",
+  "canonical_paper_count": 282,
+  "audit_started_at": "2026-08-11",
+  "last_checkpoint_at": "2026-08-11",
+  "processing_order": "descending_year",
+  "completed_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016
+  ],
+  "next_year": null,
+  "verified_paper_count": 282,
+  "remaining_paper_count": 0,
+  "required_fields": [
+    "method",
+    "method_family",
+    "pretraining_datasets",
+    "evaluation_datasets",
+    "datasets",
+    "year",
+    "venue",
+    "publication_status",
+    "verification_urls"
+  ],
+  "source_priority": [
+    "official conference proceedings",
+    "publisher and DOI metadata",
+    "arXiv record and latest manuscript",
+    "official project or code repository"
+  ],
+  "year_status": {
+    "2026": {
+      "status": "complete",
+      "paper_count": 17,
+      "peer_reviewed_count": 10,
+      "preprint_count": 7,
+      "audit_file": "data/audits/2026.json",
+      "summary_file": "data/audits/2026.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2025": {
+      "status": "complete",
+      "paper_count": 34,
+      "peer_reviewed_count": 30,
+      "preprint_count": 4,
+      "audit_file": "data/audits/2025.json",
+      "summary_file": "data/audits/2025.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2024": {
+      "status": "complete",
+      "paper_count": 35,
+      "peer_reviewed_count": 33,
+      "preprint_count": 2,
+      "audit_file": "data/audits/2024.json",
+      "summary_file": "data/audits/2024.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2023": {
+      "status": "complete",
+      "paper_count": 54,
+      "peer_reviewed_count": 51,
+      "preprint_count": 3,
+      "audit_file": "data/audits/2023.json",
+      "summary_file": "data/audits/2023.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2022": {
+      "status": "complete",
+      "paper_count": 56,
+      "peer_reviewed_count": 51,
+      "preprint_count": 5,
+      "audit_file": "data/audits/2022.json",
+      "summary_file": "data/audits/2022.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2021": {
+      "status": "complete",
+      "paper_count": 39,
+      "peer_reviewed_count": 37,
+      "preprint_count": 2,
+      "audit_file": "data/audits/2021.json",
+      "summary_file": "data/audits/2021.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2020": {
+      "status": "complete",
+      "paper_count": 28,
+      "peer_reviewed_count": 22,
+      "preprint_count": 6,
+      "audit_file": "data/audits/2020.json",
+      "summary_file": "data/audits/2020.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2019": {
+      "status": "complete",
+      "paper_count": 9,
+      "peer_reviewed_count": 8,
+      "preprint_count": 1,
+      "audit_file": "data/audits/2019.json",
+      "summary_file": "data/audits/2019.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2018": {
+      "status": "complete",
+      "paper_count": 7,
+      "peer_reviewed_count": 6,
+      "preprint_count": 1,
+      "audit_file": "data/audits/2018.json",
+      "summary_file": "data/audits/2018.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2017": {
+      "status": "complete",
+      "paper_count": 2,
+      "peer_reviewed_count": 2,
+      "preprint_count": 0,
+      "audit_file": "data/audits/2017.json",
+      "summary_file": "data/audits/2017.csv",
+      "verified_as_of": "2026-08-11"
+    },
+    "2016": {
+      "status": "complete",
+      "paper_count": 1,
+      "peer_reviewed_count": 1,
+      "preprint_count": 0,
+      "audit_file": "data/audits/2016.json",
+      "summary_file": "data/audits/2016.csv",
+      "verified_as_of": "2026-08-11"
+    }
+  },
+  "resume_instruction": "The 282-paper audit and master tables are complete. Future work should only re-verify time-sensitive preprint publication status or add newly curated papers.",
+  "master_csv": "data/audits/all_282_papers.csv",
+  "master_json": "data/audits/all_282_papers.json",
+  "master_xlsx": "data/audits/all_282_papers.xlsx"
+}
