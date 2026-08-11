@@ -19,36 +19,7 @@ This repository is originating from our survey paper "**[Unifying Video Self-Sup
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabeled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
-## Video Self-Supervised Learning (Video SSL) Papers by Year and Venue
 
-**Video self-supervised learning**, often shortened to **Video SSL** or **VideoSSL**, learns transferable video representations from unlabeled or weakly structured video data. This curated public index organizes the canonical paper collection by verified publication year and latest confirmed venue.
-
-Detailed dataset and method-category records remain stored in the repository's structured `data/` and audit files for maintenance, but are intentionally not displayed in this README or on the public website. Use the year sections below to find VideoSSL papers from 2016 through 2026.
-
-
-
-<!-- AUTO:STATS:START -->
-## Repository Statistics
-
-The charts below summarize the canonical collection by publication year and venue. Additional research metadata remains available in the repository data files but is intentionally omitted from the public catalog and README.
-
-<div class="stats-kpis">
-  <div><strong>282</strong><span>representation-learning papers</span></div>
-  <div><strong>2016–2026</strong><span>years covered</span></div>
-  <div><strong>64</strong><span>normalized venues</span></div>
-</div>
-
-<div class="stats-grid">
-  <figure><img src="./media/stats_papers_by_year.svg" alt="Bar chart showing the number of VideoSSL papers by year"><figcaption>Papers by year</figcaption></figure>
-  <figure><img src="./media/stats_papers_by_venue.svg" alt="Bar chart showing the number of VideoSSL papers by publication venue"><figcaption>Papers by venue</figcaption></figure>
-</div>
-<!-- AUTO:STATS:END -->
-
-## Curation and Updates
-
-The canonical metadata audit is complete. **All 282 papers were verified for publication year and latest confirmed venue through 2026.** Detailed maintenance records remain available in [`data/audits/`](./data/audits/), [audit progress](./data/audit_progress.json), and the [repeatable workflow](./AUDIT_WORKFLOW.md).
-
-New papers can be proposed by a weekly automated curation workflow that searches recent scholarly records, removes likely duplicates, asks GitHub Copilot to review the remaining candidates against the inclusion criteria, rebuilds the statistics and website, and opens a pull request. Every proposed addition remains subject to human review before it is merged and published. See [AUTOMATION.md](./AUTOMATION.md) for the workflow and setup.
 
 ## Acknowledgments
 This research was supported by the joint grant P007 from [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)  and the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/). The authors would like to express their sincere gratitude for this generous support, which made the study possible.
