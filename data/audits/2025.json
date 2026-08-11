@@ -1,0 +1,1832 @@
+{
+  "schema_version": 1,
+  "year": 2025,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 34,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "efficient videomae via temporal progressive training",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR Workshops 2025",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal Progressive Training (TPT)",
+        "method_family": "Generative / Masked",
+        "method_description": "A three-stage VideoMAE curriculum that progressively increases temporal coverage and masking difficulty while reusing learned weights.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2",
+        "dataset_notes": "The curriculum is trained and evaluated separately on Kinetics-400 and Something-Something V2.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025W/PVUW/html/Li_Efficient_VideoMAE_via_Temporal_Progressive_Training_CVPRW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPRW67362.2025.00250",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025W/PVUW/html/Li_Efficient_VideoMAE_via_Temporal_Progressive_Training_CVPRW_2025_paper.html",
+          "https://doi.org/10.1109/CVPRW67362.2025.00250"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": "The existing workshop label was retained and normalized to the official CVPR Workshops venue."
+      }
+    },
+    {
+      "normalized_title": "an empirical study of autoregressive pre training from videos",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICCV 2025",
+        "venue_normalized": "ICCV",
+        "publication_status": "peer_reviewed",
+        "method": "Toto",
+        "method_family": "Generative / Masked",
+        "method_description": "Causal autoregressive next-token prediction over discrete visual tokens using a decoder-only transformer trained on mixed image and video data.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "Kinetics-600",
+          "Ego4D",
+          "HowTo100M"
+        ],
+        "evaluation_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Ego4D STA v1",
+          "DAVIS 2017",
+          "CATER",
+          "MVP"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Kinetics-600",
+          "Ego4D",
+          "HowTo100M",
+          "Kinetics-400",
+          "Ego4D STA v1",
+          "DAVIS 2017",
+          "CATER",
+          "MVP"
+        ],
+        "benchmarks": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Ego4D STA v1",
+          "DAVIS 2017",
+          "CATER",
+          "MVP"
+        ],
+        "benchmark_text": "ImageNet-1K, Kinetics-400, Ego4D STA v1, DAVIS 2017, CATER, MVP",
+        "dataset_notes": "MVP denotes the simulated and real robot manipulation evaluations reported by the paper.",
+        "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Rajasegaran_An_Empirical_Study_of_Autoregressive_Pre-training_from_Videos_ICCV_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2501.05453",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/ICCV2025/html/Rajasegaran_An_Empirical_Study_of_Autoregressive_Pre-training_from_Videos_ICCV_2025_paper.html",
+          "https://arxiv.org/abs/2501.05453"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "The arXiv catalog entry was promoted to its final ICCV 2025 publication."
+      }
+    },
+    {
+      "normalized_title": "reinforcement learning meets masked video modeling trajectory guided adaptive token selection",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICCV Workshops 2025",
+        "venue_normalized": "ICCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Trajectory-Aware Token Selection (TATS)",
+        "method_family": "Generative / Masked",
+        "method_description": "A PPO-trained trajectory-aware sampler selects informative video tokens jointly with masked-autoencoder learning.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/ICCV2025W/LongVid-Foundation/html/K._Reinforcement_Learning_meets_Masked_Video_Modeling__Trajectory-Guided_Adaptive_Token_ICCVW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ICCVW69036.2025.00730",
+        "arxiv_id": "2505.08561",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/ICCV2025W/LongVid-Foundation/html/K._Reinforcement_Learning_meets_Masked_Video_Modeling__Trajectory-Guided_Adaptive_Token_ICCVW_2025_paper.html",
+          "https://doi.org/10.1109/ICCVW69036.2025.00730",
+          "https://arxiv.org/abs/2505.08561"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": "The arXiv entry was promoted to the ICCV 2025 Long Multi-Scene Video Foundations workshop publication."
+      }
+    },
+    {
+      "normalized_title": "entropy guided masked autoencoding for self supervised human action recognition using video swin transformer",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ACROSET 2025",
+        "venue_normalized": "ACROSET",
+        "publication_status": "peer_reviewed",
+        "method": "Entropy-Guided Masked Autoencoding",
+        "method_family": "Generative / Masked",
+        "method_description": "Optical-flow motion entropy guides which Video Swin tubelets are masked and reconstructed during self-supervised action pretraining.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101"
+        ],
+        "datasets": [
+          "UCF101"
+        ],
+        "benchmarks": [
+          "UCF101"
+        ],
+        "benchmark_text": "UCF101",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/11281001",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ACROSET66531.2025.11281001",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/11281001",
+          "https://doi.org/10.1109/ACROSET66531.2025.11281001"
+        ],
+        "venue_evidence": "official_ieee_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "privacy preservation using superimposed 3d models for self supervised training in action recognition",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICCV Workshops 2025",
+        "venue_normalized": "ICCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Private-MO",
+        "method_family": "Other / Hybrid",
+        "method_description": "A privacy-preserving pipeline combines MORTAL2MESH 3D overlays, K-NEXUS class sampling, and VideoMAE representation alignment.",
+        "pretraining_datasets": [
+          "Kinetics-150",
+          "M2M-Kinetics"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "IKEA Furniture Assembly",
+          "UAV-Human",
+          "VISPR"
+        ],
+        "datasets": [
+          "Kinetics-150",
+          "M2M-Kinetics",
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "IKEA Furniture Assembly",
+          "UAV-Human",
+          "VISPR"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "IKEA Furniture Assembly",
+          "UAV-Human",
+          "VISPR"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48, IKEA Furniture Assembly, UAV-Human, VISPR",
+        "dataset_notes": "Kinetics-150 is curated from Kinetics-400; M2M-Kinetics is the privacy-preserving 3D-overlay version. VISPR denotes the paper's privacy evaluation subset.",
+        "paper_url": "https://openaccess.thecvf.com/content/ICCV2025W/SafeMM-AI/html/Mandal_Privacy_Preservation_Using_Superimposed_3D-Models_for_Self-Supervised_Training_in_Action_ICCVW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ICCVW69036.2025.00241",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/ICCV2025W/SafeMM-AI/papers/Mandal_Privacy_Preservation_Using_Superimposed_3D-Models_for_Self-Supervised_Training_in_Action_ICCVW_2025_paper.pdf",
+          "https://doi.org/10.1109/ICCVW69036.2025.00241"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "learning complementary knowledge via trusted multi view space decomposition for self supervised contrastive learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Machine Learning 2025",
+        "venue_normalized": "Machine Learning",
+        "publication_status": "peer_reviewed",
+        "method": "Trusted Multi-view Decoupled Contrast (TMDC)",
+        "method_family": "Contrastive",
+        "method_description": "Multi-view contrastive learning decomposes shared and private spaces, estimates view trustworthiness with a Dirichlet model, and preserves topology while encouraging compactness.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "OGBG-MolBBBP"
+        ],
+        "evaluation_datasets": [
+          "ImageNet-1K",
+          "OGBG-MolBBBP"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "OGBG-MolBBBP"
+        ],
+        "benchmarks": [
+          "ImageNet-1K",
+          "OGBG-MolBBBP"
+        ],
+        "benchmark_text": "ImageNet-1K, OGBG-MolBBBP",
+        "dataset_notes": "The accessible publisher material explicitly exposes ImageNet and OGBG-MolBBBP results; the article is not limited to video benchmarks.",
+        "paper_url": "https://link.springer.com/article/10.1007/s10994-025-06927-6",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s10994-025-06927-6",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s10994-025-06927-6",
+          "https://doi.org/10.1007/s10994-025-06927-6"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "oskar omnimodal self supervised knowledge abstraction and representation",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "NeurIPS 2025",
+        "venue_normalized": "NeurIPS",
+        "publication_status": "peer_reviewed",
+        "method": "OSKAR",
+        "method_family": "Cross-Modal",
+        "method_description": "A fuse-then-predict joint-embedding architecture learns aligned video, skeleton, and text representations with modality-specific EMA targets and fixed token budgets.",
+        "pretraining_datasets": [
+          "OpenHumanVid3"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "NTU RGB+D 60",
+          "NTU RGB+D 120",
+          "AVA",
+          "MSR-VTT",
+          "MSVD",
+          "VATEX",
+          "MSR-VTT-QA",
+          "MSVD-QA",
+          "TGIF-FrameQA"
+        ],
+        "datasets": [
+          "OpenHumanVid3",
+          "Kinetics-400",
+          "Something-Something V2",
+          "NTU RGB+D 60",
+          "NTU RGB+D 120",
+          "AVA",
+          "MSR-VTT",
+          "MSVD",
+          "VATEX",
+          "MSR-VTT-QA",
+          "MSVD-QA",
+          "TGIF-FrameQA"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "NTU RGB+D 60",
+          "NTU RGB+D 120",
+          "AVA",
+          "MSR-VTT",
+          "MSVD",
+          "VATEX",
+          "MSR-VTT-QA",
+          "MSVD-QA",
+          "TGIF-FrameQA"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, NTU RGB+D 60, NTU RGB+D 120, AVA, MSR-VTT, MSVD, VATEX, MSR-VTT-QA, MSVD-QA, TGIF-FrameQA",
+        "dataset_notes": "The paper samples 10 million OpenHumanVid3 videos and derives pseudo skeleton and caption modalities before downstream evaluation.",
+        "paper_url": "https://papers.nips.cc/paper_files/paper/2025/hash/010ca5a0ccb09cfb554ed637758a08da-Abstract-Conference.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.52202/085713-0021",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://papers.nips.cc/paper_files/paper/2025/hash/010ca5a0ccb09cfb554ed637758a08da-Abstract-Conference.html",
+          "https://papers.nips.cc/paper_files/paper/2025/file/010ca5a0ccb09cfb554ed637758a08da-Paper-Conference.pdf"
+        ],
+        "venue_evidence": "official_neurips_proceedings",
+        "audit_notes": "The NeurIPS capitalization and official proceedings link replace the earlier OpenReview PDF entry."
+      }
+    },
+    {
+      "normalized_title": "mme video representation learning as world model for understanding and planning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "TechRxiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "Masked Motion Encoding (MME)",
+        "method_family": "Generative / Masked",
+        "method_description": "Masked representation learning reconstructs appearance together with dense long-term motion trajectories encoded from optical flow, position transitions, and trajectory-aligned HOG features.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA",
+          "Robot arm manipulation benchmark"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA",
+          "Robot arm manipulation benchmark"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA",
+          "Robot arm manipulation benchmark"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, AVA, Robot arm manipulation benchmark",
+        "dataset_notes": "The accessible primary abstract describes a robot-arm manipulation task but does not name that benchmark.",
+        "paper_url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175624509.93122186",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.36227/techrxiv.175624509.93122186/v1",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175624509.93122186",
+          "https://doi.org/10.36227/techrxiv.175624509.93122186/v1"
+        ],
+        "venue_evidence": "official_preprint_record",
+        "audit_notes": "Exact-title verification found only the TechRxiv record; a related earlier MME paper has a different title and was not treated as the final version."
+      }
+    },
+    {
+      "normalized_title": "hashtag2action data engineering and self supervised pre training for action recognition in short form videos",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICCV Workshops 2025",
+        "venue_normalized": "ICCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Hashtag2Action (H2A)",
+        "method_family": "Generative / Masked",
+        "method_description": "A hashtag-driven short-video collection and cleaning pipeline supplies domain-specific data for VideoMAE V2 self-supervised pretraining.",
+        "pretraining_datasets": [
+          "Hashtag2Action"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Hashtag2Action",
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Kinetics-400, Something-Something V2",
+        "dataset_notes": "Hashtag2Action contains 283,582 short-form clips in 386 action categories.",
+        "paper_url": "https://openaccess.thecvf.com/content/ICCV2025W/SVU/html/Qian_Hashtag2Action_Data_Engineering_and_Self-Supervised_Pre-Training_for_Action_Recognition_in_ICCVW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ICCVW69036.2025.00312",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/ICCV2025W/SVU/papers/Qian_Hashtag2Action_Data_Engineering_and_Self-Supervised_Pre-Training_for_Action_Recognition_in_ICCVW_2025_paper.pdf",
+          "https://doi.org/10.1109/ICCVW69036.2025.00312"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "kdhiera boosting self supervised masked video modeling via hierarchical knowledge distillation",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Cluster Computing 2025",
+        "venue_normalized": "Cluster Computing",
+        "publication_status": "peer_reviewed",
+        "method": "KDHiera",
+        "method_family": "Generative / Masked",
+        "method_description": "A hierarchical vision transformer combines high-ratio attention-guided masking with multi-layer feature distillation from off-the-shelf image and video teachers.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, AVA",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/article/10.1007/s10586-025-05262-8",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s10586-025-05262-8",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s10586-025-05262-8",
+          "https://doi.org/10.1007/s10586-025-05262-8"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning based on foreground and temporal information",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Proceedings of SPIE, ETAI 2025",
+        "venue_normalized": "Proceedings of SPIE",
+        "publication_status": "peer_reviewed",
+        "method": "Foreground and Temporal Information SSL",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A self-supervised branch combines foreground extraction with temporal-information prediction before transferring the encoder to action recognition.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Self-built video dataset"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Self-built video dataset"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "Self-built video dataset"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Self-built video dataset"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Self-built video dataset",
+        "dataset_notes": "The proceedings metadata names UCF101, HMDB51, and an author-built dataset but does not expose a public name for the latter.",
+        "paper_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13692/136923T/Self-supervised-video-representation-learning-based-on-foreground-and-temporal/10.1117/12.3068403.short",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1117/12.3068403",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13692/136923T/Self-supervised-video-representation-learning-based-on-foreground-and-temporal/10.1117/12.3068403.short",
+          "https://doi.org/10.1117/12.3068403"
+        ],
+        "venue_evidence": "official_spie_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "feature hallucination for self supervised action recognition",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "International Journal of Computer Vision 2025",
+        "venue_normalized": "IJCV",
+        "publication_status": "peer_reviewed",
+        "method": "DEEP-HAL",
+        "method_family": "Cross-Modal",
+        "method_description": "A multimodal translational framework hallucinates complementary optical-flow, object, skeleton, and audio features from RGB using modality-specific dense and semantic distillation.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "COCO",
+          "AVA v2.1",
+          "Kinetics-Skeletons"
+        ],
+        "evaluation_datasets": [
+          "HMDB51",
+          "YUP++",
+          "MPII Cooking Activities",
+          "Charades",
+          "EPIC-KITCHENS-55",
+          "Toyota Smarthome",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "COCO",
+          "AVA v2.1",
+          "Kinetics-Skeletons",
+          "HMDB51",
+          "YUP++",
+          "MPII Cooking Activities",
+          "Charades",
+          "EPIC-KITCHENS-55",
+          "Toyota Smarthome",
+          "Kinetics-600",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "HMDB51",
+          "YUP++",
+          "MPII Cooking Activities",
+          "Charades",
+          "EPIC-KITCHENS-55",
+          "Toyota Smarthome",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "HMDB51, YUP++, MPII Cooking Activities, Charades, EPIC-KITCHENS-55, Toyota Smarthome, Kinetics-400, Kinetics-600, Something-Something V2",
+        "dataset_notes": "Kinetics-400, COCO/AVA, and Kinetics-Skeletons supply the pretrained auxiliary modality teachers used by the hallucination framework.",
+        "paper_url": "https://link.springer.com/article/10.1007/s11263-025-02513-4",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s11263-025-02513-4",
+        "arxiv_id": "2506.20342",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s11263-025-02513-4",
+          "https://doi.org/10.1007/s11263-025-02513-4",
+          "https://arxiv.org/abs/2506.20342"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": "The arXiv entry was promoted to the 2025 IJCV version of record."
+      }
+    },
+    {
+      "normalized_title": "vidrop video dense representation through spatio temporal sparsity",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR Workshops 2025",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "ViDROP",
+        "method_family": "Generative / Masked",
+        "method_description": "Dense video representation learning uses spatiotemporally sparse inputs and reconstruction objectives to retain local detail while exploiting pretrained video encoders.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "THUMOS14",
+          "ImageNet-1K",
+          "DAVIS",
+          "VSC23"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "THUMOS14",
+          "ImageNet-1K",
+          "DAVIS",
+          "VSC23"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "THUMOS14",
+          "ImageNet-1K",
+          "DAVIS",
+          "VSC23"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, THUMOS14, ImageNet-1K, DAVIS, VSC23",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025W/eLVM/html/Sameni_ViDROP_Video_Dense_Representation_through_Spatio-Temporal_Sparsity_CVPRW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPRW67362.2025.00300",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025W/eLVM/html/Sameni_ViDROP_Video_Dense_Representation_through_Spatio-Temporal_Sparsity_CVPRW_2025_paper.html",
+          "https://doi.org/10.1109/CVPRW67362.2025.00300"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": "The existing generic CVPR label was corrected to CVPR Workshops 2025."
+      }
+    },
+    {
+      "normalized_title": "sf2t self supervised fragment finetuning of video llms for fine grained understanding",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR 2025",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "SF2T",
+        "method_family": "Cross-Modal",
+        "method_description": "Self-supervised fragment fine-tuning constructs hard temporal fragments and trains video-language models to distinguish fine-grained event ordering and boundaries.",
+        "pretraining_datasets": [
+          "Something-Something V2",
+          "Moments in Time"
+        ],
+        "evaluation_datasets": [
+          "FineVidBench",
+          "MVBench",
+          "Video-MME",
+          "TempCompass"
+        ],
+        "datasets": [
+          "Something-Something V2",
+          "Moments in Time",
+          "FineVidBench",
+          "MVBench",
+          "Video-MME",
+          "TempCompass"
+        ],
+        "benchmarks": [
+          "FineVidBench",
+          "MVBench",
+          "Video-MME",
+          "TempCompass"
+        ],
+        "benchmark_text": "FineVidBench, MVBench, Video-MME, TempCompass",
+        "dataset_notes": "FineVidBench is assembled from Something-Something V2, Moments in Time, and Ego4D fragments.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hu_SF2T_Self-supervised_Fragment_Finetuning_of_Video-LLMs_for_Fine-Grained_Understanding_CVPR_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR52734.2025.02710",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Hu_SF2T_Self-supervised_Fragment_Finetuning_of_Video-LLMs_for_Fine-Grained_Understanding_CVPR_2025_paper.html",
+          "https://doi.org/10.1109/CVPR52734.2025.02710"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "v jepa 2 self supervised video models enable understanding prediction and planning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "V-JEPA 2 / V-JEPA 2-AC",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A large joint-embedding predictive video model predicts masked latent representations; an action-conditioned post-training stage adapts it for planning and robot control.",
+        "pretraining_datasets": [
+          "VideoMix22M",
+          "Something-Something V2",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "HowTo100M",
+          "YT-Temporal-1B",
+          "ImageNet-1K",
+          "DROID"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "Diving48",
+          "Jester",
+          "Kinetics-400",
+          "COIN",
+          "ImageNet-1K",
+          "EPIC-KITCHENS-100",
+          "Perception Test",
+          "MVP",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench",
+          "DROID"
+        ],
+        "datasets": [
+          "VideoMix22M",
+          "Something-Something V2",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "HowTo100M",
+          "YT-Temporal-1B",
+          "ImageNet-1K",
+          "DROID",
+          "Diving48",
+          "Jester",
+          "COIN",
+          "EPIC-KITCHENS-100",
+          "Perception Test",
+          "MVP",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "Diving48",
+          "Jester",
+          "Kinetics-400",
+          "COIN",
+          "ImageNet-1K",
+          "EPIC-KITCHENS-100",
+          "Perception Test",
+          "MVP",
+          "TempCompass",
+          "TemporalBench",
+          "TOMATO",
+          "MVBench",
+          "TVBench",
+          "DROID"
+        ],
+        "benchmark_text": "Something-Something V2, Diving48, Jester, Kinetics-400, COIN, ImageNet-1K, EPIC-KITCHENS-100, Perception Test, MVP, TempCompass, TemporalBench, TOMATO, MVBench, TVBench, DROID",
+        "dataset_notes": "VideoMix22M combines the listed image and video sources; DROID is used for action-conditioned robot post-training rather than foundation pretraining.",
+        "paper_url": "https://arxiv.org/abs/2506.09985",
+        "code_url": "https://github.com/facebookresearch/vjepa2",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2506.09985",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://arxiv.org/abs/2506.09985",
+          "https://github.com/facebookresearch/vjepa2"
+        ],
+        "venue_evidence": "official_arxiv_record",
+        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date."
+      }
+    },
+    {
+      "normalized_title": "when the future becomes the past taming temporal correspondence for self supervised video representation learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR 2025",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "T-CoRe",
+        "method_family": "Contrastive",
+        "method_description": "Temporal correspondence regularization learns fine-grained pixel and region features by matching future and past observations without collapsing onto static shortcuts.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "DAVIS 2017",
+          "VIP",
+          "JHMDB"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "DAVIS 2017",
+          "VIP",
+          "JHMDB"
+        ],
+        "benchmarks": [
+          "DAVIS 2017",
+          "VIP",
+          "JHMDB"
+        ],
+        "benchmark_text": "DAVIS 2017, VIP, JHMDB",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_When_the_Future_Becomes_the_Past_Taming_Temporal_Correspondence_for_CVPR_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR52734.2025.02238",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_When_the_Future_Becomes_the_Past_Taming_Temporal_Correspondence_for_CVPR_2025_paper.html",
+          "https://doi.org/10.1109/CVPR52734.2025.02238"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "self supervised learning of motion concepts by optimizing counterfactuals",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "NeurIPS 2025",
+        "venue_normalized": "NeurIPS",
+        "publication_status": "peer_reviewed",
+        "method": "Optimized Counterfactual World Models (Opt-CWM)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A counterfactual world-model objective optimizes interventions on video inputs so latent prediction must encode object motion and physical correspondences.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "TAP-Vid DAVIS",
+          "TAP-Vid Kinetics",
+          "TAP-Vid Kubric"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "TAP-Vid DAVIS",
+          "TAP-Vid Kinetics",
+          "TAP-Vid Kubric"
+        ],
+        "benchmarks": [
+          "TAP-Vid DAVIS",
+          "TAP-Vid Kinetics",
+          "TAP-Vid Kubric"
+        ],
+        "benchmark_text": "TAP-Vid DAVIS, TAP-Vid Kinetics, TAP-Vid Kubric",
+        "dataset_notes": "",
+        "paper_url": "https://openreview.net/forum?id=fGuTN7huo5",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.52202/085713-0921",
+        "arxiv_id": "2503.19953",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openreview.net/forum?id=fGuTN7huo5",
+          "https://papers.nips.cc/paper_files/paper/2025",
+          "https://jiajunwu.com/papers/optcwm_nips.pdf"
+        ],
+        "venue_evidence": "official_neurips_listing_and_openreview_record",
+        "audit_notes": "The arXiv entry was promoted to NeurIPS 2025 using the official conference listing and OpenReview record."
+      }
+    },
+    {
+      "normalized_title": "label ranker self aware preference for classification label position in visual masked self supervised pre trained model",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICMR 2025",
+        "venue_normalized": "ICMR",
+        "publication_status": "peer_reviewed",
+        "method": "Label Ranker",
+        "method_family": "Generative / Masked",
+        "method_description": "Linear discriminant analysis and unsupervised clustering rank classification label positions for adapting masked image and video pretrained models.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "CIFAR-100",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "CIFAR-100",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "CIFAR-100",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "CIFAR-100, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://dl.acm.org/doi/10.1145/3731715.3733369",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1145/3731715.3733369",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://dl.acm.org/doi/10.1145/3731715.3733369",
+          "https://doi.org/10.1145/3731715.3733369"
+        ],
+        "venue_evidence": "official_acm_digital_library_record",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "autossvh exploring automated frame sampling for efficient self supervised video hashing",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR 2025",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "AutoSSVH",
+        "method_family": "Other / Hybrid",
+        "method_description": "An adversarially optimized frame sampler, component voting, and point-to-set contrastive hashing learn efficient binary video retrieval codes.",
+        "pretraining_datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "ActivityNet, FCVID, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lian_AutoSSVH_Exploring_Automated_Frame_Sampling_for_Efficient_Self-Supervised_Video_Hashing_CVPR_2025_paper.html",
+        "code_url": "https://github.com/EliSpectre/CVPR25-AutoSSVH",
+        "project_url": "",
+        "doi": "10.1109/CVPR52734.2025.01759",
+        "arxiv_id": "2504.03587",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Lian_AutoSSVH_Exploring_Automated_Frame_Sampling_for_Efficient_Self-Supervised_Video_Hashing_CVPR_2025_paper.html",
+          "https://doi.org/10.1109/CVPR52734.2025.01759",
+          "https://github.com/EliSpectre/CVPR25-AutoSSVH"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "efficient self supervised video hashing with selective state spaces",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "AAAI 2025",
+        "venue_normalized": "AAAI",
+        "publication_status": "peer_reviewed",
+        "method": "S5VH",
+        "method_family": "Other / Hybrid",
+        "method_description": "Selective state-space sequence modeling learns compact self-supervised video hashes while selecting informative temporal content efficiently.",
+        "pretraining_datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "ActivityNet",
+          "FCVID",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "ActivityNet, FCVID, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32835",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1609/aaai.v39i7.32835",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/32835",
+          "https://doi.org/10.1609/aaai.v39i7.32835"
+        ],
+        "venue_evidence": "official_aaai_proceedings",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "exemplar free class incremental action recognition based on self supervised learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Image and Vision Computing 2025",
+        "venue_normalized": "Image and Vision Computing",
+        "publication_status": "peer_reviewed",
+        "method": "Exemplar-Free SSL Class-Incremental Action Recognition",
+        "method_family": "Other / Hybrid",
+        "method_description": "A jointly self-supervised and supervised frozen feature extractor supports class increments using stored class statistics and pseudo-feature replay instead of video exemplars.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Kinetics-400, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://www.sciencedirect.com/science/article/pii/S0262885625001325",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1016/j.imavis.2025.105544",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0262885625001325",
+          "https://doi.org/10.1016/j.imavis.2025.105544"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "learning from streaming video with orthogonal gradients",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR 2025",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Orthogonal-SGD / Orthogonal-AdamW",
+        "method_family": "Other / Hybrid",
+        "method_description": "Streaming self-supervised optimization projects each gradient away from a compact basis of prior gradients to reduce catastrophic interference without replay.",
+        "pretraining_datasets": [
+          "WalkingTours",
+          "Kinetics-400",
+          "Something-Something V2",
+          "Ego4D-Stream",
+          "ScanNet-Stream",
+          "ImageNet-21K"
+        ],
+        "evaluation_datasets": [
+          "ImageNet-1K",
+          "Something-Something V2",
+          "Ego4D-Stream",
+          "ScanNet-Stream"
+        ],
+        "datasets": [
+          "WalkingTours",
+          "Kinetics-400",
+          "Something-Something V2",
+          "Ego4D-Stream",
+          "ScanNet-Stream",
+          "ImageNet-21K",
+          "ImageNet-1K"
+        ],
+        "benchmarks": [
+          "ImageNet-1K",
+          "Something-Something V2",
+          "Ego4D-Stream",
+          "ScanNet-Stream"
+        ],
+        "benchmark_text": "ImageNet-1K, Something-Something V2, Ego4D-Stream, ScanNet-Stream",
+        "dataset_notes": "WalkingTours is the paper's Venice walking-tour stream; ImageNet-21K supplies the initialization used in future-prediction experiments.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chakraborty_Learning_from_Streaming_Video_with_Orthogonal_Gradients_CVPR_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR52734.2025.01274",
+        "arxiv_id": "2504.01961",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Chakraborty_Learning_from_Streaming_Video_with_Orthogonal_Gradients_CVPR_2025_paper.html",
+          "https://doi.org/10.1109/CVPR52734.2025.01274",
+          "https://arxiv.org/abs/2504.01961"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication."
+      }
+    },
+    {
+      "normalized_title": "intuitive physics understanding emerges from self supervised pretraining on natural videos",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "V-JEPA Intuitive-Physics Probing",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Frozen V-JEPA representations are probed with violation-of-expectation tests and controlled ablations to study whether physical concepts emerge from natural-video pretraining.",
+        "pretraining_datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "HowTo100M"
+        ],
+        "evaluation_datasets": [
+          "IntPhys",
+          "GRASP",
+          "InfLevel-lab"
+        ],
+        "datasets": [
+          "Kinetics-710",
+          "Something-Something V2",
+          "HowTo100M",
+          "IntPhys",
+          "GRASP",
+          "InfLevel-lab"
+        ],
+        "benchmarks": [
+          "IntPhys",
+          "GRASP",
+          "InfLevel-lab"
+        ],
+        "benchmark_text": "IntPhys, GRASP, InfLevel-lab",
+        "dataset_notes": "The three pretraining sources form the VideoMix2M mixture used by the evaluated V-JEPA model.",
+        "paper_url": "https://arxiv.org/abs/2502.11831",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2502.11831",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://arxiv.org/abs/2502.11831"
+        ],
+        "venue_evidence": "official_arxiv_record",
+        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date."
+      }
+    },
+    {
+      "normalized_title": "st hvit spatial temporal hierarchical vision transformer for action recognition",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Pattern Analysis and Applications 2025",
+        "venue_normalized": "Pattern Analysis and Applications",
+        "publication_status": "peer_reviewed",
+        "method": "ST-HViT",
+        "method_family": "Generative / Masked",
+        "method_description": "A two-stream spatial-temporal hierarchical vision transformer uses masked-autoencoder pretraining and a multi-scale convolutional decoder.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/article/10.1007/s10044-024-01407-4",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s10044-024-01407-4",
+        "arxiv_id": "",
+        "published_date": "2025-01-13",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s10044-024-01407-4",
+          "https://doi.org/10.1007/s10044-024-01407-4"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": "The DOI suffix contains 2024, but the publisher citation and volume assign the article to 2025."
+      }
+    },
+    {
+      "normalized_title": "advancing video self supervised learning via image foundation models",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Pattern Recognition Letters 2025",
+        "venue_normalized": "Pattern Recognition Letters",
+        "publication_status": "peer_reviewed",
+        "method": "AdViSe",
+        "method_family": "Other / Hybrid",
+        "method_description": "Frozen CLIP, MAE, or DINOv2 spatial features are paired with a lightweight ResNet3D temporal module trained through playback-rate perception.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48, Something-Something V2, Kinetics-400",
+        "dataset_notes": "ImageNet-1K is the source pretraining benchmark for the frozen image foundation models; the video datasets support self-supervised adaptation and evaluation.",
+        "paper_url": "https://www.sciencedirect.com/science/article/pii/S0167865525001072",
+        "code_url": "https://github.com/JingwWu/advise-video-ssl",
+        "project_url": "",
+        "doi": "10.1016/j.patrec.2025.03.015",
+        "arxiv_id": "2505.19218",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0167865525001072",
+          "https://doi.org/10.1016/j.patrec.2025.03.015",
+          "https://arxiv.org/abs/2505.19218"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": ""
+      }
+    },
+    {
+      "normalized_title": "smile infusing spatial and motion semantics in masked video learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR 2025",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "SMILE",
+        "method_family": "Generative / Masked",
+        "method_description": "Masked video learning combines a CLIP spatial-semantic teacher with synthetic object-motion supervision to encode appearance and motion jointly.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Places-80K"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "FineGYM",
+          "GYM99",
+          "EPIC-KITCHENS-100",
+          "Charades",
+          "FX-S1",
+          "UB-S1",
+          "UCF-RC",
+          "DAVIS",
+          "YouTube-VOS",
+          "THUMOS14",
+          "ActivityNet v1.3"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Places-80K",
+          "UCF101",
+          "HMDB51",
+          "FineGYM",
+          "GYM99",
+          "EPIC-KITCHENS-100",
+          "Charades",
+          "FX-S1",
+          "UB-S1",
+          "UCF-RC",
+          "DAVIS",
+          "YouTube-VOS",
+          "THUMOS14",
+          "ActivityNet v1.3"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "FineGYM",
+          "GYM99",
+          "EPIC-KITCHENS-100",
+          "Charades",
+          "FX-S1",
+          "UB-S1",
+          "UCF-RC",
+          "DAVIS",
+          "YouTube-VOS",
+          "THUMOS14",
+          "ActivityNet v1.3"
+        ],
+        "benchmark_suites": [
+          "SEVERE"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, FineGYM, GYM99, EPIC-KITCHENS-100, Charades, FX-S1, UB-S1, UCF-RC, DAVIS, YouTube-VOS, THUMOS14, ActivityNet v1.3",
+        "dataset_notes": "Places-80K and noise sources are used in synthetic-motion ablations. The long evaluation list includes the SEVERE robustness suite.",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Thoker_SMILE_Infusing_Spatial_and_Motion_Semantics_in_Masked_Video_Learning_CVPR_2025_paper.html",
+        "code_url": "https://github.com/fmthoker/SMILE",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2504.00527",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025/papers/Thoker_SMILE_Infusing_Spatial_and_Motion_Semantics_in_Masked_Video_Learning_CVPR_2025_paper.pdf",
+          "https://arxiv.org/abs/2504.00527"
+        ],
+        "venue_evidence": "official_cvf_proceedings",
+        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication."
+      }
+    },
+    {
+      "normalized_title": "a large scale analysis on contextual self supervised video representation learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "CVPR Workshops 2025",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Contextual VideoSSL Benchmark and Multi-Teacher Distillation",
+        "method_family": "Other / Hybrid",
+        "method_description": "A controlled large-scale study benchmarks contextual video SSL factors and distills complementary representations from multiple pretrained teachers.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, Diving48",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025W/TCV/html/Kumar_A_Large-Scale_Analysis_on_Contextual_Self-Supervised_Video_Representation_Learning_CVPRW_2025_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2504.06153",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2025W/TCV/html/Kumar_A_Large-Scale_Analysis_on_Contextual_Self-Supervised_Video_Representation_Learning_CVPRW_2025_paper.html",
+          "https://arxiv.org/abs/2504.06153"
+        ],
+        "venue_evidence": "official_cvf_workshop_proceedings",
+        "audit_notes": "The arXiv entry was promoted to the CVPR 2025 TCV workshop publication."
+      }
+    },
+    {
+      "normalized_title": "progressive self supervised spatio temporal feature learning based on video sequence saliency",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Proceedings of SPIE, ICVIP 2024",
+        "venue_normalized": "Proceedings of SPIE",
+        "publication_status": "peer_reviewed",
+        "method": "PSSFL-VSS",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Video sequence saliency scores order-prediction difficulty and creates a progressive curriculum for clip-order self-supervised spatiotemporal learning.",
+        "pretraining_datasets": [
+          "Kinetics",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics"
+        ],
+        "datasets": [
+          "Kinetics",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Kinetics",
+        "dataset_notes": "The publisher abstract confirms clip/video retrieval and action-recognition experiments. UCF101, HMDB51, and Kinetics are the benchmark definitions present in the publisher metadata; the closed full text prevents a more granular split assignment.",
+        "paper_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13558/1355809/Progressive-self-supervised-spatio-temporal-feature-learning-based-on-video/10.1117/12.3059113.short",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1117/12.3059113",
+        "arxiv_id": "",
+        "published_date": "2025-03-10",
+        "verification_urls": [
+          "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13558/1355809/Progressive-self-supervised-spatio-temporal-feature-learning-based-on-video/10.1117/12.3059113.short",
+          "https://doi.org/10.1117/12.3059113"
+        ],
+        "venue_evidence": "official_spie_proceedings",
+        "audit_notes": "The conference occurred in December 2024, while the citable SPIE proceedings version was published in March 2025; the catalog follows the version-of-record year."
+      }
+    },
+    {
+      "normalized_title": "crossvideomae self supervised image video representation learning with masked autoencoders",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "CrossVideoMAE",
+        "method_family": "Generative / Masked",
+        "method_description": "Cross-modal masked autoencoding aligns image and video representations using paired video clips and sampled still frames with shared and modality-specific objectives.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "ImageNet-1K"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "ImageNet-1K",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "ImageNet-1K"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, ImageNet-1K",
+        "dataset_notes": "Sampled frames from Kinetics-400 and Something-Something V2 form the image side of joint pretraining; ImageNet-1K is used as an auxiliary image benchmark.",
+        "paper_url": "https://arxiv.org/abs/2502.07811",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2502.07811",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://arxiv.org/abs/2502.07811"
+        ],
+        "venue_evidence": "official_arxiv_record",
+        "audit_notes": "A personal-page reference to a medical workshop was not matched by official proceedings; the exact-title record remains a preprint."
+      }
+    },
+    {
+      "normalized_title": "motion driven adaptive frame selection strategy for video action recognition",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "EURASIP Journal on Image and Video Processing 2025",
+        "venue_normalized": "EURASIP Journal on Image and Video Processing",
+        "publication_status": "peer_reviewed",
+        "method": "Motion-Driven Adaptive Frame Selection",
+        "method_family": "Other / Hybrid",
+        "method_description": "Motion-difference entropy and an adaptive selector retain frames with informative temporal change before action classification.",
+        "pretraining_datasets": [
+          "ImageNet-1K"
+        ],
+        "evaluation_datasets": [
+          "Diving48",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Diving48",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Diving48",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Diving48, UCF101, HMDB51",
+        "dataset_notes": "The selector uses an ImageNet-pretrained ResNet-50 backbone and is evaluated on three action-recognition datasets.",
+        "paper_url": "https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-025-00675-2",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1186/s13640-025-00675-2",
+        "arxiv_id": "",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-025-00675-2",
+          "https://doi.org/10.1186/s13640-025-00675-2"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": "The Research Square preprint link was replaced by the 2025 journal version of record."
+      }
+    },
+    {
+      "normalized_title": "mitigating background bias in self supervised video representation learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Signal, Image and Video Processing 2025",
+        "venue_normalized": "Signal, Image and Video Processing",
+        "publication_status": "peer_reviewed",
+        "method": "MAC-based Background-Debiasing SSL",
+        "method_family": "Contrastive",
+        "method_description": "Foreground motion is blended through frame-difference masks, and transformation-multiplier prediction plus spatial, temporal, and contrastive tasks discourages background shortcuts.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48",
+        "dataset_notes": "The publisher abstract reports UCF101, HMDB51, and Diving48 under low-resource and full-compute settings.",
+        "paper_url": "https://link.springer.com/article/10.1007/s11760-024-03644-w",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s11760-024-03644-w",
+        "arxiv_id": "",
+        "published_date": "2024-12-04",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s11760-024-03644-w",
+          "https://doi.org/10.1007/s11760-024-03644-w"
+        ],
+        "venue_evidence": "official_publisher_version_of_record",
+        "audit_notes": "The article was published online in December 2024 but is cited in volume 19 as a 2025 article; the catalog follows the publisher citation year."
+      }
+    },
+    {
+      "normalized_title": "arvideo autoregressive pretraining for self supervised video representation learning",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "Transactions on Machine Learning Research 2025",
+        "venue_normalized": "TMLR",
+        "publication_status": "peer_reviewed",
+        "method": "ARVideo",
+        "method_family": "Generative / Masked",
+        "method_description": "Autoregressive learning predicts clustered spatiotemporal visual tokens under randomized prediction orders rather than fixed raster order.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51",
+          "AVA v2.2"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51, AVA v2.2",
+        "dataset_notes": "",
+        "paper_url": "https://openreview.net/forum?id=hWlCc7Iksi",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2405.15160",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://openreview.net/forum?id=hWlCc7Iksi",
+          "https://arxiv.org/abs/2405.15160"
+        ],
+        "venue_evidence": "official_tmlr_openreview_record",
+        "audit_notes": "The 2024 arXiv paper was promoted to its TMLR 2025 publication."
+      }
+    },
+    {
+      "normalized_title": "learning video representations without natural videos",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "ICCV Workshops 2025",
+        "venue_normalized": "ICCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Synthetic-progression VideoMAE pretraining",
+        "method_family": "Generative / Masked",
+        "method_description": "VideoMAE is pretrained on progressively richer procedurally generated motion videos and crops of natural still images, without natural video pretraining.",
+        "pretraining_datasets": [
+          "Procedurally generated motion videos",
+          "ImageNet-1K static images"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "UCF101-P",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "Procedurally generated motion videos",
+          "ImageNet-1K static images",
+          "UCF101",
+          "HMDB51",
+          "UCF101-P",
+          "Kinetics-400"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "UCF101-P",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, UCF101-P, Kinetics-400",
+        "dataset_notes": "UCF101-P contains 14 out-of-distribution corruption sets.",
+        "paper_url": "https://openreview.net/forum?id=nqDXwTTCWA",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2410.24213",
+        "published_date": "2025-08-26",
+        "verification_urls": [
+          "https://openreview.net/forum?id=nqDXwTTCWA",
+          "https://openreview.net/submissions?venue=thecvf.com%2FICCV%2F2025%2FWorkshop%2FLIMIT",
+          "https://arxiv.org/abs/2410.24213"
+        ],
+        "venue_evidence": "official_iccv_workshop_openreview_record",
+        "audit_notes": "The 2024 arXiv record was promoted to the ICCV 2025 LIMIT workshop publication."
+      }
+    },
+    {
+      "normalized_title": "collaboratively self supervised video representation learning for action recognition",
+      "updates": {
+        "year": 2025,
+        "date_label": "2025",
+        "venue": "IEEE Transactions on Information Forensics and Security 2025",
+        "venue_normalized": "IEEE TIFS",
+        "publication_status": "peer_reviewed",
+        "method": "CSVR",
+        "method_family": "Other / Hybrid",
+        "method_description": "Three collaborative branches learn future poses with a GAN, match current-future context, and generate current and future clips.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Something-Something V2, Kinetics-400",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/10847948/",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/TIFS.2025.3531772",
+        "arxiv_id": "2401.07584",
+        "published_date": "2025",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/10847948/",
+          "https://doi.org/10.1109/TIFS.2025.3531772",
+          "https://arxiv.org/abs/2401.07584"
+        ],
+        "venue_evidence": "official_ieee_version_of_record",
+        "audit_notes": "The 2024 arXiv record was promoted to the 2025 IEEE TIFS version of record."
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "year": 2016,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 1,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "shuffle and learn unsupervised learning using temporal order verification",
+      "updates": {
+        "year": 2016,
+        "date_label": "2016",
+        "venue": "ECCV 2016",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "Shuffle and Learn / Temporal Order Verification",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A triplet Siamese CNN learns from high-motion frame tuples by classifying whether the middle frame makes the sequence temporally valid, treating both forward and reverse chronology as valid.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "FLIC",
+          "MPII"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "FLIC",
+          "MPII"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "FLIC",
+          "MPII"
+        ],
+        "benchmark_text": "UCF101, HMDB51, FLIC, MPII",
+        "dataset_notes": "The self-supervised model is pretrained on unlabeled UCF101 training videos, then evaluated on action recognition and human pose estimation. A separate experiment combines it with supervised ImageNet-1K initialization.",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-319-46448-0_32",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-319-46448-0_32",
+        "arxiv_id": "1603.08561",
+        "published_date": "2016",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-319-46448-0_32",
+          "https://doi.org/10.1007/978-3-319-46448-0_32",
+          "https://arxiv.org/abs/1603.08561"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Shuffle and learn: unsupervised learning using temporal order verification"
+        ]
+      }
+    }
+  ]
+}

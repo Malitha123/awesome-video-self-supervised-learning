@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "year": 2017,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 2,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "unsupervised representation learning by sorting sequences",
+      "updates": {
+        "year": 2017,
+        "date_label": "2017",
+        "venue": "ICCV 2017",
+        "venue_normalized": "ICCV",
+        "publication_status": "peer_reviewed",
+        "method": "Order Prediction Network (OPN)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A Siamese CNN extracts features from every pair in a shuffled frame tuple and predicts its chronological permutation, using motion-aware sampling, spatial jittering, and channel splitting to suppress shortcuts.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "PASCAL VOC 2007"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "PASCAL VOC 2007"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "PASCAL VOC 2007"
+        ],
+        "benchmark_text": "UCF101, HMDB51, PASCAL VOC 2007",
+        "dataset_notes": "The main model is self-supervised on UCF101 and transferred to UCF101, HMDB51, and PASCAL VOC 2007. The paper also reports dataset-specific unsupervised pretraining on HMDB51.",
+        "paper_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Unsupervised_Representation_Learning_ICCV_2017_paper.pdf",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ICCV.2017.79",
+        "arxiv_id": "1708.01246",
+        "published_date": "2017",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_ICCV_2017/papers/Lee_Unsupervised_Representation_Learning_ICCV_2017_paper.pdf",
+          "https://doi.org/10.1109/ICCV.2017.79",
+          "https://arxiv.org/abs/1708.01246"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Unsupervised representation learning by sorting sequences"
+        ]
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning with odd one out networks",
+      "updates": {
+        "year": 2017,
+        "date_label": "2017",
+        "venue": "CVPR 2017",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Odd-One-Out Network (O3N)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A multi-branch CNN receives several temporally ordered subsequences and one frame-shuffled subsequence from the same video, then learns to identify the odd input through shared encoders and feature fusion.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "Self-supervised feature learning and downstream action classification are reported on UCF101 and HMDB51 without external pretrained weights or optical-flow inputs.",
+        "paper_url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Fernando_Self-Supervised_Video_Representation_CVPR_2017_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/CVPR.2017.607",
+        "arxiv_id": "1611.06646",
+        "published_date": "2017",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content_cvpr_2017/html/Fernando_Self-Supervised_Video_Representation_CVPR_2017_paper.html",
+          "https://doi.org/10.1109/CVPR.2017.607",
+          "https://arxiv.org/abs/1611.06646"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Self-supervised video representation learning with odd-one-out networks"
+        ]
+      }
+    }
+  ]
+}

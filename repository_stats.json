@@ -1,0 +1,180 @@
+{
+  "papers_tracked": 282,
+  "years_covered": "2016–2026",
+  "year_counts": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 7,
+    "2019": 9,
+    "2020": 28,
+    "2021": 39,
+    "2022": 56,
+    "2023": 54,
+    "2024": 35,
+    "2025": 34,
+    "2026": 17
+  },
+  "venue_counts_top": [
+    [
+      "CVPR",
+      57
+    ],
+    [
+      "arXiv / Preprint",
+      31
+    ],
+    [
+      "ICCV",
+      24
+    ],
+    [
+      "ECCV",
+      20
+    ],
+    [
+      "NeurIPS",
+      16
+    ],
+    [
+      "AAAI",
+      15
+    ],
+    [
+      "WACV",
+      9
+    ],
+    [
+      "CVPR Workshops",
+      8
+    ],
+    [
+      "ICLR",
+      8
+    ],
+    [
+      "ACM Multimedia",
+      7
+    ],
+    [
+      "ICCV Workshops",
+      6
+    ],
+    [
+      "BMVC",
+      6
+    ],
+    [
+      "Other venues",
+      75
+    ]
+  ],
+  "dataset_counts_top": [
+    [
+      "UCF101",
+      216
+    ],
+    [
+      "HMDB51",
+      202
+    ],
+    [
+      "Kinetics-400",
+      179
+    ],
+    [
+      "Something-Something V2",
+      80
+    ],
+    [
+      "ImageNet-1K",
+      41
+    ],
+    [
+      "Diving48",
+      32
+    ],
+    [
+      "Kinetics-600",
+      18
+    ],
+    [
+      "HowTo100M",
+      17
+    ],
+    [
+      "DAVIS 2017",
+      16
+    ],
+    [
+      "Kinetics-700",
+      16
+    ]
+  ],
+  "benchmark_counts_top": [
+    [
+      "UCF101",
+      216
+    ],
+    [
+      "HMDB51",
+      202
+    ],
+    [
+      "Kinetics-400",
+      179
+    ],
+    [
+      "Something-Something V2",
+      80
+    ],
+    [
+      "ImageNet-1K",
+      41
+    ],
+    [
+      "Diving48",
+      32
+    ],
+    [
+      "Kinetics-600",
+      18
+    ],
+    [
+      "HowTo100M",
+      17
+    ],
+    [
+      "DAVIS 2017",
+      16
+    ],
+    [
+      "Kinetics-700",
+      16
+    ]
+  ],
+  "dataset_annotated_papers": 282,
+  "benchmark_annotated_papers": 282,
+  "family_counts": [
+    [
+      "Contrastive",
+      89
+    ],
+    [
+      "Generative / Masked",
+      49
+    ],
+    [
+      "Pretext / Predictive",
+      57
+    ],
+    [
+      "Cross-Modal",
+      3
+    ],
+    [
+      "Other / Hybrid",
+      36
+    ]
+  ],
+  "distinct_normalized_venues": 64
+}

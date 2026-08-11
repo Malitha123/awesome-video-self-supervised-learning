@@ -1,0 +1,2 @@
+Title,Method,Method family,Pretraining datasets,Evaluation datasets,Year,Venue,Publication status,DOI,Verified as of
+Shuffle and Learn: Unsupervised Learning Using Temporal Order Verification,Shuffle and Learn / Temporal Order Verification,Pretext / Predictive,UCF101,UCF101; HMDB51; FLIC; MPII,2016,ECCV 2016,peer_reviewed,10.1007/978-3-319-46448-0_32,2026-08-11

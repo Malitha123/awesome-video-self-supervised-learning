@@ -1,0 +1,11 @@
+{
+  "name": "Awesome Video Self-Supervised Learning",
+  "short_name": "Awesome VideoSSL",
+  "description": "A curated catalog of Video SSL papers by verified year and venue.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f9fd",
+  "theme_color": "#0e74d7",
+  "lang": "en"
+}

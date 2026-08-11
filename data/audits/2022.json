@@ -1,0 +1,2627 @@
+{
+  "schema_version": 1,
+  "year": 2022,
+  "status": "complete",
+  "verified_as_of": "2026-08-11",
+  "paper_count": 56,
+  "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "records": [
+    {
+      "normalized_title": "bevt bert pretraining of video transformers",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "BEVT",
+        "method_family": "Generative / Masked",
+        "method_description": "A bidirectional image tokenizer and image and video teachers supervise masked visual-token prediction in a shared video transformer.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "HowTo100M"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Diving48"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Something-Something V2",
+          "HowTo100M",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Diving48"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, Diving48",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Wang_BEVT_BERT_Pretraining_of_Video_Transformers_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2112.01529",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Wang_BEVT_BERT_Pretraining_of_Video_Transformers_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2112.01529"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "masked autoencoders as spatiotemporal learners",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "NeurIPS 2022",
+        "venue_normalized": "NeurIPS",
+        "publication_status": "peer_reviewed",
+        "method": "MAE-ST",
+        "method_family": "Generative / Masked",
+        "method_description": "A spatiotemporal masked autoencoder reconstructs randomly masked RGB tubelets using a high mask ratio and a lightweight decoder.",
+        "pretraining_datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "Instagram videos"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "AVA v2.2",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "ImageNet-1K",
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "Instagram videos",
+          "AVA v2.2",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "AVA v2.2",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, AVA v2.2, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/e97d1081481a4017df96b51be31001d3-Abstract-Conference.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2205.09113",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/e97d1081481a4017df96b51be31001d3-Abstract-Conference.html",
+          "https://arxiv.org/abs/2205.09113"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "spact self supervised privacy preservation for action recognition",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "SPAct",
+        "method_family": "Other / Hybrid",
+        "method_description": "Adversarial self-supervision suppresses privacy attributes while preserving features that remain useful for action recognition.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51",
+          "PA-HMDB",
+          "VISPR",
+          "P-HVU"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "PA-HMDB",
+          "VISPR",
+          "P-HVU"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51",
+          "PA-HMDB",
+          "VISPR",
+          "P-HVU"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "PA-HMDB",
+          "VISPR",
+          "P-HVU"
+        ],
+        "benchmark_text": "UCF101, HMDB51, PA-HMDB, VISPR, P-HVU",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Dave_SPAct_Self-Supervised_Privacy_Preservation_for_Action_Recognition_CVPR_2022_paper.html",
+        "code_url": "https://github.com/DAVEISHAN/SPAct",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2203.15205",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Dave_SPAct_Self-Supervised_Privacy_Preservation_for_Action_Recognition_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2203.15205"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "suppressing static visual cues via normalizing flows for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "AAAI 2022",
+        "venue_normalized": "AAAI",
+        "publication_status": "peer_reviewed",
+        "method": "Static-cue suppression with normalizing flows",
+        "method_family": "Contrastive",
+        "method_description": "A normalizing-flow branch models and removes static visual shortcuts so contrastive learning emphasizes temporal evidence.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/20254",
+        "code_url": "https://github.com/mettyz/SSVC",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2112.03803",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/20254",
+          "https://arxiv.org/abs/2112.03803"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "self supervised video transformer",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "SVT",
+        "method_family": "Distillation / Teacher-Student",
+        "method_description": "A Siamese video transformer learns from local and global views with temporal consistency and teacher-student feature alignment.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.html",
+        "code_url": "https://git.io/J1juJ",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "exploring relations in untrimmed videos for self supervised learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications 2022",
+        "venue_normalized": "ACM TOMM",
+        "publication_status": "peer_reviewed",
+        "method": "ERUV",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Shot-level, video-level, and dataset-level co-occurrence relations plus rotation prediction provide supervision from untrimmed video.",
+        "pretraining_datasets": [
+          "THUMOS14",
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "THUMOS14",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://dl.acm.org/doi/10.1145/3473342",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1145/3473342",
+        "arxiv_id": "2008.02711",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://dl.acm.org/doi/10.1145/3473342",
+          "https://doi.org/10.1145/3473342",
+          "https://arxiv.org/abs/2008.02711",
+          "https://arxiv.org/pdf/2008.02711"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "mamico macro to micro semantic correspondence for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ACM Multimedia 2022",
+        "venue_normalized": "ACM Multimedia",
+        "publication_status": "peer_reviewed",
+        "method": "MaMiCo",
+        "method_family": "Contrastive",
+        "method_description": "Nested video, clip, and frame pyramids impose macro-to-micro spatial and temporal semantic correspondence.",
+        "pretraining_datasets": [
+          "AVA",
+          "AVA-Kinetics",
+          "JHMDB-21",
+          "UCF101-24"
+        ],
+        "evaluation_datasets": [
+          "AVA",
+          "AVA-Kinetics",
+          "JHMDB-21",
+          "UCF101-24"
+        ],
+        "datasets": [
+          "AVA",
+          "AVA-Kinetics",
+          "JHMDB-21",
+          "UCF101-24"
+        ],
+        "benchmarks": [
+          "AVA",
+          "AVA-Kinetics",
+          "JHMDB-21",
+          "UCF101-24"
+        ],
+        "benchmark_text": "AVA, AVA-Kinetics, JHMDB-21, UCF101-24",
+        "dataset_notes": "The paper reports action-detection protocols; the listed corpora are used across representation learning and downstream evaluation.",
+        "paper_url": "https://dl.acm.org/doi/10.1145/3503161.3547888",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1145/3503161.3547888",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://dl.acm.org/doi/10.1145/3503161.3547888",
+          "https://doi.org/10.1145/3503161.3547888"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "tcgl temporal contrastive graph for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "IEEE Transactions on Image Processing 2022",
+        "venue_normalized": "IEEE TIP",
+        "publication_status": "peer_reviewed",
+        "method": "TCGL",
+        "method_family": "Contrastive",
+        "method_description": "A temporal contrastive graph connects intra-snippet and inter-snippet relations to learn short- and long-range dynamics.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9713748",
+        "code_url": "https://github.com/YangLiu9208/TCGL",
+        "project_url": "",
+        "doi": "10.1109/TIP.2022.3152521",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9713748",
+          "https://doi.org/10.1109/TIP.2022.3152521"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "cross architecture self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "CACL",
+        "method_family": "Contrastive",
+        "method_description": "CNN and transformer encoders contrast cross-architecture representations while predicting temporal shuffle degree.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Cross-Architecture_Self-Supervised_Video_Representation_Learning_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Cross-Architecture_Self-Supervised_Video_Representation_Learning_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "contrastive spatio temporal pretext learning for self supervised video representation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "AAAI 2022",
+        "venue_normalized": "AAAI",
+        "publication_status": "peer_reviewed",
+        "method": "CSTP",
+        "method_family": "Other / Hybrid",
+        "method_description": "Spatial and temporal transformation prediction is combined with instance contrastive learning.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/20248",
+        "code_url": "https://github.com/KT27-A/CSTP",
+        "project_url": "",
+        "doi": "10.1609/aaai.v36i3.20248",
+        "arxiv_id": "2112.08913",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/20248",
+          "https://doi.org/10.1609/aaai.v36i3.20248",
+          "https://arxiv.org/abs/2112.08913"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "transrank self supervised video representation learning via ranking based transformation recognition",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "TransRank",
+        "method_family": "Pretext / Predictive",
+        "method_description": "The encoder ranks relative strengths of temporal and spatial transformations instead of assigning isolated transformation classes.",
+        "pretraining_datasets": [
+          "Mini-Kinetics-200",
+          "Something-Something V1"
+        ],
+        "evaluation_datasets": [
+          "Mini-Kinetics-200",
+          "Something-Something V1",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Mini-Kinetics-200",
+          "Something-Something V1",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Mini-Kinetics-200",
+          "Something-Something V1",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Mini-Kinetics-200, Something-Something V1, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Duan_TransRank_Self-Supervised_Video_Representation_Learning_via_Ranking-Based_Transformation_Recognition_CVPR_2022_paper.html",
+        "code_url": "https://github.com/kennymckormick/TransRank",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Duan_TransRank_Self-Supervised_Video_Representation_Learning_via_Ranking-Based_Transformation_Recognition_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "learning from untrimmed videos self supervised video representation learning with hierarchical consistency",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "HiCo",
+        "method_family": "Contrastive",
+        "method_description": "Clip-level and video-level objectives enforce hierarchical consistency across untrimmed videos.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, ActivityNet",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Qing_Learning_From_Untrimmed_Videos_Self-Supervised_Video_Representation_Learning_With_Hierarchical_CVPR_2022_paper.html",
+        "code_url": "https://hico-cvpr2022.github.io/",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Qing_Learning_From_Untrimmed_Videos_Self-Supervised_Video_Representation_Learning_With_Hierarchical_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "motion aware contrastive video representation learning via foreground background merging",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "FAME",
+        "method_family": "Contrastive",
+        "method_description": "Foregrounds are merged with unrelated backgrounds to break scene shortcuts while preserving action motion for contrastive learning.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, Diving48",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.html",
+        "code_url": "https://github.com/Mark12Ding/FAME",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning with motion contrastive perception",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICME 2022",
+        "venue_normalized": "ICME",
+        "publication_status": "peer_reviewed",
+        "method": "MCP",
+        "method_family": "Contrastive",
+        "method_description": "Long-range residual motion clips are contrasted with ordinary RGB clips to emphasize motion-sensitive features.",
+        "pretraining_datasets": [
+          "Kinetics-100",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-100",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-100",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-100",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-100, Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9859802/",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1109/ICME52920.2022.9859802",
+        "arxiv_id": "2204.04607",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9859802/",
+          "https://doi.org/10.1109/ICME52920.2022.9859802",
+          "https://arxiv.org/abs/2204.04607",
+          "https://arxiv.org/pdf/2204.04607.pdf"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning using improved instance wise contrastive learning and deep clustering",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology 2022",
+        "venue_normalized": "IEEE TCSVT",
+        "publication_status": "peer_reviewed",
+        "method": "Improved instance contrast plus deep clustering",
+        "method_family": "Contrastive",
+        "method_description": "Temporal semantic positives and cluster pseudo-labels extend instance-wise contrastive learning beyond individual clips.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9761901",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9761901"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "tclr temporal contrastive learning for video representation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "Computer Vision and Image Understanding 2022",
+        "venue_normalized": "Computer Vision and Image Understanding",
+        "publication_status": "peer_reviewed",
+        "method": "TCLR",
+        "method_family": "Contrastive",
+        "method_description": "Instance-level and group-level temporal contrastive losses distinguish clips while preserving temporal structure within each video.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48, Kinetics-400",
+        "dataset_notes": "",
+        "paper_url": "https://doi.org/10.1016/j.cviu.2022.103406",
+        "code_url": "https://github.com/DAVEISHAN/TCLR",
+        "project_url": "",
+        "doi": "10.1016/j.cviu.2022.103406",
+        "arxiv_id": "2101.07974",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://doi.org/10.1016/j.cviu.2022.103406",
+          "https://arxiv.org/abs/2101.07974"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "self supervised spatiotemporal representation learning by exploiting video continuity",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "AAAI 2022",
+        "venue_normalized": "AAAI",
+        "publication_status": "peer_reviewed",
+        "method": "CPNet",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Continuity justification, discontinuity localization, and missing-section approximation model temporal continuity at multiple levels.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "ActivityNet"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "ActivityNet"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "ActivityNet"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48, ActivityNet",
+        "dataset_notes": "",
+        "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/20047",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1609/aaai.v36i2.20047",
+        "arxiv_id": "2112.05883",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/20047",
+          "https://doi.org/10.1609/aaai.v36i2.20047",
+          "https://arxiv.org/abs/2112.05883",
+          "https://arxiv.org/pdf/2112.05883.pdf"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "probabilistic representations for video contrastive learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Probabilistic Video Contrastive Learning",
+        "method_family": "Contrastive",
+        "method_description": "Video embeddings are learned as distributions with uncertainty rather than as deterministic points in contrastive space.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ActivityNet"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ActivityNet",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Park_Probabilistic_Representations_for_Video_Contrastive_Learning_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2204.03946",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Park_Probabilistic_Representations_for_Video_Contrastive_Learning_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2204.03946"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "contextualized spatio temporal contrastive learning with self supervision",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "ConST-CL",
+        "method_family": "Contrastive",
+        "method_description": "Contextualized spatial and temporal contrastive objectives align local tokens and global video representations.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "AVA"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "AVA"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "AVA"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, AVA",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Yuan_Contextualized_Spatio-Temporal_Contrastive_Learning_With_Self-Supervision_CVPR_2022_paper.html",
+        "code_url": "https://github.com/tensorflow/models/tree/master/official/projects/const_cl",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Yuan_Contextualized_Spatio-Temporal_Contrastive_Learning_With_Self-Supervision_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "videomae masked autoencoders are data efficient learners for self supervised video pre training",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "NeurIPS 2022",
+        "venue_normalized": "NeurIPS",
+        "publication_status": "peer_reviewed",
+        "method": "VideoMAE",
+        "method_family": "Generative / Masked",
+        "method_description": "A tube-masked autoencoder reconstructs pixels from very sparse visible video tokens.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/416f9cb3276121c42eebb86352a4354a-Abstract-Conference.html",
+        "code_url": "https://github.com/MCG-NJU/VideoMAE",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2203.12602",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/416f9cb3276121c42eebb86352a4354a-Abstract-Conference.html",
+          "https://arxiv.org/abs/2203.12602"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training"
+        ]
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning with cross stream prototypical contrasting",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "WACV 2022",
+        "venue_normalized": "WACV",
+        "publication_status": "peer_reviewed",
+        "method": "ViCC",
+        "method_family": "Contrastive",
+        "method_description": "RGB and optical-flow streams exchange cluster prototypes to learn appearance and motion correspondences.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/WACV2022/html/Toering_Self-Supervised_Video_Representation_Learning_With_Cross-Stream_Prototypical_Contrasting_WACV_2022_paper.html",
+        "code_url": "https://github.com/martinetoering/ViCC",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2106.10137",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/WACV2022/html/Toering_Self-Supervised_Video_Representation_Learning_With_Cross-Stream_Prototypical_Contrasting_WACV_2022_paper.html",
+          "https://arxiv.org/abs/2106.10137"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "slic self supervised learning with iterative clustering for human action videos",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "SLIC",
+        "method_family": "Contrastive",
+        "method_description": "Iterative clustering mines semantically related positives and hard negatives for action-video contrastive learning.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2206.12534",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2206.12534"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "goca guided online cluster assignment for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV 2022",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "GOCA",
+        "method_family": "Contrastive",
+        "method_description": "Motion-guided views and online cluster assignment produce group-aware targets without offline clustering.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-20050-2_15",
+        "code_url": "https://github.com/Seleucia/goca",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2207.10158",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-20050-2_15",
+          "https://arxiv.org/abs/2207.10158"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "tcvm temporal contrasting video montage framework for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ACCV 2022",
+        "venue_normalized": "ACCV",
+        "publication_status": "peer_reviewed",
+        "method": "TCVM",
+        "method_family": "Contrastive",
+        "method_description": "Video montages create temporal context changes that are contrasted to learn transformation-sensitive dynamics.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Something-Something V2, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/ACCV2022/html/Tian_TCVM_Temporal_Contrasting_Video_Montage_Framework_for_Self-supervised_Video_Representation_ACCV_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/ACCV2022/html/Tian_TCVM_Temporal_Contrasting_Video_Montage_Framework_for_Self-supervised_Video_Representation_ACCV_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "static and dynamic concepts for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV 2022",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "Static-Dynamic Concept Learning",
+        "method_family": "Contrastive",
+        "method_description": "Frame, frame-difference, and video views separate static appearance concepts from dynamic motion concepts.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Kinetics-400"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48, Kinetics-400",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19809-0_9",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-19809-0_9",
+        "arxiv_id": "2207.12795",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-19809-0_9",
+          "https://doi.org/10.1007/978-3-031-19809-0_9",
+          "https://arxiv.org/abs/2207.12795",
+          "https://arxiv.org/pdf/2207.12795.pdf"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "sos self supervised learning over sets of handled objects in egocentric action recognition",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV 2022",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "SOS",
+        "method_family": "Other / Hybrid",
+        "method_description": "Handled-object sets provide object-centric predictive and contrastive supervision for egocentric actions.",
+        "pretraining_datasets": [
+          "EPIC-KITCHENS-100"
+        ],
+        "evaluation_datasets": [
+          "EPIC-KITCHENS-100"
+        ],
+        "datasets": [
+          "EPIC-KITCHENS-100"
+        ],
+        "benchmarks": [
+          "EPIC-KITCHENS-100"
+        ],
+        "benchmark_text": "EPIC-KITCHENS-100",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19778-9_35",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-19778-9_35",
+        "arxiv_id": "2204.04796",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-19778-9_35",
+          "https://doi.org/10.1007/978-3-031-19778-9_35",
+          "https://arxiv.org/abs/2204.04796",
+          "https://arxiv.org/pdf/2204.04796.pdf"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning with cascade positive retrieval",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR Workshops 2022",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "Cascade Positive Retrieval (CPR)",
+        "method_family": "Contrastive",
+        "method_description": "Positive clips are progressively retrieved across augmented views to enlarge the semantic positive set.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Wu_Self-Supervised_Video_Representation_Learning_With_Cascade_Positive_Retrieval_CVPRW_2022_paper.html",
+        "code_url": "https://github.com/necla-ml/CPR",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Wu_Self-Supervised_Video_Representation_Learning_With_Cascade_Positive_Retrieval_CVPRW_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "self supervised learning of audio representations from audio visual data using spatial alignment",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "IEEE Journal of Selected Topics in Signal Processing 2022",
+        "venue_normalized": "IEEE JSTSP",
+        "publication_status": "peer_reviewed",
+        "method": "Audio-Visual Spatial Alignment (AVSA)",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "A spatial alignment pretext predicts the correspondence between 360-degree visual direction and ambisonic audio channels.",
+        "pretraining_datasets": [
+          "YouTube-360"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "EigenScape",
+          "TAU Audio-Visual Urban Scenes 2021"
+        ],
+        "datasets": [
+          "YouTube-360",
+          "UCF101",
+          "HMDB51",
+          "EigenScape",
+          "TAU Audio-Visual Urban Scenes 2021"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "EigenScape",
+          "TAU Audio-Visual Urban Scenes 2021"
+        ],
+        "benchmark_text": "UCF101, HMDB51, EigenScape, TAU Audio-Visual Urban Scenes 2021",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9790080",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2206.00970",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9790080",
+          "https://arxiv.org/abs/2206.00970"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "hierarchically decoupled spatial temporal contrast for self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "WACV 2022",
+        "venue_normalized": "WACV",
+        "publication_status": "peer_reviewed",
+        "method": "HDC",
+        "method_family": "Contrastive",
+        "method_description": "Spatial and temporal factors are decoupled and contrasted at multiple hierarchy levels.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/WACV2022/html/Zhang_Hierarchically_Decoupled_Spatial-Temporal_Contrast_for_Self-Supervised_Video_Representation_Learning_WACV_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/WACV2022/html/Zhang_Hierarchically_Decoupled_Spatial-Temporal_Contrast_for_Self-Supervised_Video_Representation_Learning_WACV_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "spatio temporal self supervision enhanced transformer networks for action recognition",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICME 2022",
+        "venue_normalized": "ICME",
+        "publication_status": "peer_reviewed",
+        "method": "STTNet",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A transformer is enhanced with spatiotemporal self-supervision that detects temporal ordering and clip transformations.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9859741",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9859741"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "inter intra cross modality self supervised video representation learning by contrastive clustering",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICPR 2022",
+        "venue_normalized": "ICPR",
+        "publication_status": "peer_reviewed",
+        "method": "IICMVC",
+        "method_family": "Contrastive",
+        "method_description": "Inter-modal and intra-modal cluster contrast aligns RGB and motion representations while maintaining complementary structure.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9956697",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9956697"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "scvrl shuffled contrastive video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR Workshops 2022",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "SCVRL",
+        "method_family": "Contrastive",
+        "method_description": "Temporally shuffled clips form structured hard negatives that make contrastive models attend to temporal order.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Diving48",
+          "UCF101"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Diving48",
+          "UCF101"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "Diving48",
+          "UCF101"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, Diving48, UCF101",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "internvideo general video foundation models via generative and discriminative learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "InternVideo",
+        "method_family": "Other / Hybrid",
+        "method_description": "Masked video modeling and video-text contrastive encoders are pretrained separately and fused into a general video foundation model.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "WebVid-2M",
+          "WebVid-10M",
+          "HowTo100M",
+          "LAION-400M"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Kinetics-600",
+          "Something-Something V2",
+          "ActivityNet",
+          "AVA",
+          "THUMOS14",
+          "UCF101",
+          "HMDB51",
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "WebVid-2M",
+          "WebVid-10M",
+          "HowTo100M",
+          "LAION-400M",
+          "Kinetics-600",
+          "ActivityNet",
+          "AVA",
+          "THUMOS14",
+          "UCF101",
+          "HMDB51",
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Kinetics-600",
+          "Something-Something V2",
+          "ActivityNet",
+          "AVA",
+          "THUMOS14",
+          "UCF101",
+          "HMDB51",
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions"
+        ],
+        "benchmark_text": "Kinetics-400, Kinetics-600, Something-Something V2, ActivityNet, AVA, THUMOS14, UCF101, HMDB51, MSR-VTT, MSVD, DiDeMo, LSMDC, ActivityNet Captions",
+        "dataset_notes": "The paper evaluates 39 datasets; the catalog lists the principal action, detection, and video-language benchmarks.",
+        "paper_url": "https://arxiv.org/abs/2212.03191",
+        "code_url": "https://github.com/OpenGVLab/InternVideo",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2212.03191",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://arxiv.org/abs/2212.03191"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+      }
+    },
+    {
+      "normalized_title": "video motion perception for self supervised representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICANN 2022",
+        "venue_normalized": "ICANN",
+        "publication_status": "peer_reviewed",
+        "method": "Video Motion Perception (VMP)",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Motion direction and magnitude prediction provide explicit motion supervision for a spatiotemporal encoder.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-15937-4_43",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-15937-4_43",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-15937-4_43",
+          "https://doi.org/10.1007/978-3-031-15937-4_43"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "an improved inter intra contrastive learning framework on self supervised video representation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology 2022",
+        "venue_normalized": "IEEE TCSVT",
+        "publication_status": "peer_reviewed",
+        "method": "Improved Inter-Intra Contrastive Learning",
+        "method_family": "Contrastive",
+        "method_description": "An enhanced inter-video and intra-video contrastive framework models instance discrimination and temporal coherence together.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9674754",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9674754"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "auxiliary learning for self supervised video representation via similarity based knowledge distillation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR Workshops 2022",
+        "venue_normalized": "CVPR Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "AuxSKD",
+        "method_family": "Distillation / Teacher-Student",
+        "method_description": "Similarity-based knowledge distillation transfers relational structure while an auxiliary variable-speed segment task improves motion features.",
+        "pretraining_datasets": [
+          "Kinetics-100",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-100",
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dadashzadeh_Auxiliary_Learning_for_Self-Supervised_Video_Representation_via_Similarity-Based_Knowledge_Distillation_CVPRW_2022_paper.html",
+        "code_url": "https://github.com/Plrbear/auxSKD",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dadashzadeh_Auxiliary_Learning_for_Self-Supervised_Video_Representation_via_Similarity-Based_Knowledge_Distillation_CVPRW_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "motion sensitive contrastive learning for self supervised video representation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV 2022",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "MoSI",
+        "method_family": "Contrastive",
+        "method_description": "Motion-sensitive positives and negatives discourage appearance shortcuts and emphasize changes across time.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51, Something-Something V2",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19833-5_27",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-19833-5_27",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-19833-5_27",
+          "https://doi.org/10.1007/978-3-031-19833-5_27"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "unsupervised learning of spatio temporal representation with multi task learning for video retrieval",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "National Conference on Communications 2022",
+        "venue_normalized": "NCC",
+        "publication_status": "peer_reviewed",
+        "method": "Spatiotemporal Multi-Task Learning",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Multiple spatial and temporal pretext tasks are jointly optimized for transferable video retrieval features.",
+        "pretraining_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9806811",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9806811"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "federated self supervised learning for video understanding",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV 2022",
+        "venue_normalized": "ECCV",
+        "publication_status": "peer_reviewed",
+        "method": "FedVSSL",
+        "method_family": "Contrastive",
+        "method_description": "Client-local self-supervised video learning and global federated aggregation train a shared model without centralizing videos.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19821-2_29",
+        "code_url": "https://github.com/yasar-rehman/FEDVSSL",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-19821-2_29",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-19821-2_29",
+          "https://doi.org/10.1007/978-3-031-19821-2_29"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "contrastive predictive coding with transformer for video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "Neurocomputing 2022",
+        "venue_normalized": "Neurocomputing",
+        "publication_status": "peer_reviewed",
+        "method": "CPCTR",
+        "method_family": "Pretext / Predictive",
+        "method_description": "A transformer predicts future latent video features under a contrastive predictive coding objective.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://www.sciencedirect.com/science/article/pii/S0925231221017082",
+        "code_url": "https://github.com/yliu1229/CPCTR",
+        "project_url": "",
+        "doi": "10.1016/j.neucom.2021.11.031",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0925231221017082",
+          "https://doi.org/10.1016/j.neucom.2021.11.031"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "video representation learning by identifying spatio temporal transformation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "Applied Intelligence 2022",
+        "venue_normalized": "Applied Intelligence",
+        "publication_status": "peer_reviewed",
+        "method": "Spatiotemporal Transformation Identification",
+        "method_family": "Pretext / Predictive",
+        "method_description": "The encoder identifies applied spatial and temporal transformations to learn transferable action features.",
+        "pretraining_datasets": [
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/article/10.1007/s10489-021-02790-9",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/s10489-021-02790-9",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/article/10.1007/s10489-021-02790-9",
+          "https://doi.org/10.1007/s10489-021-02790-9"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "on temporal granularity in self supervised video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "BMVC 2022",
+        "venue_normalized": "BMVC",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal Granularity Study",
+        "method_family": "Other / Hybrid",
+        "method_description": "A controlled contrastive study varies clip duration, sampling rate, and temporal span to quantify the role of temporal granularity.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://bmvc2022.mpi-inf.mpg.de/541/",
+        "code_url": "https://github.com/tensorflow/models/tree/master/official/",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://bmvc2022.mpi-inf.mpg.de/541/"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "lava language audio vision alignment for data efficient video pre training",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICML Pre-training Workshop 2022",
+        "venue_normalized": "ICML Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "LAVA",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "Language, audio, and visual embeddings are aligned with multimodal contrastive objectives for data-efficient video pretraining.",
+        "pretraining_datasets": [
+          "Kinetics-700"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "datasets": [
+          "Kinetics-700",
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ESC-50",
+        "dataset_notes": "The study uses about 300,000 Kinetics-700 clips with usable audio from an initial 480,000-video collection.",
+        "paper_url": "https://openreview.net/forum?id=uwcwviTrLY3",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2207.08024",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openreview.net/forum?id=uwcwviTrLY3",
+          "https://arxiv.org/abs/2207.08024",
+          "https://arxiv.org/pdf/2207.08024.pdf"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+      }
+    },
+    {
+      "normalized_title": "it takes two masked appearance motion modeling for self supervised video transformer pre training",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "MAM2",
+        "method_family": "Generative / Masked",
+        "method_description": "A shared encoder and regressor feed separate appearance and RGB-difference motion decoders for masked appearance-motion modeling.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://arxiv.org/abs/2210.05234",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2210.05234",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://arxiv.org/abs/2210.05234"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+      }
+    },
+    {
+      "normalized_title": "mac mask augmentation for motion aware video representation learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "BMVC 2022",
+        "venue_normalized": "BMVC",
+        "publication_status": "peer_reviewed",
+        "method": "MAC",
+        "method_family": "Contrastive",
+        "method_description": "Mask augmentation creates motion-aware paired views and adds a motion-sensitive contrastive objective.",
+        "pretraining_datasets": [
+          "Kinetics-400",
+          "UCF101"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://bmvc2022.mpi-inf.mpg.de/5/",
+        "code_url": "https://github.com/ufukpage/MAC_SSL",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://bmvc2022.mpi-inf.mpg.de/5/"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "temporal invariant video representation learning with dynamic temporal resolutions",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "AVSS 2022",
+        "venue_normalized": "AVSS",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal-Invariant Dynamic-Resolution Learning",
+        "method_family": "Contrastive",
+        "method_description": "Clips sampled at different temporal resolutions are aligned to learn representations invariant to action speed.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9959310",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9959310"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "dual contrastive learning for spatio temporal representation",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ACM Multimedia 2022",
+        "venue_normalized": "ACM Multimedia",
+        "publication_status": "peer_reviewed",
+        "method": "Dual Contrastive Learning (DCL)",
+        "method_family": "Contrastive",
+        "method_description": "Global video-level and local spatiotemporal contrastive objectives jointly capture action semantics and fine motion.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmark_text": "Kinetics-400, UCF101, HMDB51",
+        "dataset_notes": "",
+        "paper_url": "https://dl.acm.org/doi/10.1145/3503161.3547783",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1145/3503161.3547783",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://dl.acm.org/doi/10.1145/3503161.3547783",
+          "https://doi.org/10.1145/3503161.3547783"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "moquad motion focused quadruple construction for video contrastive learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ECCV Workshops 2022",
+        "venue_normalized": "ECCV Workshops",
+        "publication_status": "peer_reviewed",
+        "method": "MoQuad",
+        "method_family": "Contrastive",
+        "method_description": "Four clips with controlled appearance and motion changes form motion-focused positive and negative pairs for video contrastive learning.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Diving48"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Diving48",
+        "dataset_notes": "",
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-25069-9_2",
+        "code_url": "",
+        "project_url": "",
+        "doi": "10.1007/978-3-031-25069-9_2",
+        "arxiv_id": "2212.10870",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://link.springer.com/chapter/10.1007/978-3-031-25069-9_2",
+          "https://doi.org/10.1007/978-3-031-25069-9_2",
+          "https://arxiv.org/abs/2212.10870"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "on negative sampling for audio visual contrastive learning from movies",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "Within-Movie Audio-Visual Negative Sampling",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "Within-movie negative sampling is adapted to recurring semantics and movie-specific nonsemantic cues in uncurated long-form content.",
+        "pretraining_datasets": [
+          "Long-form movies"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "datasets": [
+          "Long-form movies",
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "ESC-50"
+        ],
+        "benchmark_text": "UCF101, HMDB51, ESC-50",
+        "dataset_notes": "The pretraining collection is described as uncurated long-form movies rather than released as a named benchmark.",
+        "paper_url": "https://arxiv.org/abs/2205.00073",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2205.00073",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://arxiv.org/abs/2205.00073"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+      }
+    },
+    {
+      "normalized_title": "frame wise action representations for long videos via sequence contrastive learning",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "CARL",
+        "method_family": "Contrastive",
+        "method_description": "Sequence contrastive learning aligns frame-wise embeddings across temporally transformed views while preserving action progression.",
+        "pretraining_datasets": [
+          "Penn Action",
+          "FineGym",
+          "Pouring"
+        ],
+        "evaluation_datasets": [
+          "Penn Action",
+          "FineGym",
+          "Pouring"
+        ],
+        "datasets": [
+          "Penn Action",
+          "FineGym",
+          "Pouring"
+        ],
+        "benchmarks": [
+          "Penn Action",
+          "FineGym",
+          "Pouring"
+        ],
+        "benchmark_text": "Penn Action, FineGym, Pouring",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Frame-Wise_Action_Representations_for_Long_Videos_via_Sequence_Contrastive_Learning_CVPR_2022_paper.html",
+        "code_url": "https://github.com/minghchen/CARL_code",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Frame-Wise_Action_Representations_for_Long_Videos_via_Sequence_Contrastive_Learning_CVPR_2022_paper.html"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record"
+      }
+    },
+    {
+      "normalized_title": "masked feature prediction for self supervised visual pre training",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "MaskFeat",
+        "method_family": "Generative / Masked",
+        "method_description": "Masked video tokens predict hand-crafted HOG features instead of raw pixels.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Kinetics-600",
+          "Kinetics-700",
+          "Something-Something V2",
+          "AVA"
+        ],
+        "benchmark_text": "Kinetics-400, Kinetics-600, Kinetics-700, Something-Something V2, AVA",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Wei_Masked_Feature_Prediction_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2112.09133",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Wei_Masked_Feature_Prediction_for_Self-Supervised_Visual_Pre-Training_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2112.09133"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Masked feature prediction for self-supervised visual pre-training"
+        ]
+      }
+    },
+    {
+      "normalized_title": "pixel level correspondence for self supervised learning from video",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "PiCo",
+        "method_family": "Contrastive",
+        "method_description": "Optical-flow tracks define dense pixel-level positive correspondences for learning localized visual features from video.",
+        "pretraining_datasets": [
+          "YouTube-8M Segments",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "COCO",
+          "PASCAL VOC 2012",
+          "Cityscapes",
+          "DAVIS 2017",
+          "JHMDB"
+        ],
+        "datasets": [
+          "YouTube-8M Segments",
+          "Kinetics-400",
+          "COCO",
+          "PASCAL VOC 2012",
+          "Cityscapes",
+          "DAVIS 2017",
+          "JHMDB"
+        ],
+        "benchmarks": [
+          "COCO",
+          "PASCAL VOC 2012",
+          "Cityscapes",
+          "DAVIS 2017",
+          "JHMDB"
+        ],
+        "benchmark_text": "COCO, PASCAL VOC 2012, Cityscapes, DAVIS 2017, JHMDB",
+        "dataset_notes": "",
+        "paper_url": "https://arxiv.org/abs/2207.03866",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2207.03866",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://arxiv.org/abs/2207.03866"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+      }
+    },
+    {
+      "normalized_title": "temporal alignment networks for long term video",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "CVPR 2022",
+        "venue_normalized": "CVPR",
+        "publication_status": "peer_reviewed",
+        "method": "Temporal Alignment Networks (TAN)",
+        "method_family": "Contrastive",
+        "method_description": "A temporal alignment objective learns frame representations from narrated instructional video and transfers to long-term alignment tasks.",
+        "pretraining_datasets": [
+          "HowTo100M (HTM-370K)"
+        ],
+        "evaluation_datasets": [
+          "HTM-Align",
+          "Breakfast",
+          "YouCook2"
+        ],
+        "datasets": [
+          "HowTo100M (HTM-370K)",
+          "HTM-Align",
+          "Breakfast",
+          "YouCook2"
+        ],
+        "benchmarks": [
+          "HTM-Align",
+          "Breakfast",
+          "YouCook2"
+        ],
+        "benchmark_text": "HTM-Align, Breakfast, YouCook2",
+        "dataset_notes": "",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Han_Temporal_Alignment_Networks_for_Long-Term_Video_CVPR_2022_paper.html",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2204.02968",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openaccess.thecvf.com/content/CVPR2022/html/Han_Temporal_Alignment_Networks_for_Long-Term_Video_CVPR_2022_paper.html",
+          "https://arxiv.org/abs/2204.02968"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Temporal alignment networks for long-term video"
+        ]
+      }
+    },
+    {
+      "normalized_title": "simvtp simple video text pre training with masked autoencoders",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "arXiv / Preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "SimVTP",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "A simple video-text masked autoencoder jointly reconstructs masked visual tokens and aligns video with text.",
+        "pretraining_datasets": [
+          "WebVid-2M"
+        ],
+        "evaluation_datasets": [
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions",
+          "MSRVTT-QA"
+        ],
+        "datasets": [
+          "WebVid-2M",
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions",
+          "MSRVTT-QA"
+        ],
+        "benchmarks": [
+          "MSR-VTT",
+          "MSVD",
+          "DiDeMo",
+          "LSMDC",
+          "ActivityNet Captions",
+          "MSRVTT-QA"
+        ],
+        "benchmark_text": "MSR-VTT, MSVD, DiDeMo, LSMDC, ActivityNet Captions, MSRVTT-QA",
+        "dataset_notes": "",
+        "paper_url": "https://arxiv.org/abs/2212.03490",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2212.03490",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://arxiv.org/abs/2212.03490"
+        ],
+        "venue_evidence": "arxiv_record_and_exact_title_publication_search",
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "previous_titles": [
+          "Simvtp: Simple video text pre-training with masked autoencoders"
+        ]
+      }
+    },
+    {
+      "normalized_title": "learning audio visual speech representation by masked multimodal cluster prediction",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "ICLR 2022",
+        "venue_normalized": "ICLR",
+        "publication_status": "peer_reviewed",
+        "method": "AV-HuBERT",
+        "method_family": "Multimodal / Audio-Visual",
+        "method_description": "Masked multimodal cluster prediction iteratively derives and predicts shared audio-visual speech units.",
+        "pretraining_datasets": [
+          "LRS3",
+          "VoxCeleb2"
+        ],
+        "evaluation_datasets": [
+          "LRS3"
+        ],
+        "datasets": [
+          "LRS3",
+          "VoxCeleb2"
+        ],
+        "benchmarks": [
+          "LRS3"
+        ],
+        "benchmark_text": "LRS3",
+        "dataset_notes": "",
+        "paper_url": "https://openreview.net/forum?id=Z1Qlm11uOM",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2201.02184",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://openreview.net/forum?id=Z1Qlm11uOM",
+          "https://arxiv.org/abs/2201.02184"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "previous_titles": [
+          "Learning audio-visual speech representation by masked multimodal cluster prediction"
+        ]
+      }
+    },
+    {
+      "normalized_title": "self supervised video representation learning by uncovering spatio temporal statistics",
+      "updates": {
+        "year": 2022,
+        "date_label": "2022",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 2022",
+        "venue_normalized": "IEEE TPAMI",
+        "publication_status": "peer_reviewed",
+        "method": "Spatiotemporal Statistics Prediction",
+        "method_family": "Pretext / Predictive",
+        "method_description": "The network predicts coarse spatial locations, dominant motion directions, and color-diversity statistics from video clips.",
+        "pretraining_datasets": [
+          "UCF101",
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "UCF101",
+          "HMDB51",
+          "YUP++",
+          "ASLAN"
+        ],
+        "datasets": [
+          "UCF101",
+          "Kinetics-400",
+          "HMDB51",
+          "YUP++",
+          "ASLAN"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "YUP++",
+          "ASLAN"
+        ],
+        "benchmark_text": "UCF101, HMDB51, YUP++, ASLAN",
+        "dataset_notes": "",
+        "paper_url": "https://ieeexplore.ieee.org/document/9352025",
+        "code_url": "https://github.com/laura-wang/video_repres_sts",
+        "project_url": "",
+        "doi": "10.1109/TPAMI.2021.3054224",
+        "arxiv_id": "2008.13426",
+        "published_date": "2022",
+        "verification_urls": [
+          "https://ieeexplore.ieee.org/document/9352025",
+          "https://doi.org/10.1109/TPAMI.2021.3054224",
+          "https://arxiv.org/abs/2008.13426"
+        ],
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_notes": "The initial 2021 record was reconciled to the final journal volume year."
+      }
+    }
+  ]
+}
