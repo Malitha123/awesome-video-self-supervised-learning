@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 from repo_tools import (
     ROOT, MEDIA_DIR, README_PATH, SITE_URL, REPO_URL, load_papers,
-    normalize_venue, replace_representation_section, replace_stats_section,
+    normalize_venue, replace_representation_section,
     replace_representation_year_links, remove_visible_keyword_list,
     remove_challenges_section, stats,
 )
@@ -461,7 +461,6 @@ def main():
     readme = remove_challenges_section(readme)
     readme = replace_representation_section(readme, papers)
     readme = replace_representation_year_links(readme, papers)
-    readme = replace_stats_section(readme, stats_markdown(s))
     README_PATH.write_text(readme)
 
     index_html = site_template(papers, s, readme)

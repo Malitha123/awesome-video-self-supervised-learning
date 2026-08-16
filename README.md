@@ -21,23 +21,6 @@ This repository contains a collection of state-of-the-art self-supervised learni
 
 
 
-<!-- AUTO:STATS:START -->
-## Repository Statistics
-
-The charts below summarize the canonical collection by publication year and venue. Additional research metadata remains available in the repository data files but is intentionally omitted from the public catalog and README.
-
-<div class="stats-kpis">
-  <div><strong>282</strong><span>representation-learning papers</span></div>
-  <div><strong>2016–2026</strong><span>years covered</span></div>
-  <div><strong>64</strong><span>normalized venues</span></div>
-</div>
-
-<div class="stats-grid">
-  <figure><img src="./media/stats_papers_by_year.svg" alt="Bar chart showing the number of VideoSSL papers by year"><figcaption>Papers by year</figcaption></figure>
-  <figure><img src="./media/stats_papers_by_venue.svg" alt="Bar chart showing the number of VideoSSL papers by publication venue"><figcaption>Papers by venue</figcaption></figure>
-</div>
-<!-- AUTO:STATS:END -->
-
 ## Acknowledgments
 This research was supported by the joint grant P007 from [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)  and the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/). The authors would like to express their sincere gratitude for this generous support, which made the study possible.
 
@@ -82,22 +65,11 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 -->
 
 ### Contents
-- [Repository Statistics](#repository-statistics)
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
    - [2026](#2026)
    - [2025](#2025)
-   - [2024](#2024)
-   - [2023](#2023)
-   - [2022](#2022)
-   - [2021](#2021)
-   - [2020](#2020)
-   - [2019](#2019)
-   - [2018](#2018)
-   - [2017](#2017)
-   - [2016](#2016)
-- [2025](#2025)
    - [2024](#2024)
    - [2023](#2023)
    - [2022](#2022)
