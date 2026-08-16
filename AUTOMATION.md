@@ -6,12 +6,14 @@ The repository is configured for a weekly, human-approved update cycle without r
 
 1. GitHub Actions runs every Monday using the schedule in `.github/workflows/weekly-curation.yml`.
 2. `scripts/curate_weekly.py` searches recent arXiv and OpenAlex records using the configured research queries.
-3. Deterministic checks remove obvious duplicates using arXiv IDs, DOIs and title similarity.
-4. The remaining candidates are reviewed by **GitHub Copilot CLI**. Copilot is asked to verify that each candidate is genuinely a video self-supervised learning contribution, that its own experiments use a relevant video benchmark, and that it is not an alternate title/version of an existing paper.
-5. Accepted candidates are added to `data/papers.json`.
-6. The README, website, statistics, sitemap and charts are rebuilt.
-7. The workflow opens a pull request. It does **not** merge directly to `main`.
-8. You review the pull request and merge it only when you approve the proposed additions.
+3. Deterministic checks identify unchanged duplicates and possible publication upgrades using arXiv IDs, DOIs, URLs, years and title similarity.
+4. The remaining candidates are reviewed by **GitHub Copilot CLI**. Copilot is asked to verify relevance, benchmark use, complete hidden audit metadata and primary-source publication evidence.
+5. A genuinely new work is added once. A later conference or journal version of an existing arXiv work updates that canonical record instead of creating a duplicate. Unchanged duplicates are rejected.
+6. `scripts/sync_catalog_audits.py` synchronizes the per-year JSON/CSV audits, dynamic all-paper JSON/CSV/XLSX tables and `data/audit_progress.json`.
+7. The README, website, statistics, sitemap and charts are rebuilt and validated from `data/papers.json`.
+8. The workflow opens a pull request containing both public files and hidden audit records. It does **not** merge directly to `main`.
+9. You review the pull request and merge it only when you approve the proposed additions and publication updates.
+10. Merging to `main` triggers the GitHub Pages workflow and publishes the rebuilt website.
 
 ## Authentication
 
@@ -33,17 +35,17 @@ Copilot CLI authenticates with the short-lived `GITHUB_TOKEN` automatically prov
 1. Make sure GitHub Actions is enabled for the repository.
 2. Make sure your GitHub Copilot plan is active.
 3. In **Settings → Actions → General**, allow workflows to create pull requests if your repository currently blocks that capability.
-4. In **Settings → Pages**, use **GitHub Actions** as the Pages publishing source.
+4. In **Settings → Pages**, use **Deploy from a branch**, select `main`, select `/(root)`, and save. The repository already contains the generated static files and `.nojekyll`.
 5. Optional: add a repository variable named `COPILOT_MODEL` if you want to pin a specific model. Leaving it unset uses Copilot CLI's default model.
 
 ## Manual test
 
 Open the repository's **Actions** tab, choose **Weekly VideoSSL curation agent**, then choose **Run workflow**.
 
-If no qualifying papers are found, no pull request is created. If candidates pass review, a PR is opened with a checklist and verification links.
+If no qualifying paper or publication upgrade is found, no pull request is created. If a candidate passes review, a PR is opened with separate additions and publication-update tables, a checklist and verification links.
 
 ## Source of truth
 
-`data/papers.json` is the canonical representation-learning catalog. The GitHub README is regenerated as the traditional year-by-year list. The website uses the same catalog but presents it as a searchable, filterable card interface with pagination.
+`data/papers.json` is the canonical representation-learning catalog. The GitHub README is regenerated as the traditional year-by-year list. The website uses the same catalog but presents it as a searchable, filterable card interface with pagination. The richer method and dataset fields remain in `data/` and are not rendered on public paper cards or in README entries.
 
-The old Challenges/taxonomy appendix has been removed from both README and website. Method-family metadata is retained in `data/papers.json` and is still used for filtering and statistics.
+The current all-paper audit is regenerated at `data/audits/all_canonical_papers.{json,csv,xlsx}`. The original `all_282_papers.*` files remain as the dated 2026-08-11 historical snapshot.

@@ -1,6 +1,6 @@
 # Canonical paper audit workflow
 
-The 282-paper catalog is audited from the newest year to the oldest year. Each finished year is a self-contained checkpoint, so a later session can resume without repeating completed research.
+The original 282-paper catalog was audited from the newest year to the oldest year. Each year remains a self-contained checkpoint, and the weekly curator now keeps these checkpoints synchronized as the canonical collection grows or publication records change.
 
 ## Source and decision rules
 
@@ -15,24 +15,34 @@ The 282-paper catalog is audited from the newest year to the oldest year. Each f
 
 For each year, add `data/audits/YEAR.json` with one record for every canonical paper in that year. The audit must include method, method family, pretraining datasets, evaluation datasets, year, latest confirmed venue, publication status, and verification URLs.
 
-Apply, rebuild, and validate the checkpoint:
+After a manual edit, synchronize, rebuild and validate the checkpoint:
 
 ```bash
-python scripts/apply_year_audit.py YEAR
+python scripts/sync_catalog_audits.py
 python scripts/build_site.py
 python scripts/check_catalog.py
 ```
 
-After validation, update `data/audit_progress.json` and export the compact `data/audits/YEAR.csv` review table. Archive the entire project before starting the next year.
+The synchronization command updates `data/audit_progress.json`, every affected per-year JSON/CSV audit and the current all-paper JSON/CSV/XLSX tables. The weekly agent performs these steps automatically before opening a pull request.
 
 ## Completed audit
 
 All 282 canonical papers from 2016 through 2026 were audited and verified on 2026-08-11. The final catalog contains a method, method family, separate pretraining and evaluation datasets, latest confirmed venue, publication status, and verification URLs for every paper.
 
-The complete review tables are available at:
+The dated original snapshot remains available at:
 
 - `data/audits/all_282_papers.csv`
 - `data/audits/all_282_papers.json`
 - `data/audits/all_282_papers.xlsx`
 
 The final catalog contains 251 peer-reviewed records and 31 records retained as preprints because no exact-title archival publication was confirmed by the verification date. Future maintenance should recheck those time-sensitive preprints and then rebuild and validate the catalog.
+
+## Current synchronized audit
+
+The current catalog, including later additions and publication upgrades, is available at:
+
+- `data/audits/all_canonical_papers.csv`
+- `data/audits/all_canonical_papers.json`
+- `data/audits/all_canonical_papers.xlsx`
+
+For an arXiv-to-conference or journal upgrade, the canonical record is updated in place. Its previous venue and link are retained in the hidden `publication_history` field, preventing a duplicate public entry while preserving provenance.

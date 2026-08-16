@@ -58,6 +58,10 @@ jobs:
           pip install -r requirements.txt
           npm install -g @github/copilot
 
+      - name: Test curation and publication-upgrade logic
+        if: steps.pending.outputs.count == '0'
+        run: python -m unittest discover -s tests
+
       - name: Search, verify, update and rebuild
         if: steps.pending.outputs.count == '0'
         run: python scripts/curate_weekly.py
@@ -70,16 +74,16 @@ jobs:
         if: steps.pending.outputs.count == '0'
         shell: bash
         run: |
-          if git diff --quiet -- README.md index.html data/papers.json repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/; then
+          if git diff --quiet -- README.md index.html data/ repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/; then
             echo "No verified additions, no pull request needed."
             exit 0
           fi
 
-          branch="bot/weekly-videossl-$(date +%Y-%m-%d)"
+          branch="bot/weekly-videossl-$(date +%Y-%m-%d)-${GITHUB_RUN_ID}"
           git config user.name "videossl-curation-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add README.md index.html data/papers.json repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/
+          git add README.md index.html data/ repository_stats.json build_checks.json sitemap.xml robots.txt site.webmanifest media/
           git commit -m "chore: weekly VideoSSL curation"
           git push --set-upstream origin "$branch"
 

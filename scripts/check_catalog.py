@@ -1,5 +1,6 @@
 from pathlib import Path
 import csv
+from datetime import datetime
 import json
 import re
 import sys
@@ -8,6 +9,11 @@ from repo_tools import ROOT, README_PATH, PAPERS_PATH, SITE_URL, REPO_URL, norma
 
 errors=[]
 papers=json.loads(PAPERS_PATH.read_text())
+
+
+def display_date(value):
+    parsed=datetime.strptime(value,'%Y-%m-%d')
+    return f"{parsed.day} {parsed.strftime('%B %Y')}"
 
 progress_path=ROOT/'data/audit_progress.json'
 if not progress_path.exists():
@@ -87,6 +93,31 @@ if progress:
     if progress.get('remaining_paper_count') != len(papers)-verified:
         errors.append('audit progress remaining count is inconsistent')
 
+    master_json_path=ROOT/progress.get('master_json','')
+    master_csv_path=ROOT/progress.get('master_csv','')
+    master_xlsx_path=ROOT/progress.get('master_xlsx','')
+    if not master_json_path.is_file():
+        errors.append('current master audit JSON is missing')
+    else:
+        try:
+            master=json.loads(master_json_path.read_text())
+            master_titles={normalize_title(record.get('title','')) for record in master.get('records',[])}
+            if master.get('canonical_paper_count') != len(papers):
+                errors.append('current master audit JSON count does not match catalog')
+            if master_titles != set(titles):
+                errors.append('current master audit JSON titles do not match catalog')
+        except json.JSONDecodeError as exc:
+            errors.append(f'invalid current master audit JSON: {exc}')
+    if not master_csv_path.is_file():
+        errors.append('current master audit CSV is missing')
+    else:
+        with master_csv_path.open(newline='',encoding='utf-8') as handle:
+            master_csv_count=sum(1 for _ in csv.reader(handle))-1
+        if master_csv_count != len(papers):
+            errors.append('current master audit CSV count does not match catalog')
+    if not master_xlsx_path.is_file():
+        errors.append('current master audit XLSX is missing')
+
 readme=README_PATH.read_text()
 if 'Common search terms covered by this resource' in readme:
     errors.append('visible keyword-list paragraph still present in README')
@@ -95,6 +126,9 @@ if '\n# Challenges\n' in readme:
 parsed=parse_main_representation(readme)
 if len(parsed) != len(papers):
     errors.append(f"README canonical list count {len(parsed)} != data/papers.json count {len(papers)}")
+for year in sorted({p.get('year') for p in papers if p.get('year')},reverse=True):
+    if f'   - [{year}](#{year})' not in readme:
+        errors.append(f'README contents missing representation-learning year {year}')
 
 html=(ROOT/'index.html').read_text()
 if html.count('<h1') != 1:
@@ -120,8 +154,9 @@ if 'Common search terms covered by this resource' in html:
     errors.append('visible keyword-list paragraph still present in index.html')
 if 'id="challenges"' in html:
     errors.append('Challenges section is still present in index.html')
-if html.count('class="paper-card"') != len(papers):
-    errors.append(f"website paper-card count {html.count('class=\"paper-card\"')} != catalog count {len(papers)}")
+paper_card_count=html.count('class="paper-card"')
+if paper_card_count != len(papers):
+    errors.append(f"website paper-card count {paper_card_count} != catalog count {len(papers)}")
 for marker in ['id="paper-search"','id="year-filter"','id="venue-filter"','id="prev-page"','id="next-page"']:
     if marker not in html:
         errors.append(f'missing website catalog control {marker}')
@@ -134,7 +169,9 @@ notice_pos=html.find('class="publication-notice"')
 stats_pos=html.find('id="stats"')
 if notice_pos < 0 or stats_pos < 0 or notice_pos > stats_pos:
     errors.append('publication notice must appear before the collection snapshot')
-for marker in ['datetime="2026-08-11"','11 August 2026',f'href="{REPO_URL}/pulls"']:
+review_dates=[str(p.get('audited_at','')) for p in papers]
+review_date=max((value for value in review_dates if re.fullmatch(r'\d{4}-\d{2}-\d{2}',value)),default='2026-08-11')
+for marker in [f'datetime="{review_date}"',display_date(review_date),f'href="{REPO_URL}/pulls"']:
     if marker not in html:
         errors.append(f'publication notice missing {marker}')
 for marker in [
@@ -195,13 +232,16 @@ if 'OPENAI_API_KEY' in workflow:
     errors.append('weekly workflow still references OPENAI_API_KEY')
 if 'copilot-requests: write' not in workflow:
     errors.append('weekly workflow missing copilot-requests: write')
+if 'sync_catalog_audits.py' not in (ROOT/'scripts/curate_weekly.py').read_text():
+    errors.append('weekly curator does not synchronize hidden audit records')
+if 'git add README.md index.html data/' not in workflow:
+    errors.append('weekly workflow does not stage synchronized audit data')
 
-pages_workflow=(ROOT/'.github/workflows/deploy-pages.yml').read_text()
-if 'cp index.html robots.txt sitemap.xml site.webmanifest _site/' not in pages_workflow:
-    errors.append('Pages workflow does not publish the web manifest')
+if not (ROOT/'.nojekyll').is_file():
+    errors.append('branch-published Pages site is missing .nojekyll')
 
 if errors:
     print('VALIDATION FAILED')
     for e in errors: print('-',e)
     sys.exit(1)
-print(f"Validation passed: {len(papers)} canonical papers, {len(arxiv)} arXiv IDs, {progress.get('verified_paper_count', 0)} year-audited papers, interactive card website, Challenges removed, Copilot workflow configured.")
+print(f"Validation passed: {len(papers)} canonical papers, {len(arxiv)} arXiv IDs, {progress.get('verified_paper_count', 0)} year-audited papers, interactive card website, branch-based Pages output, Copilot workflow configured.")

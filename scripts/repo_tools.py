@@ -324,6 +324,16 @@ def replace_representation_section(readme_text: str, papers: list[dict]) -> str:
     return pattern.sub(rendered, readme_text, count=1)
 
 
+def replace_representation_year_links(readme_text: str, papers: list[dict]) -> str:
+    years = sorted({int(paper["year"]) for paper in papers if paper.get("year")}, reverse=True)
+    links = "\n".join(f"   - [{year}](#{year})" for year in years)
+    pattern = re.compile(
+        r"(- \[Representation Learning\]\(#Representation-Learning\)\n)"
+        r"(?:\s{3}- \[\d{4}\]\(#\d{4}\)\s*\n?)+"
+    )
+    return pattern.sub(lambda match: match.group(1) + links + "\n", readme_text, count=1)
+
+
 def remove_challenges_section(readme_text: str) -> str:
     """Remove the old challenge/taxonomy appendix while preserving the FAQ."""
     readme_text = re.sub(r"\n# Challenges\n.*?(?=\n# Video SSL FAQ\n)", "\n", readme_text, flags=re.S)

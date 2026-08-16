@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2023,
   "status": "complete",
   "verified_as_of": "2026-08-11",
   "paper_count": 54,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
-  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
     {
       "normalized_title": "self supervised object centric learning for videos",
@@ -51,7 +51,11 @@
           "https://doi.org/10.52202/075280-1424"
         ],
         "venue_evidence": "official_neurips_proceedings",
-        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024."
+        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -99,7 +103,11 @@
           "https://doi.org/10.52202/075280-3277"
         ],
         "venue_evidence": "official_neurips_proceedings",
-        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024."
+        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -177,7 +185,11 @@
           "https://doi.org/10.52202/075280-2340"
         ],
         "venue_evidence": "official_neurips_proceedings",
-        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024."
+        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -256,7 +268,11 @@
           "https://doi.org/10.52202/075280-2869"
         ],
         "venue_evidence": "official_neurips_proceedings",
-        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024."
+        "audit_notes": "The official proceedings place this paper in NeurIPS 2023, not 2024.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -299,7 +315,11 @@
           "https://arxiv.org/abs/2211.09120"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -354,7 +374,11 @@
           "https://ieeexplore.ieee.org/document/10377464"
         ],
         "venue_evidence": "official_cvf_proceedings_and_ieee_record",
-        "audit_notes": "The arXiv-only venue was promoted to the final ICCV 2023 proceedings record."
+        "audit_notes": "The arXiv-only venue was promoted to the final ICCV 2023 proceedings record.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -407,7 +431,11 @@
           "https://davidfan.io/publications/"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -456,7 +484,11 @@
           "https://arxiv.org/abs/2309.00297"
         ],
         "venue_evidence": "official_acm_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -554,7 +586,11 @@
           "https://arxiv.org/abs/2303.16058"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -595,7 +631,11 @@
           "https://arxiv.org/abs/2311.00961"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -635,7 +675,11 @@
           "https://arxiv.org/abs/2309.08738"
         ],
         "venue_evidence": "official_ieee_conference_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -690,7 +734,11 @@
           "https://arxiv.org/abs/2206.08356"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -737,7 +785,11 @@
           "https://arxiv.org/abs/2303.16268"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -780,7 +832,11 @@
           "https://doi.org/10.1016/j.imavis.2023.104765"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -823,7 +879,11 @@
           "https://arxiv.org/abs/2308.10794"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -869,7 +929,11 @@
           "https://ieeexplore.ieee.org/document/10216260"
         ],
         "venue_evidence": "official_ieee_conference_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -919,7 +983,11 @@
           "https://dl.acm.org/doi/10.1145/3581783.3613440"
         ],
         "venue_evidence": "official_acm_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -965,7 +1033,11 @@
           "https://www.sigmm.org/opentoc/MM2023-TOC"
         ],
         "venue_evidence": "official_acm_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1014,7 +1086,11 @@
           "https://arxiv.org/abs/2112.07338"
         ],
         "venue_evidence": "official_ieee_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1056,7 +1132,11 @@
           "https://arxiv.org/abs/2301.06018"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found only the arXiv report through the verification date."
+        "audit_notes": "Exact-title and author-record searches found only the arXiv report through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1110,7 +1190,11 @@
           "https://arxiv.org/abs/2103.16565"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1153,7 +1237,11 @@
           "https://doi.org/10.1016/j.neucom.2023.02.045"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1202,7 +1290,11 @@
           "https://arxiv.org/abs/2210.06096"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1245,7 +1337,11 @@
           "https://doi.org/10.1007/s11760-022-02357-2"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1289,7 +1385,11 @@
           "https://pubmed.ncbi.nlm.nih.gov/37099471/"
         ],
         "venue_evidence": "official_ieee_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1342,7 +1442,11 @@
           "https://arxiv.org/abs/2212.04500"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1385,7 +1489,11 @@
           "https://doi.org/10.1016/j.engappai.2023.106203"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1428,7 +1536,11 @@
           "https://doi.org/10.1016/j.aei.2023.101941"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1471,7 +1583,11 @@
           "https://doi.org/10.1007/s11760-023-02605-z"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1520,7 +1636,11 @@
           "https://openaccess.thecvf.com/content/CVPR2022/html/Qing_Learning_From_Untrimmed_Videos_Self-Supervised_Video_Representation_Learning_With_Hierarchical_CVPR_2022_paper.html"
         ],
         "venue_evidence": "official_ieee_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1574,7 +1694,11 @@
           "https://arxiv.org/abs/2302.07702"
         ],
         "venue_evidence": "official_aaai_proceedings",
-        "audit_notes": "The catalog's preprint label was replaced with the AAAI 2023 version of record."
+        "audit_notes": "The catalog's preprint label was replaced with the AAAI 2023 version of record.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1631,7 +1755,11 @@
           "https://arxiv.org/abs/2211.15393"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The previous arXiv ID pointed to an unrelated record and was corrected to 2211.15393."
+        "audit_notes": "The previous arXiv ID pointed to an unrelated record and was corrected to 2211.15393.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1680,7 +1808,11 @@
           "https://arxiv.org/abs/2305.06437"
         ],
         "venue_evidence": "official_aaai_proceedings",
-        "audit_notes": "The catalog's preprint label was replaced with the AAAI 2023 version of record."
+        "audit_notes": "The catalog's preprint label was replaced with the AAAI 2023 version of record.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1725,7 +1857,11 @@
           "https://arxiv.org/abs/2209.00760"
         ],
         "venue_evidence": "official_ieee_conference_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1778,7 +1914,11 @@
           "https://davidfan.io/publications/"
         ],
         "venue_evidence": "official_iclr_workshop_openreview_and_program",
-        "audit_notes": "The arXiv comments and official workshop materials confirm acceptance at the ICLR 2023 ME-FoMo workshop."
+        "audit_notes": "The arXiv comments and official workshop materials confirm acceptance at the ICLR 2023 ME-FoMo workshop.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1847,7 +1987,11 @@
           "https://arxiv.org/abs/2303.11003"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The catalog's preprint label was replaced with the ICCV 2023 proceedings record."
+        "audit_notes": "The catalog's preprint label was replaced with the ICCV 2023 proceedings record.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1890,7 +2034,11 @@
           "https://ieeexplore.ieee.org/document/10096573"
         ],
         "venue_evidence": "official_amazon_publication_page_and_ieee_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1959,7 +2107,11 @@
           "https://openaccess.thecvf.com/content/WACV2023/html/Kalluri_FLAVR_Flow-Agnostic_Video_Representations_for_Fast_Frame_Interpolation_WACV_2023_paper.html"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2005,7 +2157,11 @@
           "https://arxiv.org/abs/2306.01623"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2051,7 +2207,11 @@
           "https://openaccess.thecvf.com/content/WACV2023/html/Das_ViewCLR_Learning_Self-Supervised_Video_Representation_for_Unseen_Viewpoints_WACV_2023_paper.html"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2129,7 +2289,11 @@
           "https://openaccess.thecvf.com/content/CVPR2023/html/Wang_VideoMAE_V2_Scaling_Video_Masked_Autoencoders_With_Dual_Masking_CVPR_2023_paper.html"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2184,7 +2348,11 @@
           "https://arxiv.org/abs/2111.05329"
         ],
         "venue_evidence": "official_aaai_proceedings_and_arxiv_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2238,7 +2406,11 @@
           "https://arxiv.org/abs/2112.00804"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2294,7 +2466,11 @@
           "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Modeling_Video_As_Stochastic_Processes_for_Fine-Grained_Video_Representation_Learning_CVPR_2023_paper.html"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2349,7 +2525,11 @@
           "https://arxiv.org/abs/2308.03040"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The catalog's preprint label was replaced with the ICCV 2023 proceedings record."
+        "audit_notes": "The catalog's preprint label was replaced with the ICCV 2023 proceedings record.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2397,7 +2577,11 @@
           "https://openaccess.thecvf.com/content/CVPR2023W/WFM/html/Zhao_Cali-NCE_Boosting_Cross-Modal_Video_Representation_Learning_With_Calibrated_Alignment_CVPRW_2023_paper.html"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2441,7 +2625,11 @@
           "https://doi.org/10.1109/TNNLS.2022.3160860"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year."
+        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2517,7 +2705,11 @@
           "https://arxiv.org/abs/2212.11187"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year."
+        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2563,7 +2755,11 @@
         "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
         "previous_titles": [
           "Audio-Visual Contrastive Learning for Self-Supervised Action Recognition"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2608,7 +2804,11 @@
           "https://doi.org/10.1109/TMM.2022.3193559"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year."
+        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2656,7 +2856,11 @@
           "https://doi.org/10.1109/TMM.2022.3189253"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year."
+        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2703,7 +2907,11 @@
         "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
         "previous_titles": [
           "Unsupervised Video-based Action Recognition With Imagining Motion And Perceiving Appearance"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2765,7 +2973,11 @@
         "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
         "previous_titles": [
           "Frequency Selective Augmentation for Video Representation Learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2809,7 +3021,11 @@
           "https://doi.org/10.1109/TCSVT.2022.3207174"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year."
+        "audit_notes": "The initial 2022 record was reconciled to the final proceedings or journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2023,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     }
   ]

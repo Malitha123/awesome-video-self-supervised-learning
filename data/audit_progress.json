@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "catalog_file": "data/papers.json",
   "canonical_paper_count": 282,
   "audit_started_at": "2026-08-11",
@@ -139,8 +139,15 @@
       "verified_as_of": "2026-08-11"
     }
   },
-  "resume_instruction": "The 282-paper audit and master tables are complete. Future work should only re-verify time-sensitive preprint publication status or add newly curated papers.",
-  "master_csv": "data/audits/all_282_papers.csv",
-  "master_json": "data/audits/all_282_papers.json",
-  "master_xlsx": "data/audits/all_282_papers.xlsx"
+  "resume_instruction": "The current catalog is fully synchronized. Re-verify time-sensitive preprints, review new candidates, then rebuild and validate after every accepted change.",
+  "master_csv": "data/audits/all_canonical_papers.csv",
+  "master_json": "data/audits/all_canonical_papers.json",
+  "master_xlsx": "data/audits/all_canonical_papers.xlsx",
+  "historical_snapshot": {
+    "canonical_paper_count": 282,
+    "verified_as_of": "2026-08-11",
+    "csv": "data/audits/all_282_papers.csv",
+    "json": "data/audits/all_282_papers.json",
+    "xlsx": "data/audits/all_282_papers.xlsx"
+  }
 }

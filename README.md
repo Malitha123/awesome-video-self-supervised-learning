@@ -19,12 +19,6 @@ This repository is originating from our survey paper "**[Unifying Video Self-Sup
 
 This repository contains a collection of state-of-the-art self-supervised learning in video approaches for various downstream tasks, such as action recognition, video retrieval, etc. With the exponential growth of video data, there is an increasing need for automatic video analysis methods that can learn from large amounts of unlabeled data. Self-supervised learning provides an effective solution to this problem by allowing models to learn from the data itself without explicit supervision.
 
-## Video Self-Supervised Learning (Video SSL) Papers by Year and Venue
-
-**Video self-supervised learning**, often shortened to **Video SSL** or **VideoSSL**, learns transferable video representations from unlabeled or weakly structured video data. This curated public index organizes the canonical paper collection by verified publication year and latest confirmed venue.
-
-Detailed dataset and method-category records remain stored in the repository's structured `data/` and audit files for maintenance, but are intentionally not displayed in this README or on the public website. Use the year sections below to find VideoSSL papers from 2016 through 2026.
-
 
 
 <!-- AUTO:STATS:START -->
@@ -43,12 +37,6 @@ The charts below summarize the canonical collection by publication year and venu
   <figure><img src="./media/stats_papers_by_venue.svg" alt="Bar chart showing the number of VideoSSL papers by publication venue"><figcaption>Papers by venue</figcaption></figure>
 </div>
 <!-- AUTO:STATS:END -->
-
-## Curation and Updates
-
-The canonical metadata audit is complete. **All 282 papers were verified for publication year and latest confirmed venue through 2026.** Detailed maintenance records remain available in [`data/audits/`](./data/audits/), [audit progress](./data/audit_progress.json), and the [repeatable workflow](./AUDIT_WORKFLOW.md).
-
-New papers can be proposed by a weekly automated curation workflow that searches recent scholarly records, removes likely duplicates, asks GitHub Copilot to review the remaining candidates against the inclusion criteria, rebuilds the statistics and website, and opens a pull request. Every proposed addition remains subject to human review before it is merged and published. See [AUTOMATION.md](./AUTOMATION.md) for the workflow and setup.
 
 ## Acknowledgments
 This research was supported by the joint grant P007 from [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)  and the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/). The authors would like to express their sincere gratitude for this generous support, which made the study possible.
@@ -95,12 +83,21 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 
 ### Contents
 - [Repository Statistics](#repository-statistics)
-- [Curation and Updates](#curation-and-updates)
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)
    - [2026](#2026)
    - [2025](#2025)
+   - [2024](#2024)
+   - [2023](#2023)
+   - [2022](#2022)
+   - [2021](#2021)
+   - [2020](#2020)
+   - [2019](#2019)
+   - [2018](#2018)
+   - [2017](#2017)
+   - [2016](#2016)
+- [2025](#2025)
    - [2024](#2024)
    - [2023](#2023)
    - [2022](#2022)

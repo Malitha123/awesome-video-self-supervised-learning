@@ -1,2 +1,4 @@
 #Ignore the .idea folder related to PyCharm IDE
 .idea/
+__pycache__/
+*.py[cod]

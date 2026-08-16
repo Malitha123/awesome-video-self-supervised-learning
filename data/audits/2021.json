@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2021,
   "status": "complete",
   "verified_as_of": "2026-08-11",
   "paper_count": 39,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
-  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
     {
       "normalized_title": "inter intra variant dual representations for self supervised video recognition",
@@ -49,7 +49,11 @@
           "https://doi.org/10.5244/C.35.131",
           "https://arxiv.org/abs/2107.01194"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -97,7 +101,11 @@
           "https://openreview.net/forum?id=NP9T_pViXU",
           "https://arxiv.org/abs/2106.11250"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -142,7 +150,11 @@
           "https://arxiv.org/abs/2106.08513"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -183,7 +195,11 @@
           "https://ieeexplore.ieee.org/document/9412071",
           "https://arxiv.org/abs/2004.02753"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -233,7 +249,11 @@
           "https://openaccess.thecvf.com/content/CVPR2021/html/Morgado_Audio-Visual_Instance_Discrimination_With_Cross-Modal_Agreement_CVPR_2021_paper.html",
           "https://arxiv.org/abs/2004.12943"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -280,7 +300,11 @@
           "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Removing_the_Background_by_Adding_the_Background_Towards_Background_Robust_Self-Supervised_CVPR_2021_paper.html",
           "https://arxiv.org/abs/2009.05769"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -323,7 +347,11 @@
           "https://ojs.aaai.org/index.php/AAAI/article/view/17215",
           "https://arxiv.org/abs/2009.05757"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -377,7 +405,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Seco: Exploring sequence supervision for unsupervised representation learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -424,7 +456,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Qian_Enhancing_Self-Supervised_Video_Representation_Learning_via_Multi-Level_Feature_Optimization_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2108.02183"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -470,7 +506,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "RSPnet: Relative speed perception for unsupervised video representation learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -515,7 +555,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Videomoco: Contrastive video representation learning with temporally adversarial examples"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -566,7 +610,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Patrick_On_Compositions_of_Transformations_in_Contrastive_Self-Supervised_Learning_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2003.04298"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -614,7 +662,11 @@
           "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Unsupervised_Visual_Representation_Learning_by_Tracking_Patches_in_Video_CVPR_2021_paper.html",
           "https://arxiv.org/abs/2105.02545"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -672,7 +724,11 @@
           "https://doi.org/10.1109/CVPR46437.2021.00331",
           "https://arxiv.org/abs/2104.14558"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -719,7 +775,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Cocon: Cooperative-contrastive learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -780,7 +840,11 @@
           "https://proceedings.neurips.cc/paper/2021/hash/cb3213ada48302953cb0f166464ab356-Abstract.html",
           "https://arxiv.org/abs/2104.11178"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -823,7 +887,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Huang_ASCNet_Self-Supervised_Video_Representation_Learning_With_Appearance-Speed_Consistency_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2106.02342"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -866,7 +934,11 @@
           "https://doi.org/10.1109/ACCESS.2021.3084840",
           "https://arxiv.org/abs/2003.02692"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -909,7 +981,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Lin_Self-Supervised_Video_Representation_Learning_With_Meta-Contrastive_Network_ICCV_2021_paper.html",
           "https://doi.org/10.1109/ICCV48922.2021.00813"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -957,7 +1033,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Behrmann_Long_Short_View_Feature_Decomposition_via_Contrastive_Video_Representation_Learning_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2109.11593"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1004,7 +1084,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Jenni_Time-Equivariant_Contrastive_Video_Representation_Learning_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2112.03624"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1047,7 +1131,11 @@
           "https://doi.org/10.1109/CVPR46437.2021.01367",
           "https://arxiv.org/abs/2104.00862"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1090,7 +1178,11 @@
           "https://openaccess.thecvf.com/content/WACV2021/html/Behrmann_Unsupervised_Video_Representation_Learning_by_Bidirectional_Feature_Prediction_WACV_2021_paper.html",
           "https://arxiv.org/abs/2011.06037"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1133,7 +1225,11 @@
         "verification_urls": [
           "https://openreview.net/forum?id=jMPcEkJpdD"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1181,7 +1277,11 @@
           "https://doi.org/10.1109/CVPR46437.2021.00689",
           "https://arxiv.org/abs/2008.03800"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1226,7 +1326,11 @@
         "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
         "previous_titles": [
           "Modist: Motion distillation for self-supervised video representation learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1271,7 +1375,11 @@
           "https://doi.org/10.1109/ICCV48922.2021.00129",
           "https://arxiv.org/abs/2103.16559"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1316,7 +1424,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/ICCV2021/html/Diba_Vi2CLR_Video_and_Image_for_Visual_Contrastive_Learning_of_Representation_ICCV_2021_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1359,7 +1471,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Hu_Contrast_and_Order_Representations_for_Video_Self-Supervised_Learning_ICCV_2021_paper.html",
           "https://doi.org/10.1109/ICCV48922.2021.00784"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1403,7 +1519,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Gavrilyuk_Motion-Augmented_Self-Training_for_Video_Recognition_at_Smaller_Scale_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2105.01646"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1453,7 +1573,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021W/CVEU/html/Kuang_Video_Contrastive_Learning_With_Global_Context_ICCVW_2021_paper.html",
           "https://arxiv.org/abs/2108.02722"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1501,7 +1625,11 @@
           "https://doi.org/10.1109/ICCV48922.2021.00211",
           "https://arxiv.org/abs/2201.04029"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1542,7 +1670,11 @@
           "https://www.bmva-archive.org.uk/bmvc/2021/assets/papers/0399.pdf",
           "https://arxiv.org/abs/2010.07217"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1593,7 +1725,11 @@
           "https://doi.org/10.1109/ICCV48922.2021.00871",
           "https://arxiv.org/abs/2104.00616"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1638,7 +1774,11 @@
           "https://openaccess.thecvf.com/content/ICCV2021/html/Epstein_Learning_Temporal_Dynamics_From_Cycles_in_Narrated_Video_ICCV_2021_paper.html",
           "https://arxiv.org/abs/2101.02337"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1686,7 +1826,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Crossclr: Cross-modal contrastive learning for multi-modal video representations"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1745,7 +1889,11 @@
         "audit_notes": "The initial 2020 preprint record was reconciled to the accepted archival conference version.",
         "previous_titles": [
           "Watching the world go by: Representation learning from unlabeled videos"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1799,7 +1947,11 @@
         "audit_notes": "The initial 2020 preprint record was reconciled to the accepted archival conference version.",
         "previous_titles": [
           "Parameter efficient multimodal transformers for video representation learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1853,7 +2005,11 @@
         "audit_notes": "The initial 2020 preprint record was reconciled to the accepted archival conference version.",
         "previous_titles": [
           "Active contrastive learning of audio-visual video representations"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2021,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2019,
   "status": "complete",
   "verified_as_of": "2026-08-11",
   "paper_count": 9,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
-  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
     {
       "normalized_title": "self supervised spatio temporal representation learning for videos by predicting motion and appearance statistics",
@@ -54,7 +54,11 @@
           "https://doi.org/10.1109/CVPR.2019.00413",
           "https://arxiv.org/abs/1904.03597"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -96,7 +100,11 @@
           "https://openaccess.thecvf.com/content_ICCVW_2019/html/HVU/Han_Video_Representation_Learning_by_Dense_Predictive_Coding_ICCVW_2019_paper.html",
           "https://arxiv.org/abs/1909.04656"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -136,7 +144,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content_CVPR_2019/html/Xu_Self-Supervised_Spatiotemporal_Learning_via_Video_Clip_Order_Prediction_CVPR_2019_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -182,7 +194,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Video jigsaw: Unsupervised learning of spatiotemporal context for video action recognition"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -225,7 +241,11 @@
           "https://doi.org/10.1609/aaai.v33i01.33018545",
           "https://arxiv.org/abs/1811.09795"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -287,7 +307,11 @@
         "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
         "previous_titles": [
           "Learning video representations using contrastive bidirectional transformer"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -336,7 +360,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Dynamonet: Dynamic action and motion network"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -383,7 +411,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Temporal cycle-consistency learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -431,7 +463,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Videobert: A joint model for video and language representation learning"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2019,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     }
   ]
