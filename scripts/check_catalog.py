@@ -120,8 +120,9 @@ if 'Common search terms covered by this resource' in html:
     errors.append('visible keyword-list paragraph still present in index.html')
 if 'id="challenges"' in html:
     errors.append('Challenges section is still present in index.html')
-if html.count('class="paper-card"') != len(papers):
-    errors.append(f"website paper-card count {html.count('class=\"paper-card\"')} != catalog count {len(papers)}")
+paper_card_count=html.count('class="paper-card"')
+if paper_card_count != len(papers):
+    errors.append(f"website paper-card count {paper_card_count} != catalog count {len(papers)}")
 for marker in ['id="paper-search"','id="year-filter"','id="venue-filter"','id="prev-page"','id="next-page"']:
     if marker not in html:
         errors.append(f'missing website catalog control {marker}')
