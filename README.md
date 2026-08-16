@@ -65,8 +65,6 @@ Survey - https://dl.acm.org/doi/pdf/10.1145/3577925
 -->
 
 ### Contents
-- [Repository Statistics](#repository-statistics)
-- [Curation and Updates](#curation-and-updates)
 - [Surveys](#Surveys)
 - [Benchmarking](#Benchmarking)
 - [Representation Learning](#Representation-Learning)

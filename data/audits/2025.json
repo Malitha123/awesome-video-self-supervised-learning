@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2025,
   "status": "complete",
   "verified_as_of": "2026-08-11",
   "paper_count": 34,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
-  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
     {
       "normalized_title": "efficient videomae via temporal progressive training",
@@ -47,7 +47,11 @@
           "https://doi.org/10.1109/CVPRW67362.2025.00250"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": "The existing workshop label was retained and normalized to the official CVPR Workshops venue."
+        "audit_notes": "The existing workshop label was retained and normalized to the official CVPR Workshops venue.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -107,7 +111,11 @@
           "https://arxiv.org/abs/2501.05453"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The arXiv catalog entry was promoted to its final ICCV 2025 publication."
+        "audit_notes": "The arXiv catalog entry was promoted to its final ICCV 2025 publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -157,7 +165,11 @@
           "https://arxiv.org/abs/2505.08561"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": "The arXiv entry was promoted to the ICCV 2025 Long Multi-Scene Video Foundations workshop publication."
+        "audit_notes": "The arXiv entry was promoted to the ICCV 2025 Long Multi-Scene Video Foundations workshop publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -196,7 +208,11 @@
           "https://doi.org/10.1109/ACROSET66531.2025.11281001"
         ],
         "venue_evidence": "official_ieee_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -253,7 +269,11 @@
           "https://doi.org/10.1109/ICCVW69036.2025.00241"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -296,7 +316,11 @@
           "https://doi.org/10.1007/s10994-025-06927-6"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -366,7 +390,11 @@
           "https://papers.nips.cc/paper_files/paper/2025/file/010ca5a0ccb09cfb554ed637758a08da-Paper-Conference.pdf"
         ],
         "venue_evidence": "official_neurips_proceedings",
-        "audit_notes": "The NeurIPS capitalization and official proceedings link replace the earlier OpenReview PDF entry."
+        "audit_notes": "The NeurIPS capitalization and official proceedings link replace the earlier OpenReview PDF entry.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -421,7 +449,11 @@
           "https://doi.org/10.36227/techrxiv.175624509.93122186/v1"
         ],
         "venue_evidence": "official_preprint_record",
-        "audit_notes": "Exact-title verification found only the TechRxiv record; a related earlier MME paper has a different title and was not treated as the final version."
+        "audit_notes": "Exact-title verification found only the TechRxiv record; a related earlier MME paper has a different title and was not treated as the final version.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -470,7 +502,11 @@
           "https://doi.org/10.1109/ICCVW69036.2025.00312"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -516,7 +552,11 @@
           "https://doi.org/10.1007/s10586-025-05262-8"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -563,7 +603,11 @@
           "https://doi.org/10.1117/12.3068403"
         ],
         "venue_evidence": "official_spie_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -633,7 +677,11 @@
           "https://arxiv.org/abs/2506.20342"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": "The arXiv entry was promoted to the 2025 IJCV version of record."
+        "audit_notes": "The arXiv entry was promoted to the 2025 IJCV version of record.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -693,7 +741,11 @@
           "https://doi.org/10.1109/CVPRW67362.2025.00300"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": "The existing generic CVPR label was corrected to CVPR Workshops 2025."
+        "audit_notes": "The existing generic CVPR label was corrected to CVPR Workshops 2025.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -744,7 +796,11 @@
           "https://doi.org/10.1109/CVPR52734.2025.02710"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -838,7 +894,11 @@
           "https://github.com/facebookresearch/vjepa2"
         ],
         "venue_evidence": "official_arxiv_record",
-        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date."
+        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -884,7 +944,11 @@
           "https://doi.org/10.1109/CVPR52734.2025.02238"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -931,7 +995,11 @@
           "https://jiajunwu.com/papers/optcwm_nips.pdf"
         ],
         "venue_evidence": "official_neurips_listing_and_openreview_record",
-        "audit_notes": "The arXiv entry was promoted to NeurIPS 2025 using the official conference listing and OpenReview record."
+        "audit_notes": "The arXiv entry was promoted to NeurIPS 2025 using the official conference listing and OpenReview record.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -979,7 +1047,11 @@
           "https://doi.org/10.1145/3731715.3733369"
         ],
         "venue_evidence": "official_acm_digital_library_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1031,7 +1103,11 @@
           "https://github.com/EliSpectre/CVPR25-AutoSSVH"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1082,7 +1158,11 @@
           "https://doi.org/10.1609/aaai.v39i7.32835"
         ],
         "venue_evidence": "official_aaai_proceedings",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1133,7 +1213,11 @@
           "https://doi.org/10.1016/j.imavis.2025.105544"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1190,7 +1274,11 @@
           "https://arxiv.org/abs/2504.01961"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication."
+        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1239,7 +1327,11 @@
           "https://arxiv.org/abs/2502.11831"
         ],
         "venue_evidence": "official_arxiv_record",
-        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date."
+        "audit_notes": "No later peer-reviewed exact-title publication was found as of the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1282,7 +1374,11 @@
           "https://doi.org/10.1007/s10044-024-01407-4"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": "The DOI suffix contains 2024, but the publisher citation and volume assign the article to 2025."
+        "audit_notes": "The DOI suffix contains 2024, but the publisher citation and volume assign the article to 2025.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1340,7 +1436,11 @@
           "https://arxiv.org/abs/2505.19218"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": ""
+        "audit_notes": "",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1427,7 +1527,11 @@
           "https://arxiv.org/abs/2504.00527"
         ],
         "venue_evidence": "official_cvf_proceedings",
-        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication."
+        "audit_notes": "The arXiv entry was promoted to the official CVPR 2025 publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1479,7 +1583,11 @@
           "https://arxiv.org/abs/2504.06153"
         ],
         "venue_evidence": "official_cvf_workshop_proceedings",
-        "audit_notes": "The arXiv entry was promoted to the CVPR 2025 TCV workshop publication."
+        "audit_notes": "The arXiv entry was promoted to the CVPR 2025 TCV workshop publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1526,7 +1634,11 @@
           "https://doi.org/10.1117/12.3059113"
         ],
         "venue_evidence": "official_spie_proceedings",
-        "audit_notes": "The conference occurred in December 2024, while the citable SPIE proceedings version was published in March 2025; the catalog follows the version-of-record year."
+        "audit_notes": "The conference occurred in December 2024, while the citable SPIE proceedings version was published in March 2025; the catalog follows the version-of-record year.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1578,7 +1690,11 @@
           "https://arxiv.org/abs/2502.07811"
         ],
         "venue_evidence": "official_arxiv_record",
-        "audit_notes": "A personal-page reference to a medical workshop was not matched by official proceedings; the exact-title record remains a preprint."
+        "audit_notes": "A personal-page reference to a medical workshop was not matched by official proceedings; the exact-title record remains a preprint.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1624,7 +1740,11 @@
           "https://doi.org/10.1186/s13640-025-00675-2"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": "The Research Square preprint link was replaced by the 2025 journal version of record."
+        "audit_notes": "The Research Square preprint link was replaced by the 2025 journal version of record.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1671,7 +1791,11 @@
           "https://doi.org/10.1007/s11760-024-03644-w"
         ],
         "venue_evidence": "official_publisher_version_of_record",
-        "audit_notes": "The article was published online in December 2024 but is cited in volume 19 as a 2025 article; the catalog follows the publisher citation year."
+        "audit_notes": "The article was published online in December 2024 but is cited in volume 19 as a 2025 article; the catalog follows the publisher citation year.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1723,7 +1847,11 @@
           "https://arxiv.org/abs/2405.15160"
         ],
         "venue_evidence": "official_tmlr_openreview_record",
-        "audit_notes": "The 2024 arXiv paper was promoted to its TMLR 2025 publication."
+        "audit_notes": "The 2024 arXiv paper was promoted to its TMLR 2025 publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1775,7 +1903,11 @@
           "https://arxiv.org/abs/2410.24213"
         ],
         "venue_evidence": "official_iccv_workshop_openreview_record",
-        "audit_notes": "The 2024 arXiv record was promoted to the ICCV 2025 LIMIT workshop publication."
+        "audit_notes": "The 2024 arXiv record was promoted to the ICCV 2025 LIMIT workshop publication.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1825,7 +1957,11 @@
           "https://arxiv.org/abs/2401.07584"
         ],
         "venue_evidence": "official_ieee_version_of_record",
-        "audit_notes": "The 2024 arXiv record was promoted to the 2025 IEEE TIFS version of record."
+        "audit_notes": "The 2024 arXiv record was promoted to the 2025 IEEE TIFS version of record.",
+        "audit_status": "verified",
+        "audit_year": 2025,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     }
   ]

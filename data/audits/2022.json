@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "year": 2022,
   "status": "complete",
   "verified_as_of": "2026-08-11",
   "paper_count": 56,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
-  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation. Preserve named benchmark suites and explicitly label unnamed private collections.",
+  "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
     {
       "normalized_title": "bevt bert pretraining of video transformers",
@@ -53,7 +53,11 @@
           "https://openaccess.thecvf.com/content/CVPR2022/html/Wang_BEVT_BERT_Pretraining_of_Video_Transformers_CVPR_2022_paper.html",
           "https://arxiv.org/abs/2112.01529"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -105,7 +109,11 @@
           "https://proceedings.neurips.cc/paper_files/paper/2022/hash/e97d1081481a4017df96b51be31001d3-Abstract-Conference.html",
           "https://arxiv.org/abs/2205.09113"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -159,7 +167,11 @@
           "https://openaccess.thecvf.com/content/CVPR2022/html/Dave_SPAct_Self-Supervised_Privacy_Preservation_for_Action_Recognition_CVPR_2022_paper.html",
           "https://arxiv.org/abs/2203.15205"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -205,7 +217,11 @@
           "https://ojs.aaai.org/index.php/AAAI/article/view/20254",
           "https://arxiv.org/abs/2112.03803"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -251,7 +267,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Ranasinghe_Self-Supervised_Video_Transformer_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -297,7 +317,11 @@
           "https://arxiv.org/pdf/2008.02711"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -347,7 +371,11 @@
           "https://dl.acm.org/doi/10.1145/3503161.3547888",
           "https://doi.org/10.1145/3503161.3547888"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -393,7 +421,11 @@
           "https://ieeexplore.ieee.org/document/9713748",
           "https://doi.org/10.1109/TIP.2022.3152521"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -435,7 +467,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Cross-Architecture_Self-Supervised_Video_Representation_Learning_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -480,7 +516,11 @@
           "https://arxiv.org/abs/2112.08913"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -527,7 +567,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Duan_TransRank_Self-Supervised_Video_Representation_Learning_via_Ranking-Based_Transformation_Recognition_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -573,7 +617,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Qing_Learning_From_Untrimmed_Videos_Self-Supervised_Video_Representation_Learning_With_Hierarchical_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -619,7 +667,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Ding_Motion-Aware_Contrastive_Video_Representation_Learning_via_Foreground-Background_Merging_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -670,7 +722,11 @@
           "https://arxiv.org/pdf/2204.04607.pdf"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -712,7 +768,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9761901"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -760,7 +820,11 @@
           "https://doi.org/10.1016/j.cviu.2022.103406",
           "https://arxiv.org/abs/2101.07974"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -811,7 +875,11 @@
           "https://arxiv.org/pdf/2112.05883.pdf"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -856,7 +924,11 @@
           "https://openaccess.thecvf.com/content/CVPR2022/html/Park_Probabilistic_Representations_for_Video_Contrastive_Learning_CVPR_2022_paper.html",
           "https://arxiv.org/abs/2204.03946"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -902,7 +974,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Yuan_Contextualized_Spatio-Temporal_Contrastive_Learning_With_Self-Supervision_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -955,7 +1031,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -996,7 +1076,11 @@
           "https://openaccess.thecvf.com/content/WACV2022/html/Toering_Self-Supervised_Video_Representation_Learning_With_Cross-Stream_Prototypical_Contrasting_WACV_2022_paper.html",
           "https://arxiv.org/abs/2106.10137"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1039,7 +1123,11 @@
           "https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
           "https://arxiv.org/abs/2206.12534"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1085,7 +1173,11 @@
           "https://link.springer.com/chapter/10.1007/978-3-031-20050-2_15",
           "https://arxiv.org/abs/2207.10158"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1129,7 +1221,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/ACCV2022/html/Tian_TCVM_Temporal_Contrasting_Video_Montage_Framework_for_Self-supervised_Video_Representation_ACCV_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1179,7 +1275,11 @@
           "https://arxiv.org/pdf/2207.12795.pdf"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1220,7 +1320,11 @@
           "https://arxiv.org/pdf/2204.04796.pdf"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1260,7 +1364,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Wu_Self-Supervised_Video_Representation_Learning_With_Cascade_Positive_Retrieval_CVPRW_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1308,7 +1416,11 @@
           "https://ieeexplore.ieee.org/document/9790080",
           "https://arxiv.org/abs/2206.00970"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1349,7 +1461,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/WACV2022/html/Zhang_Hierarchically_Decoupled_Spatial-Temporal_Contrast_for_Self-Supervised_Video_Representation_Learning_WACV_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1395,7 +1511,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9859741"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1437,7 +1557,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9956697"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1483,7 +1607,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dorkenwald_SCVRL_Shuffled_Contrastive_Video_Representation_Learning_CVPRW_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1566,7 +1694,11 @@
           "https://arxiv.org/abs/2212.03191"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1609,7 +1741,11 @@
           "https://link.springer.com/chapter/10.1007/978-3-031-15937-4_43",
           "https://doi.org/10.1007/978-3-031-15937-4_43"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1651,7 +1787,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9674754"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1694,7 +1834,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/html/Dadashzadeh_Auxiliary_Learning_for_Self-Supervised_Video_Representation_via_Similarity-Based_Knowledge_Distillation_CVPRW_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1741,7 +1885,11 @@
           "https://link.springer.com/chapter/10.1007/978-3-031-19833-5_27",
           "https://doi.org/10.1007/978-3-031-19833-5_27"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1782,7 +1930,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9806811"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1828,7 +1980,11 @@
           "https://link.springer.com/chapter/10.1007/978-3-031-19821-2_29",
           "https://doi.org/10.1007/978-3-031-19821-2_29"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1869,7 +2025,11 @@
           "https://www.sciencedirect.com/science/article/pii/S0925231221017082",
           "https://doi.org/10.1016/j.neucom.2021.11.031"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1910,7 +2070,11 @@
           "https://link.springer.com/article/10.1007/s10489-021-02790-9",
           "https://doi.org/10.1007/s10489-021-02790-9"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -1953,7 +2117,11 @@
         "verification_urls": [
           "https://bmvc2022.mpi-inf.mpg.de/541/"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2000,7 +2168,11 @@
           "https://arxiv.org/pdf/2207.08024.pdf"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata."
+        "audit_notes": "The main catalog link now points to the official proceedings or publisher record; the arXiv version remains in verification metadata.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2050,7 +2222,11 @@
           "https://arxiv.org/abs/2210.05234"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2092,7 +2268,11 @@
         "verification_urls": [
           "https://bmvc2022.mpi-inf.mpg.de/5/"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2135,7 +2315,11 @@
         "verification_urls": [
           "https://ieeexplore.ieee.org/document/9959310"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2179,7 +2363,11 @@
           "https://dl.acm.org/doi/10.1145/3503161.3547783",
           "https://doi.org/10.1145/3503161.3547783"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2225,7 +2413,11 @@
           "https://doi.org/10.1007/978-3-031-25069-9_2",
           "https://arxiv.org/abs/2212.10870"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2270,7 +2462,11 @@
           "https://arxiv.org/abs/2205.00073"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2315,7 +2511,11 @@
         "verification_urls": [
           "https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Frame-Wise_Action_Representations_for_Long_Videos_via_Sequence_Contrastive_Learning_CVPR_2022_paper.html"
         ],
-        "venue_evidence": "official_proceedings_or_publisher_record"
+        "venue_evidence": "official_proceedings_or_publisher_record",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2368,7 +2568,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Masked feature prediction for self-supervised visual pre-training"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2421,7 +2625,11 @@
           "https://arxiv.org/abs/2207.03866"
         ],
         "venue_evidence": "arxiv_record_and_exact_title_publication_search",
-        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date."
+        "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2469,7 +2677,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Temporal alignment networks for long-term video"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2526,7 +2738,11 @@
         "audit_notes": "Exact-title and author-record searches found no peer-reviewed version through the verification date.",
         "previous_titles": [
           "Simvtp: Simple video text pre-training with masked autoencoders"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2569,7 +2785,11 @@
         "venue_evidence": "official_proceedings_or_publisher_record",
         "previous_titles": [
           "Learning audio-visual speech representation by masked multimodal cluster prediction"
-        ]
+        ],
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     },
     {
@@ -2620,7 +2840,11 @@
           "https://arxiv.org/abs/2008.13426"
         ],
         "venue_evidence": "official_proceedings_or_publisher_record",
-        "audit_notes": "The initial 2021 record was reconciled to the final journal volume year."
+        "audit_notes": "The initial 2021 record was reconciled to the final journal volume year.",
+        "audit_status": "verified",
+        "audit_year": 2022,
+        "audited_at": "2026-08-11",
+        "discovery_source": "exact_title_scholarly_search_then_primary_source"
       }
     }
   ]

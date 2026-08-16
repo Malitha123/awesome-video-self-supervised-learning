@@ -13,14 +13,14 @@ import matplotlib.pyplot as plt
 
 from repo_tools import (
     ROOT, MEDIA_DIR, README_PATH, SITE_URL, REPO_URL, load_papers,
-    normalize_venue, replace_representation_section, replace_stats_section,
-    remove_visible_keyword_list, remove_challenges_section, stats,
+    normalize_venue, replace_representation_section,
+    replace_representation_year_links, remove_visible_keyword_list,
+    remove_challenges_section, stats,
 )
 
 MEDIA_DIR.mkdir(exist_ok=True)
 
-REVIEW_DATE_ISO = "2026-08-11"
-REVIEW_DATE_DISPLAY = "11 August 2026"
+INITIAL_REVIEW_DATE = "2026-08-11"
 SEO_DATASETS = [
     "UCF101", "HMDB51", "Kinetics-400", "Kinetics-600", "Kinetics-700",
     "Something-Something V1", "Something-Something V2", "Diving48",
@@ -55,6 +55,21 @@ FAQ_ITEMS = [
 
 def esc(value: object) -> str:
     return html.escape(str(value or ""), quote=True)
+
+
+def publication_review_date(papers: list[dict]) -> tuple[str, str]:
+    dates = [str(paper.get("audited_at", "")) for paper in papers]
+    valid = []
+    for value in dates:
+        try:
+            datetime.strptime(value, "%Y-%m-%d")
+            valid.append(value)
+        except ValueError:
+            continue
+    iso_date = max(valid, default=INITIAL_REVIEW_DATE)
+    parsed = datetime.strptime(iso_date, "%Y-%m-%d")
+    display = f"{parsed.day} {parsed.strftime('%B %Y')}"
+    return iso_date, display
 
 
 def save_bar_chart(path: Path, title: str, labels: list[str], values: list[int], horizontal=False, xlabel="Number of papers"):
@@ -209,6 +224,7 @@ def faq_html() -> str:
 
 
 def site_template(papers: list[dict], s: dict, readme: str) -> str:
+    review_date_iso, review_date_display = publication_review_date(papers)
     papers_sorted = sorted(papers, key=lambda p: (-int(p.get("year") or 0), p.get("source_order") if p.get("source_order") is not None else -1, p.get("title", "").lower()))
     paper_cards = "\n".join(paper_card(p, i) for i, p in enumerate(papers_sorted))
     years = sorted({str(p.get("year")) for p in papers if p.get("year")}, reverse=True)
@@ -354,7 +370,7 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
 </section>
 <aside class="publication-notice" aria-labelledby="publication-review-title">
   <div class="notice-mark" aria-hidden="true">✓</div>
-  <div><h2 id="publication-review-title">Publication status reviewed as of <time datetime="{REVIEW_DATE_ISO}">{REVIEW_DATE_DISPLAY}</time></h2><p>When an earlier arXiv manuscript was later published at a conference or in a journal, we updated its entry to the latest confirmed venue. If you find an incorrect record or a publication we missed, please <a href="{REPO_URL}/pulls">submit a GitHub pull request through the repository</a>.</p></div>
+  <div><h2 id="publication-review-title">Publication status reviewed as of <time datetime="{review_date_iso}">{review_date_display}</time></h2><p>When an earlier arXiv manuscript was later published at a conference or in a journal, we updated its entry to the latest confirmed venue. If you find an incorrect record or a publication we missed, please <a href="{REPO_URL}/pulls">submit a GitHub pull request through the repository</a>.</p></div>
 </aside>
 <section id="stats" class="section-block">
   <div class="section-heading"><div><span class="section-kicker">Collection snapshot</span><h2>Repository statistics</h2></div><p>Public counts are generated from verified publication years and venues.</p></div>
@@ -433,6 +449,7 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
 
 def main():
     papers = load_papers()
+    review_date_iso, _review_date_display = publication_review_date(papers)
     for p in papers:
         p["venue_normalized"] = p.get("venue_normalized") or normalize_venue(p.get("venue", ""))
     s = stats(papers)
@@ -443,7 +460,7 @@ def main():
     readme = remove_visible_keyword_list(readme)
     readme = remove_challenges_section(readme)
     readme = replace_representation_section(readme, papers)
-    readme = replace_stats_section(readme, stats_markdown(s))
+    readme = replace_representation_year_links(readme, papers)
     README_PATH.write_text(readme)
 
     index_html = site_template(papers, s, readme)
@@ -477,7 +494,7 @@ def main():
         "website_h1_count": index_html.count("<h1"),
         "website_paper_card_count": index_html.count('class="paper-card"'),
         "hero_summary_duplicate_present": 'class="hero-meta"' in index_html,
-        "publication_review_date": REVIEW_DATE_ISO,
+        "publication_review_date": review_date_iso,
         "publication_notice_precedes_snapshot": index_html.find('class="publication-notice"') < index_html.find('id="stats"'),
         "title": html.unescape(title_match.group(1)) if title_match else "",
         "title_length": len(html.unescape(title_match.group(1))) if title_match else 0,
