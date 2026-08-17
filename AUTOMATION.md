@@ -5,7 +5,7 @@ The repository is configured for a weekly, human-approved update cycle without r
 ## What happens each week
 
 1. GitHub Actions runs every Monday using the schedule in `.github/workflows/weekly-curation.yml`.
-2. `scripts/curate_weekly.py` searches recent arXiv and OpenAlex records using the configured research queries.
+2. `scripts/curate_weekly.py` searches an overlapping 30-day arXiv and OpenAlex window using the configured research queries. Temporary request failures are retried with exponential backoff.
 3. Deterministic checks identify unchanged duplicates and possible publication upgrades using arXiv IDs, DOIs, URLs, years and title similarity.
 4. The remaining candidates are reviewed by **GitHub Copilot CLI**. Copilot is asked to verify relevance, benchmark use, complete hidden audit metadata and primary-source publication evidence.
 5. A genuinely new work is added once. A later conference or journal version of an existing arXiv work updates that canonical record instead of creating a duplicate. Unchanged duplicates are rejected.
@@ -14,6 +14,8 @@ The repository is configured for a weekly, human-approved update cycle without r
 8. The workflow opens a pull request containing both public files and hidden audit records. It does **not** merge directly to `main`.
 9. You review the pull request and merge it only when you approve the proposed additions and publication updates.
 10. Merging to `main` triggers the GitHub Pages workflow and publishes the rebuilt website.
+
+If every request to either discovery source fails after its retries, or if any Copilot review batch cannot be completed, the workflow exits unsuccessfully without writing a partial catalog. This distinguishes an actual no-results week from an infrastructure outage and keeps the next run eligible to search the overlapping window again.
 
 ## Authentication
 
@@ -44,8 +46,19 @@ Open the repository's **Actions** tab, choose **Weekly VideoSSL curation agent**
 
 If no qualifying paper or publication upgrade is found, no pull request is created. If a candidate passes review, a PR is opened with separate additions and publication-update tables, a checklist and verification links.
 
+For a local, non-writing review:
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/curate_weekly.py --dry-run
+```
+
+Use `--lookback-days N` to expand the recovery window for a manual run, and `--verbose` for debug logging.
+
 ## Source of truth
 
-`data/papers.json` is the canonical representation-learning catalog. The GitHub README is regenerated as the traditional year-by-year list. The website uses the same catalog but presents it as a searchable, filterable card interface with pagination. The richer method and dataset fields remain in `data/` and are not rendered on public paper cards or in README entries.
+`data/papers.json` is the canonical representation-learning catalog. `scripts/build_site.py` is the source of truth for generated public files. The GitHub README is regenerated as the traditional year-by-year list. The website uses the same catalog but presents it as a searchable, filterable card interface with pagination. The richer method and dataset fields remain in `data/` and are not rendered on public paper cards or in README entries.
+
+Do not edit generated sections of `README.md` or `index.html` directly. Put website title, notice, verification metadata, or layout changes in `scripts/build_site.py`, rebuild, validate, and commit the source and generated outputs together.
 
 The current all-paper audit is regenerated at `data/audits/all_canonical_papers.{json,csv,xlsx}`. The original `all_282_papers.*` files remain as the dated 2026-08-11 historical snapshot.

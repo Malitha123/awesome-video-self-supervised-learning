@@ -4,7 +4,7 @@ import html
 import json
 import re
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 import matplotlib
@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from repo_tools import (
-    ROOT, MEDIA_DIR, README_PATH, SITE_URL, REPO_URL, load_papers,
+    ROOT, MEDIA_DIR, README_PATH, SITE_URL, REPO_URL, GOOGLE_SITE_VERIFICATION, load_papers,
     normalize_venue, replace_representation_section,
     replace_representation_year_links, remove_visible_keyword_list,
     remove_challenges_section, stats,
@@ -81,6 +81,7 @@ def save_bar_chart(path: Path, title: str, labels: list[str], values: list[int],
         "axes.facecolor": "white",
         "axes.edgecolor": "#d6e3f0",
         "savefig.facecolor": "white",
+        "svg.hashsalt": "awesome-video-self-supervised-learning",
     })
     height = max(4.6, min(6.2, 2.8 + len(labels) * 0.27)) if horizontal else 4.6
     fig, ax = plt.subplots(figsize=(9.1, height))
@@ -108,8 +109,10 @@ def save_bar_chart(path: Path, title: str, labels: list[str], values: list[int],
     for spine in ["top", "right"]:
         ax.spines[spine].set_visible(False)
     fig.tight_layout()
-    fig.savefig(path, format="svg", bbox_inches="tight")
+    fig.savefig(path, format="svg", bbox_inches="tight", metadata={"Date": None})
     plt.close(fig)
+    svg = path.read_text()
+    path.write_text("\n".join(line.rstrip() for line in svg.splitlines()) + "\n")
 
 
 def generate_charts(s: dict):
@@ -119,24 +122,6 @@ def generate_charts(s: dict):
 
     venue_rows = s["venue_counts_top"]
     save_bar_chart(MEDIA_DIR / "stats_papers_by_venue.svg", "Papers by Venue", [x[0] for x in venue_rows], [x[1] for x in venue_rows], horizontal=True)
-
-
-def stats_markdown(s: dict) -> str:
-    return f'''## Repository Statistics
-
-The charts below summarize the canonical collection by publication year and venue. Additional research metadata remains available in the repository data files but is intentionally omitted from the public catalog and README.
-
-<div class="stats-kpis">
-  <div><strong>{s['papers_tracked']}</strong><span>representation-learning papers</span></div>
-  <div><strong>{s['years_covered']}</strong><span>years covered</span></div>
-  <div><strong>{s['distinct_normalized_venues']}</strong><span>normalized venues</span></div>
-</div>
-
-<div class="stats-grid">
-  <figure><img src="./media/stats_papers_by_year.svg" alt="Bar chart showing the number of VideoSSL papers by year"><figcaption>Papers by year</figcaption></figure>
-  <figure><img src="./media/stats_papers_by_venue.svg" alt="Bar chart showing the number of VideoSSL papers by publication venue"><figcaption>Papers by venue</figcaption></figure>
-</div>
-'''
 
 
 def parse_markdown_entries(text: str, start_heading: str, end_heading: str) -> list[dict]:
@@ -224,7 +209,7 @@ def faq_html() -> str:
 
 
 def site_template(papers: list[dict], s: dict, readme: str) -> str:
-    review_date_iso, review_date_display = publication_review_date(papers)
+    review_date_iso, _review_date_display = publication_review_date(papers)
     papers_sorted = sorted(papers, key=lambda p: (-int(p.get("year") or 0), p.get("source_order") if p.get("source_order") is not None else -1, p.get("title", "").lower()))
     paper_cards = "\n".join(paper_card(p, i) for i, p in enumerate(papers_sorted))
     years = sorted({str(p.get("year")) for p in papers if p.get("year")}, reverse=True)
@@ -240,8 +225,8 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
     surveys_html = "".join(resource_card(e) for e in surveys[:4])
     bench_html = "".join(resource_card(e) for e in benchmarking[:8])
 
-    page_title = "Video SSL Papers by Year & Venue | Awesome VideoSSL"
-    page_modified = datetime.now(timezone.utc).date().isoformat()
+    page_title = "Self-Supervised Video Learning Papers | Video SSL"
+    page_modified = review_date_iso
     desc = (
         f"Browse {s['papers_tracked']} Video SSL and self-supervised video learning papers "
         "by verified year and venue, covering UCF101, HMDB51, Kinetics and more."
@@ -331,6 +316,7 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 <title>{esc(page_title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -346,7 +332,7 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
 *{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:linear-gradient(180deg,#fbfdff 0,#f2f8fe 38%,#f7fafc 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.58}}a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{{outline:3px solid #73b6f1;outline-offset:3px}}button,select,input{{font:inherit}}.skip{{position:absolute;left:-9999px}}.skip:focus{{left:1rem;top:1rem;background:#fff;color:#000;padding:.5rem;z-index:30}}
 .shell{{width:min(96vw,var(--max));margin-inline:auto}}.site-header{{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}}.nav{{display:flex;align-items:center;gap:1.05rem;padding:.82rem 0}}.brand{{font-weight:850;color:#17324a;margin-right:auto}}.nav a{{font-size:.94rem;color:#405b73}}.gh{{border:1px solid #c8dbea;border-radius:10px;padding:.4rem .72rem;background:#fff}}
 .hero{{padding:4.8rem 0 2.4rem}}.eyebrow,.section-kicker{{font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;color:#0e74d7;font-weight:800}}.hero h1{{font-size:clamp(2.7rem,5.1vw,5.35rem);line-height:1;letter-spacing:-.052em;margin:.6rem 0 1rem;max-width:1180px}}.hero h1 span{{color:#0e74d7}}.lead{{font-size:clamp(1.05rem,1.65vw,1.3rem);max-width:1060px;color:#4d657c}}.hero-actions{{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.35rem}}.btn{{display:inline-block;padding:.74rem 1.02rem;border-radius:10px;font-weight:750;background:#0e74d7;color:#fff;border:0}}.btn.secondary{{background:#fff;color:#17324a;border:1px solid #c7dbea}}
-.publication-notice{{display:grid;grid-template-columns:auto 1fr;gap:.9rem;align-items:start;margin:0 0 2.2rem;padding:1rem 1.15rem;background:#eef7ff;border:1px solid #bddbf3;border-left:5px solid var(--accent);border-radius:14px;box-shadow:0 10px 26px rgba(18,69,117,.05)}}.notice-mark{{display:grid;place-items:center;width:2rem;height:2rem;border-radius:50%;background:#0e74d7;color:#fff;font-weight:900;line-height:1}}.publication-notice h2{{font-size:1rem;line-height:1.35;margin:.05rem 0 .25rem;color:#17324a}}.publication-notice p{{margin:0;color:#47657e}}
+.publication-notice{{display:grid;grid-template-columns:auto 1fr;gap:.9rem;align-items:start;margin:0 0 2.2rem;padding:1rem 1.15rem;background:#eef7ff;border:1px solid #bddbf3;border-left:5px solid var(--accent);border-radius:14px;box-shadow:0 10px 26px rgba(18,69,117,.05)}}.notice-mark{{display:grid;place-items:center;width:2rem;height:2rem;border-radius:50%;background:#0e74d7;color:#fff;font-weight:900;line-height:1}}.publication-notice p{{margin:0;color:#47657e}}
 .section-block{{padding:1.25rem 0 2rem;scroll-margin-top:5rem}}.section-heading{{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:1rem}}.section-heading h2{{font-size:clamp(1.75rem,2.3vw,2.4rem);line-height:1.1;margin:.25rem 0 0;letter-spacing:-.025em}}.section-heading p{{max-width:760px;color:var(--muted);margin:0}}
 .stats-kpis{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1rem 0 1.2rem}}.stats-kpis>div{{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.05rem 1.15rem;box-shadow:var(--shadow)}}.stats-kpis strong{{display:block;font-size:2rem;line-height:1;color:#0e74d7}}.stats-kpis span{{display:block;color:#62778b;margin-top:.45rem;font-size:.92rem}}.stats-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.stats-grid figure{{margin:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:.85rem;box-shadow:var(--shadow)}}.stats-grid figcaption{{font-weight:800;margin:.35rem .25rem .1rem;color:#17324a}}.stats-grid img{{display:block;width:100%;height:auto}}
 .scope-panel{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}}.scope-panel article{{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.05rem 1.15rem;box-shadow:var(--shadow)}}.scope-panel h3{{font-size:1rem;margin:0 0 .45rem;color:#17324a}}.scope-panel p{{margin:0;color:#526a80;font-size:.92rem}}
@@ -364,13 +350,13 @@ def site_template(papers: list[dict], s: dict, readme: str) -> str:
 <main class="shell">
 <section class="hero">
   <div class="eyebrow">Research collection · maintained with the survey</div>
-  <h1>Video SSL &amp; VideoSSL Papers <span>by Year &amp; Venue</span></h1>
-  <p class="lead">A researcher-maintained catalog of video self-supervised learning and self-supervised video representation learning papers, organized by verified publication year and latest confirmed venue.</p>
+  <h1>Self-Supervised Learning in Videos <span>(Video SSL) Papers by Year &amp; Venue</span></h1>
+  <p class="lead">A researcher-maintained catalog of self-supervised video representation learning papers, organized by verified publication year and latest confirmed venue.</p>
   <div class="hero-actions"><a class="btn" href="#catalog">Explore the catalog</a><a class="btn secondary" href="{REPO_URL}">View repository</a></div>
 </section>
-<aside class="publication-notice" aria-labelledby="publication-review-title">
+<aside class="publication-notice" aria-label="Publication update policy">
   <div class="notice-mark" aria-hidden="true">✓</div>
-  <div><h2 id="publication-review-title">Publication status reviewed as of <time datetime="{review_date_iso}">{review_date_display}</time></h2><p>When an earlier arXiv manuscript was later published at a conference or in a journal, we updated its entry to the latest confirmed venue. If you find an incorrect record or a publication we missed, please <a href="{REPO_URL}/pulls">submit a GitHub pull request through the repository</a>.</p></div>
+  <div><p>When an earlier arXiv manuscript was later published at a conference or in a journal, we updated its entry to the latest confirmed venue. If you find an incorrect record or a publication we missed, please <a href="{REPO_URL}/pulls">submit a GitHub pull request through the repository</a>.</p></div>
 </aside>
 <section id="stats" class="section-block">
   <div class="section-heading"><div><span class="section-kicker">Collection snapshot</span><h2>Repository statistics</h2></div><p>Public counts are generated from verified publication years and venues.</p></div>
@@ -479,8 +465,7 @@ def main():
     }
     (ROOT / "site.webmanifest").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
 
-    today = datetime.now(timezone.utc).date().isoformat()
-    (ROOT / "sitemap.xml").write_text(f'''<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>{SITE_URL}</loc><lastmod>{today}</lastmod></url>\n</urlset>\n''')
+    (ROOT / "sitemap.xml").write_text(f'''<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>{SITE_URL}</loc><lastmod>{review_date_iso}</lastmod></url>\n</urlset>\n''')
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
     (ROOT / ".nojekyll").write_text("")
     title_match = re.search(r"<title>(.*?)</title>", index_html, flags=re.S)
@@ -496,6 +481,7 @@ def main():
         "hero_summary_duplicate_present": 'class="hero-meta"' in index_html,
         "publication_review_date": review_date_iso,
         "publication_notice_precedes_snapshot": index_html.find('class="publication-notice"') < index_html.find('id="stats"'),
+        "google_site_verification_present": GOOGLE_SITE_VERIFICATION in index_html,
         "title": html.unescape(title_match.group(1)) if title_match else "",
         "title_length": len(html.unescape(title_match.group(1))) if title_match else 0,
         "meta_description": html.unescape(desc_match.group(1)) if desc_match else "",

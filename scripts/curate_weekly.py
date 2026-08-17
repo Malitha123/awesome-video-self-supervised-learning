@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import argparse
 import difflib
 import json
+import logging
 import os
 import re
 import subprocess
@@ -22,6 +24,78 @@ OPENALEX_API = "https://api.openalex.org/works"
 USER_AGENT = "awesome-video-self-supervised-learning-curator/2.0 (GitHub Actions)"
 VALID_ACTIONS = {"add", "update", "reject"}
 VALID_PUBLICATION_STATUSES = {"peer_reviewed", "preprint"}
+TRANSIENT_HTTP_STATUSES = {408, 425, 429, 500, 502, 503, 504}
+LOGGER = logging.getLogger("videossl.curator")
+
+
+class DiscoveryUnavailableError(RuntimeError):
+    """Raised when no configured scholarly discovery source succeeds."""
+
+
+class DiscoverySourceError(RuntimeError):
+    """Raised after a scholarly endpoint exhausts its request retries."""
+
+
+DISCOVERY_ERRORS = (
+    DiscoverySourceError,
+    ET.ParseError,
+    json.JSONDecodeError,
+    TypeError,
+    ValueError,
+)
+
+
+def configure_logging(verbose: bool = False) -> None:
+    logging.basicConfig(
+        level=logging.DEBUG if verbose else logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    )
+
+
+def request_with_retries(
+    url: str,
+    *,
+    params: dict,
+    attempts: int = 3,
+    backoff_seconds: float = 2.0,
+) -> object:
+    """GET a discovery endpoint, retrying transient request failures."""
+    import requests
+
+    attempts = max(1, attempts)
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(
+                url,
+                params=params,
+                headers={"User-Agent": USER_AGENT},
+                timeout=45,
+            )
+            response.raise_for_status()
+            return response
+        except requests.RequestException as error:
+            status_code = getattr(getattr(error, "response", None), "status_code", None)
+            retryable = status_code is None or status_code in TRANSIENT_HTTP_STATUSES
+            if not retryable or attempt >= attempts:
+                raise DiscoverySourceError(
+                    f"request to {url} failed after {attempt} attempt(s): {error}"
+                ) from error
+            delay = backoff_seconds * (2 ** (attempt - 1))
+            retry_after = getattr(getattr(error, "response", None), "headers", {}).get("Retry-After")
+            try:
+                delay = max(delay, float(retry_after)) if retry_after else delay
+            except (TypeError, ValueError):
+                pass
+            LOGGER.warning(
+                "Request to %s failed on attempt %d/%d, retrying in %.1f seconds: %s",
+                url,
+                attempt,
+                attempts,
+                delay,
+                error,
+            )
+            time.sleep(delay)
+    raise RuntimeError("request retry loop ended without a response")  # pragma: no cover
 
 
 def load_config() -> dict:
@@ -60,9 +134,14 @@ def unique(values: list[str]) -> list[str]:
     return list(dict.fromkeys(value for value in values if value))
 
 
-def search_arxiv(query: str, after: datetime, max_results=60) -> list[dict]:
-    import requests
-
+def search_arxiv(
+    query: str,
+    after: datetime,
+    max_results: int = 60,
+    *,
+    request_attempts: int = 3,
+    retry_backoff: float = 2.0,
+) -> list[dict]:
     params = {
         "search_query": f"all:{query}",
         "start": 0,
@@ -70,24 +149,33 @@ def search_arxiv(query: str, after: datetime, max_results=60) -> list[dict]:
         "sortBy": "submittedDate",
         "sortOrder": "descending",
     }
-    r = requests.get(ARXIV_API, params=params, headers={"User-Agent": USER_AGENT}, timeout=45)
-    r.raise_for_status()
+    r = request_with_retries(
+        ARXIV_API,
+        params=params,
+        attempts=request_attempts,
+        backoff_seconds=retry_backoff,
+    )
     root = ET.fromstring(r.text)
     ns = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
     out = []
     for entry in root.findall("atom:entry", ns):
         title = " ".join((entry.findtext("atom:title", default="", namespaces=ns) or "").split())
         summary = " ".join((entry.findtext("atom:summary", default="", namespaces=ns) or "").split())
-        published = entry.findtext("atom:published", default="", namespaces=ns)
+        published = entry.findtext("atom:published", default="", namespaces=ns) or ""
         try:
             pdt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-        except Exception:
-            pdt = after
+        except ValueError:
+            LOGGER.warning("Skipping arXiv entry with invalid publication date %r", published)
+            continue
         if pdt < after:
             continue
         abs_url = entry.findtext("atom:id", default="", namespaces=ns)
         arxiv_id = extract_arxiv_id(abs_url)
-        authors = [a.findtext("atom:name", default="", namespaces=ns).strip() for a in entry.findall("atom:author", ns)]
+        authors = [
+            (a.findtext("atom:name", default="", namespaces=ns) or "").strip()
+            for a in entry.findall("atom:author", ns)
+        ]
+        authors = [author for author in authors if author]
         doi = entry.findtext("arxiv:doi", default="", namespaces=ns) or ""
         out.append({
             "title": title,
@@ -115,25 +203,43 @@ def openalex_abstract(index: dict | None) -> str:
     return " ".join(word for _, word in sorted(pairs))
 
 
-def search_openalex(query: str, after: datetime, max_results=40) -> list[dict]:
-    import requests
-
+def search_openalex(
+    query: str,
+    after: datetime,
+    max_results: int = 40,
+    *,
+    request_attempts: int = 3,
+    retry_backoff: float = 2.0,
+) -> list[dict]:
     params = {
         "search": query.replace('"', ''),
         "filter": f"from_publication_date:{after.date().isoformat()}",
         "per-page": max_results,
         "sort": "publication_date:desc",
     }
-    r = requests.get(OPENALEX_API, params=params, headers={"User-Agent": USER_AGENT}, timeout=45)
-    r.raise_for_status()
+    r = request_with_retries(
+        OPENALEX_API,
+        params=params,
+        attempts=request_attempts,
+        backoff_seconds=retry_backoff,
+    )
+    payload = r.json()
+    if not isinstance(payload, dict) or not isinstance(payload.get("results"), list):
+        raise ValueError("OpenAlex returned an unexpected response shape")
     out = []
-    for w in r.json().get("results", []):
+    for w in payload["results"]:
+        if not isinstance(w, dict):
+            LOGGER.warning("Skipping a non-object OpenAlex result")
+            continue
         title = (w.get("title") or "").strip()
         pub_date = w.get("publication_date") or ""
         try:
             year = int((pub_date or str(w.get("publication_year") or "0"))[:4])
-        except Exception:
-            year = w.get("publication_year") or datetime.now().year
+        except (TypeError, ValueError):
+            try:
+                year = int(w.get("publication_year") or datetime.now().year)
+            except (TypeError, ValueError):
+                year = datetime.now().year
         authors = []
         for a in w.get("authorships") or []:
             name = ((a.get("author") or {}).get("display_name") or "").strip()
@@ -159,6 +265,66 @@ def search_openalex(query: str, after: datetime, max_results=40) -> list[dict]:
             "discovery_source": "OpenAlex",
         })
     return out
+
+
+def discover_candidates(
+    config: dict,
+    after: datetime,
+    *,
+    arxiv_search=None,
+    openalex_search=None,
+    sleep_fn=time.sleep,
+) -> list[dict]:
+    """Search every configured source and reject a fully degraded run."""
+    arxiv_search = arxiv_search or search_arxiv
+    openalex_search = openalex_search or search_openalex
+    attempts = max(1, int(config.get("request_attempts", 3)))
+    retry_backoff = max(0.0, float(config.get("retry_backoff_seconds", 2.0)))
+    queries = config.get("search_queries") or []
+    if not queries:
+        raise DiscoveryUnavailableError("no scholarly search queries are configured")
+
+    raw_candidates: list[dict] = []
+    successful_calls = 0
+    source_successes = {"arXiv": 0, "OpenAlex": 0}
+    failed_calls: list[str] = []
+    sources = (("arXiv", arxiv_search), ("OpenAlex", openalex_search))
+    for query in queries:
+        for source_name, search_fn in sources:
+            try:
+                results = search_fn(
+                    query,
+                    after,
+                    request_attempts=attempts,
+                    retry_backoff=retry_backoff,
+                )
+            except DISCOVERY_ERRORS as error:
+                failed_calls.append(f"{source_name}:{query}")
+                LOGGER.warning(
+                    "%s search failed for %r: %s",
+                    source_name,
+                    query,
+                    error,
+                    exc_info=True,
+                )
+                continue
+            successful_calls += 1
+            source_successes[source_name] += 1
+            raw_candidates.extend(results)
+        sleep_fn(0.6)
+
+    unavailable_sources = [name for name, count in source_successes.items() if count == 0]
+    if successful_calls == 0 or unavailable_sources:
+        raise DiscoveryUnavailableError(
+            "no successful discovery call for: " + ", ".join(unavailable_sources or source_successes)
+        )
+    if failed_calls:
+        LOGGER.warning(
+            "Scholarly discovery completed with %d successful call(s) and %d failed call(s)",
+            successful_calls,
+            len(failed_calls),
+        )
+    return raw_candidates
 
 
 def basic_relevance(c: dict) -> bool:
@@ -210,8 +376,14 @@ def publication_candidate_needs_review(candidate: dict, matched: dict) -> bool:
     existing_doi = normalize_doi(matched.get("doi"))
     candidate_url = safe_url(candidate.get("paper_url"))
     existing_url = safe_url(matched.get("paper_url"))
-    candidate_year = int(candidate.get("year") or 0)
-    existing_year = int(matched.get("year") or 0)
+    try:
+        candidate_year = int(candidate.get("year") or 0)
+    except (TypeError, ValueError):
+        candidate_year = 0
+    try:
+        existing_year = int(matched.get("year") or 0)
+    except (TypeError, ValueError):
+        existing_year = 0
     source = candidate.get("discovery_source")
 
     if matched.get("publication_status") == "preprint" and source == "OpenAlex":
@@ -526,25 +698,39 @@ def write_pr_body(added: list[dict], updated: list[dict], rejected: list[dict]) 
     (ROOT / ".weekly_pr_body.md").write_text("\n".join(lines) + "\n")
 
 
-def main() -> int:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Discover and review VideoSSL catalog updates")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="search and review candidates without writing repository files",
+    )
+    parser.add_argument(
+        "--lookback-days",
+        type=int,
+        help="override the configured overlapping discovery window",
+    )
+    parser.add_argument("--verbose", action="store_true", help="enable debug logging")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    configure_logging(args.verbose)
     config = load_config()
-    lookback = int(config.get("lookback_days", 10))
+    lookback = args.lookback_days if args.lookback_days is not None else int(config.get("lookback_days", 30))
+    if lookback < 1:
+        raise ValueError("lookback days must be at least 1")
     after = datetime.now(timezone.utc) - timedelta(days=lookback)
-    max_candidates = int(config.get("max_candidates", 40))
-    batch_size = int(config.get("copilot_batch_size", 8))
+    max_candidates = max(1, int(config.get("max_candidates", 40)))
+    batch_size = max(1, int(config.get("copilot_batch_size", 8)))
     catalog = load_papers()
 
-    raw_candidates = []
-    for q in config.get("search_queries") or []:
-        try:
-            raw_candidates.extend(search_arxiv(q, after))
-        except Exception as e:
-            print(f"arXiv search failed for {q!r}: {e}", file=sys.stderr)
-        try:
-            raw_candidates.extend(search_openalex(q, after))
-        except Exception as e:
-            print(f"OpenAlex search failed for {q!r}: {e}", file=sys.stderr)
-        time.sleep(0.6)
+    try:
+        raw_candidates = discover_candidates(config, after)
+    except DiscoveryUnavailableError as error:
+        LOGGER.error("Weekly curation stopped: %s", error)
+        return 2
 
     merged: dict[str, dict] = {}
     for c in raw_candidates:
@@ -586,24 +772,31 @@ def main() -> int:
             break
 
     upgrade_candidates = sum(bool(candidate.get("_matched_normalized_title")) for candidate in filtered)
-    print(
+    LOGGER.info(
         f"Found {len(raw_candidates)} raw results, {len(candidates)} relevant unique candidates, "
         f"{len(filtered)} requiring Copilot review ({upgrade_candidates} possible publication upgrades)."
     )
     if not filtered:
-        print("No candidates require AI review.")
+        LOGGER.info("No candidates require AI review.")
         return 0
 
     added: list[dict] = []
     updated: list[dict] = []
+    review_failures: list[str] = []
     for start in range(0, len(filtered), batch_size):
         batch = filtered[start:start + batch_size]
-        print(f"Copilot review batch {start // batch_size + 1}: {len(batch)} candidate(s)")
+        batch_number = start // batch_size + 1
+        LOGGER.info("Copilot review batch %d: %d candidate(s)", batch_number, len(batch))
         try:
             verdicts = verify_batch_with_copilot(batch, catalog, config)
-        except Exception as e:
-            for c in batch:
-                rejected.append({"title": c["title"], "reason": f"Copilot verification error: {e}"})
+        except (subprocess.SubprocessError, RuntimeError, ValueError) as error:
+            review_failures.append(f"batch {batch_number}: {error}")
+            LOGGER.error(
+                "Copilot review batch %d failed: %s",
+                batch_number,
+                error,
+                exc_info=True,
+            )
             continue
 
         by_key = {str(v.get("candidate_key", "")): v for v in verdicts if isinstance(v, dict)}
@@ -671,15 +864,30 @@ def main() -> int:
             catalog.append(paper)
             added.append(paper)
 
+    if review_failures:
+        LOGGER.error(
+            "Weekly curation stopped without writing files because %d Copilot batch(es) failed",
+            len(review_failures),
+        )
+        return 3
+
     if not added and not updated:
-        print("No new papers or publication upgrades were verified. No repository changes will be made.")
+        LOGGER.info("No new papers or publication upgrades were verified. No repository changes will be made.")
+        return 0
+
+    if args.dry_run:
+        LOGGER.info(
+            "Dry run completed with %d proposed addition(s) and %d publication update(s); no files were written",
+            len(added),
+            len(updated),
+        )
         return 0
 
     save_papers(catalog)
     subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_catalog_audits.py")], check=True, cwd=ROOT)
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build_site.py")], check=True, cwd=ROOT)
     write_pr_body(added, updated, rejected)
-    print(
+    LOGGER.info(
         f"Proposed {len(added)} new paper(s) and {len(updated)} publication update(s); "
         "synchronized hidden audits and rebuilt README, website, sitemap, and statistics."
     )
