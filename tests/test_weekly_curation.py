@@ -3,18 +3,26 @@ from __future__ import annotations
 import json
 import sys
 import tempfile
+import types
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import Mock, patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from curate_weekly import (  # noqa: E402
+    DiscoveryUnavailableError,
+    DiscoverySourceError,
     apply_verified_update,
+    discover_candidates,
     find_existing_match,
+    main as curate_main,
     paper_validation_errors,
     publication_candidate_needs_review,
+    request_with_retries,
     verdict_to_paper,
 )
 from sync_catalog_audits import sync_catalog  # noqa: E402
@@ -194,6 +202,127 @@ class WeeklyCurationTests(unittest.TestCase):
         self.assertIn("   - [2027](#2027)", updated)
         self.assertIn("   - [2026](#2026)", updated)
         self.assertNotIn("   - [2025](#2025)", updated)
+
+    def test_readme_year_links_handle_trailing_spaces_without_duplicates(self):
+        readme = (
+            "- [Representation Learning](#Representation-Learning)\n"
+            "   - [2026](#2026)\n"
+            "   - [2025](#2025)\n"
+            "   - [2024](#2024)\n"
+            "   - [2023](#2023)\n"
+            "   - [2022](#2022)\n"
+            "   - [2021](#2021)\n"
+            "   - [2020](#2020)\n"
+            "   - [2019](#2019) \n"
+            "   - [2018](#2018)\n"
+            "- [Surveys](#Surveys)\n"
+        )
+        updated = replace_representation_year_links(
+            readme,
+            [{"year": year} for year in range(2027, 2017, -1)],
+        )
+        for year in range(2027, 2017, -1):
+            self.assertEqual(updated.count(f"   - [{year}](#{year})"), 1)
+        self.assertNotIn("\n- [2026](#2026)", updated)
+
+    def test_discovery_fails_when_a_source_is_completely_unavailable(self):
+        def unavailable(*_args, **_kwargs):
+            raise DiscoverySourceError("service unavailable")
+
+        def succeeds(*_args, **_kwargs):
+            return []
+
+        config = {
+            "search_queries": ["video ssl"],
+            "request_attempts": 1,
+            "retry_backoff_seconds": 0,
+        }
+        with self.assertLogs("videossl.curator", level="WARNING"):
+            with self.assertRaisesRegex(DiscoveryUnavailableError, "arXiv"):
+                discover_candidates(
+                    config,
+                    datetime.now(timezone.utc),
+                    arxiv_search=unavailable,
+                    openalex_search=succeeds,
+                    sleep_fn=lambda _seconds: None,
+                )
+
+    def test_request_retries_then_returns_success(self):
+        class FakeRequestException(Exception):
+            response = None
+
+        response = Mock()
+        response.raise_for_status.return_value = None
+        fake_requests = types.ModuleType("requests")
+        fake_requests.RequestException = FakeRequestException
+        fake_requests.get = Mock(side_effect=[FakeRequestException("temporary"), response])
+        with self.assertLogs("videossl.curator", level="WARNING"):
+            with patch.dict(sys.modules, {"requests": fake_requests}), patch("curate_weekly.time.sleep") as sleep:
+                result = request_with_retries(
+                    "https://example.org/api",
+                    params={"q": "video ssl"},
+                    attempts=2,
+                    backoff_seconds=0.25,
+                )
+        self.assertIs(result, response)
+        self.assertEqual(fake_requests.get.call_count, 2)
+        sleep.assert_called_once_with(0.25)
+
+    def test_request_does_not_retry_non_transient_http_error(self):
+        class FakeRequestException(Exception):
+            def __init__(self, message, response=None):
+                super().__init__(message)
+                self.response = response
+
+        error_response = Mock(status_code=400, headers={})
+        fake_requests = types.ModuleType("requests")
+        fake_requests.RequestException = FakeRequestException
+        fake_requests.get = Mock(
+            side_effect=FakeRequestException("bad request", response=error_response)
+        )
+        with patch.dict(sys.modules, {"requests": fake_requests}), patch(
+            "curate_weekly.time.sleep"
+        ) as sleep:
+            with self.assertRaisesRegex(DiscoverySourceError, "after 1 attempt"):
+                request_with_retries(
+                    "https://example.org/api",
+                    params={"q": "video ssl"},
+                    attempts=3,
+                    backoff_seconds=0.25,
+                )
+        self.assertEqual(fake_requests.get.call_count, 1)
+        sleep.assert_not_called()
+
+    def test_copilot_batch_failure_makes_the_run_fail(self):
+        candidate = conference_candidate()
+        config = {"lookback_days": 30, "max_candidates": 40, "copilot_batch_size": 8}
+        with patch("curate_weekly.load_config", return_value=config), patch(
+            "curate_weekly.load_papers", return_value=[]
+        ), patch("curate_weekly.discover_candidates", return_value=[candidate]), patch(
+            "curate_weekly.verify_batch_with_copilot", side_effect=RuntimeError("Copilot unavailable")
+        ), self.assertLogs("videossl.curator", level="ERROR"):
+            result = curate_main([])
+        self.assertEqual(result, 3)
+
+    def test_dry_run_never_writes_catalog_or_generated_files(self):
+        candidate = conference_candidate()
+        verdict = conference_verdict()
+        verdict.update({"action": "add", "existing_normalized_title": ""})
+        config = {"lookback_days": 30, "max_candidates": 40, "copilot_batch_size": 8}
+        with patch("curate_weekly.load_config", return_value=config), patch(
+            "curate_weekly.load_papers", return_value=[]
+        ), patch("curate_weekly.discover_candidates", return_value=[candidate]), patch(
+            "curate_weekly.verify_batch_with_copilot", return_value=[verdict]
+        ), patch("curate_weekly.save_papers") as save, patch(
+            "curate_weekly.subprocess.run"
+        ) as run, patch("curate_weekly.write_pr_body") as write_pr_body, self.assertLogs(
+            "videossl.curator", level="INFO"
+        ):
+            result = curate_main(["--dry-run"])
+        self.assertEqual(result, 0)
+        save.assert_not_called()
+        run.assert_not_called()
+        write_pr_body.assert_not_called()
 
 
 if __name__ == "__main__":

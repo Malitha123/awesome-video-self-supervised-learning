@@ -1,5 +1,7 @@
 {
-  "lookback_days": 10,
+  "lookback_days": 30,
+  "request_attempts": 3,
+  "retry_backoff_seconds": 2.0,
   "max_candidates": 40,
   "target_benchmarks": [
     "UCF101",

@@ -18,6 +18,7 @@ CONFIG_PATH = DATA_DIR / "curation_config.json"
 
 SITE_URL = "https://malitha123.github.io/awesome-video-self-supervised-learning/"
 REPO_URL = "https://github.com/Malitha123/awesome-video-self-supervised-learning"
+GOOGLE_SITE_VERIFICATION = "41Ur2eZD703GEMjpONZvbeBkmlDSTSUm_-C0meFkOv4"
 
 TARGET_BENCHMARKS = [
     "UCF101", "HMDB51", "Kinetics-400", "Something-Something V1",
@@ -328,10 +329,17 @@ def replace_representation_year_links(readme_text: str, papers: list[dict]) -> s
     years = sorted({int(paper["year"]) for paper in papers if paper.get("year")}, reverse=True)
     links = "\n".join(f"   - [{year}](#{year})" for year in years)
     pattern = re.compile(
-        r"(- \[Representation Learning\]\(#Representation-Learning\)\n)"
-        r"(?:\s{3}- \[\d{4}\]\(#\d{4}\)\s*\n?)+"
+        r"(?m)^(- \[Representation Learning\]\(#Representation-Learning\)[ \t]*\n)"
+        r"(?:[ \t]{3}- \[\d{4}\]\(#\d{4}\)[ \t]*(?:\n|$))+"
     )
-    return pattern.sub(lambda match: match.group(1) + links + "\n", readme_text, count=1)
+    updated, replacements = pattern.subn(
+        lambda match: match.group(1) + links + "\n",
+        readme_text,
+        count=1,
+    )
+    if replacements != 1:
+        raise ValueError("README representation-learning year list was not found exactly once")
+    return updated
 
 
 def remove_challenges_section(readme_text: str) -> str:

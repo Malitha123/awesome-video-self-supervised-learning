@@ -15,13 +15,24 @@ Running `python3 scripts/build_site.py` regenerates the following:
 
 - a concise, descriptive page title and meta description;
 - one clear H1 and a semantic heading hierarchy;
-- canonical, robots, Open Graph and Twitter metadata;
+- canonical, robots, Google site-verification, Open Graph and Twitter metadata;
 - `WebSite`, `CollectionPage`, `ItemList`, `ScholarlyArticle` and visible FAQ JSON-LD;
 - every current canonical paper title, author list, year and venue in crawlable static HTML;
-- a publication-review notice whose date follows the latest verified catalog record;
+- an accessible publication-update notice before the collection snapshot;
 - descriptive image alternative text and lazy-loaded statistics images;
 - `robots.txt`, `sitemap.xml` and `site.webmanifest`;
 - `build_checks.json`, which records the generated SEO checks.
+
+`scripts/build_site.py` is the source of truth. Do not modify `index.html` directly because the next accepted curation update will replace it. Change the generator, run it, and commit both the generator and its outputs. The generated text files and SVG charts are deterministic, and the test suite verifies that a second build produces no changes.
+
+Validate a local website change with:
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/build_site.py
+python scripts/check_catalog.py
+python -m unittest discover -s tests
+```
 
 The page uses natural research language such as Video SSL, VideoSSL, SSL video, self-supervised video learning and masked video modeling. It also identifies representative datasets and venues in useful prose. It does not use a meta-keywords tag or a hidden keyword list, because Google ignores meta keywords and recommends prominent, people-first content instead.
 
