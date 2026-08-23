@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
   "title": "Current canonical video self-supervised learning paper audit",
-  "verified_as_of": "2026-08-11",
-  "canonical_paper_count": 282,
+  "verified_as_of": "2026-08-23",
+  "canonical_paper_count": 285,
   "sort_order": "year descending, title ascending",
   "source_policy": "Discover through scholarly indexes, then confirm using official proceedings, publisher or DOI metadata, arXiv, and official project records.",
   "dataset_policy": "Keep self-supervised or backbone pretraining datasets separate from downstream evaluation datasets.",
   "summary": {
     "peer_reviewed_count": 251,
-    "preprint_count": 31,
+    "preprint_count": 34,
     "neurips_count": 16,
     "year_counts": {
-      "2026": 17,
+      "2026": 20,
       "2025": 34,
       "2024": 35,
       "2023": 54,
@@ -25,7 +25,7 @@
     },
     "venue_counts": {
       "CVPR": 57,
-      "arXiv / Preprint": 31,
+      "arXiv / Preprint": 34,
       "ICCV": 24,
       "ECCV": 20,
       "NeurIPS": 16,
@@ -91,6 +91,44 @@
     }
   },
   "records": [
+    {
+      "title": "Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data",
+      "authors": [
+        "Advait Pavuluri",
+        "Shamik Karkhanis",
+        "Uzma Mushtaque"
+      ],
+      "method": "V-JEPA novelty scoring",
+      "method_family": "Pretext / Predictive",
+      "method_description": "Uses a frozen V-JEPA encoder plus predictor head as a self-supervised novelty signal for clip triage under domain shift.",
+      "pretraining_datasets": [
+        "driving video datasets"
+      ],
+      "evaluation_datasets": [
+        "driving video datasets"
+      ],
+      "all_datasets": [
+        "driving video datasets"
+      ],
+      "dataset_notes": "Evaluated on driving-video data; no established video benchmark explicitly confirmed from the abstract alone.",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "venue_normalized": "arXiv / Preprint",
+      "is_neurips": false,
+      "publication_status": "preprint",
+      "doi": "",
+      "arxiv_id": "2608.01336",
+      "paper_url": "https://arxiv.org/abs/2608.01336",
+      "code_url": "",
+      "project_url": "",
+      "verification_urls": [
+        "https://arxiv.org/abs/2608.01336"
+      ],
+      "venue_evidence": "arXiv abstract only.",
+      "audit_notes": "Relevant self-supervised video method study; no archival venue confirmed, but the work is video-centric and in scope.",
+      "publication_history": [],
+      "verified_as_of": "2026-08-23"
+    },
     {
       "title": "Beyond reconstruction: Enhancing masked autoencoders with contrastive learning for video representation learning",
       "authors": [
@@ -477,6 +515,49 @@
       "verified_as_of": "2026-08-11"
     },
     {
+      "title": "PhiZero: A World Model Built Around Physical Language",
+      "authors": [
+        "Shuyao Shang",
+        "Yuqi Wang",
+        "Ruopeng Gao",
+        "Xu Chen",
+        "Tieniu Tan",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
+      ],
+      "method": "PhiZero",
+      "method_family": "Other / Hybrid",
+      "method_description": "Learns a discrete physical-language world model from videos via self-supervision and renders future evolution back to video.",
+      "pretraining_datasets": [
+        "in-the-wild videos"
+      ],
+      "evaluation_datasets": [
+        "generation and understanding benchmarks"
+      ],
+      "all_datasets": [
+        "in-the-wild videos",
+        "generation and understanding benchmarks"
+      ],
+      "dataset_notes": "The abstract confirms video pretraining and benchmark evaluation, but does not name all datasets in the excerpt.",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "venue_normalized": "arXiv / Preprint",
+      "is_neurips": false,
+      "publication_status": "preprint",
+      "doi": "",
+      "arxiv_id": "2607.28624",
+      "paper_url": "https://arxiv.org/abs/2607.28624",
+      "code_url": "",
+      "project_url": "",
+      "verification_urls": [
+        "https://arxiv.org/abs/2607.28624"
+      ],
+      "venue_evidence": "arXiv abstract only.",
+      "audit_notes": "Video self-supervised world-model paper; archival publication not confirmed from the available source.",
+      "publication_history": [],
+      "verified_as_of": "2026-08-23"
+    },
+    {
       "title": "Progressive Mask Distillation for Self-supervised Video Representation",
       "authors": [
         "Kewei Wu",
@@ -817,6 +898,50 @@
       "audit_notes": "Originally listed as a 2025 arXiv preprint; the author publication record confirms ECCV 2026 oral acceptance.",
       "publication_history": [],
       "verified_as_of": "2026-08-11"
+    },
+    {
+      "title": "TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting",
+      "authors": [
+        "Jiwen Liu",
+        "Shujuan Li",
+        "Xiaohan Li",
+        "Zijie Meng",
+        "Xinyue Liu",
+        "Yulong Xu",
+        "Yan Zhou",
+        "Guoxin Zhang"
+      ],
+      "method": "TARS",
+      "method_family": "Generative / Masked",
+      "method_description": "3D-free video re-shooting with self-supervised learning of camera dynamics from diffusion timesteps.",
+      "pretraining_datasets": [
+        "video data"
+      ],
+      "evaluation_datasets": [
+        "video re-shooting benchmarks"
+      ],
+      "all_datasets": [
+        "video data",
+        "video re-shooting benchmarks"
+      ],
+      "dataset_notes": "The abstract confirms video experiments but does not specify the benchmark names in the excerpt.",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "venue_normalized": "arXiv / Preprint",
+      "is_neurips": false,
+      "publication_status": "preprint",
+      "doi": "",
+      "arxiv_id": "2607.28261",
+      "paper_url": "https://arxiv.org/abs/2607.28261",
+      "code_url": "",
+      "project_url": "https://ymlinfeng.github.io/TARS.github.io/",
+      "verification_urls": [
+        "https://arxiv.org/abs/2607.28261"
+      ],
+      "venue_evidence": "arXiv abstract only.",
+      "audit_notes": "Relevant self-supervised video generation/control work; no archival venue confirmed.",
+      "publication_history": [],
+      "verified_as_of": "2026-08-23"
     },
     {
       "title": "The TIME Machine: On The Power of Motion for Efficient Perception",

@@ -18119,5 +18119,170 @@
     "audited_at": "2026-08-11",
     "audit_status": "verified",
     "audit_year": 2016
+  },
+  {
+    "title": "Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data",
+    "normalized_title": "asleep at the wheel jepa s limitations in evaluating novel driving data",
+    "year": 2026,
+    "date_label": "2026",
+    "venue": "arXiv preprint",
+    "venue_normalized": "arXiv / Preprint",
+    "publication_status": "preprint",
+    "authors": [
+      "Advait Pavuluri",
+      "Shamik Karkhanis",
+      "Uzma Mushtaque"
+    ],
+    "authors_display": "Advait Pavuluri, Shamik Karkhanis, Uzma Mushtaque",
+    "benchmarks": [
+      "Ego4D"
+    ],
+    "benchmark_text": "Ego4D",
+    "method": "V-JEPA novelty scoring",
+    "method_family": "Pretext / Predictive",
+    "method_description": "Uses a frozen V-JEPA encoder plus predictor head as a self-supervised novelty signal for clip triage under domain shift.",
+    "pretraining_datasets": [
+      "driving video datasets"
+    ],
+    "evaluation_datasets": [
+      "driving video datasets"
+    ],
+    "datasets": [
+      "driving video datasets"
+    ],
+    "dataset_notes": "Evaluated on driving-video data; no established video benchmark explicitly confirmed from the abstract alone.",
+    "paper_url": "https://arxiv.org/abs/2608.01336",
+    "code_url": "",
+    "project_url": "",
+    "doi": "",
+    "arxiv_id": "2608.01336",
+    "source_order": null,
+    "published_date": "2026-08-02",
+    "added_at": "2026-08-23T22:08:20Z",
+    "verification_urls": [
+      "https://arxiv.org/abs/2608.01336"
+    ],
+    "venue_evidence": "arXiv abstract only.",
+    "audit_notes": "Relevant self-supervised video method study; no archival venue confirmed, but the work is video-centric and in scope.",
+    "audit_status": "verified",
+    "audit_year": 2026,
+    "audited_at": "2026-08-23",
+    "publication_history": [],
+    "previous_titles": [],
+    "discovery_source": "arXiv"
+  },
+  {
+    "title": "PhiZero: A World Model Built Around Physical Language",
+    "normalized_title": "phizero a world model built around physical language",
+    "year": 2026,
+    "date_label": "2026",
+    "venue": "arXiv preprint",
+    "venue_normalized": "arXiv / Preprint",
+    "publication_status": "preprint",
+    "authors": [
+      "Shuyao Shang",
+      "Yuqi Wang",
+      "Ruopeng Gao",
+      "Xu Chen",
+      "Tieniu Tan",
+      "Lue Fan",
+      "Zhaoxiang Zhang"
+    ],
+    "authors_display": "Shuyao Shang, Yuqi Wang, Ruopeng Gao, Xu Chen, Tieniu Tan, Lue Fan, Zhaoxiang Zhang",
+    "benchmarks": [
+      "Kinetics-400",
+      "Something-Something V2"
+    ],
+    "benchmark_text": "Kinetics-400, Something-Something V2",
+    "method": "PhiZero",
+    "method_family": "Other / Hybrid",
+    "method_description": "Learns a discrete physical-language world model from videos via self-supervision and renders future evolution back to video.",
+    "pretraining_datasets": [
+      "in-the-wild videos"
+    ],
+    "evaluation_datasets": [
+      "generation and understanding benchmarks"
+    ],
+    "datasets": [
+      "in-the-wild videos",
+      "generation and understanding benchmarks"
+    ],
+    "dataset_notes": "The abstract confirms video pretraining and benchmark evaluation, but does not name all datasets in the excerpt.",
+    "paper_url": "https://arxiv.org/abs/2607.28624",
+    "code_url": "",
+    "project_url": "",
+    "doi": "",
+    "arxiv_id": "2607.28624",
+    "source_order": null,
+    "published_date": "2026-07-30",
+    "added_at": "2026-08-23T22:08:20Z",
+    "verification_urls": [
+      "https://arxiv.org/abs/2607.28624"
+    ],
+    "venue_evidence": "arXiv abstract only.",
+    "audit_notes": "Video self-supervised world-model paper; archival publication not confirmed from the available source.",
+    "audit_status": "verified",
+    "audit_year": 2026,
+    "audited_at": "2026-08-23",
+    "publication_history": [],
+    "previous_titles": [],
+    "discovery_source": "arXiv"
+  },
+  {
+    "title": "TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting",
+    "normalized_title": "tars timestep aware data scaling for 3d free video re shooting",
+    "year": 2026,
+    "date_label": "2026",
+    "venue": "arXiv preprint",
+    "venue_normalized": "arXiv / Preprint",
+    "publication_status": "preprint",
+    "authors": [
+      "Jiwen Liu",
+      "Shujuan Li",
+      "Xiaohan Li",
+      "Zijie Meng",
+      "Xinyue Liu",
+      "Yulong Xu",
+      "Yan Zhou",
+      "Guoxin Zhang"
+    ],
+    "authors_display": "Jiwen Liu, Shujuan Li, Xiaohan Li, Zijie Meng, Xinyue Liu, Yulong Xu, Yan Zhou, Guoxin Zhang",
+    "benchmarks": [
+      "Something-Something V2"
+    ],
+    "benchmark_text": "Something-Something V2",
+    "method": "TARS",
+    "method_family": "Generative / Masked",
+    "method_description": "3D-free video re-shooting with self-supervised learning of camera dynamics from diffusion timesteps.",
+    "pretraining_datasets": [
+      "video data"
+    ],
+    "evaluation_datasets": [
+      "video re-shooting benchmarks"
+    ],
+    "datasets": [
+      "video data",
+      "video re-shooting benchmarks"
+    ],
+    "dataset_notes": "The abstract confirms video experiments but does not specify the benchmark names in the excerpt.",
+    "paper_url": "https://arxiv.org/abs/2607.28261",
+    "code_url": "",
+    "project_url": "https://ymlinfeng.github.io/TARS.github.io/",
+    "doi": "",
+    "arxiv_id": "2607.28261",
+    "source_order": null,
+    "published_date": "2026-07-30",
+    "added_at": "2026-08-23T22:08:20Z",
+    "verification_urls": [
+      "https://arxiv.org/abs/2607.28261"
+    ],
+    "venue_evidence": "arXiv abstract only.",
+    "audit_notes": "Relevant self-supervised video generation/control work; no archival venue confirmed.",
+    "audit_status": "verified",
+    "audit_year": 2026,
+    "audited_at": "2026-08-23",
+    "publication_history": [],
+    "previous_titles": [],
+    "discovery_source": "arXiv"
   }
 ]
