@@ -150,6 +150,24 @@ Fida Mohammad Thoker, Hazel Doughty, Piyush Bagad, Cees Snoek <br>
 
 # *2026*
 
+- **PhiZero: A World Model Built Around Physical Language** (2026)<br>
+*arXiv preprint* <br>
+Shuyao Shang, Yuqi Wang, Ruopeng Gao, Xu Chen, Tieniu Tan, Lue Fan, Zhaoxiang Zhang<br>
+[[Paper]](https://arxiv.org/abs/2607.28624)
+
+
+- **TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting** (2026)<br>
+*arXiv preprint* <br>
+Jiwen Liu, Shujuan Li, Xiaohan Li, Zijie Meng, Xinyue Liu, Yulong Xu, Yan Zhou, Guoxin Zhang<br>
+[[Paper]](https://arxiv.org/abs/2607.28261) [[Project Page]](https://ymlinfeng.github.io/TARS.github.io/)
+
+
+- **Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data** (2026)<br>
+*arXiv preprint* <br>
+Advait Pavuluri, Shamik Karkhanis, Uzma Mushtaque<br>
+[[Paper]](https://arxiv.org/abs/2608.01336)
+
+
 - **Progressive Mask Distillation for Self-supervised Video Representation** (2026)<br>
 *CVPR 2026* <br>
 Kewei Wu, Chong Liang, Zhao Xie, Dan Guo<br>

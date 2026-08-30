@@ -2,8 +2,8 @@
   "schema_version": 2,
   "year": 2026,
   "status": "complete",
-  "verified_as_of": "2026-08-11",
-  "paper_count": 17,
+  "verified_as_of": "2026-08-23",
+  "paper_count": 20,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
   "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
@@ -1118,6 +1118,141 @@
         "audit_year": 2026,
         "audited_at": "2026-08-11",
         "discovery_source": "exact_title_scholarly_search_then_primary_source"
+      }
+    },
+    {
+      "normalized_title": "asleep at the wheel jepa s limitations in evaluating novel driving data",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "V-JEPA novelty scoring",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Uses a frozen V-JEPA encoder plus predictor head as a self-supervised novelty signal for clip triage under domain shift.",
+        "pretraining_datasets": [
+          "driving video datasets"
+        ],
+        "evaluation_datasets": [
+          "driving video datasets"
+        ],
+        "datasets": [
+          "driving video datasets"
+        ],
+        "benchmarks": [
+          "Ego4D"
+        ],
+        "benchmark_text": "Ego4D",
+        "dataset_notes": "Evaluated on driving-video data; no established video benchmark explicitly confirmed from the abstract alone.",
+        "paper_url": "https://arxiv.org/abs/2608.01336",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2608.01336",
+        "published_date": "2026-08-02",
+        "verification_urls": [
+          "https://arxiv.org/abs/2608.01336"
+        ],
+        "venue_evidence": "arXiv abstract only.",
+        "audit_notes": "Relevant self-supervised video method study; no archival venue confirmed, but the work is video-centric and in scope.",
+        "previous_titles": [],
+        "publication_history": [],
+        "audit_status": "verified",
+        "audit_year": 2026,
+        "audited_at": "2026-08-23",
+        "discovery_source": "arXiv"
+      }
+    },
+    {
+      "normalized_title": "phizero a world model built around physical language",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "PhiZero",
+        "method_family": "Other / Hybrid",
+        "method_description": "Learns a discrete physical-language world model from videos via self-supervision and renders future evolution back to video.",
+        "pretraining_datasets": [
+          "in-the-wild videos"
+        ],
+        "evaluation_datasets": [
+          "generation and understanding benchmarks"
+        ],
+        "datasets": [
+          "in-the-wild videos",
+          "generation and understanding benchmarks"
+        ],
+        "benchmarks": [
+          "Kinetics-400",
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Kinetics-400, Something-Something V2",
+        "dataset_notes": "The abstract confirms video pretraining and benchmark evaluation, but does not name all datasets in the excerpt.",
+        "paper_url": "https://arxiv.org/abs/2607.28624",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2607.28624",
+        "published_date": "2026-07-30",
+        "verification_urls": [
+          "https://arxiv.org/abs/2607.28624"
+        ],
+        "venue_evidence": "arXiv abstract only.",
+        "audit_notes": "Video self-supervised world-model paper; archival publication not confirmed from the available source.",
+        "previous_titles": [],
+        "publication_history": [],
+        "audit_status": "verified",
+        "audit_year": 2026,
+        "audited_at": "2026-08-23",
+        "discovery_source": "arXiv"
+      }
+    },
+    {
+      "normalized_title": "tars timestep aware data scaling for 3d free video re shooting",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "TARS",
+        "method_family": "Generative / Masked",
+        "method_description": "3D-free video re-shooting with self-supervised learning of camera dynamics from diffusion timesteps.",
+        "pretraining_datasets": [
+          "video data"
+        ],
+        "evaluation_datasets": [
+          "video re-shooting benchmarks"
+        ],
+        "datasets": [
+          "video data",
+          "video re-shooting benchmarks"
+        ],
+        "benchmarks": [
+          "Something-Something V2"
+        ],
+        "benchmark_text": "Something-Something V2",
+        "dataset_notes": "The abstract confirms video experiments but does not specify the benchmark names in the excerpt.",
+        "paper_url": "https://arxiv.org/abs/2607.28261",
+        "code_url": "",
+        "project_url": "https://ymlinfeng.github.io/TARS.github.io/",
+        "doi": "",
+        "arxiv_id": "2607.28261",
+        "published_date": "2026-07-30",
+        "verification_urls": [
+          "https://arxiv.org/abs/2607.28261"
+        ],
+        "venue_evidence": "arXiv abstract only.",
+        "audit_notes": "Relevant self-supervised video generation/control work; no archival venue confirmed.",
+        "previous_titles": [],
+        "publication_history": [],
+        "audit_status": "verified",
+        "audit_year": 2026,
+        "audited_at": "2026-08-23",
+        "discovery_source": "arXiv"
       }
     }
   ]

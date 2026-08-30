@@ -1,5 +1,5 @@
 {
-  "papers_tracked": 282,
+  "papers_tracked": 285,
   "years_covered": "2016–2026",
   "year_counts": {
     "2016": 1,
@@ -12,7 +12,7 @@
     "2023": 54,
     "2024": 35,
     "2025": 34,
-    "2026": 17
+    "2026": 20
   },
   "venue_counts_top": [
     [
@@ -21,7 +21,7 @@
     ],
     [
       "arXiv / Preprint",
-      31
+      34
     ],
     [
       "ICCV",
@@ -152,8 +152,8 @@
       16
     ]
   ],
-  "dataset_annotated_papers": 282,
-  "benchmark_annotated_papers": 282,
+  "dataset_annotated_papers": 285,
+  "benchmark_annotated_papers": 285,
   "family_counts": [
     [
       "Contrastive",
@@ -161,11 +161,11 @@
     ],
     [
       "Generative / Masked",
-      49
+      50
     ],
     [
       "Pretext / Predictive",
-      57
+      58
     ],
     [
       "Cross-Modal",
@@ -173,7 +173,7 @@
     ],
     [
       "Other / Hybrid",
-      36
+      37
     ]
   ],
   "distinct_normalized_venues": 64

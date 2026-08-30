@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "catalog_file": "data/papers.json",
-  "canonical_paper_count": 282,
+  "canonical_paper_count": 285,
   "audit_started_at": "2026-08-11",
-  "last_checkpoint_at": "2026-08-11",
+  "last_checkpoint_at": "2026-08-23",
   "processing_order": "descending_year",
   "completed_years": [
     2026,
@@ -19,7 +19,7 @@
     2016
   ],
   "next_year": null,
-  "verified_paper_count": 282,
+  "verified_paper_count": 285,
   "remaining_paper_count": 0,
   "required_fields": [
     "method",
@@ -41,12 +41,12 @@
   "year_status": {
     "2026": {
       "status": "complete",
-      "paper_count": 17,
+      "paper_count": 20,
       "peer_reviewed_count": 10,
-      "preprint_count": 7,
+      "preprint_count": 10,
       "audit_file": "data/audits/2026.json",
       "summary_file": "data/audits/2026.csv",
-      "verified_as_of": "2026-08-11"
+      "verified_as_of": "2026-08-23"
     },
     "2025": {
       "status": "complete",
