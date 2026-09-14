@@ -314,9 +314,14 @@ def discover_candidates(
         sleep_fn(0.6)
 
     unavailable_sources = [name for name, count in source_successes.items() if count == 0]
-    if successful_calls == 0 or unavailable_sources:
+    if successful_calls == 0:
         raise DiscoveryUnavailableError(
             "no successful discovery call for: " + ", ".join(unavailable_sources or source_successes)
+        )
+    if unavailable_sources:
+        LOGGER.warning(
+            "Scholarly discovery source(s) unavailable this run: %s",
+            ", ".join(unavailable_sources),
         )
     if failed_calls:
         LOGGER.warning(

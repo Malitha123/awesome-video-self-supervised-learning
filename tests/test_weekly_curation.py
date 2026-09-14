@@ -225,7 +225,7 @@ class WeeklyCurationTests(unittest.TestCase):
             self.assertEqual(updated.count(f"   - [{year}](#{year})"), 1)
         self.assertNotIn("\n- [2026](#2026)", updated)
 
-    def test_discovery_fails_when_a_source_is_completely_unavailable(self):
+    def test_discovery_continues_when_a_source_is_completely_unavailable(self):
         def unavailable(*_args, **_kwargs):
             raise DiscoverySourceError("service unavailable")
 
@@ -237,15 +237,18 @@ class WeeklyCurationTests(unittest.TestCase):
             "request_attempts": 1,
             "retry_backoff_seconds": 0,
         }
-        with self.assertLogs("videossl.curator", level="WARNING"):
-            with self.assertRaisesRegex(DiscoveryUnavailableError, "arXiv"):
-                discover_candidates(
-                    config,
-                    datetime.now(timezone.utc),
-                    arxiv_search=unavailable,
-                    openalex_search=succeeds,
-                    sleep_fn=lambda _seconds: None,
-                )
+        with self.assertLogs("videossl.curator", level="WARNING") as logs:
+            candidates = discover_candidates(
+                config,
+                datetime.now(timezone.utc),
+                arxiv_search=unavailable,
+                openalex_search=succeeds,
+                sleep_fn=lambda _seconds: None,
+            )
+        self.assertEqual(candidates, [])
+        self.assertTrue(
+            any("source(s) unavailable this run: arXiv" in message for message in logs.output)
+        )
 
     def test_request_retries_then_returns_success(self):
         class FakeRequestException(Exception):
