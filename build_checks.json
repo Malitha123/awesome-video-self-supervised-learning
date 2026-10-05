@@ -1,5 +1,5 @@
 {
-  "canonical_papers": 285,
+  "canonical_papers": 287,
   "years_covered": "2016–2026",
   "year_counts": {
     "2016": 1,
@@ -12,25 +12,25 @@
     "2023": 54,
     "2024": 35,
     "2025": 34,
-    "2026": 20
+    "2026": 22
   },
   "normalized_title_duplicates": 0,
   "arxiv_id_duplicates": 0,
   "website_h1_count": 1,
-  "website_paper_card_count": 285,
+  "website_paper_card_count": 287,
   "hero_summary_duplicate_present": false,
-  "publication_review_date": "2026-08-23",
+  "publication_review_date": "2026-10-05",
   "publication_notice_precedes_snapshot": true,
   "google_site_verification_present": true,
   "title": "Self-Supervised Video Learning Papers | Video SSL",
   "title_length": 49,
-  "meta_description": "Browse 285 Video SSL and self-supervised video learning papers by verified year and venue, covering UCF101, HMDB51, Kinetics and more.",
+  "meta_description": "Browse 287 Video SSL and self-supervised video learning papers by verified year and venue, covering UCF101, HMDB51, Kinetics and more.",
   "meta_description_length": 134,
   "canonical_url": "https://malitha123.github.io/awesome-video-self-supervised-learning/",
   "structured_data_collection_page": true,
   "structured_data_item_list": true,
   "structured_data_faq_page": true,
-  "structured_data_scholarly_articles": 285,
+  "structured_data_scholarly_articles": 287,
   "visible_scope_terms": [
     "video self-supervised learning",
     "Video SSL",
