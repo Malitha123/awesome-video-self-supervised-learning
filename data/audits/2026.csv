@@ -19,3 +19,5 @@ BIMM: Brain Inspired Masked Modeling for Video Representation Learning,BIMM,Gene
 Asleep at the Wheel: JEPA's Limitations in Evaluating Novel Driving Data,V-JEPA novelty scoring,Pretext / Predictive,driving video datasets,driving video datasets,2026,arXiv preprint,preprint,,2026-08-23
 PhiZero: A World Model Built Around Physical Language,PhiZero,Other / Hybrid,in-the-wild videos,generation and understanding benchmarks,2026,arXiv preprint,preprint,,2026-08-23
 TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting,TARS,Generative / Masked,video data,video re-shooting benchmarks,2026,arXiv preprint,preprint,,2026-08-23
+Image Classifiers are Efficient Self-Supervised Video Representation Learners,VideoMSN,Other / Hybrid,Kinetics-400,Kinetics-400; UCF101; HMDB51,2026,arXiv preprint,preprint,10.48550/arxiv.2609.40347,2026-10-05
+TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining,TT-VidT,Pretext / Predictive,OpenVid; Moments in Time v2,Jester; Something-Something V2; ARID; Diving48; HMDB51; IARD; EPIC-KITCHENS,2026,arXiv preprint,preprint,,2026-10-05
