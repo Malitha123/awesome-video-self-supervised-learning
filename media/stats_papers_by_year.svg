@@ -9,7 +9,7 @@
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -969,8 +969,8 @@ z
    <g id="patch_13">
     <path d="M 572.643635 299.801094
 L 613.001726 299.801094
-L 613.001726 205.936032
-L 572.643635 205.936032
+L 613.001726 196.549526
+L 572.643635 196.549526
 z
 " clip-path="url(#p6fd2bcf256)" style="fill: #2878c8"/>
    </g>
@@ -1051,10 +1051,10 @@ L 640.243437 299.801094
     </g>
    </g>
    <g id="text_29">
-    <!-- 20 -->
-    <g style="fill: #17324a" transform="translate(586.46018 199.591356) scale(0.1 -0.1)">
+    <!-- 22 -->
+    <g style="fill: #17324a" transform="translate(586.46018 190.20485) scale(0.1 -0.1)">
      <use xlink:href="#DejaVuSans-15"/>
-     <use xlink:href="#DejaVuSans-13" transform="translate(63.625 0)"/>
+     <use xlink:href="#DejaVuSans-15" transform="translate(63.625 0)"/>
     </g>
    </g>
    <g id="text_30">

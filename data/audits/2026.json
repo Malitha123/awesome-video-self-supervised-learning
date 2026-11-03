@@ -2,8 +2,8 @@
   "schema_version": 2,
   "year": 2026,
   "status": "complete",
-  "verified_as_of": "2026-08-23",
-  "paper_count": 20,
+  "verified_as_of": "2026-10-05",
+  "paper_count": 22,
   "source_policy": "Use exact-title scholarly discovery, then verify venue and metadata against an official conference, publisher, DOI, or preprint record. Do not promote a search-result venue without primary-source confirmation.",
   "dataset_policy": "Record separately the datasets used for self-supervised or backbone pretraining and the datasets used for downstream evaluation.",
   "records": [
@@ -1252,6 +1252,122 @@
         "audit_status": "verified",
         "audit_year": 2026,
         "audited_at": "2026-08-23",
+        "discovery_source": "arXiv"
+      }
+    },
+    {
+      "normalized_title": "image classifiers are efficient self supervised video representation learners",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "VideoMSN",
+        "method_family": "Other / Hybrid",
+        "method_description": "Adapts image ViTs to video using super-image frame grids, spatial and temporal masking, EMA target encoding, prototype alignment, and a masked Siamese loss.",
+        "pretraining_datasets": [
+          "Kinetics-400"
+        ],
+        "evaluation_datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "datasets": [
+          "Kinetics-400",
+          "UCF101",
+          "HMDB51"
+        ],
+        "benchmarks": [
+          "UCF101",
+          "HMDB51",
+          "Kinetics-400"
+        ],
+        "benchmark_text": "UCF101, HMDB51, Kinetics-400",
+        "dataset_notes": "VideoMSN pretraining and ablations are reported on Kinetics-400; downstream transfer is evaluated on Kinetics-400, UCF101, and HMDB51.",
+        "paper_url": "https://arxiv.org/abs/2609.40347",
+        "code_url": "",
+        "project_url": "https://cvir.github.io/projects/videomsn",
+        "doi": "10.48550/arxiv.2609.40347",
+        "arxiv_id": "2609.40347",
+        "published_date": "2026-09-30",
+        "verification_urls": [
+          "https://arxiv.org/abs/2609.40347",
+          "https://arxiv.org/html/2609.40347",
+          "https://cvir.github.io/projects/videomsn",
+          "https://doi.org/10.48550/arxiv.2609.40347"
+        ],
+        "venue_evidence": "The arXiv record identifies the work as a 2026 arXiv preprint; no archival publication was verified.",
+        "audit_notes": "Added as a preprint because the method, video self-supervised objective, and qualifying benchmark evaluations are explicitly documented.",
+        "previous_titles": [],
+        "publication_history": [],
+        "audit_status": "verified",
+        "audit_year": 2026,
+        "audited_at": "2026-10-05",
+        "discovery_source": "OpenAlex"
+      }
+    },
+    {
+      "normalized_title": "tt vidt decoupling the temporal axis for efficient motion centric video pretraining",
+      "updates": {
+        "year": 2026,
+        "date_label": "2026",
+        "venue": "arXiv preprint",
+        "venue_normalized": "arXiv / Preprint",
+        "publication_status": "preprint",
+        "method": "TT-VidT",
+        "method_family": "Pretext / Predictive",
+        "method_description": "Temporal Transfer Layer with Diff Compression, reconstructing target frames from a first-frame appearance anchor and motion tokens.",
+        "pretraining_datasets": [
+          "OpenVid",
+          "Moments in Time v2"
+        ],
+        "evaluation_datasets": [
+          "Jester",
+          "Something-Something V2",
+          "ARID",
+          "Diving48",
+          "HMDB51",
+          "IARD",
+          "EPIC-KITCHENS"
+        ],
+        "datasets": [
+          "OpenVid",
+          "Moments in Time v2",
+          "Jester",
+          "Something-Something V2",
+          "ARID",
+          "Diving48",
+          "HMDB51",
+          "IARD",
+          "EPIC-KITCHENS"
+        ],
+        "benchmarks": [
+          "HMDB51",
+          "Something-Something V2",
+          "Diving48",
+          "EPIC-KITCHENS",
+          "Jester"
+        ],
+        "benchmark_text": "HMDB51, Something-Something V2, Diving48, EPIC-KITCHENS, Jester",
+        "dataset_notes": "The abstract distinguishes OpenVid and Moments in Time v2 for pretraining from the named downstream action-recognition benchmarks.",
+        "paper_url": "https://arxiv.org/abs/2609.33419",
+        "code_url": "",
+        "project_url": "",
+        "doi": "",
+        "arxiv_id": "2609.33419",
+        "published_date": "2026-09-27",
+        "verification_urls": [
+          "https://arxiv.org/abs/2609.33419"
+        ],
+        "venue_evidence": "The primary source is an arXiv abstract page and identifies no archival peer-reviewed venue.",
+        "audit_notes": "Added as a preprint; no matched existing record and no later authoritative venue was supplied.",
+        "previous_titles": [],
+        "publication_history": [],
+        "audit_status": "verified",
+        "audit_year": 2026,
+        "audited_at": "2026-10-05",
         "discovery_source": "arXiv"
       }
     }

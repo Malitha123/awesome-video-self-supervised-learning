@@ -1,5 +1,5 @@
 {
-  "papers_tracked": 285,
+  "papers_tracked": 287,
   "years_covered": "2016–2026",
   "year_counts": {
     "2016": 1,
@@ -12,7 +12,7 @@
     "2023": 54,
     "2024": 35,
     "2025": 34,
-    "2026": 20
+    "2026": 22
   },
   "venue_counts_top": [
     [
@@ -21,7 +21,7 @@
     ],
     [
       "arXiv / Preprint",
-      34
+      36
     ],
     [
       "ICCV",
@@ -71,19 +71,19 @@
   "dataset_counts_top": [
     [
       "UCF101",
-      216
+      217
     ],
     [
       "HMDB51",
-      202
+      204
     ],
     [
       "Kinetics-400",
-      179
+      180
     ],
     [
       "Something-Something V2",
-      80
+      81
     ],
     [
       "ImageNet-1K",
@@ -91,7 +91,7 @@
     ],
     [
       "Diving48",
-      32
+      33
     ],
     [
       "Kinetics-600",
@@ -113,19 +113,19 @@
   "benchmark_counts_top": [
     [
       "UCF101",
-      216
+      217
     ],
     [
       "HMDB51",
-      202
+      204
     ],
     [
       "Kinetics-400",
-      179
+      180
     ],
     [
       "Something-Something V2",
-      80
+      81
     ],
     [
       "ImageNet-1K",
@@ -133,7 +133,7 @@
     ],
     [
       "Diving48",
-      32
+      33
     ],
     [
       "Kinetics-600",
@@ -152,8 +152,8 @@
       16
     ]
   ],
-  "dataset_annotated_papers": 285,
-  "benchmark_annotated_papers": 285,
+  "dataset_annotated_papers": 287,
+  "benchmark_annotated_papers": 287,
   "family_counts": [
     [
       "Contrastive",
@@ -165,7 +165,7 @@
     ],
     [
       "Pretext / Predictive",
-      58
+      59
     ],
     [
       "Cross-Modal",
@@ -173,7 +173,7 @@
     ],
     [
       "Other / Hybrid",
-      37
+      38
     ]
   ],
   "distinct_normalized_venues": 64

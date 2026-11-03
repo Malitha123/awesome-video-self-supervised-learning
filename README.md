@@ -168,6 +168,18 @@ Advait Pavuluri, Shamik Karkhanis, Uzma Mushtaque<br>
 [[Paper]](https://arxiv.org/abs/2608.01336)
 
 
+- **TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining** (2026)<br>
+*arXiv preprint* <br>
+Shih-Ying Yeh, Daniel Z. Kaplan, Xuehai Wang, Fu-En Yang, Min-Hung Chen, Shang-Hong Lai<br>
+[[Paper]](https://arxiv.org/abs/2609.33419)
+
+
+- **Image Classifiers are Efficient Self-Supervised Video Representation Learners** (2026)<br>
+*arXiv preprint* <br>
+Owais Iqbal, Sudipta Sarkar, Shyam Marjit, Omprakash Chakraborty, Anirban Chakraborty, Abir Das<br>
+[[Paper]](https://arxiv.org/abs/2609.40347) [[Project Page]](https://cvir.github.io/projects/videomsn)
+
+
 - **Progressive Mask Distillation for Self-supervised Video Representation** (2026)<br>
 *CVPR 2026* <br>
 Kewei Wu, Chong Liang, Zhao Xie, Dan Guo<br>

@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
   "title": "Current canonical video self-supervised learning paper audit",
-  "verified_as_of": "2026-08-23",
-  "canonical_paper_count": 285,
+  "verified_as_of": "2026-10-05",
+  "canonical_paper_count": 287,
   "sort_order": "year descending, title ascending",
   "source_policy": "Discover through scholarly indexes, then confirm using official proceedings, publisher or DOI metadata, arXiv, and official project records.",
   "dataset_policy": "Keep self-supervised or backbone pretraining datasets separate from downstream evaluation datasets.",
   "summary": {
     "peer_reviewed_count": 251,
-    "preprint_count": 34,
+    "preprint_count": 36,
     "neurips_count": 16,
     "year_counts": {
-      "2026": 20,
+      "2026": 22,
       "2025": 34,
       "2024": 35,
       "2023": 54,
@@ -25,7 +25,7 @@
     },
     "venue_counts": {
       "CVPR": 57,
-      "arXiv / Preprint": 34,
+      "arXiv / Preprint": 36,
       "ICCV": 24,
       "ECCV": 20,
       "NeurIPS": 16,
@@ -429,6 +429,54 @@
       "audit_notes": "The arXiv version is superseded as the catalog link by the official CVPR 2026 proceedings version.",
       "publication_history": [],
       "verified_as_of": "2026-08-11"
+    },
+    {
+      "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+      "authors": [
+        "Owais Iqbal",
+        "Sudipta Sarkar",
+        "Shyam Marjit",
+        "Omprakash Chakraborty",
+        "Anirban Chakraborty",
+        "Abir Das"
+      ],
+      "method": "VideoMSN",
+      "method_family": "Other / Hybrid",
+      "method_description": "Adapts image ViTs to video using super-image frame grids, spatial and temporal masking, EMA target encoding, prototype alignment, and a masked Siamese loss.",
+      "pretraining_datasets": [
+        "Kinetics-400"
+      ],
+      "evaluation_datasets": [
+        "Kinetics-400",
+        "UCF101",
+        "HMDB51"
+      ],
+      "all_datasets": [
+        "Kinetics-400",
+        "UCF101",
+        "HMDB51"
+      ],
+      "dataset_notes": "VideoMSN pretraining and ablations are reported on Kinetics-400; downstream transfer is evaluated on Kinetics-400, UCF101, and HMDB51.",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "venue_normalized": "arXiv / Preprint",
+      "is_neurips": false,
+      "publication_status": "preprint",
+      "doi": "10.48550/arxiv.2609.40347",
+      "arxiv_id": "2609.40347",
+      "paper_url": "https://arxiv.org/abs/2609.40347",
+      "code_url": "",
+      "project_url": "https://cvir.github.io/projects/videomsn",
+      "verification_urls": [
+        "https://arxiv.org/abs/2609.40347",
+        "https://arxiv.org/html/2609.40347",
+        "https://cvir.github.io/projects/videomsn",
+        "https://doi.org/10.48550/arxiv.2609.40347"
+      ],
+      "venue_evidence": "The arXiv record identifies the work as a 2026 arXiv preprint; no archival publication was verified.",
+      "audit_notes": "Added as a preprint because the method, video self-supervised objective, and qualifying benchmark evaluations are explicitly documented.",
+      "publication_history": [],
+      "verified_as_of": "2026-10-05"
     },
     {
       "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
@@ -1090,6 +1138,62 @@
       "audit_notes": "A conference-like search result had no matching official proceedings record or arXiv acceptance comment, so the venue remains preprint.",
       "publication_history": [],
       "verified_as_of": "2026-08-11"
+    },
+    {
+      "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
+      "authors": [
+        "Shih-Ying Yeh",
+        "Daniel Z. Kaplan",
+        "Xuehai Wang",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Shang-Hong Lai"
+      ],
+      "method": "TT-VidT",
+      "method_family": "Pretext / Predictive",
+      "method_description": "Temporal Transfer Layer with Diff Compression, reconstructing target frames from a first-frame appearance anchor and motion tokens.",
+      "pretraining_datasets": [
+        "OpenVid",
+        "Moments in Time v2"
+      ],
+      "evaluation_datasets": [
+        "Jester",
+        "Something-Something V2",
+        "ARID",
+        "Diving48",
+        "HMDB51",
+        "IARD",
+        "EPIC-KITCHENS"
+      ],
+      "all_datasets": [
+        "OpenVid",
+        "Moments in Time v2",
+        "Jester",
+        "Something-Something V2",
+        "ARID",
+        "Diving48",
+        "HMDB51",
+        "IARD",
+        "EPIC-KITCHENS"
+      ],
+      "dataset_notes": "The abstract distinguishes OpenVid and Moments in Time v2 for pretraining from the named downstream action-recognition benchmarks.",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "venue_normalized": "arXiv / Preprint",
+      "is_neurips": false,
+      "publication_status": "preprint",
+      "doi": "",
+      "arxiv_id": "2609.33419",
+      "paper_url": "https://arxiv.org/abs/2609.33419",
+      "code_url": "",
+      "project_url": "",
+      "verification_urls": [
+        "https://arxiv.org/abs/2609.33419"
+      ],
+      "venue_evidence": "The primary source is an arXiv abstract page and identifies no archival peer-reviewed venue.",
+      "audit_notes": "Added as a preprint; no matched existing record and no later authoritative venue was supplied.",
+      "publication_history": [],
+      "verified_as_of": "2026-10-05"
     },
     {
       "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
